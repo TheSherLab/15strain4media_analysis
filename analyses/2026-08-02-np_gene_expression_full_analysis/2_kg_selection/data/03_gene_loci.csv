@@ -1,6 +1,5 @@
 n_or_p,gene_name_raw,organism_name,locus_tag,gene_name_in_kg,product
 N,amtB/amt1,Prochlorococcus MIT9301,P9301_02861,amt1,ammonium transporter
-N,amtB/amt1,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0295,amt1,ammonium transporter
 N,amtB/amt1,Prochlorococcus MED4,PMM0263,amt1,ammonium transporter
 N,amtB/amt1,Prochlorococcus MIT9312,PMT9312_0265,amt1,ammonium transporter
 N,amtB/amt1,Prochlorococcus MIT9313,PMT1853,amt1,ammonium transporter
@@ -17,7 +16,6 @@ N,nadB,Prochlorococcus MIT9301,P9301_01151,nadB,L-aspartate oxidase
 N,nadB,Prochlorococcus MIT9312,PMT9312_0104,nadB,L-aspartate oxidase
 N,nadB,Prochlorococcus MIT9313,PMT0177,nadB,L-aspartate oxidase
 N,nadB,Prochlorococcus NATL2A,PMN2A_1468,nadB,L-aspartate oxidase
-N,nadB,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0119,nadB,L-aspartate oxidase
 N,nadB2,Prochlorococcus MIT9301,P9301_12651,nadB2,L-aspartate oxidase
 N,nadB2,Prochlorococcus MIT9312,PMT9312_1354,nadB2,L-aspartate oxidase
 N,nirA,Prochlorococcus MIT9313,PMT2239,nirA,ferredoxin--nitrite reductase
@@ -28,7 +26,6 @@ N,thiO,Prochlorococcus MIT9301,P9301_00501,thiO,glycine oxidase
 N,thiO,Prochlorococcus MIT9312,PMT9312_0048,thiO,glycine oxidase
 N,thiO,Prochlorococcus MIT9313,PMT2140,thiO,glycine oxidase
 N,thiO,Prochlorococcus NATL2A,PMN2A_1380,thiO,glycine oxidase
-N,thiO,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0051,thiO,glycine oxidase
 N,ureA,Prochlorococcus MED4,PMM0965,ureA,urease gamma subunit
 N,ureA,Prochlorococcus MIT9301,P9301_08911,ureA,urease gamma subunit
 N,ureA,Prochlorococcus MIT9312,PMT9312_0834,ureA,urease gamma subunit
@@ -69,25 +66,21 @@ N,ntcA,Prochlorococcus MIT9301,P9301_02691,ntcA,global nitrogen regulatory prote
 N,ntcA,Prochlorococcus MIT9312,PMT9312_0248,ntcA,global nitrogen regulatory protein
 N,ntcA,Prochlorococcus MIT9313,PMT1831,ntcA,global nitrogen regulatory protein
 N,ntcA,Prochlorococcus NATL2A,PMN2A_1612,ntcA,global nitrogen regulatory protein
-N,ntcA,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0277,ntcA,global nitrogen regulatory protein
 N,pipX,Prochlorococcus MED4,PMM0393,pipX,PII interaction protein X
 N,pipX,Prochlorococcus MIT9301,P9301_04131,pipX,PII interaction protein X
 N,pipX,Prochlorococcus MIT9312,PMT9312_0389,pipX,PII interaction protein X
 N,pipX,Prochlorococcus MIT9313,PMT0205,pipX,PII interaction protein X
 N,pipX,Prochlorococcus NATL2A,PMN2A_1728,pipX,PII interaction protein X
-N,pipX,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0390,pipX,PII interaction protein X
 N,glnA,Prochlorococcus MED4,PMM0920,glnA,"glutamine synthetase, type I"
 N,glnA,Prochlorococcus MIT9301,P9301_09391,glnA,"glutamine synthetase, type I"
 N,glnA,Prochlorococcus MIT9312,PMT9312_0880,glnA,"glutamine synthetase, type I"
 N,glnA,Prochlorococcus MIT9313,PMT0601,glnA,"glutamine synthetase, type I"
 N,glnA,Prochlorococcus NATL2A,PMN2A_0141,glnA,"glutamine synthetase, type I"
-N,glnA,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1038,glnA,"glutamine synthetase, type I"
 N,glsF,Prochlorococcus MED4,PMM1512,glsF,ferredoxin-dependent glutamate synthase
 N,glsF,Prochlorococcus MIT9301,P9301_17041,glsF,ferredoxin-dependent glutamate synthase
 N,glsF,Prochlorococcus MIT9312,PMT9312_1604,glsF,ferredoxin-dependent glutamate synthase
 N,glsF,Prochlorococcus MIT9313,PMT1777,glsF,ferredoxin-dependent glutamate synthase
 N,glsF,Prochlorococcus NATL2A,PMN2A_1078,glsF,ferredoxin-dependent glutamate synthase
-N,glsF,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1668,glsF,ferredoxin-dependent glutamate synthase
 N,urtA,Prochlorococcus MED4,PMM0970,urtA,"ABC-type urea transporter, substrate binding component"
 N,urtA,Prochlorococcus MIT9301,P9301_08861,urtA,"ABC-type urea transporter, substrate binding component"
 N,urtA,Prochlorococcus MIT9312,PMT9312_0829,urtA,"ABC-type urea transporter, substrate binding component"
@@ -112,15 +105,12 @@ N,gdhA,Prochlorococcus MIT9313,PMT0623,gdhA,glutamate dehydrogenase
 N,natF,Prochlorococcus MIT9312,PMT9312_1168,natF,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), substrate binding protein"
 N,natF,Prochlorococcus MIT9313,PMT0897,natF,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), substrate binding protein"
 N,natF,Prochlorococcus NATL2A,PMN2A_0614,natF,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), substrate binding protein"
-N,natF,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0676,natF,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), substrate binding protein"
 N,natG,Prochlorococcus MIT9312,PMT9312_1167,natG,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein"
 N,natG,Prochlorococcus MIT9313,PMT0896,natG,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein"
 N,natG,Prochlorococcus NATL2A,PMN2A_0613,natG,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein"
-N,natG,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0675,natG,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein"
 N,natH,Prochlorococcus MIT9312,PMT9312_1166,natH,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein"
 N,natH,Prochlorococcus MIT9313,PMT0894,natH,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein"
 N,natH,Prochlorococcus NATL2A,PMN2A_0612,natH,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein"
-N,natH,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0674,natH,"ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein"
 P,phoA,Prochlorococcus MED4,PMM0708,,probable alkaline phosphatase
 P,phoA,Prochlorococcus MIT9312,PMT9312_0720,,probable alkaline phosphatase
 P,phoA,Prochlorococcus NATL2A,PMN2A_0439,PMN2A_RS05210,probable alkaline phosphatase
@@ -134,7 +124,6 @@ P,arsR,Prochlorococcus MIT9301,P9301_12351,arsR,"bacterial regulatory protein, A
 P,arsR,Prochlorococcus MIT9312,PMT9312_0726,arsR,"bacterial regulatory protein, ArsR family"
 P,arsR,Prochlorococcus MIT9313,PMT1001,arsR,"bacterial regulatory protein, ArsR family"
 P,arsR,Prochlorococcus NATL2A,PMN2A_0446,arsR,"bacterial regulatory protein, ArsR family"
-P,arsR,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1578,arsR,"bacterial regulatory protein, ArsR family"
 P,chrA,Prochlorococcus MED4,PMM0711,chrA,chromate transporter
 P,chrA,Prochlorococcus MIT9301,P9301_12381,chrA,chromate transporter
 P,chrA,Prochlorococcus MIT9312,PMT9312_0723,chrA,chromate transporter
@@ -144,7 +133,6 @@ P,gap3,Prochlorococcus MIT9301,P9301_12361,gap3,glyceraldehyde-3-phosphate dehyd
 P,gap3,Prochlorococcus MIT9312,PMT9312_0725,gap3,glyceraldehyde-3-phosphate dehydrogenase
 P,gap3,Prochlorococcus MIT9313,PMT1000,gap3,glyceraldehyde-3-phosphate dehydrogenase
 P,gap3,Prochlorococcus NATL2A,PMN2A_0445,gap3,glyceraldehyde-3-phosphate dehydrogenase
-P,gap3,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1577,gap3,glyceraldehyde-3-phosphate dehydrogenase
 P,phoB,Prochlorococcus MED4,PMM0705,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR
 P,phoB,Prochlorococcus MIT9301,P9301_12431,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR
 P,phoB,Prochlorococcus MIT9312,PMT9312_0717,phoB,two-component system response regulator RR class II (RRII)-CheY-OmpR
@@ -158,7 +146,6 @@ P,phoR,Prochlorococcus MIT9313,PMT_0996,phoR,"two component sensor histidine kin
 P,phoR,Prochlorococcus MIT9313,PMT_0997,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR"
 P,phoR,Prochlorococcus NATL2A,PMN2A_0437,phoR,"two-component system sensor histidine kinase, phosphate sensing PhoR"
 P,ptrA,Prochlorococcus NATL2A,PMN2A_0435,ptrA,"transcriptional phosphate regulator, Crp family"
-P,ptrA,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1574,ptrA,"transcriptional phosphate regulator, Crp family"
 P,PMM719,Prochlorococcus MED4,PMM0719,,conserved hypothetical protein (DUF3764)
 P,PMM722,Prochlorococcus MED4,PMM0722,,conserved hypothetical protein
 P,phnD,Prochlorococcus MED4,PMM0673,phnD,"phosphonate ABC type transporter, substrate binding component"
@@ -167,7 +154,6 @@ P,phnD,Prochlorococcus MIT9301,P9301_12511,phnD2,"phosphonate ABC transporter, p
 P,phnD,Prochlorococcus MIT9312,PMT9312_0673,phnD,"phosphonate ABC type transporter, substrate binding component"
 P,phnD,Prochlorococcus MIT9313,PMT0780,phnD,"phosphonate ABC type transporter, substrate binding component"
 P,phnD,Prochlorococcus NATL2A,PMN2A_0105,phnD,"phosphonate ABC type transporter, substrate binding component"
-P,phnD,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1019,phnD,"phosphonate ABC type transporter, substrate binding component"
 P,ppA,Prochlorococcus MED4,PMM0494,ppa,inorganic pyrophosphatase
 P,ppA,Prochlorococcus MED4,PMM0511,ppa,inorganic pyrophosphatase
 P,ppA,Prochlorococcus MIT9301,P9301_05211,ppa,inorganic pyrophosphatase
@@ -178,20 +164,16 @@ P,ppA,Prochlorococcus MIT9313,PMT1257,ppa,inorganic pyrophosphatase
 P,ppA,Prochlorococcus MIT9313,PMT1275,ppa,inorganic pyrophosphatase
 P,ppA,Prochlorococcus NATL2A,PMN2A_1827,ppa,inorganic pyrophosphatase
 P,ppA,Prochlorococcus NATL2A,PMN2A_1844,ppa,inorganic pyrophosphatase
-P,ppA,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0493,ppa,inorganic pyrophosphatase
-P,ppA,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0510,ppa,inorganic pyrophosphatase
 P,ppK,Prochlorococcus MED4,PMM1696,ppk,polyphosphate kinase
 P,ppK,Prochlorococcus MIT9301,P9301_18871,ppk,polyphosphate kinase
 P,ppK,Prochlorococcus MIT9312,PMT9312_1789,ppk,polyphosphate kinase
 P,ppK,Prochlorococcus MIT9313,PMT2245,ppk,polyphosphate kinase
 P,ppK,Prochlorococcus NATL2A,PMN2A_1304,ppk,polyphosphate kinase
-P,ppK,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1862,ppk,polyphosphate kinase
 P,ppX,Prochlorococcus MED4,PMM0457,ppx,exopolyphosphatase
 P,ppX,Prochlorococcus MIT9301,P9301_04821,ppx,exopolyphosphatase
 P,ppX,Prochlorococcus MIT9312,PMT9312_0457,ppx,exopolyphosphatase
 P,ppX,Prochlorococcus MIT9313,PMT1327,ppx,exopolyphosphatase
 P,ppX,Prochlorococcus NATL2A,PMN2A_1789,ppx,exopolyphosphatase
-P,ppX,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0456,ppx,exopolyphosphatase
 P,pstA,Prochlorococcus MED4,PMM0035,PSTA,3-phosphoserine transaminase
 P,pstA,Prochlorococcus MED4,PMM0724,pstA,ABC-type phosphate transport system permease component
 P,pstA,Prochlorococcus MIT9301,P9301_00341,PSTA,3-phosphoserine transaminase
@@ -202,20 +184,16 @@ P,pstA,Prochlorococcus MIT9313,PMT0043,PSTA,3-phosphoserine transaminase
 P,pstA,Prochlorococcus MIT9313,PMT0701,pstA,ABC-type phosphate transport system permease component
 P,pstA,Prochlorococcus NATL2A,PMN2A_0310,pstA,ABC-type phosphate transport system permease component
 P,pstA,Prochlorococcus NATL2A,PMN2A_1361,PSTA,3-phosphoserine transaminase
-P,pstA,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0036,PSTA,3-phosphoserine transaminase
-P,pstA,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0597,pstA,ABC-type phosphate transport system permease component
 P,pstB,Prochlorococcus MED4,PMM0725,pstB,ABC-type phosphate transport system ATPase component
 P,pstB,Prochlorococcus MIT9301,P9301_07771,pstB,ABC-type phosphate transport system ATPase component
 P,pstB,Prochlorococcus MIT9312,PMT9312_0729,pstB,ABC-type phosphate transport system ATPase component
 P,pstB,Prochlorococcus MIT9313,PMT0700,pstB,ABC-type phosphate transport system ATPase component
 P,pstB,Prochlorococcus NATL2A,PMN2A_0309,pstB,ABC-type phosphate transport system ATPase component
-P,pstB,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0596,pstB,ABC-type phosphate transport system ATPase component
 P,pstC,Prochlorococcus MED4,PMM0723,pstC,ABC-type phosphate transport system permease component
 P,pstC,Prochlorococcus MIT9301,P9301_07751,pstC,ABC-type phosphate transport system permease component
 P,pstC,Prochlorococcus MIT9312,PMT9312_0727,pstC,ABC-type phosphate transport system permease component
 P,pstC,Prochlorococcus MIT9313,PMT0702,pstC,ABC-type phosphate transport system permease component
 P,pstC,Prochlorococcus NATL2A,PMN2A_0311,pstC,ABC-type phosphate transport system permease component
-P,pstC,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro0598,pstC,ABC-type phosphate transport system permease component
 P,pstS,Prochlorococcus MED4,PMM0710,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
 P,pstS,Prochlorococcus MIT9301,P9301_07741,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
 P,pstS,Prochlorococcus MIT9301,P9301_12391,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
@@ -223,29 +201,22 @@ P,pstS,Prochlorococcus MIT9312,PMT9312_0722,pstS,"phosphate ABC transporter, pho
 P,pstS,Prochlorococcus MIT9313,PMT0508,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
 P,pstS,Prochlorococcus MIT9313,PMT0993,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
 P,pstS,Prochlorococcus NATL2A,PMN2A_0441,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
-P,pstS,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1533,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
-P,pstS,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1575,pstS,"phosphate ABC transporter, phosphate-binding protein PstS"
 P,sqdB,Prochlorococcus MED4,PMM1665,sqdB,UDP-sulfoquinovose synthase
 P,sqdB,Prochlorococcus MIT9301,P9301_18551,sqdB,UDP-sulfoquinovose synthase
 P,sqdB,Prochlorococcus MIT9312,PMT9312_1757,sqdB,UDP-sulfoquinovose synthase
 P,sqdB,Prochlorococcus MIT9313,PMT0050,sqdB,UDP-sulfoquinovose synthase
 P,sqdB,Prochlorococcus NATL2A,PMN2A_1264,sqdB,UDP-sulfoquinovose synthase
-P,sqdB,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1826,sqdB,UDP-sulfoquinovose synthase
 P,phnC,Prochlorococcus MED4,PMM0672,phnC,"phosphonate ABC type transporter, ATPase component"
 P,phnC,Prochlorococcus MIT9301,P9301_07251,phnC,"phosphonate ABC type transporter, ATPase component"
 P,phnC,Prochlorococcus MIT9301,P9301_12501,phnC2,"phosphonate ABC transporter, ATP-binding protein"
 P,phnC,Prochlorococcus MIT9312,PMT9312_0672,phnC,"phosphonate ABC type transporter, ATPase component"
 P,phnC,Prochlorococcus MIT9313,PMT0781,phnC,"phosphonate ABC type transporter, ATPase component"
 P,phnC,Prochlorococcus NATL2A,PMN2A_0104,phnC,"phosphonate ABC type transporter, ATPase component"
-P,phnC,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1020,phnC,"phosphonate ABC type transporter, ATPase component"
-P,phnC,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1021,phnE,"phosphate/phosphonate ABC type transporter, permease component"
 P,phnE,Prochlorococcus MED4,PMM0671,phnE,"phosphate/phosphonate ABC type transporter, permease component"
 P,phnE,Prochlorococcus MIT9301,P9301_07241,phnE,"phosphate/phosphonate ABC type transporter, permease component"
 P,phnE,Prochlorococcus MIT9301,P9301_12521,phnE2,"phosphonate ABC transporter, permease protein PhnE"
 P,phnE,Prochlorococcus MIT9312,PMT9312_0671,phnE,"phosphate/phosphonate ABC type transporter, permease component"
 P,phnE,Prochlorococcus MIT9313,PMT0782,phnE,"phosphate/phosphonate ABC type transporter, permease component"
 P,phnE,Prochlorococcus NATL2A,PMN2A_0103,phnE,"phosphate/phosphonate ABC type transporter, permease component"
-P,phnE,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1020,phnC,"phosphonate ABC type transporter, ATPase component"
-P,phnE,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),Pro1021,phnE,"phosphate/phosphonate ABC type transporter, permease component"
 P,ptxB/phnD2,Prochlorococcus MIT9301,P9301_12511,phnD2,"phosphonate ABC transporter, periplasmic component"
 P,PsiP1,Prochlorococcus MED4,PMM1416,PsiP1,phosphate starvation inducible protein 1

@@ -10,6 +10,8 @@ step 2's co-define:
 - Phosphorus: all axenic P-limitation/deplete-vs-replete contrasts
   (no equivalent "alternate P source" complication exists in the KG for
   phosphorus treatments).
+- SS120 (CCMP1375) excluded entirely -- not part of the researcher's
+  study (step 3 co-define, 2026-08-02 redo).
 
 Output: data/02_np_experiments.csv -- one row per experiment, with
 organism, omics type, publication, treatment/control text.
@@ -46,6 +48,8 @@ def fetch(treatment_type: str) -> pd.DataFrame:
     rows = []
     for e in result["results"]:
         if e["experiment_id"] in ALTERNATE_N_SOURCE_EXCLUDED:
+            continue
+        if "SS120" in e["organism_name"] or "CCMP1375" in e["organism_name"]:
             continue
         rows.append(
             {
