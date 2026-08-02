@@ -121,6 +121,19 @@ artifacts by the prior triage analysis. Figures:
 `5_analyze/figures/02_log2fc_distribution.png`,
 `03_log2fc_by_platform.png`.
 
+**Gene-level view (volcano plot).** All 53 usable genes' response to
+nitrogen starvation, colored by each gene's original N/P annotation
+and faceted by platform:
+`5_analyze/figures/04_nitrogen_volcano.png`. Confirms the aggregate
+pattern gene-by-gene (N-annotated genes cluster upper-right: significant
+and upregulated) and surfaces 3 notable P-annotated exceptions —
+`pstS` is strongly down in MED4 across all 3 platforms but strongly
+*up* in MIT9313 (a strain-specific divergence); `phnD` is consistently
+down in MED4; `PMM722` is strongly up in MED4. `[interpretation]`:
+individual strongly-responding genes within a set that shows no
+average effect (H2) is expected, not contradictory — these are
+candidates for follow-up, not a revision of H2's conclusion.
+
 ## Discussion
 
 A Fisher's exact test on the one valid comparison in this analysis —

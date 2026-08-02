@@ -196,6 +196,58 @@ already evaluated and locked, so step 6's conclusions stand unchanged.
 It gets its own commit (step 5 was already closed and step 6 already
 built on it) rather than amending the prior step-5 commit.
 
+## Addendum 2 (2026-08-02) — nitrogen volcano plot, all 53 genes
+
+Researcher asked: since the nitrogen result is established as real (not
+background noise), show a volcano plot of all 53 usable genes'
+response to nitrogen starvation, colored by each gene's *original*
+N/P-acquisition annotation from the researcher's source spreadsheet
+(not by what this analysis found).
+
+**What I did:**
+- `06_pull_nitrogen_volcano_data.py` — pulled DE data for all 53 genes
+  (both N- and P-annotated) restricted to the 5 nitrogen experiments;
+  798 rows = 403 (H1_N) + 395 (H2_Pgenes_Nexp), reconciling exactly with
+  step 5's earlier totals.
+- `07_plot_nitrogen_volcano.py` → `figures/04_nitrogen_volcano.png` —
+  volcano plot (log2FC vs. -log10 padj), faceted by platform (padj
+  granularity differs sharply: RNASEQ/PROTEOMICS are continuous,
+  MICROARRAY is coarsely discretized to ~0.01/1.0 in this KG build, so
+  pooling platforms would be misleading here too). padj=0 rows (16,
+  all RNASEQ) are floored to one order of magnitude below the smallest
+  observed nonzero padj (1.4e-18) so they plot as most-significant, not
+  tied at an arbitrary constant. Top 3 genes per panel by |log2FC|
+  among significant hits are labeled.
+
+**Results:** the RNASEQ and PROTEOMICS panels visibly show blue
+(N-annotated) points concentrated in the upper-right (significant,
+upregulated) — the same pattern established quantitatively in step 6,
+now visible gene-by-gene. Three P-annotated genes stand out as notable
+exceptions worth flagging individually (not washed out by the
+aggregate H2 "no effect" result, which describes the P-gene set on
+average, not every gene in it):
+- **`pstS`** is strongly significantly *down* in MED4 under nitrogen
+  starvation across all 3 platforms it's measured in (RNASEQ log2FC
+  -3.1 to -4.5, padj as low as 1.4e-17; MICROARRAY log2FC -1.2 to -2.9)
+  — but strongly significantly *up* in MIT9313 (MICROARRAY log2FC
+  1.3-2.1). A strain-specific divergence in the same gene, opposite
+  directions.
+- **`phnD`** is consistently, strongly down in MED4 across all 3
+  platforms (log2FC -2.1 to -3.2, padj down to 1.4e-8).
+- **`PMM722`** is strongly up in MED4 (RNASEQ log2FC 4.3, padj~0;
+  PROTEOMICS log2FC 1.9, padj 0.005).
+
+These are `[interpretation]`-flagged candidates for follow-up, not a
+revision of H2's aggregate conclusion — H2 tested and did not find a
+P-gene-set-wide effect, and individual strongly-responding genes within
+a set that shows no *average* effect is expected, not contradictory.
+
+**QC gate (addendum 2):** row count (798) reconciles with H1_N (403) +
+H2_Pgenes_Nexp (395) from `01_hit_rate_summary.csv`; spot-checked that
+`cynA`/`glnA`/`ntcA` plot as N-annotated (blue) and `pstS`/`phnD`/
+`PMM722` as P-annotated (orange) against `2_kg_selection/data/03_gene_loci.csv`'s
+`n_or_p` column, confirming the color-mapping code isn't reversed.
+
 ## Decide-gate checklist
 
 - **Outputs produced** — `scripts/01_compute_hit_rates.py` →
@@ -207,7 +259,10 @@ built on it) rather than amending the prior step-5 commit.
   only). Addendum: `scripts/03_pull_log2fc_data.py` →
   `data/03_log2fc_raw.csv` (2283 rows); `scripts/04_plot_log2fc_distribution.py`
   → `figures/02_log2fc_distribution.png`; `scripts/05_plot_log2fc_by_platform.py`
-  → `figures/03_log2fc_by_platform.png`.
+  → `figures/03_log2fc_by_platform.png`. Addendum 2:
+  `scripts/06_pull_nitrogen_volcano_data.py` → `data/06_nitrogen_volcano_data.csv`
+  (798 rows); `scripts/07_plot_nitrogen_volcano.py` →
+  `figures/04_nitrogen_volcano.png`.
 - **Results presented** — group summary table and per-gene highlights
   shown inline above, matching what was shown to the researcher in chat;
   figure included.
