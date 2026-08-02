@@ -16,6 +16,11 @@ Definitions:
   differential_expression_by_gene(significant_only=False). Genes with no
   row for a given experiment were not measured there and are excluded
   from that experiment's denominator (not counted as "not significant").
+- experiment_ids may span multiple organisms (e.g. "all nitrogen
+  experiments" includes both MED4 and MIT9313 experiment IDs);
+  differential_expression_by_gene requires a single-organism experiment
+  set per call, so this function first narrows the passed experiment_ids
+  to each organism's own subset via list_experiments before querying DE.
 - expression_status is one of {significant_up, significant_down,
   not_significant} in every experiment this analysis uses (verified in
   step 4's worked example below -- no ambiguous "not_known" cells here).
@@ -29,7 +34,7 @@ Usage (see 4_methods/notebook.md for the worked example):
 from collections import defaultdict
 
 import pandas as pd
-from multiomics_explorer import GraphConnection, differential_expression_by_gene
+from multiomics_explorer import GraphConnection, differential_expression_by_gene, list_experiments
 
 
 def hit_rate(
@@ -44,10 +49,21 @@ def hit_rate(
     rows = []
     for organism, loci in by_organism.items():
         loci = sorted(set(loci))
+
+        # experiment_ids may span multiple organisms -- narrow to this
+        # organism's own subset before calling differential_expression_by_gene,
+        # which requires a single-organism experiment set.
+        exp_lookup = list_experiments(
+            experiment_ids=experiment_ids, organism=organism, verbose=False, limit=None, conn=conn
+        )
+        org_experiment_ids = [r["experiment_id"] for r in exp_lookup["results"]]
+        if not org_experiment_ids:
+            continue
+
         result = differential_expression_by_gene(
             organism=organism,
             locus_tags=loci,
-            experiment_ids=experiment_ids,
+            experiment_ids=org_experiment_ids,
             significant_only=False,
             verbose=True,
             limit=None,

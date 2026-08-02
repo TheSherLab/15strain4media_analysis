@@ -58,22 +58,26 @@ at commit `2dc2e86`.
 
 **10 axenic Prochlorococcus N/P starvation experiments** (5 nitrogen, 5
 phosphorus; gene-expression/proteomics data only), across 6
-publications, spanning 4 strains:
+publications, spanning 4 strains. `table_scope`/cutoff describes how the
+source publication's gene table was curated (see step 5's Surprises for
+why this matters — nitrogen is mostly unfiltered, phosphorus is
+uniformly pre-filtered to already-significant genes):
 
-| n_or_p | organism_name | omics_type | treatment | control | publication_doi | is_time_course |
-|---|---|---|---|---|---|---|
-| N | MED4 | PROTEOMICS | PRO99-lowN nutrient starvation | PRO99-lowN exponential growth | 10.1101/2025.11.24.690089 | True |
-| N | MED4 | RNASEQ | PRO99-lowN nutrient starvation | PRO99-lowN exponential growth | 10.1101/2025.11.24.690089 | False |
-| N | MED4 | RNASEQ | N-depleted Pro99 medium | N-replete Pro99 medium | 10.1038/ismej.2017.88 | True |
-| N | MED4 | MICROARRAY | Nitrogen deprivation (MED4) | N-replete Pro99 medium (MED4) | 10.1038/msb4100087 | True |
-| N | MIT9313 | MICROARRAY | Nitrogen deprivation (MIT9313) | N-replete Pro99 medium (MIT9313) | 10.1038/msb4100087 | True |
-| P | NATL2A | RNASEQ | P-limited | P-replete control | 10.1111/1462-2920.13104 | True |
-| P | MIT9312 | PROTEOMICS | Phosphate deplete (10 uM NaH2PO4) | Phosphate replete (50 uM NaH2PO4) | 10.1186/2046-9063-8-7 | False |
-| P | NATL2A | PROTEOMICS | Phosphate deplete (10 uM NaH2PO4) | Phosphate replete (50 uM NaH2PO4) | 10.1186/2046-9063-8-7 | False |
-| P | MED4 | MICROARRAY | Phosphate starvation | P-replete Pro99 medium | 10.1073/pnas.0601301103 | True |
-| P | MIT9313 | MICROARRAY | Phosphate starvation | P-replete Pro99 medium | 10.1073/pnas.0601301103 | True |
+| n_or_p | organism_name | omics_type | treatment | control | publication_doi | table_scope | cutoff (table_scope_detail) |
+|---|---|---|---|---|---|---|---|
+| N | MED4 | PROTEOMICS | PRO99-lowN nutrient starvation | PRO99-lowN exponential growth | 10.1101/2025.11.24.690089 | all_detected_genes | (none) |
+| N | MED4 | RNASEQ | PRO99-lowN nutrient starvation | PRO99-lowN exponential growth | 10.1101/2025.11.24.690089 | all_detected_genes | (none) |
+| N | MED4 | RNASEQ | N-depleted Pro99 medium | N-replete Pro99 medium | 10.1038/ismej.2017.88 | filtered_subset | Top 50% of genes by expression level |
+| N | MED4 | MICROARRAY | Nitrogen deprivation (MED4) | N-replete Pro99 medium (MED4) | 10.1038/msb4100087 | all_detected_genes | (none) |
+| N | MIT9313 | MICROARRAY | Nitrogen deprivation (MIT9313) | N-replete Pro99 medium (MIT9313) | 10.1038/msb4100087 | all_detected_genes | (none) |
+| P | NATL2A | RNASEQ | P-limited | P-replete control | 10.1111/1462-2920.13104 | significant_only | (none stated) |
+| P | MIT9312 | PROTEOMICS | Phosphate deplete (10 uM NaH2PO4) | Phosphate replete (50 uM NaH2PO4) | 10.1186/2046-9063-8-7 | significant_only | Only proteins reaching the paper's fold-change cutoff (>1.6 or <0.6) are reported in S1 |
+| P | NATL2A | PROTEOMICS | Phosphate deplete (10 uM NaH2PO4) | Phosphate replete (50 uM NaH2PO4) | 10.1186/2046-9063-8-7 | significant_only | Only proteins reaching the paper's fold-change cutoff (>1.6 or <0.6) are reported in S1 |
+| P | MED4 | MICROARRAY | Phosphate starvation | P-replete Pro99 medium | 10.1073/pnas.0601301103 | filtered_subset | Genes with q < 0.05 at t=48h, all timepoints reported |
+| P | MIT9313 | MICROARRAY | Phosphate starvation | P-replete Pro99 medium | 10.1073/pnas.0601301103 | filtered_subset | Genes with q < 0.05 at t=48h, all timepoints reported |
 
-Full detail in `data/02_np_experiments.csv`.
+Full detail in `data/02_np_experiments.csv` (now includes `table_scope`
+and `table_scope_detail` columns, added retroactively — see Decisions).
 
 **53/54 genes resolved to at least one locus tag** among the 4 relevant
 strains (`ptxB/phnD2` has none — its only prior evidence was in MIT9301,
@@ -135,6 +139,12 @@ detail in `data/03_gene_loci.csv`.
   (no gene-level DE data); MIT9301 drops out of the analysis entirely as
   a consequence, since both its phosphorus experiments were metabolomics
   and it had no nitrogen experiments.
+- **2026-08-02 (redo 3, additive)** — added `table_scope` and
+  `table_scope_detail` columns to `02_np_experiments.csv` at the
+  researcher's request, after step 5 surfaced that phosphorus
+  experiments are uniformly pre-filtered to already-significant genes.
+  Does not change which experiments/genes are in scope, only adds
+  descriptive columns.
 
 ## Decide-gate checklist
 

@@ -71,6 +71,8 @@ def fetch(treatment_type: str) -> pd.DataFrame:
                 "publication_doi": e["publication_doi"],
                 "publication_title": e["publication_title"],
                 "is_time_course": e["is_time_course"],
+                "table_scope": e["table_scope"],
+                "table_scope_detail": e["table_scope_detail"],
             }
         )
     return pd.DataFrame(rows)
