@@ -1,0 +1,304 @@
+organism_name,locus_tag,gene_name,product,gene_category
+Prochlorococcus MED4,PMM0014,dusA,tRNA dihydrouridine synthase,Translation
+Prochlorococcus MED4,PMM0018,sirA,TusA-like domain-containing protein,Stress response and adaptation
+Prochlorococcus MED4,PMM0033,,"conserved membrane protein, ArbrB family",Unknown
+Prochlorococcus MED4,PMM0055,,"uncharacterized conserved inner membrane protein, YqjD/ElaB family",Unknown
+Prochlorococcus MED4,PMM0063,ycf66,uncharacterized conserved hypothetical protein Ycf66,Transcription
+Prochlorococcus MED4,PMM0089,,"ABC transport system ATP-binding/permease protein, Uup family",Transport
+Prochlorococcus MED4,PMM0094,,uncharacterized conserved membrane protein,Stress response and adaptation
+Prochlorococcus MED4,PMM0119,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM0129,holB,"DNA polymerase III, delta^ subunit",Replication and repair
+Prochlorococcus MED4,PMM0175,menC,O-succinylbenzoate synthase,Coenzyme metabolism
+Prochlorococcus MED4,PMM0203,rplA,50S ribosomal protein L1,Translation
+Prochlorococcus MED4,PMM0239,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM0260,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM0295,rub,rubredoxin,Carbohydrate metabolism
+Prochlorococcus MED4,PMM0307,unk6,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM0313,nrdR,"transcriptional regulator, NrdR family",Regulatory functions
+Prochlorococcus MED4,PMM0315,psbB,photosystem II chlorophyll-binding protein CP47,Photosynthesis
+Prochlorococcus MED4,PMM0317,psbM,photosystem II reaction center protein PsbM,Photosynthesis
+Prochlorococcus MED4,PMM0360,,conserved hypothetical protein DUF985,Unknown
+Prochlorococcus MED4,PMM0384,spnII1interrupted1C,Putative Type IIC bifunctional restriction-modification protein with endonuclease and N6-adenine DNA methyltransferase activity,Replication and repair
+Prochlorococcus MED4,PMM0441,,aldo/keto reductase family protein,Unknown
+Prochlorococcus MED4,PMM0446,ctaCI,cytochrome c oxidase subunit II,Carbohydrate metabolism
+Prochlorococcus MED4,PMM0458,,transcriptional regulator with a Cro/C1-type helix-turn-helix domain,Regulatory functions
+Prochlorococcus MED4,PMM0489,futB,"ABC-type Fe3+ transport system, membrane component",Stress response and adaptation
+Prochlorococcus MED4,PMM0504,cutA,periplasmic divalent cation tolerance protein,Cellular processes
+Prochlorococcus MED4,PMM0529,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM0533,aar,long-chain fatty acyl-ACP reductase,Lipid metabolism
+Prochlorococcus MED4,PMM0563,,"beta-glycosyltransferase, family 2",Cell wall and membrane
+Prochlorococcus MED4,PMM0574,,YCII-like domain-containing protein,Unknown
+Prochlorococcus MED4,PMM0586,,uncharacterized conserved secreted protein,Unknown
+Prochlorococcus MED4,PMM0627,pcb,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Stress response and adaptation
+Prochlorococcus MED4,PMM0631,,bacteriophage-like membrane-associated DNA-binding domain-containing protein,Mobile elements
+Prochlorococcus MED4,PMM0635,mscS,"small-conductance mechanosensitive ion channel, MscS family",Transport
+Prochlorococcus MED4,PMM0646,cbiX,sirohydrochlorin cobaltochelatase,Coenzyme metabolism
+Prochlorococcus MED4,PMM0659,,"NAD-dependent DNA ligase, N-terminal domain",Replication and repair
+Prochlorococcus MED4,PMM0675,,uracil-DNA glycosylase,Replication and repair
+Prochlorococcus MED4,PMM0681,,"protein arginine methyltransferase, NDUFAF7 superfamily",Unknown
+Prochlorococcus MED4,PMM0684,,conserved hypothetical protein (DUF1651),Unknown
+Prochlorococcus MED4,PMM0698,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM0702,,"uncharacterized conserved membrane protein, Prochlorococcus-specific",Unknown
+Prochlorococcus MED4,PMM0732,,"translation initiation factor IF-2, N-terminal domain-containing protein",Unknown
+Prochlorococcus MED4,PMM0793,,uncharacterized conserved secreted protein,Unknown
+Prochlorococcus MED4,PMM0809,,uncharacterized conserved secreted protein,Unknown
+Prochlorococcus MED4,PMM0812,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM0837,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM0844,cycI1,Mg-protoporphyrin IX monomethylester oxidative cyclase,Coenzyme metabolism
+Prochlorococcus MED4,PMM0853,rpmF,50S ribosomal protein L32,Translation
+Prochlorococcus MED4,PMM0878,ilvE,branched-chain amino acid aminotransferase,Amino acid metabolism
+Prochlorococcus MED4,PMM0943,rpsO,30S ribosomal protein S15,Translation
+Prochlorococcus MED4,PMM0990,,FAD/NAD-binding domain-containing protein,Unknown
+Prochlorococcus MED4,PMM0995,,uncharacterized conserved membrane protein,Unknown
+Prochlorococcus MED4,PMM0996,,conserved hypothetical protein (DUF3303),Stress response and adaptation
+Prochlorococcus MED4,PMM1013,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1023,,uncharacterized conserved secreted protein,Unknown
+Prochlorococcus MED4,PMM1031,,"ABC-type Mn2+/Zn2+ transport system, ATP-binding component",Transport
+Prochlorococcus MED4,PMM1056,trmJ,"RNA methyltransferase, TrmH , group 1 family protein",Stress response and adaptation
+Prochlorococcus MED4,PMM1082,,helix-turn-helix domain-containing protein,Regulatory functions
+Prochlorococcus MED4,PMM1102,recD,"exodeoxyribonuclease V (RecBCD complex), alpha subunit",Replication and repair
+Prochlorococcus MED4,PMM1140,polA,DNA polymerase I,Replication and repair
+Prochlorococcus MED4,PMM1183,rpmH,50S ribosomal protein L34,Translation
+Prochlorococcus MED4,PMM1203,rfbG,"CDP-glucose 4,6-dehydratase",Cell wall and membrane
+Prochlorococcus MED4,PMM1210,,nucleotide sugar epimerase,Cell wall and membrane
+Prochlorococcus MED4,PMM1216,,mobA-like NTP transferase domain protein,Translation
+Prochlorococcus MED4,PMM1243,,putative methyltransferase,Secondary metabolites
+Prochlorococcus MED4,PMM1257,rfbB,"possible dTDP-glucose 4,6-dehydratase",Cell wall and membrane
+Prochlorococcus MED4,PMM1276,,conserved hypothetical protein,Stress response and adaptation
+Prochlorococcus MED4,PMM1320,,possible uncharacterized conserved secreted protein,Unknown
+Prochlorococcus MED4,PMM1322,glgX,isoamylase,Carbohydrate metabolism
+Prochlorococcus MED4,PMM1345,rpmA,50S ribosomal protein L27,Translation
+Prochlorococcus MED4,PMM1361,,short-chain dehydrogenase/reductase (SDR) superfamily,Lipid metabolism
+Prochlorococcus MED4,PMM1368,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1372,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1387,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1405,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1452,atpD,ATP synthase delta chain,Photosynthesis
+Prochlorococcus MED4,PMM1460,ccsB,cytochrome c biogenesis protein,Coenzyme metabolism
+Prochlorococcus MED4,PMM1509,fusA,elongation factor G,Translation
+Prochlorococcus MED4,PMM1517,,beta-lactamase enzyme family protein,Defense mechanisms
+Prochlorococcus MED4,PMM1519,psaL,photosystem I reaction centre subunit XI,Stress response and adaptation
+Prochlorococcus MED4,PMM1534,rplQ,50S ribosomal protein L17,Translation
+Prochlorococcus MED4,PMM1543,rplR,50S ribosomal protein L18,Stress response and adaptation
+Prochlorococcus MED4,PMM1551,rplP,50S ribosomal protein L16,Translation
+Prochlorococcus MED4,PMM1553,rplV,50S ribosomal protein L22,Translation
+Prochlorococcus MED4,PMM1563,,uncharacterized conserved membrane protein (DUF2839),Unknown
+Prochlorococcus MED4,PMM1612,,uncharacterized conserved membrane protein (DUF3188),Unknown
+Prochlorococcus MED4,PMM1619,srrA,"NblS-interacting two-component response regulator, OmpR family",Regulatory functions
+Prochlorococcus MED4,PMM1634,gyrB,"DNA gyrase, B subunit",Replication and repair
+Prochlorococcus MED4,PMM1640,wecD,acetyltransferase family protein,Transcription
+Prochlorococcus MED4,PMM1692,pabB,para-aminobenzoate synthetase component I,Coenzyme metabolism
+Prochlorococcus MED4,PMM1694,cobA,uroporphyrinogen-III C-methyltransferase,Coenzyme metabolism
+Prochlorococcus MED4,PMM1715,,alpha/beta hydrolase of unknown function (DUF1400),Unknown
+Prochlorococcus MED4,PMM1804,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1821,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1858,,conserved hypothetical protein family PM-14,Unknown
+Prochlorococcus MED4,PMM1902,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1913,,Hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1948,,Conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1988,,Conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM1998,,conserved hypothetical protein,Unknown
+Prochlorococcus MED4,PMM2019,,"viral RNA helicase, superfamily I",Unknown
+Prochlorococcus MIT9312,PMT9312_0203,rplL,50S ribosomal protein L7/L12,Stress response and adaptation
+Prochlorococcus MIT9312,PMT9312_0216,sul3,sulfate transporter family protein,Transport
+Prochlorococcus MIT9312,PMT9312_0230,psbO,photosystem II manganese-stabilizing protein PsbO,Photosynthesis
+Prochlorococcus MIT9312,PMT9312_0318,rpsA1,30S ribosomal protein S1,Translation
+Prochlorococcus MIT9312,PMT9312_0321,psbB,photosystem II chlorophyll-binding protein CP47,Photosynthesis
+Prochlorococcus MIT9312,PMT9312_0402,cysK,O-acetylserine sulfhydrylase A,Amino acid metabolism
+Prochlorococcus MIT9312,PMT9312_0483,hflC,prohibitin-like protein,Post-translational modification
+Prochlorococcus MIT9312,PMT9312_0508,psb27,photosystem II manganese cluster assembly protein Psb27,Photosynthesis
+Prochlorococcus MIT9312,PMT9312_0549,csoS1A,carboxysome shell protein CsoS1A,Photosynthesis
+Prochlorococcus MIT9312,PMT9312_0627,pcb,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Stress response and adaptation
+Prochlorococcus MIT9312,PMT9312_0642,metY,O-acetylhomoserine aminocarboxypropyltransferase,Amino acid metabolism
+Prochlorococcus MIT9312,PMT9312_0721,,outer membrane porin,Stress response and adaptation
+Prochlorococcus MIT9312,PMT9312_0768,chlP,geranylgeranyl reductase,Coenzyme metabolism
+Prochlorococcus MIT9312,PMT9312_0812,ftn,ferritin,Transport
+Prochlorococcus MIT9312,PMT9312_1072,trxA,m-type thioredoxin,Stress response and adaptation
+Prochlorococcus MIT9312,PMT9312_1086,petH,ferredoxin--NADP+ reductase (FNR),Stress response and adaptation
+Prochlorococcus MIT9312,PMT9312_1131,,outer membrane porin,Stress response and adaptation
+Prochlorococcus MIT9312,PMT9312_1257,psbC,photosystem II CP43 protein,Photosynthesis
+Prochlorococcus MIT9312,PMT9312_1281,sppA,signal peptide peptidase SppA (protease IV),Post-translational modification
+Prochlorococcus MIT9312,PMT9312_1358,ftsH4,cell division protein FtsH,Stress response and adaptation
+Prochlorococcus MIT9312,PMT9312_1383,zipN,cell division protein ZipN,Cell cycle and division
+Prochlorococcus MIT9312,PMT9312_1389,fkpA,FKBP-type peptidyl-prolyl cis-trans isomerase,Post-translational modification
+Prochlorococcus MIT9312,PMT9312_1419,hupB,DNA-binding protein HU-beta,Regulatory functions
+Prochlorococcus MIT9312,PMT9312_1531,atpB,ATP synthase beta chain,Photosynthesis
+Prochlorococcus MIT9312,PMT9312_1544,atpA,ATP synthase alpha chain,Photosynthesis
+Prochlorococcus MIT9312,PMT9312_1611,psaL,photosystem I reaction centre subunit XI,Stress response and adaptation
+Prochlorococcus MIT9312,PMT9312_1615,psaB,photosystem I core protein PsaB,Photosynthesis
+Prochlorococcus MIT9312,PMT9312_1616,psaA,photosystem I core protein PsaA,Photosynthesis
+Prochlorococcus MIT9312,PMT9312_1628,rpoA,"DNA-directed RNA polymerase, alpha subunit",Transcription
+Prochlorococcus MIT9312,PMT9312_1638,rplE,50S ribosomal protein L5,Translation
+Prochlorococcus MIT9312,PMT9312_1670,psaD,photosystem I reaction center subunit II,Photosynthesis
+Prochlorococcus MIT9312,PMT9312_1700,psaC,photosystem I iron-sulfur center subunit VII PsaC,Photosynthesis
+Prochlorococcus MIT9313,PMT0034,,uncharacterized conserved NADP-binding domain-containing protein,Carbohydrate metabolism
+Prochlorococcus MIT9313,PMT0045,guaA,"GMP synthase (glutamine-hydrolyzing), N-terminal domain",Nucleotide metabolism
+Prochlorococcus MIT9313,PMT0057,spoIID,sporulation protein SpoIID,Cellular processes
+Prochlorococcus MIT9313,PMT0111,,putative SecA-type protein translocase,Unknown
+Prochlorococcus MIT9313,PMT0122,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT0154,,serine/threonine protein kinase,Transcription
+Prochlorococcus MIT9313,PMT0187,psaE,photosystem I reaction centre subunit IV,Photosynthesis
+Prochlorococcus MIT9313,PMT0216,,conserved hypothetical protein,Stress response and adaptation
+Prochlorococcus MIT9313,PMT0239,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein",Cellular processes
+Prochlorococcus MIT9313,PMT0256,,conserved hypothetical protein,Secondary metabolites
+Prochlorococcus MIT9313,PMT0265,,two-component sensor histidine kinase,Signal transduction
+Prochlorococcus MIT9313,PMT0296,,tetratricopeptide repeat family protein,Post-translational modification
+Prochlorococcus MIT9313,PMT0298,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT0301,,possible Fanconi anaemia group C protein,Unknown
+Prochlorococcus MIT9313,PMT0358,cpmA,circadian phase modifier CpmA,Cellular processes
+Prochlorococcus MIT9313,PMT0368,ppnK,ATP-NAD kinase family protein,Coenzyme metabolism
+Prochlorococcus MIT9313,PMT0404,,"L,D-transpeptidase catalytic domain protein",Post-translational modification
+Prochlorococcus MIT9313,PMT0438,,translocation and assembly module TamB-like protein,Transport
+Prochlorococcus MIT9313,PMT0451,,hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT0464,cyabrB2,AbrB-like transcriptional regulator involved in photosynthesis regulation,Photosynthesis
+Prochlorococcus MIT9313,PMT0467,ndhL,NADH dehydrogenase I subunit NdhL,Carbohydrate metabolism
+Prochlorococcus MIT9313,PMT0535,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT0536,mviM,"oxidoreductase, NAD-binding Rossmann fold family protein",Unknown
+Prochlorococcus MIT9313,PMT0541,por,pyruvate:ferredoxin (flavodoxin) oxidoreductase,Carbohydrate metabolism
+Prochlorococcus MIT9313,PMT0617,secD,preprotein translocase SecD subunit,Post-translational modification
+Prochlorococcus MIT9313,PMT0641,dnaG,DNA primase,Replication and repair
+Prochlorococcus MIT9313,PMT0663,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT0693,ggtC,"ABC-type sugar transport system, permease component",Stress response and adaptation
+Prochlorococcus MIT9313,PMT0712,,N-acetylmuramoyl-L-alanine amidase family protein,Cell wall and membrane
+Prochlorococcus MIT9313,PMT0715,leuS,leucine--tRNA ligase,Translation
+Prochlorococcus MIT9313,PMT0726,,PHP domain-containing protein,Unknown
+Prochlorococcus MIT9313,PMT0730,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT0735,,conserved hypothetical protein,Cell motility
+Prochlorococcus MIT9313,PMT0751,,peptidase family M23,Post-translational modification
+Prochlorococcus MIT9313,PMT0754,ahpC,2-Cys peroxiredoxin,Stress response and adaptation
+Prochlorococcus MIT9313,PMT0759,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT0768,,uncharacterized conserved membrane protein,Unknown
+Prochlorococcus MIT9313,PMT0787,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT0789,,conserved hypothetical protein,Post-translational modification
+Prochlorococcus MIT9313,PMT0797,desA3,delta-12 fatty acid desaturase DesA3,Stress response and adaptation
+Prochlorococcus MIT9313,PMT0826,,conserved hypothetical protein,Replication and repair
+Prochlorococcus MIT9313,PMT0878,alkB,"alpha-ketoglutarate-dependent dioxygenase, AlkB-like superfamily",Replication and repair
+Prochlorococcus MIT9313,PMT0903,cetA,FAD binding domain protein,Amino acid metabolism
+Prochlorococcus MIT9313,PMT0917,,putative membrane protein,Cell wall and membrane
+Prochlorococcus MIT9313,PMT0943,,hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT1125,,conserved hypothetical protein,Cell cycle and division
+Prochlorococcus MIT9313,PMT1145,dppA,peptide/nickel transport system substrate-binding protein,Transport
+Prochlorococcus MIT9313,PMT1146,dppB,"oligopeptide ABC transporter, membrane component",Transport
+Prochlorococcus MIT9313,PMT1168,,ATP-dependent DNA helicase,Replication and repair
+Prochlorococcus MIT9313,PMT1185,,possible Adenosine-deaminase (editase) domain,Secondary metabolites
+Prochlorococcus MIT9313,PMT1188,htrA,serine protease,Post-translational modification
+Prochlorococcus MIT9313,PMT1218,porA,light-dependent protochlorophyllide reductase,Coenzyme metabolism
+Prochlorococcus MIT9313,PMT1241,,phage integrase family protein,Replication and repair
+Prochlorococcus MIT9313,PMT1277,,hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT1316,psaF,photosystem I reaction centre PsaF protein,Photosynthesis
+Prochlorococcus MIT9313,PMT1322,petC,cytochrome b6-f complex iron-sulfur subunit,Carbohydrate metabolism
+Prochlorococcus MIT9313,PMT1326,,transcriptional regulator with a Cro/C1-type helix-turn-helix domain,Regulatory functions
+Prochlorococcus MIT9313,PMT1329,ldcA,muramoyltetrapeptide carboxypeptidase,Post-translational modification
+Prochlorococcus MIT9313,PMT1344,,abrB-like transcriptional regulator family protein,Transcription
+Prochlorococcus MIT9313,PMT1376,rpsN,30S ribosomal protein S14,Translation
+Prochlorococcus MIT9313,PMT1379,rsmI,2-O-methyltransferase,Translation
+Prochlorococcus MIT9313,PMT1381,,conserved hypothetical protein,Transport
+Prochlorococcus MIT9313,PMT1386,,metallo-hydrolase/oxidoreductase,Stress response and adaptation
+Prochlorococcus MIT9313,PMT1398,glcH,glucose transporter,Transport
+Prochlorococcus MIT9313,PMT1403,tyrS,tyrosyl-tRNA synthetase,Stress response and adaptation
+Prochlorococcus MIT9313,PMT1470,atpG,ATP synthase B^,Photosynthesis
+Prochlorococcus MIT9313,PMT1493,bioA,adenosylmethionine-8-amino-7-oxononanoate aminotransferase,Coenzyme metabolism
+Prochlorococcus MIT9313,PMT1497,,NADP-dependent oxidoreductase,Unknown
+Prochlorococcus MIT9313,PMT1503,rlmN,23S rRNA (adenine2503-C2)-methyltransferase,Translation
+Prochlorococcus MIT9313,PMT1523,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT1535,,uncharacterized conserved secreted protein,Unknown
+Prochlorococcus MIT9313,PMT1583,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT1597,,putative ATP-dependent protease,Regulatory functions
+Prochlorococcus MIT9313,PMT1625,ndbB,type 2 NADH dehydrogenase,Carbohydrate metabolism
+Prochlorococcus MIT9313,PMT1633,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT1646,,virulence factor BrkB family protein,Unknown
+Prochlorococcus MIT9313,PMT1678,cpeT,putative phycoerythrobilin:phycoerythrin lyase CpeT,Stress response and adaptation
+Prochlorococcus MIT9313,PMT1686,pebA,"15,16 dihydrobiliverdin:ferredoxin oxidoreductase",Coenzyme metabolism
+Prochlorococcus MIT9313,PMT1690,rlpA,rare lipoA family protein,Cell wall and membrane
+Prochlorococcus MIT9313,PMT1703,rnd,ribonuclease D,Transcription
+Prochlorococcus MIT9313,PMT1767,psaI,photosystem I reaction center subunit VIII,Stress response and adaptation
+Prochlorococcus MIT9313,PMT1792,clpS2,ATP-dependent Clp protease adaptor protein ClpS,Post-translational modification
+Prochlorococcus MIT9313,PMT1794,,radical SAM superfamily protein,Energy production
+Prochlorococcus MIT9313,PMT1861,cobS,adenosylcobinamide-GDP ribazoletransferase,Coenzyme metabolism
+Prochlorococcus MIT9313,PMT1866,,CNNM domain-containing protein,Transport
+Prochlorococcus MIT9313,PMT1985,,putative membrane protein,Cell wall and membrane
+Prochlorococcus MIT9313,PMT2002,,RNA-binding protein,Transport
+Prochlorococcus MIT9313,PMT2013,metF,"5,10-methylenetetrahydrofolate reductase",Central intermediary metabolism
+Prochlorococcus MIT9313,PMT2095,,conserved hypothetical protein,Cell motility
+Prochlorococcus MIT9313,PMT2130,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein",Cellular processes
+Prochlorococcus MIT9313,PMT2154,,cyclic nucleotide-binding-like protein,Signal transduction
+Prochlorococcus MIT9313,PMT2158,hepA,"superfamily II DNA/RNA helicases, SNF2 family",Replication and repair
+Prochlorococcus MIT9313,PMT2179,ubiC,chorismate pyruvate-lyase,Coenzyme metabolism
+Prochlorococcus MIT9313,PMT2180,,conserved hypothetical protein,Unknown
+Prochlorococcus MIT9313,PMT2251,,methylthiotransferase/radical SAM-type protein,Energy production
+Prochlorococcus MIT9313,PMT2271,recN,ATP-dependent DNA repair protein RecN,Stress response and adaptation
+Prochlorococcus MIT9313,PMT_0929,,conserved hypothetical protein,Cell wall and membrane
+Prochlorococcus MIT9313,PMT_1130,petG,cytochrome b6-f complex subunit 5,Photosynthesis
+Prochlorococcus MIT9313,PMT_2119,lanA,"lantipeptide precursor, Nif11-like leader peptide domain protein",Cellular processes
+Prochlorococcus MIT9313,PMT_2147,,conserved hypothetical protein,Inorganic ion transport
+Prochlorococcus NATL2A,PMN2A_0019,hemE,uroporphyrinogen decarboxylase,Coenzyme metabolism
+Prochlorococcus NATL2A,PMN2A_0158,tsf,Translation elongation factor Ts,Translation
+Prochlorococcus NATL2A,PMN2A_0194,leuB,3-isopropylmalate dehydrogenase,Amino acid metabolism
+Prochlorococcus NATL2A,PMN2A_0212,ftn,ferritin,Transport
+Prochlorococcus NATL2A,PMN2A_0312,dnaK2,chaperone protein DnaK,Post-translational modification
+Prochlorococcus NATL2A,PMN2A_0327,PMN2A_RS04570,flavin reductase-like domain containing protein,Unknown
+Prochlorococcus NATL2A,PMN2A_0340,rpsR,30S ribosomal protein S18,Translation
+Prochlorococcus NATL2A,PMN2A_0352,ahpC,2-Cys peroxiredoxin,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_0411,cyabrB2,AbrB-like transcriptional regulator involved in photosynthesis regulation,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_0438,PMN2A_RS05205,uncharacterized conserved secreted protein,Unknown
+Prochlorococcus NATL2A,PMN2A_0440,PMN2A_RS05215,outer membrane porin,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_0442,PMN2A_RS05230,conserved hypothetical protein,Unknown
+Prochlorococcus NATL2A,PMN2A_0444,arsJ,"multidrug efflux transporter, MFS family",Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_0453,PMN2A_RS05285,conserved hypothetical protein,Unknown
+Prochlorococcus NATL2A,PMN2A_0454,PMN2A_RS05290,conserved hypothetical protein,Unknown
+Prochlorococcus NATL2A,PMN2A_0470,PMN2A_RS05375,conserved hypothetical protein,Unknown
+Prochlorococcus NATL2A,PMN2A_0597,PMN2A_RS06110,cupin domain-containing protein,Unknown
+Prochlorococcus NATL2A,PMN2A_0632,PMN2A_RS06320,"conserved hypothetical protein, Prochlorococcus-specific (PM-2)",Unknown
+Prochlorococcus NATL2A,PMN2A_0661,gldA,glycerol dehydrogenase,Lipid metabolism
+Prochlorococcus NATL2A,PMN2A_0691,trxA,m-type thioredoxin,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_0729,PMN2A_RS06810,short-chain dehydrogenase/reductase (SDR) superfamily,Lipid metabolism
+Prochlorococcus NATL2A,PMN2A_0736,PMN2A_RS06850,mu-like prophage FluMu gp41 family protein,Cell cycle and division
+Prochlorococcus NATL2A,PMN2A_0777,PMN2A_RS07060,outer membrane porin,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_0794,isiB,flavodoxin,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_0810,pnp,polyribonucleotide nucleotidyltransferase,Transcription
+Prochlorococcus NATL2A,PMN2A_0861,sodN,superoxide dismutase [Ni],Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_0892,hupB,DNA-binding protein HU-beta,Regulatory functions
+Prochlorococcus NATL2A,PMN2A_0921,PMN2A_RS07810,Secreted pentapeptide repeats protein,Unknown
+Prochlorococcus NATL2A,PMN2A_0968,groL1,chaperonin GroEL,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_0969,groES,co-chaperonin GroES,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_0970,atpB,ATP synthase beta chain,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_0980,atpC,ATP synthase gamma chain,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_0981,atpA,ATP synthase alpha chain,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_0982,atpD,ATP synthase delta chain,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_0983,atpF,ATP synthase subunit B,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_0984,atpG,ATP synthase B^,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_0985,atpH,ATP synthase C chain,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_0986,atpI,ATP synthase A chain,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_0987,atp1,ATP synthase protein I,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_0997,fumC,"fumarate hydratase, class II",Amino acid metabolism
+Prochlorococcus NATL2A,PMN2A_1016,rpoB,"DNA-directed RNA polymerase, beta subunit",Transcription
+Prochlorococcus NATL2A,PMN2A_1074,tuf,elongation factor EF-Tu,Translation
+Prochlorococcus NATL2A,PMN2A_1075,fusA,elongation factor G,Translation
+Prochlorococcus NATL2A,PMN2A_1081,cbiG-cobJ,bifunctional cobalt-precorrin-5A hydrolase / precorrin-3B C17-methyltransferase,Coenzyme metabolism
+Prochlorococcus NATL2A,PMN2A_1106,rpoA,"DNA-directed RNA polymerase, alpha subunit",Transcription
+Prochlorococcus NATL2A,PMN2A_1133,recA,recombinase A,Replication and repair
+Prochlorococcus NATL2A,PMN2A_1185,acpP,acyl-carrier protein,Lipid metabolism
+Prochlorococcus NATL2A,PMN2A_1187,tktA,transketolase,Carbohydrate metabolism
+Prochlorococcus NATL2A,PMN2A_1303,PMN2A_RS09810,"multidrug efflux transporter, MFS family",Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_1313,dnaK3,chaperone protein DnaK,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_1316,rpsF,30S ribosomal protein S6,Translation
+Prochlorococcus NATL2A,PMN2A_1448,ktrB,"Ktr-type potassium uptake transporter, potassium-translocating subunit B",Transport
+Prochlorococcus NATL2A,PMN2A_1452,PMN2A_RS00650,conserved hypothetical protein,Unknown
+Prochlorococcus NATL2A,PMN2A_1499,radA,DNA repair protein Sms/RadA,Replication and repair
+Prochlorococcus NATL2A,PMN2A_1537,ycf29,"two-component response regulator, NarL subfamily",Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_1568,rplL,50S ribosomal protein L7/L12,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_1569,rplJ,50S ribosomal protein L10,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_1571,rplK,50S ribosomal protein L11,Translation
+Prochlorococcus NATL2A,PMN2A_1597,psbO,photosystem II manganese-stabilizing protein PsbO,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_1637,tgt,queuine tRNA-ribosyltransferase,Translation
+Prochlorococcus NATL2A,PMN2A_1654,chlD,"protoporphyrin IX Mg-chelatase, subunit ChlD",Coenzyme metabolism
+Prochlorococcus NATL2A,PMN2A_1741,cysK,O-acetylserine sulfhydrylase A,Amino acid metabolism
+Prochlorococcus NATL2A,PMN2A_1757,PMN2A_RS02250,outer membrane porin,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_1783,groL2,chaperonin GroEL,Stress response and adaptation
+Prochlorococcus NATL2A,PMN2A_1806,gltX,glutamyl-tRNA synthetase,Translation
+Prochlorococcus NATL2A,PMN2A_1840,psb27,photosystem II manganese cluster assembly protein Psb27,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_1878,csoS1A,carboxysome shell protein CsoS1A,Photosynthesis
+Prochlorococcus NATL2A,PMN2A_1997,PMN2A_RS05225,uncharacterized conserved lipoprotein,Unknown
+Prochlorococcus NATL2A,PMN2A_2000,PMN2A_RS11000,conserved hypothetical protein,Unknown
+Prochlorococcus NATL2A,PMN2A_2001,PMN2A_RS11005,conserved hypothetical protein,Unknown
+Prochlorococcus NATL2A,PMN2A_2181,PMN2A_RS09385,conserved hypothetical protein,Unknown

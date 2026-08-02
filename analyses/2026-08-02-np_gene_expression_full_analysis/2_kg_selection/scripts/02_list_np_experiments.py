@@ -12,6 +12,12 @@ step 2's co-define:
   phosphorus treatments).
 - SS120 (CCMP1375) excluded entirely -- not part of the researcher's
   study (step 3 co-define, 2026-08-02 redo).
+- Gene-expression/proteomics data only (RNASEQ, PROTEOMICS, MICROARRAY)
+  -- METABOLOMICS experiments are excluded: they measure metabolite
+  abundance, not gene expression, and differential_expression_by_gene
+  returns zero rows for them (discovered 2026-08-02 while building the
+  step-3 background gene set; this drops MIT9301 entirely, since both of
+  its phosphorus experiments are metabolomics-only).
 
 Output: data/02_np_experiments.csv -- one row per experiment, with
 organism, omics type, publication, treatment/control text.
@@ -50,6 +56,8 @@ def fetch(treatment_type: str) -> pd.DataFrame:
         if e["experiment_id"] in ALTERNATE_N_SOURCE_EXCLUDED:
             continue
         if "SS120" in e["organism_name"] or "CCMP1375" in e["organism_name"]:
+            continue
+        if e["omics_type"] not in {"RNASEQ", "PROTEOMICS", "MICROARRAY"}:
             continue
         rows.append(
             {
