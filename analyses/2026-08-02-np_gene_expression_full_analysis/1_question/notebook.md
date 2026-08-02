@@ -6,8 +6,8 @@ Follow-on from the lightweight triage analysis
 `analyses/2026-07-13-n_p_genes_in_vivo_experiments/`, which checked all 91
 genes in the researcher's "N and P acquisition genes" spreadsheet
 (`Dataset 2.xlsx`) for the mere presence of in vivo expression data in the
-KG, and found 54 with evidence (28 nitrogen-annotated, 26
-phosphorus-annotated; see that analysis's
+KG, and found 54 with evidence (29 nitrogen-annotated, 25
+phosphorus-annotated — recounted precisely in step 2 below; see that analysis's
 `data/n_p_genes_experimental_evidence_final.csv`,
 `has_expression_evidence == True`). That analysis stopped at "data exists
 for this gene" — it did not test whether the gene actually responds to
@@ -22,7 +22,7 @@ experiments the KG holds for Prochlorococcus before locking scope.
 
 **Dialogue summary:**
 - Starting point: the 54-gene evidence list from the prior analysis, split
-  28 nitrogen-annotated / 26 phosphorus-annotated.
+  29 nitrogen-annotated / 25 phosphorus-annotated.
 - Researcher's question: do these genes actually change expression in
   vivo under N and P starvation, and — expanding on the first pass —
   how do phosphorus-annotated genes behave under nitrogen starvation and
