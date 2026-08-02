@@ -210,19 +210,36 @@ N/P-acquisition annotation from the researcher's source spreadsheet
   798 rows = 403 (H1_N) + 395 (H2_Pgenes_Nexp), reconciling exactly with
   step 5's earlier totals.
 - `07_plot_nitrogen_volcano.py` → `figures/04_nitrogen_volcano.png` —
-  volcano plot (log2FC vs. -log10 padj), faceted by platform (padj
-  granularity differs sharply: RNASEQ/PROTEOMICS are continuous,
-  MICROARRAY is coarsely discretized to ~0.01/1.0 in this KG build, so
-  pooling platforms would be misleading here too). padj=0 rows (16,
-  all RNASEQ) are floored to one order of magnitude below the smallest
+  volcano plot (log2FC vs. -log10 padj), RNASEQ and PROTEOMICS only
+  (2 panels, each with its own N/P legend). padj=0 rows (16, all
+  RNASEQ) are floored to one order of magnitude below the smallest
   observed nonzero padj (1.4e-18) so they plot as most-significant, not
   tied at an arbitrary constant. Top 3 genes per panel by |log2FC|
   among significant hits are labeled.
+- **MICROARRAY excluded from the volcano plot and given its own figure
+  instead** (researcher's request, after asking why the microarray
+  panel looked like two flat bands rather than a smooth cloud): its
+  padj in this KG build is effectively binary (90 rows at exactly
+  0.01, 456 at exactly 1.0, nothing between — confirmed by checking
+  `value_counts()` directly), so a continuous -log10(padj) y-axis would
+  imply a confidence gradient the data doesn't have.
+  `08_plot_nitrogen_microarray.py` → `figures/05_nitrogen_microarray.png`
+  — a strip plot instead: x = log2FC, y = the two real categories
+  ("Significant" / "Not significant"), colored by N/P annotation,
+  jittered within each row, with a legend. Honest about what the data
+  actually supports (direction, magnitude, and a binary call) without
+  fabricating precision.
 
-**Results:** the RNASEQ and PROTEOMICS panels visibly show blue
+**Results:** the RNASEQ and PROTEOMICS volcano panels visibly show blue
 (N-annotated) points concentrated in the upper-right (significant,
 upregulated) — the same pattern established quantitatively in step 6,
-now visible gene-by-gene. Three P-annotated genes stand out as notable
+now visible gene-by-gene. The microarray strip plot shows the same
+qualitative pattern despite its coarser data: among the 90 significant
+rows, blue (N-annotated) points dominate the positive-log2FC side while
+orange (P-annotated) points are more spread across both sides,
+including a visible negative cluster blue genes don't share.
+
+Three P-annotated genes stand out as notable
 exceptions worth flagging individually (not washed out by the
 aggregate H2 "no effect" result, which describes the P-gene set on
 average, not every gene in it):
@@ -246,7 +263,15 @@ a set that shows no *average* effect is expected, not contradictory.
 H2_Pgenes_Nexp (395) from `01_hit_rate_summary.csv`; spot-checked that
 `cynA`/`glnA`/`ntcA` plot as N-annotated (blue) and `pstS`/`phnD`/
 `PMM722` as P-annotated (orange) against `2_kg_selection/data/03_gene_loci.csv`'s
-`n_or_p` column, confirming the color-mapping code isn't reversed.
+`n_or_p` column, confirming the color-mapping code isn't reversed;
+verified (researcher asked) that every gene plotted is one of the
+original 54 and nothing extraneous (e.g. background/positive-control
+genes) leaked in. **3 of the 54 genes are absent from this figure**,
+each for a confirmed reason: `ptxB/phnD2` (only evidence was in the
+excluded MIT9301), `nadB2` (only locus is in MIT9312, which has zero
+nitrogen experiments), `ptrA` (only locus is in NATL2A, which also has
+zero nitrogen experiments) — both `nadB2` and `ptrA` do appear on the
+phosphorus side, just not here.
 
 ## Decide-gate checklist
 
@@ -262,7 +287,10 @@ H2_Pgenes_Nexp (395) from `01_hit_rate_summary.csv`; spot-checked that
   → `figures/03_log2fc_by_platform.png`. Addendum 2:
   `scripts/06_pull_nitrogen_volcano_data.py` → `data/06_nitrogen_volcano_data.csv`
   (798 rows); `scripts/07_plot_nitrogen_volcano.py` →
-  `figures/04_nitrogen_volcano.png`.
+  `figures/04_nitrogen_volcano.png` (RNASEQ/PROTEOMICS);
+  `scripts/08_plot_nitrogen_microarray.py` →
+  `figures/05_nitrogen_microarray.png` (MICROARRAY, different chart
+  type per the binary-padj caveat).
 - **Results presented** — group summary table and per-gene highlights
   shown inline above, matching what was shown to the researcher in chat;
   figure included.

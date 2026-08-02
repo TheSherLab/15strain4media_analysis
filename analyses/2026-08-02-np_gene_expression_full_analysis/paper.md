@@ -121,12 +121,18 @@ artifacts by the prior triage analysis. Figures:
 `5_analyze/figures/02_log2fc_distribution.png`,
 `03_log2fc_by_platform.png`.
 
-**Gene-level view (volcano plot).** All 53 usable genes' response to
-nitrogen starvation, colored by each gene's original N/P annotation
-and faceted by platform:
-`5_analyze/figures/04_nitrogen_volcano.png`. Confirms the aggregate
-pattern gene-by-gene (N-annotated genes cluster upper-right: significant
-and upregulated) and surfaces 3 notable P-annotated exceptions —
+**Gene-level view.** All 53 usable genes' response to nitrogen
+starvation, colored by each gene's original N/P annotation. RNA-seq
+and proteomics (continuous padj) get a conventional volcano plot:
+`5_analyze/figures/04_nitrogen_volcano.png`. Microarray padj in this
+KG build is effectively binary (90 rows at exactly padj=0.01, 456 at
+exactly padj=1.0) rather than continuous, so a volcano-style y-axis
+would imply confidence gradation the data doesn't have — it gets a
+different chart instead, a strip plot by significance category:
+`5_analyze/figures/05_nitrogen_microarray.png`. All three confirm the
+aggregate pattern gene-by-gene (N-annotated genes cluster toward
+significant-and-upregulated) and surface 3 notable P-annotated
+exceptions —
 `pstS` is strongly down in MED4 across all 3 platforms but strongly
 *up* in MIT9313 (a strain-specific divergence); `phnD` is consistently
 down in MED4; `PMM722` is strongly up in MED4. `[interpretation]`:
