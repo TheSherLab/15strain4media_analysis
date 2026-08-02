@@ -259,6 +259,46 @@ revision of H2's aggregate conclusion — H2 tested and did not find a
 P-gene-set-wide effect, and individual strongly-responding genes within
 a set that shows no *average* effect is expected, not contradictory.
 
+## Addendum 3 (2026-08-02) — gene-level summary (collapsing repeats)
+
+Researcher asked whether a gene tested in more experiments/timepoints
+counts more heavily in the figures above — yes: every point in
+addenda 1-2 is one (gene x experiment x timepoint) row, so e.g. `ntcA`
+(measured across 2 strains, 5 experiments, up to 6 timepoints each)
+contributes 19 points to the nitrogen dataset, while a lightly-measured
+gene contributes 2-3. This inflates the visual/statistical weight of
+heavily-measured genes without that being a deliberate choice.
+
+**What I did:**
+- `09_pull_gene_level_summary.py` → `data/09_gene_level_summary.csv` —
+  collapsed the 798-row measurement table to 136 (gene x platform) rows
+  (51 distinct genes): for each, `n_measurements`, `n_significant`,
+  `fraction_significant`, and `median_log2fc` across ALL measurements
+  (not just significant ones, to avoid cherry-picking each gene's
+  biggest hits).
+- `10_plot_gene_level_summary.py` → `figures/06_gene_level_summary.png`
+  — one point per gene per platform: x = median log2FC, y = fraction
+  of that gene's timepoints called significant, color = original N/P
+  annotation, **point size = number of measurements behind it** (shows
+  the weighting instead of hiding it), faceted by platform (medians
+  still not pooled across platforms).
+
+**Results:** the pattern holds after collapsing repeats — N-annotated
+genes (blue) sit toward positive median log2FC with a higher
+significant-fraction across all 3 platforms; P-annotated genes
+(orange) are more scattered, including several heavily-measured ones
+(large orange points, mostly in the MICROARRAY panel) sitting near
+zero or negative median log2FC with a low significant-fraction. This
+is gene-level confirmation of step 6's aggregate finding, not a
+re-weighted version of the same few genes' repeated measurements.
+
+**QC gate (addendum 3):** confirmed 798 raw rows collapse to exactly
+136 gene x platform rows with no gene lost (51 distinct genes,
+matching addendum 2's count); spot-checked `ntcA`'s combined measurement
+count (19, matching the number quoted to the researcher) against
+`n_measurements` summed across its 3 platform rows in
+`09_gene_level_summary.csv`.
+
 **QC gate (addendum 2):** row count (798) reconciles with H1_N (403) +
 H2_Pgenes_Nexp (395) from `01_hit_rate_summary.csv`; spot-checked that
 `cynA`/`glnA`/`ntcA` plot as N-annotated (blue) and `pstS`/`phnD`/
@@ -290,7 +330,10 @@ phosphorus side, just not here.
   `figures/04_nitrogen_volcano.png` (RNASEQ/PROTEOMICS);
   `scripts/08_plot_nitrogen_microarray.py` →
   `figures/05_nitrogen_microarray.png` (MICROARRAY, different chart
-  type per the binary-padj caveat).
+  type per the binary-padj caveat). Addendum 3:
+  `scripts/09_pull_gene_level_summary.py` → `data/09_gene_level_summary.csv`
+  (136 rows); `scripts/10_plot_gene_level_summary.py` →
+  `figures/06_gene_level_summary.png`.
 - **Results presented** — group summary table and per-gene highlights
   shown inline above, matching what was shown to the researcher in chat;
   figure included.

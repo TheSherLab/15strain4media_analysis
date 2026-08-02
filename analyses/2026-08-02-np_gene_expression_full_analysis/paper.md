@@ -140,6 +140,19 @@ individual strongly-responding genes within a set that shows no
 average effect (H2) is expected, not contradictory — these are
 candidates for follow-up, not a revision of H2's conclusion.
 
+**One point per gene, not per measurement.** The figures above plot
+one point per (gene x experiment x timepoint) — a heavily-measured
+gene like `ntcA` (19 nitrogen measurements across 2 strains and up to
+6 timepoints per experiment) carries proportionally more visual and
+statistical weight than a gene measured only 2-3 times. Collapsing to
+one point per gene per platform (median log2FC and fraction of
+timepoints significant, point size showing how many measurements back
+each gene) confirms the same pattern survives: N-annotated genes sit
+toward positive median log2FC with a higher significant-fraction; P-
+annotated genes are more scattered, including several heavily-measured
+ones near zero or negative. Figure:
+`5_analyze/figures/06_gene_level_summary.png`.
+
 ## Discussion
 
 A Fisher's exact test on the one valid comparison in this analysis —
