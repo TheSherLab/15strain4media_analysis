@@ -53,6 +53,13 @@ text. See `3_analysis_framing/notebook.md` for full framing detail and
 `2_kg_selection/notebook.md` for the underlying experiment/gene
 selection.
 
+All three hypotheses are computed with one shared function,
+`4_methods/hit_rate.py`: for a gene set and an experiment set, the
+fraction of (gene x experiment x timepoint) tests with a significant
+DE call, split by direction. Verified against a hand tally on `ntcA`/
+`glnA` (MED4, nitrogen experiments) before use — see
+`4_methods/notebook.md`.
+
 ## Results
 
 ## Discussion
