@@ -102,6 +102,25 @@ pre-filtered coverage.
 Full tables: `5_analyze/data/01_hit_rate_summary.csv`,
 `01_hit_rate_per_gene.csv`. Figure: `5_analyze/figures/01_hit_rate_comparison.png`.
 
+**Fold-change magnitude (not just the significance call).** All of the
+above uses the categorical significant/not-significant/direction call;
+the underlying log2 fold-change values show the same pattern more
+sharply. Among significant hits, nitrogen target genes and positive
+controls cluster tightly positive (median log2FC 2.3-2.4, almost no
+negative points); the nitrogen background set's significant hits are
+predominantly *negative* (median magnitude 1.7, downward-skewed) — the
+mirror image of the target genes, not just a lower rate. This
+direction pattern holds within each omics platform separately
+(RNA-seq, proteomics, microarray), not only in aggregate — platform
+magnitudes are not pooled since they are not directly comparable.
+Phosphorus target genes and positive controls also skew positive
+(median log2FC 2.6-3.1) with a wider spread, including 3 known outlier
+genes (`PMM0707`, `PMM0708`=`phoA`, `PMM1416`; MED4 phosphate-
+starvation microarray, log2FC 30-162) independently flagged as likely
+artifacts by the prior triage analysis. Figures:
+`5_analyze/figures/02_log2fc_distribution.png`,
+`03_log2fc_by_platform.png`.
+
 ## Discussion
 
 A Fisher's exact test on the one valid comparison in this analysis —

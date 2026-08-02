@@ -138,6 +138,64 @@ too small to interpret (see Surprises).
   as data (see What I did) so the caveat is verifiable, not just
   asserted.
 
+## Addendum (2026-08-02) — log2FC magnitude figures
+
+Everything above (the hit-rate figure and tables) used only the
+categorical `expression_status` call (up/down/not-significant), never
+the actual fold-change magnitude. The researcher asked what metric
+underlies that call (it's `log2fc` + `padj` per row, direction from the
+sign of log2fc, significance from padj against the study's own
+threshold) and asked for figures showing magnitude, split by omics
+platform (RNA-seq/proteomics/microarray are not directly comparable in
+magnitude per this methodology's statistical-rigor rule).
+
+**What I did:**
+- `03_pull_log2fc_data.py` — re-queried the same 5 groups (H1_N, H1_P,
+  positive_control_N, positive_control_P, background_N; background_P
+  still excluded) keeping `log2fc`, `padj`, and `omics_type` per row.
+  Row counts match `01_compute_hit_rates.py` exactly (403/145/76/63/1596).
+- `04_plot_log2fc_distribution.py` → `figures/02_log2fc_distribution.png`
+  — box+strip plot of log2FC among significant hits only, per group,
+  colored by direction (blue=up, red=down).
+- `05_plot_log2fc_by_platform.py` → `figures/03_log2fc_by_platform.png`
+  — same, faceted into 3 panels (RNASEQ/PROTEOMICS/MICROARRAY) instead
+  of pooled, per the cross-platform-magnitude caveat.
+
+**Results:** the direction pattern established in step 6 is visibly
+sharper once magnitude is shown, and holds within every platform, not
+just in aggregate. Nitrogen target genes and positive controls cluster
+tightly positive (median log2FC 2.3-2.4, narrow spread, almost no
+negative points). The nitrogen background set is the mirror image —
+its significant hits are predominantly *negative* (median magnitude
+1.7, but visibly down-skewed rather than up-skewed), which is the same
+asymmetry noted qualitatively in step 6 now visible as an actual
+fold-change pattern, not just a rate. Phosphorus target genes and
+positive controls also skew positive, with a wider spread and higher
+ceiling (median log2FC 2.6-3.1) — including 3 known outlier genes
+(`PMM0707`, `PMM0708`=`phoA`, `PMM1416`, all MED4 phosphate-starvation
+microarray, log2FC 30-162) flagged as likely artifacts by the prior
+triage analysis and not filtered here either; the figures clip the
+axis and note the count rather than hide or silently include them.
+
+**Surprise:** the 3 known outliers from the prior analysis
+(`2026-07-13-n_p_genes_in_vivo_experiments`) reappeared here
+independently — good cross-analysis consistency, and confirms they're
+a property of the underlying KG data (MED4 phosphate microarray study,
+`10.1073/pnas.0601301103`), not an artifact of either analysis's own
+processing.
+
+**QC gate (addendum):** row counts from `03_pull_log2fc_data.py`
+reconcile exactly with `01_hit_rate_summary.csv`'s `n_tests` per group;
+manually cross-checked the 3 outlier loci against the prior triage
+analysis's own flagged-outlier note (same loci, same experiment, same
+magnitude range).
+
+This addendum is additive: it does not change any number in
+`01_hit_rate_summary.csv` or `01_hit_rate_per_gene.csv`, which step 6
+already evaluated and locked, so step 6's conclusions stand unchanged.
+It gets its own commit (step 5 was already closed and step 6 already
+built on it) rather than amending the prior step-5 commit.
+
 ## Decide-gate checklist
 
 - **Outputs produced** — `scripts/01_compute_hit_rates.py` →
@@ -146,7 +204,10 @@ too small to interpret (see Surprises).
   `figures/01_hit_rate_comparison.png`. Also updated
   `2_kg_selection/scripts/02_list_np_experiments.py` and re-ran it to add
   `table_scope`/`table_scope_detail` columns (redo 3 of step 2, additive
-  only).
+  only). Addendum: `scripts/03_pull_log2fc_data.py` →
+  `data/03_log2fc_raw.csv` (2283 rows); `scripts/04_plot_log2fc_distribution.py`
+  → `figures/02_log2fc_distribution.png`; `scripts/05_plot_log2fc_by_platform.py`
+  → `figures/03_log2fc_by_platform.png`.
 - **Results presented** — group summary table and per-gene highlights
   shown inline above, matching what was shown to the researcher in chat;
   figure included.
