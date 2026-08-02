@@ -58,7 +58,11 @@ All three hypotheses are computed with one shared function,
 fraction of (gene x experiment x timepoint) tests with a significant
 DE call, split by direction. Verified against a hand tally on `ntcA`/
 `glnA` (MED4, nitrogen experiments) before use — see
-`4_methods/notebook.md`.
+`4_methods/notebook.md`. The one significance test in this analysis
+(Fisher's exact, nitrogen target genes vs. nitrogen background) uses
+`scipy.stats.fisher_exact` (scipy 1.17.1). KG version: multiomics-kg
+0.1.0-alpha.6 (production); explorer: multiomics_explorer 0.1.0a4;
+template: 0.1.0-alpha.2.
 
 ## Results
 
@@ -87,16 +91,93 @@ it would not be a random sample of the genome and cannot serve as a
 noise check.
 
 **Cross-nutrient (H2).** Phosphorus-annotated genes under nitrogen
-starvation: 15.7% significant across 395 tests (6.8% up, 8.9% down) —
-between the nitrogen background rate (14.8%) and the nitrogen
-target-gene rate (28.8%), closer to background. Nitrogen-annotated
-genes under phosphorus starvation: only 6 total tests (2 of 93
-gene-instances had any data at all) — too small to interpret, a direct
-consequence of the phosphorus tables' narrow, pre-filtered coverage.
+starvation: 15.7% significant across 395 tests (6.8% up, 8.9% down),
+tested directly against nitrogen background (14.8%) — fold enrichment
+1.06x, p = 0.64 (Fisher's exact), statistically indistinguishable from
+background. Nitrogen-annotated genes under phosphorus starvation: only
+6 total tests (2 of 93 gene-instances had any data at all) — too small
+to interpret, a direct consequence of the phosphorus tables' narrow,
+pre-filtered coverage.
 
 Full tables: `5_analyze/data/01_hit_rate_summary.csv`,
 `01_hit_rate_per_gene.csv`. Figure: `5_analyze/figures/01_hit_rate_comparison.png`.
 
 ## Discussion
 
+A Fisher's exact test on the one valid comparison in this analysis —
+nitrogen-annotated target genes (116/403 significant) vs. a
+same-experiment background gene set (236/1596 significant) — found a
+1.95-fold enrichment (odds ratio 2.33, p = 3.2e-10). More informative
+than the p-value itself is the direction split: target genes are
+upregulated in 96% of their significant hits, while the background
+set's significant hits lean the other way (33% up / 67% down). This
+combination — higher hit rate *and* a specific, predicted direction —
+is evidence against H3 (noise/method-limitation) and for H1
+(nitrogen-annotated genes are upregulated under nitrogen starvation)
+on the nitrogen side. H1 also holds for the 4 nitrogen positive
+controls (`ntcA`, `glnA`, `amtB/amt1`, `ureA`), which score higher
+still (57.9% significant, 100% up).
+
+The phosphorus side shows the same qualitative pattern (39.3% up vs.
+1.4% down for target genes; 47.6% vs. 1.6% for positive controls) but
+cannot be statistically tested: every phosphorus experiment in this KG
+build is pre-filtered by the source publication to already-significant
+genes, so there is no unbiased phosphorus gene population to serve as
+background. `[interpretation]`: the sharp up:down asymmetry survives
+even though the underlying publications' inclusion filters are
+symmetric in magnitude (e.g. fold-change >1.6 or <0.6, either
+direction), which is suggestive that the phosphorus pattern reflects
+real biology rather than being purely a curation artifact — but this
+is not proof, and a properly powered test would need phosphorus data
+this KG build does not have.
+
+H2 (cross-nutrient) is not supported by the current data — and for the
+nitrogen-experiment side, this is a tested negative result, not an
+absence of evidence: phosphorus genes under nitrogen starvation (15.7%
+significant) are statistically indistinguishable from nitrogen
+background (14.8%; fold enrichment 1.06x, p = 0.64, Fisher's exact).
+Nitrogen genes under phosphorus starvation cannot be assessed at all —
+only 6 tests exist across the entire gene set, a direct consequence of
+the phosphorus tables' narrow, pre-filtered coverage.
+
+**Overall:** the nitrogen-side result is a clean, statistically
+supported confirmation that this gene list's nitrogen-annotated
+members respond to nitrogen starvation specifically, in the predicted
+direction, more than a random gene would. The phosphorus-side result
+is directionally consistent with the same claim but not independently
+confirmable with this KG build's data. The cross-nutrient hypothesis
+(H2) is a tested negative on the nitrogen-experiment side (phosphorus
+genes do not respond to nitrogen starvation beyond background) and
+untestable on the phosphorus-experiment side.
+
+See `6_evaluate/notebook.md` for the full caveat list (table_scope
+pre-filtering, excluded strains/experiments, uneven strain coverage,
+pseudo-replication in the test's row count, and others).
+
 ## References
+
+1. Weissberg O, Aharonovich D, Sher D (2025). Transcriptomic and
+   Proteomic Analysis Reveals Nitrogen Recycling as a Core Mechanism
+   for Prochlorococcus Prolonged Survival. *bioRxiv*.
+   https://doi.org/10.1101/2025.11.24.690089
+2. Read RW, Berube PM, Biller SJ, Neveux I, Cubillos-Ruiz A, Chisholm
+   SW, Grzymski JJ (2017). Nitrogen cost minimization is promoted by
+   structural changes in the transcriptome of N-deprived
+   Prochlorococcus cells. *The ISME Journal*.
+   https://doi.org/10.1038/ismej.2017.88
+3. Lin X, Ding H, Zeng Q (2015). Transcriptomic response during phage
+   infection of a marine cyanobacterium under phosphorus-limited
+   conditions. *Environmental Microbiology*.
+   https://doi.org/10.1111/1462-2920.13104
+4. Fuszard MA, Wright PC, Biggs CA (2012). Comparative quantitative
+   proteomics of Prochlorococcus ecotypes to a decrease in
+   environmental phosphate concentrations. *Aquatic Biosystems*.
+   https://doi.org/10.1186/2046-9063-8-7
+5. Tolonen AC, Aach J, Lindell D, Johnson ZI, Rector T, Steen R,
+   Church GM, Chisholm SW (2006). Global gene expression of
+   Prochlorococcus ecotypes in response to changes in nitrogen
+   availability. *Molecular Systems Biology*.
+   https://doi.org/10.1038/msb4100087
+6. Martiny AC, Coleman ML, Chisholm SW (2006). Phosphate acquisition
+   genes in Prochlorococcus ecotypes: Evidence for genome-wide
+   adaptation. *PNAS*. https://doi.org/10.1073/pnas.0601301103
