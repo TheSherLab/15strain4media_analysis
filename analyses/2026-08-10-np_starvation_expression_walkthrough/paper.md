@@ -55,6 +55,34 @@ tables.
 
 ## Methods
 
+Three hypotheses: (H1, matched) nitrogen-annotated genes respond to
+nitrogen starvation and phosphorus-annotated genes respond to phosphorus
+starvation; (H2, cross) genes also respond to the non-matching nutrient's
+starvation; (H3, noise check) any observed pattern is tested against a
+background/bootstrap comparison — **nitrogen only**, since all 5
+phosphorus experiments are pre-filtered by their source publication
+(`table_scope` `significant_only`/`filtered_subset`) and have no unbiased
+gene population to serve as background.
+
+Each experiment's significance call was checked empirically (not assumed
+from metadata): the DESeq2- and Rockhopper-based experiments (Weissberg
+proteomics/RNA-seq, Read RNA-seq, Lin RNA-seq) use a dual criterion,
+padj<0.05 **and** \|log2FC\|>~1; the Goldenspike microarray experiments
+(Tolonen) use padj<0.01 alone; the Cyber-T microarray experiments
+(Martiny) use padj<0.05 at the 48h timepoint; the two Fuszard iTRAQ
+proteomics experiments (MIT9312, NATL2A phosphorus) report **no p-value
+at all** — their significance flag is a pure fold-change cutoff
+(>1.6-fold). Full table: `3_analysis_framing/data/01_significance_criteria.csv`.
+
+Positive controls: `ntcA`, `glnA`, `amtB/amt1`, `ureA` (nitrogen);
+`pstS`, `phoA`, `phoB`, `phoR` (phosphorus). Negative/background (nitrogen
+only): the full population of genes tested in the 4 nitrogen
+`all_detected_genes` experiments (1,387-2,196 genes each), excluding the
+92 target genes and nitrogen-keyword product/name matches — no pre-set
+size; the bootstrap draws random samples matching the nitrogen
+target-gene-set size from this population. See
+`3_analysis_framing/notebook.md` for full detail.
+
 ## Results
 
 ## Discussion

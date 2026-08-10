@@ -1,3 +1,7 @@
 # Large intermediate data reproducible from KG
 # (list specific files here, not blanket patterns)
 __pycache__/
+
+# 4.6MB, 29k rows of raw per-gene DE data for the nitrogen background pool --
+# regenerate with: uv run 3_analysis_framing/scripts/02_build_controls.py
+3_analysis_framing/data/02_negative_background_pool.csv
