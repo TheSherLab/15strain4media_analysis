@@ -1,3 +1,5 @@
 # Gaps and friction log
 
 Append-only. Each entry: date, short name, what happened, workaround/impact if any.
+
+**2026-08-10 — MIT9312 phosphorus evidence collapses under `significant_only` table_scope.** Step 2 resolved 44 of the researcher's 92 genes to a locus tag in MIT9312, but only 2 have actual DE evidence. MIT9312's sole in-scope experiment (Fuszard et al. 2012 proteomics, `10.1186/2046-9063-8-7`) has `table_scope = significant_only` — the source publication's supplementary table only lists genes that passed its own fold-change cutoff (>1.6 or <0.6), so every gene not already significant in that paper is invisible to this KG build, not "tested and not significant." Impact: MIT9312 will contribute almost no data to steps 4-6 regardless of framing choices, and any background/noise gene set for MIT9312 would be a biased (pre-filtered) sample, not a random draw from the tested genome — same caveat the KG's `table_scope` field is designed to surface. Carry this into step 3 framing when deciding whether MIT9312 supports a background/noise comparison.
