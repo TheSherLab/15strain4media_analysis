@@ -313,6 +313,45 @@ nitrogen experiments), `ptrA` (only locus is in NATL2A, which also has
 zero nitrogen experiments) — both `nadB2` and `ptrA` do appear on the
 phosphorus side, just not here.
 
+## Addendum 4 (2026-08-02) — combined 3-panel figures per nutrient
+
+Researcher asked for two figures (one nitrogen, one phosphorus), each
+with all 3 platform panels together, rather than nitrogen split across
+two separate files (addenda 2-3) with no phosphorus equivalent.
+
+**What I did:**
+- `11_pull_phosphorus_de_data.py` → `data/11_phosphorus_de_data.csv` —
+  mirrors `06_pull_nitrogen_volcano_data.py` for the phosphorus side:
+  all 53 genes' DE data restricted to the 5 phosphorus experiments.
+  151 rows; reconciles with H1_P (145) + H2_Ngenes_Pexp (6) = 151.
+  N-annotated genes are sparse here (2 genes, 6 rows total) — the same
+  table_scope narrowness noted throughout this analysis.
+- `12_plot_nutrient_three_panel.py` → `figures/07_nitrogen_three_panel.png`,
+  `figures/08_phosphorus_three_panel.png` — one figure per nutrient,
+  3 panels each (RNASEQ/PROTEOMICS as volcano, MICROARRAY as strip
+  plot, same rationale as addendum 2). Two fixes applied after first
+  look: (1) volcano panels now force y-axis to start at 0 — the
+  phosphorus PROTEOMICS panel has only 5 points and auto-scaled to a
+  razor-thin y-range (1.24-1.37) that visually implied near-significance
+  when the points are actually well below the padj=0.05 line; (2)
+  MICROARRAY panels now clip the x-axis to [-10, 20] and annotate known
+  outliers off-scale (reusing the PMM0707/0708/1416 outliers already
+  documented — 3 appear in the phosphorus MICROARRAY panel, 0 in
+  nitrogen's).
+
+**Results:** same pattern as addenda 2-3, now organized per-nutrient
+rather than implicitly nitrogen-only. Phosphorus's RNASEQ panel has
+zero N-annotated points (`n=0` in the legend, shown honestly rather
+than hidden) and its PROTEOMICS panel has only 5 points total (1 N, 4
+P) — both direct visualizations of the same table_scope-driven data
+scarcity already established in step 6.
+
+**QC gate (addendum 4):** confirmed `11_phosphorus_de_data.csv` row
+counts reconcile with step 5's `01_hit_rate_summary.csv` (H1_P=145,
+H2_Ngenes_Pexp=6); re-verified the 3 phosphorus MICROARRAY outliers are
+the same `PMM0707`/`PMM0708`/`PMM1416` loci already documented in
+addendum 1, not new ones.
+
 ## Decide-gate checklist
 
 - **Outputs produced** — `scripts/01_compute_hit_rates.py` →
@@ -333,7 +372,10 @@ phosphorus side, just not here.
   type per the binary-padj caveat). Addendum 3:
   `scripts/09_pull_gene_level_summary.py` → `data/09_gene_level_summary.csv`
   (136 rows); `scripts/10_plot_gene_level_summary.py` →
-  `figures/06_gene_level_summary.png`.
+  `figures/06_gene_level_summary.png`. Addendum 4:
+  `scripts/11_pull_phosphorus_de_data.py` → `data/11_phosphorus_de_data.csv`
+  (151 rows); `scripts/12_plot_nutrient_three_panel.py` →
+  `figures/07_nitrogen_three_panel.png`, `figures/08_phosphorus_three_panel.png`.
 - **Results presented** — group summary table and per-gene highlights
   shown inline above, matching what was shown to the researcher in chat;
   figure included.

@@ -153,6 +153,15 @@ annotated genes are more scattered, including several heavily-measured
 ones near zero or negative. Figure:
 `5_analyze/figures/06_gene_level_summary.png`.
 
+**Per-nutrient, 3-panel figures.** Two figures, one per nutrient, each
+with all 3 platforms side by side (RNASEQ/PROTEOMICS as volcano,
+MICROARRAY as strip plot): `5_analyze/figures/07_nitrogen_three_panel.png`,
+`08_phosphorus_three_panel.png`. The phosphorus figure makes the
+table_scope data-scarcity caveat directly visible: its RNASEQ panel has
+zero N-annotated points, and its PROTEOMICS panel has only 5 points
+total (1 N, 4 P) — the same scarcity already established quantitatively
+in step 6, now shown rather than only described.
+
 ## Discussion
 
 A Fisher's exact test on the one valid comparison in this analysis —

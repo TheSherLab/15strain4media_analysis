@@ -1,0 +1,152 @@
+n_or_p,gene_name_raw,organism_name,locus_tag,experiment_id,omics_type,timepoint,log2fc,padj,expression_status
+P,phoA,Prochlorococcus MED4,PMM0708,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,162.295,0.0,significant_up
+P,PsiP1,Prochlorococcus MED4,PMM1416,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,44.524,0.0,significant_up
+P,PMM707,Prochlorococcus MED4,PMM0707,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,29.907,0.0,significant_up
+P,phoA,Prochlorococcus MED4,PMM0708,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,13.059,0.0,significant_up
+P,PMM719,Prochlorococcus MED4,PMM0719,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,12.183,0.0,significant_up
+P,pstC,Prochlorococcus MED4,PMM0723,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,9.222,0.0,significant_up
+P,PsiP1,Prochlorococcus MED4,PMM1416,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,9.086,0.0,significant_up
+P,pstA,Prochlorococcus MED4,PMM0724,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,8.034,0.0,significant_up
+P,phoB,Prochlorococcus MED4,PMM0705,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,5.298,0.0,significant_up
+P,gap3,Prochlorococcus MED4,PMM0713,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,5.273,0.0001,significant_up
+P,pstS,Prochlorococcus MED4,PMM0710,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,4.67,0.0,significant_up
+P,PMM721,Prochlorococcus MED4,PMM0721,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,4.356,0.0367,significant_up
+P,phoB,Prochlorococcus MED4,PMM0705,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,3.49,0.0,significant_up
+P,phoB,Prochlorococcus MED4,PMM0705,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,2.882,0.0001,significant_up
+P,PMM707,Prochlorococcus MED4,PMM0707,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,2.677,0.0053,significant_up
+P,phoR,Prochlorococcus MED4,PMM0706,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,2.522,0.0084,significant_up
+P,gap3,Prochlorococcus MED4,PMM0713,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,2.467,0.0011,significant_up
+P,gap3,Prochlorococcus MED4,PMM0713,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,2.424,0.0,significant_up
+P,pstC,Prochlorococcus MED4,PMM0723,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,2.264,0.0051,significant_up
+P,PMM719,Prochlorococcus MED4,PMM0719,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,2.257,0.0042,significant_up
+P,pstS,Prochlorococcus MED4,PMM0710,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,2.232,0.0,significant_up
+P,phoB,Prochlorococcus MED4,PMM0705,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,2.158,0.1601,not_significant
+P,phoA,Prochlorococcus MED4,PMM0708,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,2.142,0.008,significant_up
+N,urtA,Prochlorococcus MED4,PMM0970,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,48h,-1.883,0.0256,significant_down
+P,pstC,Prochlorococcus MED4,PMM0723,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,1.866,0.2065,not_significant
+P,pstA,Prochlorococcus MED4,PMM0724,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,1.728,0.2691,not_significant
+N,urtA,Prochlorococcus MED4,PMM0970,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,-1.657,0.0285,significant_down
+P,PsiP1,Prochlorococcus MED4,PMM1416,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,1.537,0.164,not_significant
+P,pstC,Prochlorococcus MED4,PMM0723,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,1.536,0.1464,not_significant
+P,phoR,Prochlorococcus MED4,PMM0706,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,1.513,0.4544,not_significant
+P,phoR,Prochlorococcus MED4,PMM0706,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,1.455,0.1464,not_significant
+P,PMM707,Prochlorococcus MED4,PMM0707,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,-1.381,0.2181,not_significant
+P,phoA,Prochlorococcus MED4,PMM0708,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,1.336,0.4679,not_significant
+P,PMM719,Prochlorococcus MED4,PMM0719,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,1.313,0.4148,not_significant
+P,PMM719,Prochlorococcus MED4,PMM0719,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,-1.289,0.3027,not_significant
+P,pstA,Prochlorococcus MED4,PMM0724,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,1.28,0.6342,not_significant
+P,pstA,Prochlorococcus MED4,PMM0724,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,-1.275,0.2839,not_significant
+P,PMM721,Prochlorococcus MED4,PMM0721,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,1.245,0.6215,not_significant
+P,phoR,Prochlorococcus MED4,PMM0706,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,1.241,0.4769,not_significant
+P,pstS,Prochlorococcus MED4,PMM0710,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,1.202,0.3275,not_significant
+P,PMM707,Prochlorococcus MED4,PMM0707,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,1.161,0.5223,not_significant
+N,urtA,Prochlorococcus MED4,PMM0970,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,-1.16,0.3536,not_significant
+P,PMM721,Prochlorococcus MED4,PMM0721,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,-1.143,0.6188,not_significant
+P,pstS,Prochlorococcus MED4,PMM0710,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,1.142,0.4626,not_significant
+P,gap3,Prochlorococcus MED4,PMM0713,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,1.109,0.5695,not_significant
+P,pstC,Prochlorococcus MED4,PMM0723,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,1.104,0.557,not_significant
+P,PMM707,Prochlorococcus MED4,PMM0707,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,1.094,0.7691,not_significant
+P,phoR,Prochlorococcus MED4,PMM0706,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,-1.083,0.5734,not_significant
+N,urtA,Prochlorococcus MED4,PMM0970,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,24h,-1.065,0.7814,not_significant
+P,phoA,Prochlorococcus MED4,PMM0708,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,-1.055,0.6412,not_significant
+P,PMM721,Prochlorococcus MED4,PMM0721,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,1.052,0.5986,not_significant
+P,gap3,Prochlorococcus MED4,PMM0713,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,-1.048,0.6416,not_significant
+P,pstS,Prochlorococcus MED4,PMM0710,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,1.041,0.6121,not_significant
+P,PMM719,Prochlorococcus MED4,PMM0719,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,-1.034,0.6578,not_significant
+P,PsiP1,Prochlorococcus MED4,PMM1416,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,4h,1.02,0.653,not_significant
+P,PsiP1,Prochlorococcus MED4,PMM1416,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,-1.017,0.6962,not_significant
+P,pstA,Prochlorococcus MED4,PMM0724,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,1.012,0.8901,not_significant
+P,PMM721,Prochlorococcus MED4,PMM0721,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,1.011,0.6962,not_significant
+P,phoB,Prochlorococcus MED4,PMM0705,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,0h,1.01,0.7034,not_significant
+N,urtA,Prochlorococcus MED4,PMM0970,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MICROARRAY,12h,1.003,0.8832,not_significant
+P,phoA,Prochlorococcus MIT9312,PMT9312_0720,10.1186/2046-9063-8-7_pi_limitation_mit9312_itraq,PROTEOMICS,stationary,3.2250368285170405,,significant_up
+P,pstS,Prochlorococcus MIT9312,PMT9312_0722,10.1186/2046-9063-8-7_pi_limitation_mit9312_itraq,PROTEOMICS,stationary,1.7331539556651812,,significant_up
+P,pstS,Prochlorococcus MIT9313,PMT0993,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,24h,9.279,0.0,significant_up
+P,phoB,Prochlorococcus MIT9313,PMT0994,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,24h,7.385,0.0,significant_up
+P,pstS,Prochlorococcus MIT9313,PMT0993,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,12h,6.577,0.0003,significant_up
+P,pstS,Prochlorococcus MIT9313,PMT0508,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,24h,5.364,0.0,significant_up
+P,gap3,Prochlorococcus MIT9313,PMT1000,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,24h,4.21,0.0,significant_up
+P,phoB,Prochlorococcus MIT9313,PMT0994,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,12h,3.661,0.049,significant_up
+P,pstS,Prochlorococcus MIT9313,PMT0508,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,12h,2.349,0.0003,significant_up
+P,gap3,Prochlorococcus MIT9313,PMT1000,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,12h,1.661,0.0098,significant_up
+P,pstC,Prochlorococcus MIT9313,PMT0702,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,24h,1.656,0.0,significant_up
+P,phoR,Prochlorococcus MIT9313,PMT_0995,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,24h,1.386,0.0,significant_up
+P,pstA,Prochlorococcus MIT9313,PMT0701,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,24h,1.285,0.0014,significant_up
+P,pstC,Prochlorococcus MIT9313,PMT0702,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,0h,-1.275,0.9971,not_significant
+P,pstB,Prochlorococcus MIT9313,PMT0700,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,24h,1.211,0.023,significant_up
+P,pstS,Prochlorococcus MIT9313,PMT0993,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,4h,1.191,0.4553,not_significant
+P,phoB,Prochlorococcus MIT9313,PMT0994,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,4h,1.129,0.4487,not_significant
+P,pstC,Prochlorococcus MIT9313,PMT0702,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,12h,1.102,0.7149,not_significant
+P,phoR,Prochlorococcus MIT9313,PMT_0995,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,0h,-1.083,0.9971,not_significant
+P,gap3,Prochlorococcus MIT9313,PMT1000,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,0h,-1.071,0.9971,not_significant
+P,pstS,Prochlorococcus MIT9313,PMT0508,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,0h,-1.06,0.9971,not_significant
+P,pstB,Prochlorococcus MIT9313,PMT0700,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,0h,1.051,0.9971,not_significant
+P,pstA,Prochlorococcus MIT9313,PMT0701,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,12h,-1.049,0.952,not_significant
+P,pstB,Prochlorococcus MIT9313,PMT0700,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,12h,-1.038,0.9587,not_significant
+P,pstA,Prochlorococcus MIT9313,PMT0701,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,0h,-1.038,0.9971,not_significant
+P,phoR,Prochlorococcus MIT9313,PMT_0995,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,12h,1.035,0.9187,not_significant
+P,pstC,Prochlorococcus MIT9313,PMT0702,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,4h,1.033,0.9221,not_significant
+P,pstS,Prochlorococcus MIT9313,PMT0508,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,4h,1.022,0.9329,not_significant
+P,phoR,Prochlorococcus MIT9313,PMT_0995,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,4h,-1.021,0.9329,not_significant
+P,phoB,Prochlorococcus MIT9313,PMT0994,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,0h,1.013,0.9971,not_significant
+P,gap3,Prochlorococcus MIT9313,PMT1000,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,4h,-1.011,0.9591,not_significant
+P,pstS,Prochlorococcus MIT9313,PMT0993,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,0h,-1.009,0.9971,not_significant
+P,pstB,Prochlorococcus MIT9313,PMT0700,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,4h,-1.001,0.9632,not_significant
+P,pstA,Prochlorococcus MIT9313,PMT0701,10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MICROARRAY,4h,-1.001,0.9632,not_significant
+P,phoA,Prochlorococcus NATL2A,PMN2A_0439,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h,6.75,0.03,significant_up
+P,ptrA,Prochlorococcus NATL2A,PMN2A_0435,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,46h,6.41,1.0,not_significant
+P,ptrA,Prochlorococcus NATL2A,PMN2A_0435,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h,5.91,0.18,not_significant
+P,phoA,Prochlorococcus NATL2A,PMN2A_0439,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,46h,5.26,1.0,not_significant
+P,phoA,Prochlorococcus NATL2A,PMN2A_0439,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,24h,4.96,0.88,not_significant
+P,pstS,Prochlorococcus NATL2A,PMN2A_0441,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h,4.86,8.38e-06,significant_up
+P,ptrA,Prochlorococcus NATL2A,PMN2A_0435,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,24h,4.47,1.0,not_significant
+P,pstS,Prochlorococcus NATL2A,PMN2A_0441,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,46h,4.47,0.04,significant_up
+P,pstS,Prochlorococcus NATL2A,PMN2A_0441,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,24h,4.03,0.00054,significant_up
+P,phoB,Prochlorococcus NATL2A,PMN2A_0436,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h,3.06,6.3e-11,significant_up
+P,phoB,Prochlorococcus NATL2A,PMN2A_0436,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,24h,2.94,5.73e-14,significant_up
+P,phoR,Prochlorococcus NATL2A,PMN2A_0437,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,4h,2.84,1.3e-19,significant_up
+P,gap3,Prochlorococcus NATL2A,PMN2A_0445,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,4h,2.64,2.34e-26,significant_up
+N,glnA,Prochlorococcus NATL2A,PMN2A_0141,10.1186/2046-9063-8-7_pi_limitation_natl2a_itraq,PROTEOMICS,mid-exponential,-2.6302813326842287,,significant_down
+P,phoB,Prochlorococcus NATL2A,PMN2A_0436,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,46h,2.6,0.000817,significant_up
+P,phoB,Prochlorococcus NATL2A,PMN2A_0436,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,4h,2.58,4.58e-12,significant_up
+P,phoR,Prochlorococcus NATL2A,PMN2A_0437,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,24h,2.32,1.62e-08,significant_up
+P,gap3,Prochlorococcus NATL2A,PMN2A_0445,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,24h,2.24,7.91e-18,significant_up
+P,phoB,Prochlorococcus NATL2A,PMN2A_0436,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h (P added),2.14,0.000385,significant_up
+P,gap3,Prochlorococcus NATL2A,PMN2A_0445,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,46h,1.95,0.00105,significant_up
+P,ppA,Prochlorococcus NATL2A,PMN2A_1827,10.1186/2046-9063-8-7_pi_limitation_natl2a_itraq,PROTEOMICS,mid-exponential,-1.9425276624624184,,significant_down
+P,phoR,Prochlorococcus NATL2A,PMN2A_0437,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h,1.76,0.00443,significant_up
+P,pstA,Prochlorococcus NATL2A,PMN2A_0310,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h,1.73,4.36e-05,significant_up
+P,gap3,Prochlorococcus NATL2A,PMN2A_0445,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h,1.71,2.73e-07,significant_up
+P,gap3,Prochlorococcus NATL2A,PMN2A_0445,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,50h (P added),1.58,0.00166,significant_up
+P,pstS,Prochlorococcus NATL2A,PMN2A_0441,10.1186/2046-9063-8-7_pi_limitation_natl2a_itraq,PROTEOMICS,mid-exponential,-1.5504986364099569,,significant_down
+P,gap3,Prochlorococcus NATL2A,PMN2A_0445,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h (P added),1.53,8.01e-05,significant_up
+P,pstB,Prochlorococcus NATL2A,PMN2A_0309,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,46h,1.5,0.32,not_significant
+P,pstS,Prochlorococcus NATL2A,PMN2A_0441,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,50h (P added),1.46,0.58,not_significant
+P,phoB,Prochlorococcus NATL2A,PMN2A_0436,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,50h (P added),1.44,0.08,not_significant
+P,phoA,Prochlorococcus NATL2A,PMN2A_0439,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,50h (P added),1.35,0.99,not_significant
+P,pstB,Prochlorococcus NATL2A,PMN2A_0309,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h,1.31,0.03,significant_up
+P,ptrA,Prochlorococcus NATL2A,PMN2A_0435,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,4h,1.22,1.0,not_significant
+P,phoR,Prochlorococcus NATL2A,PMN2A_0437,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h (P added),1.19,0.25,not_significant
+P,pstC,Prochlorococcus NATL2A,PMN2A_0311,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h,1.18,0.00121,significant_up
+P,pstC,Prochlorococcus NATL2A,PMN2A_0311,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,46h,1.14,0.17,not_significant
+P,ptrA,Prochlorococcus NATL2A,PMN2A_0435,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,50h (P added),1.0,1.0,not_significant
+P,pstA,Prochlorococcus NATL2A,PMN2A_0310,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,46h,0.91,1.0,not_significant
+P,pstA,Prochlorococcus NATL2A,PMN2A_0310,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,24h,0.73,1.0,not_significant
+P,pstB,Prochlorococcus NATL2A,PMN2A_0309,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,50h (P added),0.67,0.68,not_significant
+P,pstS,Prochlorococcus NATL2A,PMN2A_0441,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h (P added),0.65,1.0,not_significant
+P,phoA,Prochlorococcus NATL2A,PMN2A_0439,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h (P added),0.64,1.0,not_significant
+P,pstB,Prochlorococcus NATL2A,PMN2A_0309,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,4h,0.62,1.0,not_significant
+P,pstA,Prochlorococcus NATL2A,PMN2A_0310,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h (P added),0.57,0.84,not_significant
+P,pstA,Prochlorococcus NATL2A,PMN2A_0310,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,4h,-0.54,1.0,not_significant
+P,phoR,Prochlorococcus NATL2A,PMN2A_0437,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,50h (P added),-0.5,0.86,not_significant
+P,pstC,Prochlorococcus NATL2A,PMN2A_0311,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,24h,0.48,1.0,not_significant
+P,ptrA,Prochlorococcus NATL2A,PMN2A_0435,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h (P added),0.45,1.0,not_significant
+P,phoR,Prochlorococcus NATL2A,PMN2A_0437,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,46h,0.45,1.0,not_significant
+P,pstB,Prochlorococcus NATL2A,PMN2A_0309,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,24h,0.43,1.0,not_significant
+P,phoA,Prochlorococcus NATL2A,PMN2A_0439,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,4h,0.19,1.0,not_significant
+P,pstB,Prochlorococcus NATL2A,PMN2A_0309,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h (P added),0.13,1.0,not_significant
+P,pstC,Prochlorococcus NATL2A,PMN2A_0311,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,50h (P added),-0.13,1.0,not_significant
+P,pstA,Prochlorococcus NATL2A,PMN2A_0310,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,50h (P added),0.11,1.0,not_significant
+P,pstC,Prochlorococcus NATL2A,PMN2A_0311,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,4h,-0.11,1.0,not_significant
+P,pstC,Prochlorococcus NATL2A,PMN2A_0311,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,59h (P added),-0.07,1.0,not_significant
+P,pstS,Prochlorococcus NATL2A,PMN2A_0441,10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,RNASEQ,4h,0.03,1.0,not_significant
