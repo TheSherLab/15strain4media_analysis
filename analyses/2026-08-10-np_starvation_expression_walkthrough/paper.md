@@ -96,6 +96,74 @@ known role as nitrogen-starvation markers). See `4_methods/notebook.md`.
 
 ## Results
 
+Each of the 10 in-scope experiments was restricted to a single
+representative starvation timepoint (rather than pooling across a time
+course), chosen from the KG's `growth_phase` field where it distinguishes
+a starved state, and from the source publication directly for 2 rapid-
+onset nitrogen experiments where the KG's own annotation never reaches
+"nutrient_limited" (Tolonen et al. 2006's MED4 and MIT9313 microarray
+time courses mark every timepoint `acute_stress`; the source paper
+reports cultures began declining at 12h). Full table and rationale:
+`5_analyze/notebook.md`.
+
+**Nitrogen (matched, H1):** 29 nitrogen-annotated target genes are
+significant in 41.3% of (gene x experiment) tests (43/104), **entirely
+upregulated (0 downregulated)**. The 4 canonical positive controls
+(`ntcA`, `glnA`, `amtB/amt1`, `ureA`) score higher still: 80.0%
+significant, 100% of that upregulated. Tested against a same-timepoint
+background pool via 10,000-iteration bootstrap (nitrogen only — see
+Methods): the background's null hit-rate distribution has mean 18.8%
+(std 3.8%); the observed 41.3% rate has an empirical p-value < 0.0001 (0
+of 10,000 random draws reached it). Fisher's exact test on the same
+comparison agrees: odds ratio 3.01, p = 2.15e-07.
+
+**Phosphorus (matched, H1, no noise check per step 3):** 18
+phosphorus-annotated target genes are significant in 75.7% of tests
+(26/37), mostly upregulated (70.3% up, 5.4% down). The 4 positive
+controls (`pstS`, `phoA`, `phoB`, `phoR`) score 84.6% significant (76.9%
+up, 7.7% down).
+
+**Cross-nutrient (H2):** phosphorus-annotated genes tested under nitrogen
+starvation are significant in 20.2% of tests (9 up, 13 down out of 109) —
+no clean directional pattern like the matched-nitrogen result (roughly
+balanced up/down). Nitrogen-annotated genes tested under phosphorus
+starvation have only 1 test in the entire dataset — too sparse to
+interpret, a direct consequence of the phosphorus tables' narrow,
+pre-filtered gene coverage (step 3).
+
+**Main figure:** `5_analyze/figures/01_gene_experiment_heatmap.png` — all
+10 experiments (rows, shown separately per study, not averaged — a
+concordance check on 9 genes measured by two independent MED4-nitrogen
+studies found direction always agreed but 2 of 9 disagreed on the
+significance call at the margin, which an average would have hidden) x
+the 40 of 61 genes with a response in >=1 experiment (columns), colored
+by upregulated / downregulated / tested-not-significant / no-data.
+
+**Upregulation-rate figure:** `5_analyze/figures/02_pct_upregulated.png`
+— for every gene, the percentage of its tested experiments (any nutrient)
+that came back significantly upregulated. 6 nitrogen genes reach 100%
+(`ntcA`, `cynA`, `cynD`, `focA`, `nirA`, `nirX`; the latter 3 from a
+single test each). No phosphorus gene reaches 100%; the highest is
+`PMM719` at 80% (4/5).
+
+**Target-vs-background strip plot:** `5_analyze/figures/03_pct_scatter.png`
+— the same per-gene percentages plotted as individual points against the
+nitrogen background pool (n=4,019 background genes): mean 40.5% for
+nitrogen target genes vs. 6.1% for the nitrogen background, a visual
+complement to the H3 bootstrap p-value showing the whole distribution
+shifted, not just a summary statistic. Phosphorus target genes shown
+alongside (mean 19.4%) with no background comparison, since none is
+statistically valid (step 3).
+
+**Nutrient-collapsed heatmap:**
+`5_analyze/figures/04_pct_heatmap_by_nutrient.png` — 2 rows ("N
+starvation experiments", "P starvation experiments") x all 61 genes,
+cell = % of that gene's tests significant under that row's nutrient,
+color intensity scaled by the percentage. Makes the H1-vs-H2
+(matched-vs-cross) pattern visible per gene: N-acquisition genes are
+red/upregulated under N starvation and mostly gray/no-data under P
+starvation, and the mirror holds for P-acquisition genes.
+
 ## Discussion
 
 ## References

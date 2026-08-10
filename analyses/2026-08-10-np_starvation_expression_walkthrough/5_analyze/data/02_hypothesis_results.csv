@@ -1,0 +1,7 @@
+label,n_distinct_genes,n_tests,n_up,n_down,n_not_significant,pct_significant,pct_up,pct_down
+H1: N-genes in N-experiments (matched),29,104,43,0,61,41.34615384615385,41.34615384615385,0.0
+H1: P-genes in P-experiments (matched),18,37,26,2,9,75.67567567567568,70.27027027027027,5.405405405405405
+H2: N-genes in P-experiments (cross),1,1,0,1,0,100.0,0.0,100.0
+H2: P-genes in N-experiments (cross),30,109,9,13,87,20.18348623853211,8.256880733944953,11.926605504587156
+Positive controls: N genes in N-experiments,4,20,16,0,4,80.0,80.0,0.0
+Positive controls: P genes in P-experiments,4,13,10,1,2,84.61538461538461,76.92307692307692,7.6923076923076925

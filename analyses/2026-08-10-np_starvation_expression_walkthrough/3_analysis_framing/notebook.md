@@ -113,6 +113,37 @@ multiple timepoints contributes multiple rows.)
   a filter description, not "there is no p-value in this table at all"
   until the data is actually checked).
 
+## Reopened 2026-08-10 (during step 5)
+
+**Original lock:** the negative/background pool (above) used every
+timepoint from the 4 nitrogen `all_detected_genes` experiments, pooled
+together — e.g. Tolonen's 6-timepoint time course contributed 6 rows per
+gene.
+
+**Data reveal:** while building step 5's figure, the researcher asked for
+a physiologically-justified "starvation point" per experiment rather than
+pooling timepoints — and for 2 of the 4 background experiments (Tolonen
+MED4 and MIT9313 microarray), *every* timepoint in the KG is labeled
+`acute_stress`, never `nutrient_limited` — this is a rapid-onset
+starvation design (abrupt N removal), not a gradual depletion, so there
+is no KG-native "reached starvation" signal to anchor on. The researcher
+supplied the resolving fact from the source publication directly: cultures
+started to decline at 12h, which is the point used here (not a KG field —
+`[user-provided]`, from the paper itself).
+
+**Evolved decision:** the background pool (and, by the same logic, every
+hit-rate/bootstrap calculation downstream) is restricted to **one chosen
+starvation timepoint per experiment** instead of pooling all timepoints.
+Full per-experiment timepoint table and rationale — including the two
+single-timepoint (non-time-course) nitrogen experiments, which are
+unaffected — lives in `5_analyze/notebook.md`. The background pool was
+rebuilt with `scripts/02_build_controls.py` (now timepoint-filtered):
+1,387 / 1,808 / 1,656 / 2,196 background genes per experiment (previously
+pooled across timepoints in the original lock; per-gene counts are
+similar since most genes are tested at every timepoint, but the row count
+dropped from 29,081 to 7,047 — one row per gene per experiment now,
+instead of one row per gene per timepoint per experiment).
+
 ## Decide-gate checklist
 
 - **Outputs produced:** `scripts/01_significance_criteria.py`,

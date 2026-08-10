@@ -43,12 +43,28 @@ POSITIVE_CONTROLS = {
 }
 
 # Nitrogen-all_detected_genes experiments only (unbiased gene population).
+# REOPENED 2026-08-10 (step 5 timepoint investigation): each experiment is now
+# restricted to its single chosen starvation timepoint (step 5's timepoint
+# table, see 5_analyze/notebook.md) rather than pooling all timepoints -- the
+# original step-3 lock used every timepoint. Timepoint is None for the
+# proteomics/RNASEQ experiments here because their chosen point (day 14) is
+# either the only timepoint (RNASEQ) or the first of 3 (proteomics); the
+# filter is applied explicitly below rather than at query time since
+# differential_expression_by_gene has no timepoint filter parameter.
 N_UNBIASED_EXPERIMENTS = [
     "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic",
     "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic",
     "10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray",
     "10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray",
 ]
+
+# Chosen starvation timepoint per experiment (step 5 timepoint table).
+N_STARVATION_TIMEPOINT = {
+    "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic": "day 14",
+    "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic": None,  # only timepoint
+    "10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray": "12h",
+    "10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray": "12h",
+}
 
 N_KEYWORDS = [
     "nitrogen", "nitrate", "nitrite", "ammonium", "ammonia", "urea", "urease",
@@ -87,6 +103,13 @@ def main() -> None:
                 organism=organism, experiment_ids=[exp_id], limit=None, verbose=True, conn=conn,
             )
             de = pd.DataFrame(result["results"])
+
+            chosen_tp = N_STARVATION_TIMEPOINT[exp_id]
+            if chosen_tp is not None:
+                before = len(de)
+                de = de[de["timepoint"] == chosen_tp]
+                print(f"{exp_id}: restricted to timepoint '{chosen_tp}' -> {len(de)} of {before} rows")
+
             de["gene_name_str"] = de["gene_name"].fillna("")
             de["product_str"] = de["product"].fillna("")
 
@@ -96,7 +119,7 @@ def main() -> None:
             background = de[~is_target & ~is_n_keyword]
 
             distinct_genes = background["locus_tag"].nunique()
-            print(f"{exp_id}: {de['locus_tag'].nunique()} distinct tested genes -> "
+            print(f"{exp_id}: {de['locus_tag'].nunique()} distinct tested genes (at chosen timepoint) -> "
                   f"{distinct_genes} in background pool after excluding "
                   f"{is_target.sum()} target-list rows and {is_n_keyword.sum()} N-keyword rows")
 
