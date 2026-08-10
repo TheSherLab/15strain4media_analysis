@@ -83,6 +83,17 @@ size; the bootstrap draws random samples matching the nitrogen
 target-gene-set size from this population. See
 `3_analysis_framing/notebook.md` for full detail.
 
+Two functions (`4_methods/np_response.py`) compute all three hypotheses:
+`hit_rate()` (fraction of gene x experiment x timepoint tests
+significant, split by direction — H1 and H2) and `bootstrap_pvalue()`
+(nitrogen-only empirical significance test — H3), resampling
+size-matched gene sets from the background pool 10,000 times per
+comparison. Both verified against hand-computed toy data before use, and
+`hit_rate()` additionally verified against an independent manual tally of
+`ntcA`/`glnA`'s real DE rows in MED4's 4 nitrogen experiments (26 rows;
+61.5% and 84.6% significant respectively, both consistent with their
+known role as nitrogen-starvation markers). See `4_methods/notebook.md`.
+
 ## Results
 
 ## Discussion
