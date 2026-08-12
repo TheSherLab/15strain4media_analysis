@@ -120,18 +120,25 @@ background dots visibly cluster at a few discrete values (0%, 33%, 50%,
 
 **Nutrient-collapsed heatmap** (`scripts/06_pct_heatmap_by_nutrient.py`,
 `figures/04_pct_heatmap_by_nutrient.png`, added after researcher review of
-the first two figures): 2 rows ("N starvation experiments", "P starvation
-experiments") x all 61 genes (columns, grouped N-acquisition then
-P-acquisition), cell = that gene's % of tests significant under that
-row's nutrient specifically, colored red (up) / blue (down) / gray
-(tested, not significant) / hatched (no data), color intensity scaled by
-the percentage. This makes the matched-vs-cross pattern (H1 vs. H2)
-visible gene-by-gene in one image: the N-acquisition columns are
-red/upregulated in the "N starvation" row and mostly gray/hatched in the
-"P starvation" row, and the mirror pattern holds for P-acquisition
-columns — the same conclusion as the H1/H2 hit-rate table, now visible
-per gene rather than only as an aggregate rate. Full data:
-`data/06_pct_by_nutrient.csv`.
+the first two figures, then revised again 2026-08-12 after a second
+researcher review — see Decisions): two stacked panels, one per gene
+group — N-acquisition genes on top, P-acquisition genes below — each with
+its own pair of rows ("N starvation experiments", "P starvation
+experiments"). Cell = % of that gene's *tested* experiments (cells with no
+data for that gene/nutrient combination are excluded from the denominator,
+not counted as 0%) that came back significant in whichever direction
+(up/down) had more hits; colored red (up) / blue (down) / gray (tested,
+not significant) / hatched (no data), color intensity scaled continuously
+by the percentage. The percentage is only printed as a number inside the
+cell when it is >=55% — a readability threshold for white-on-color
+legibility, not a data cutoff; cells below it are still colored by their
+exact percentage. This makes the matched-vs-cross pattern (H1 vs. H2)
+visible gene-by-gene in one image: N-acquisition genes are red/upregulated
+in the top panel's "N starvation" row (matched) and mostly gray/hatched in
+its "P starvation" row (cross), and the mirror pattern holds for
+P-acquisition genes in the bottom panel — the same conclusion as the
+H1/H2 hit-rate table, now visible per gene rather than only as an
+aggregate rate. Full data: `data/06_pct_by_nutrient.csv`.
 
 ## Surprises
 
@@ -186,6 +193,23 @@ where "this gene did not respond" is itself the answer.
 different study) shown as separate columns, not averaged.** Motivated by
 the concordance check above: averaging would hide genuine
 study-to-study disagreement on borderline calls.
+
+**2026-08-12 — Nutrient-collapsed heatmap redesigned into two stacked
+panels, gene labels recolored black, "Gene" corner label added.**
+Co-defined with the researcher during a walkthrough of the figure: the
+original single-block layout (2 rows shared across N- and P-acquisition
+gene columns side by side) was replaced with two independent panels — N
+genes on top with their own 2-row block, P genes below with their own
+2-row block — so each gene group's matched/cross rows sit together rather
+than sharing rows with the other group. Gene-name column labels changed
+from nutrient-colored (blue/red) to black for readability; the "N/P
+acquisition genes" panel titles moved closer to their panels and changed
+to black; a small "Gene" label was added above the row-label column in
+each panel to identify what the columns are. No underlying data changed —
+`data/06_pct_by_nutrient.csv` has the same computation, only the figure's
+layout differs. This redoes part of step 5 (`scripts/06_pct_heatmap_by_nutrient.py`,
+`figures/04_pct_heatmap_by_nutrient.png`); recorded here per the redo path
+rather than as a silent edit.
 
 ## Decide-gate checklist
 

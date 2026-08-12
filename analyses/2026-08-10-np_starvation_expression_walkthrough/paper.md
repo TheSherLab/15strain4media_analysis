@@ -156,13 +156,18 @@ alongside (mean 19.4%) with no background comparison, since none is
 statistically valid (step 3).
 
 **Nutrient-collapsed heatmap:**
-`5_analyze/figures/04_pct_heatmap_by_nutrient.png` — 2 rows ("N
-starvation experiments", "P starvation experiments") x all 61 genes,
-cell = % of that gene's tests significant under that row's nutrient,
-color intensity scaled by the percentage. Makes the H1-vs-H2
-(matched-vs-cross) pattern visible per gene: N-acquisition genes are
-red/upregulated under N starvation and mostly gray/no-data under P
-starvation, and the mirror holds for P-acquisition genes.
+`5_analyze/figures/04_pct_heatmap_by_nutrient.png` — two stacked panels,
+one per gene group (N-acquisition genes on top, P-acquisition genes
+below), each with its own pair of rows ("N starvation experiments", "P
+starvation experiments"). Cell = % of that gene's *tested* experiments
+(no-data cells excluded from the denominator) that came back significant
+in whichever direction had more hits, color intensity scaled continuously
+by the percentage; the number is only printed inside the cell at >=55%
+(a readability threshold, not a data cutoff — cells below it are still
+colored by their exact percentage). Makes the H1-vs-H2 (matched-vs-cross)
+pattern visible per gene: N-acquisition genes are red/upregulated in the
+top panel's matched row and mostly gray/hatched in its cross row, and the
+mirror holds for P-acquisition genes in the bottom panel.
 
 ## Discussion
 
