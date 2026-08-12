@@ -1,0 +1,4 @@
+Full matched-N (29 genes, incl. 4 positive controls): 104 tests, 43 up, 0 down, 41.35% significant
+Matched-N excluding 4 positive controls (25 genes): 84 tests, 27 up, 0 down, 32.14% significant
+Bootstrap (10,000 iterations, no controls): null mean=18.70%, std=4.19%, p-value=0.0012
+Fisher's exact (no controls): table=[[27, 57], [np.int64(1337), np.int64(5710)]], odds_ratio=2.023, p=4.701e-03

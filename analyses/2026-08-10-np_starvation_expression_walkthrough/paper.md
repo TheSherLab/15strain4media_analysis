@@ -171,6 +171,109 @@ mirror holds for P-acquisition genes in the bottom panel.
 
 ## Discussion
 
+**Matched response (H1): supported for both nutrients, with an
+asymmetry worth flagging.** Nitrogen-annotated genes respond to nitrogen
+starvation in 41.3% of tests (43/104), entirely upregulated (0
+downregulated). Phosphorus-annotated genes respond to phosphorus
+starvation in 75.7% of tests (26/37), mostly upregulated (70.3% up, 5.4%
+down). [interpretation] The higher phosphorus rate is not necessarily a
+stronger biological response: all 5 phosphorus source tables are
+pre-filtered toward genes the source publication already found
+interesting (`significant_only`/`filtered_subset`, see Methods), while
+the 4 unbiased nitrogen tables report every gene tested — so the
+phosphorus percentage is measured against a smaller, pre-curated
+denominator, which can mechanically inflate the rate independent of
+biology. This is exactly why the noise/bootstrap check (H3) was
+restricted to nitrogen — no unfiltered phosphorus table exists to test
+whether 75.7% is distinguishable from chance.
+
+Positive controls sharpen this per gene. Of the 4 canonical nitrogen
+markers, `ntcA` and `glnA` are significant in 100% of their 5 tests each
+(always upregulated), `ureA` in 80% (4/5), and `amtB/amt1` — the weakest
+of the four — in 40% (2/5); even `amtB/amt1` is never downregulated when
+significant. Of the 4 phosphorus markers, `phoB` is significant in 100%
+of 3 tests and `pstS` in 100% of 5 tests (4 up, 1 down — the only
+downregulated hit among the 8 controls), while `phoA` (66.7% of 3 tests)
+and `phoR` (50% of only 2 tests) have thinner evidence.
+
+**Noise/bootstrap check (H3, nitrogen only): supported, and not an
+artifact of the 4 positive-control genes.** The observed 41.3% matched-
+nitrogen rate exceeds every one of 10,000 random size-matched draws from
+the background pool (null distribution: mean 18.8%, std 3.8%, maximum
+32.6%) — empirical p<0.0001. Fisher's exact test agrees (odds ratio 3.01,
+p=2.15e-07). Because the 4 positive controls individually score much
+higher (80.0%) than the full 29-gene matched-N set, a stability check
+reran both tests with the controls excluded: the remaining 25 genes (84
+tests) still show 32.1% significant against the same background's null
+mean of 18.7% — bootstrap p=0.0012, Fisher's odds ratio 2.02, p=4.70e-03.
+The signal weakens without the well-established markers but does not
+disappear — the matched-nitrogen response is a property of the target
+gene set as a whole, not 4 famous genes carrying the rest.
+
+**Cross-nutrient response (H2): not supported as a general stress
+response, though demonstrated in only one direction.** Phosphorus-
+annotated genes tested under nitrogen starvation are significant in 20.2%
+of tests (9 up, 13 down of 109) — well below the matched-nitrogen rate
+(41.3%, or 32.1% without positive controls) and, unlike the matched
+result, split roughly evenly between up and down rather than uniformly
+upregulated. [interpretation] Lower rate with no consistent direction is
+what a nutrient-specific response predicts and a general-stress response
+would not. Nitrogen-annotated genes tested under phosphorus starvation
+have only 1 test in the entire dataset, a direct consequence of the
+phosphorus tables' narrow pre-filtered coverage — so the "no general
+cross-response" conclusion rests on real evidence in only one of the two
+possible cross-nutrient directions, not both.
+
+**What the negative background actually looks like.** The nitrogen
+background pool's "noise" rate is not one number — it ranges from 3.0%
+(Tolonen MIT9313 microarray) to 47.2% (Weissberg RNA-seq) across the 4
+experiments it draws from, a roughly 16-fold spread. The Weissberg
+RNA-seq background rate alone is higher than the observed matched-
+nitrogen target rate (41.3%). [interpretation] This likely reflects a
+broad transcriptional response to nitrogen starvation affecting many
+genes genome-wide in that dataset, or a comparatively liberal DESeq2 call
+specific to it, rather than "noise" in the everyday sense. The bootstrap
+is not misled by this — it draws each iteration's sample from the same
+per-experiment pools the real target genes were tested in, not from one
+pooled rate — but the single pooled mean (18.8%) understates how much the
+baseline "significant" rate varies by platform and experiment.
+
+**Caveats.**
+- The phosphorus matched rate (75.7%) cannot be tested against a
+  background/noise rate — no unfiltered phosphorus table exists in scope
+  (see Methods) — so it should be read as descriptive, not as a
+  statistically confirmed enrichment the way the nitrogen result is.
+- The "no cross-response" conclusion (H2) is well-supported in the
+  phosphorus-genes-under-nitrogen-starvation direction (109 tests) but
+  essentially untested in the nitrogen-genes-under-phosphorus-starvation
+  direction (1 test).
+- Significance criteria differ by platform (dual padj+fold-change vs.
+  padj-only vs. fold-change-only with no p-value at all — see Methods),
+  so raw hit-rate percentages are not fully comparable test-for-test
+  across experiments; the H3 bootstrap and Fisher's test correct for this
+  for nitrogen specifically, by drawing background from the same
+  experiments the target genes were tested in, but no equivalent
+  correction exists for phosphorus.
+- Effective strain coverage is narrow relative to the researcher's
+  original 15-strain list: the nitrogen side draws on only 2 strains
+  (MED4, MIT9313), and while the phosphorus side draws on 4 (MED4,
+  MIT9312, MIT9313, NATL2A), MIT9312 contributes almost no data (2 genes)
+  because its sole in-scope experiment's source table only reports genes
+  already significant in the original publication.
+- Individual (gene x experiment) tests are not independent — the same
+  gene is tested across multiple experiments and strains. The bootstrap
+  and Fisher's test address this at the aggregate level for the nitrogen
+  H3 comparison; the raw per-gene and per-experiment percentages
+  elsewhere in this analysis should be read as descriptive summaries, not
+  as independent trials.
+- Two timepoint choices required judgment beyond the KG's own fields: the
+  Tolonen nitrogen microarray experiments' 12h starvation point came from
+  the source publication, not a KG field (the KG marks all 6 timepoints
+  `acute_stress`); and the Martiny MIT9313 phosphorus microarray
+  experiment's stated "significant at 48h" criterion has no matching 48h
+  row in the KG for that strain (24h was used instead, flagged in the
+  figure). Both are documented in `5_analyze/notebook.md`.
+
 ## References
 
 1. Weissberg O, Aharonovich D, Sher D (2025). Transcriptomic and Proteomic

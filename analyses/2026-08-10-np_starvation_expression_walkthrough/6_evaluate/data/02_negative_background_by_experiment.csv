@@ -1,0 +1,5 @@
+experiment_id,n_genes,n_sig_up,n_sig_down,n_not_sig,pct_significant
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,1656,132,160,1364,17.632850241545892
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,2196,19,46,2131,2.959927140255009
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic,1387,32,94,1261,9.084354722422495
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic,1808,386,468,954,47.23451327433628
