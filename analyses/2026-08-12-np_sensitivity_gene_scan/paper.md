@@ -66,6 +66,30 @@ already shows a real structural ecotype signal in this strain set, so reliably r
 FDR-significant ecotype hits validates the pipeline before it is trusted on the unvalidated
 sensitivity question.
 
+**Methods module.** The two tests, FDR correction, and classification logic are implemented in
+`4_methods/np_sensitivity_scan.py` (`presence_absence_test`, `copy_number_test`,
+`benjamini_hochberg`, `classify_significance`; scipy's `fisher_exact` / `mannwhitneyu`,
+statsmodels' `multipletests` with `method="fdr_bh"`). Every test function takes the two strain
+groups to compare as arguments, so the same code path runs both the sensitivity and ecotype
+comparisons. Copy number is judged "variable" (and so eligible for the Mann-Whitney test) when
+its per-strain count — absent strains counted as 0 — takes more than one distinct value across
+the strains being compared; FDR correction is applied separately per (test type × grouping)
+combination (4 corrections total), not pooled, since presence/absence and copy-number test
+different, only partly-overlapping sets of ortholog groups. Both co-defined with the researcher
+(`4_methods/notebook.md`).
+
+Verified against 8 hand-built toy cases (clear/null presence signal, a degenerate
+universal-presence edge case, clear/absent copy-number variation, variability-via-absence, FDR
+wiring, all 4 classification outcomes) before running on real data — all 8 passed. Worked example
+on real data: ortholog group `cyanorak:CK_00000001` (`rpoD8`, RNA polymerase sigma factor type
+II), carried by 14 of 15 strains (absent only in MIT1314, 2 copies in MIT1327 and MIT9313, 1
+copy elsewhere) — presence/absence p=1.0 on both groupings, copy-number p=0.33 (sensitivity) and
+p=0.86 (ecotype), no signal on either axis. This group was picked by a mechanical rule (first
+ortholog group, sorted by ID, with both presence/absence and copy-number variation), not for
+biological relevance, so the sanity check here is methodological rather than biological: the
+near-universal-presence case (14/15) correctly resolves to p=1.0 rather than erroring, confirming
+the degenerate-table handling verified on toy data also holds on real data.
+
 ## Results
 
 ## Discussion
