@@ -15,6 +15,20 @@ checking whether they actually respond to real nutrient starvation.
 
 ## Background
 
+All 15 study strains have genome data in the KG regardless of experiment coverage: 32,053 genes
+total (1,883–2,948 per strain). Cross-strain gene identity is resolved via the KG's
+`Gene_in_ortholog_group` relationship, which carries two independent grouping systems: Cyanorak
+(curated specifically for cyanobacteria, one group per gene) and Eggnog (automated, broader,
+up to 3 nested groupings per gene at increasing taxonomic breadth). 29,356 of the 32,053 genes
+(91.6%) have a Cyanorak group; the remaining 2,697 are resolved via Eggnog's tightest grouping
+level where available (2,179 genes), leaving 518 "true orphan" genes with no cross-strain group
+in either system (of which 389 are functionally uncharacterized). Cyanorak's 5,003 distinct
+groups average only 5.73 of the 15 strains each, confirming substantial real presence/absence
+variation across strains rather than a largely-universal gene set. See
+`2_kg_selection/notebook.md` for the full extraction, assignment-rule rationale, and the
+per-strain true-orphan breakdown (uneven across strains — MIT1314, MIT1327, and MIT9313 notably
+higher than the rest, not yet interpreted).
+
 ## Methods
 
 ## Results
