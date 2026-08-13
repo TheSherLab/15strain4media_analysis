@@ -31,6 +31,41 @@ higher than the rest, not yet interpreted).
 
 ## Methods
 
+**Clade confound.** The sensitivity phenotype is not independent of strain ancestry: HLI/HLII-
+clade strains lean heavily N-sensitive (8 of 10 HL strains) and LLIV-clade strains are entirely
+mixed (2 of 2), so a naive genome-wide scan risks surfacing ecotype-driven genes rather than
+sensitivity-specific ones. Every strain's clade (HLI, HLII, LLI, LLIV) is collapsed to a
+high-light/low-light (HL/LL) ecotype split — HL: MED4, MIT9515, AS9601, MIT0604, MIT1314,
+MIT9202, MIT9215, MIT9301, MIT9312, SB (10 strains); LL: NATL1A, NATL2A, PAC1, MIT9313, MIT1327
+(5 strains) — and every gene is tested against **both** the sensitivity grouping (9 N-sensitive
+vs. 6 mixed) and this ecotype grouping, using the same statistical test each time.
+
+**Statistical tests.** Presence/absence per ortholog group: Fisher's exact test on the 2x2 count
+of strains carrying vs. not carrying the group (appropriate for the small strain counts here).
+Copy number per ortholog group (where variable): Mann-Whitney U test, with copy number normalized
+per strain by that strain's total gene count first, to prevent MIT9313's larger genome from
+mechanically inflating its counts. Benjamini-Hochberg FDR correction is applied to both the
+sensitivity and ecotype p-values across all groups tested (several thousand simultaneous tests);
+significant means adjusted p < 0.05. This FDR correction is the noise control for this analysis —
+unlike the prior walkthrough, there is no separate background gene pool, since every gene is
+tested at once rather than a curated subset compared against a background. Both the raw and
+FDR-adjusted p-value are retained in the output for every test, not just the adjusted value.
+
+**Candidate definition.** Every gene keeps both test results (sensitivity, ecotype) side by side
+in the output table — nothing is filtered out. A gene is tagged `candidate` when its sensitivity
+result is significant and its ecotype result is not; genes significant for both (or for ecotype
+only) remain fully visible in the table, just labeled differently. Alongside each test's p-value,
+**direction** is recorded independently for both groupings — which side (N-sensitive vs. mixed;
+HL vs. LL) has the higher presence rate or higher median normalized copy number — so a candidate's
+readout states not just "significant" but which way it points.
+
+**Controls.** No sensitivity-specific positive control exists (that is what this analysis
+searches for, and naming one from memory would violate the KG-as-sole-source rule this project
+runs on). The ecotype test itself serves as the method sanity check: the clade cross-tabulation
+already shows a real structural ecotype signal in this strain set, so reliably recovering strong,
+FDR-significant ecotype hits validates the pipeline before it is trusted on the unvalidated
+sensitivity question.
+
 ## Results
 
 ## Discussion
