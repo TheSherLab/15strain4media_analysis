@@ -1,0 +1,6 @@
+nutrient,experiment_id,organism,omics_type,statistical_test,table_scope,table_scope_detail,n_rows_total,n_significant,n_not_significant,has_not_significant_rows,max_padj_among_significant,min_padj_among_not_significant,min_abs_log2fc_among_significant
+nitrogen,10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic,MED4,PROTEOMICS,DESeq2,all_detected_genes,,4272,1155,3117,True,0.049793105930551,3.64211319010129e-05,1.00036780039469
+nitrogen,10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic,MED4,RNASEQ,DESeq2,all_detected_genes,,1849,877,972,True,0.0494036438169017,1.3189401182498284e-07,1.0004060688639385
+nitrogen,10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq,MED4,RNASEQ,Rockhopper,filtered_subset,Top 50% of genes by expression level,2534,597,1937,True,0.05,0.03,1.04
+nitrogen,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,MED4,MICROARRAY,microarray_Goldenspike,all_detected_genes,,10182,868,9314,True,0.01,1.0,0.739780840471671
+nitrogen,10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,MIT9313,MICROARRAY,microarray_Goldenspike,all_detected_genes,,13446,909,12537,True,0.01,1.0,0.538991261963978

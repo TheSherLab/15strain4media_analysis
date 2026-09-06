@@ -45,6 +45,30 @@ the full resolution and evidence tables.
 
 ## Methods
 
+Hypothesis: the 41-COG "starvation sensitivity" candidate list shows a
+nitrogen-starvation response elevated above a random background — tested
+for all 41 pooled, and separately for the `N` (12), `mixed` (28), and
+`unlabeled` (1) Direction-tag subsets. No positive-control gene subset is
+used, unlike the prior 92-gene analysis's `ntcA`/`glnA`-type textbook
+markers: this list's premise is precisely that these are *candidate*
+starvation-sensitivity genes without established literature confirmation,
+so there is nothing to sanity-check against.
+
+Significance criteria for the 5 nitrogen experiments are reused unchanged
+from `2026-08-10-np_starvation_expression_walkthrough/3_analysis_framing`
+(same platforms, same empirically-derived padj/log2FC thresholds). The
+negative/background pool reuses that analysis's 4 unfiltered nitrogen
+experiments and single-chosen-timepoint-per-experiment rule, but excludes
+two gene lists rather than one: this analysis's own 41 COGs *and* the
+prior analysis's 92-gene N/P-acquisition list (both already hypothesized
+to respond to starvation, so excluded from serving as "random" comparison
+genes), plus the same nitrogen-keyword text exclusions as before. Union of
+both exclusion lists: 543 (organism, locus) pairs (364 from the 41-COG
+list, 183 from the 92-gene list, 4 overlapping between them).
+
+`hit_rate()` and `bootstrap_pvalue()` (Fisher's exact alongside it) are
+reused unchanged from `4_methods/np_response.py` in the prior analysis.
+
 ## Results
 
 ## Discussion
