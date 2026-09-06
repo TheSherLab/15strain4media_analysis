@@ -67,7 +67,10 @@ both exclusion lists: 543 (organism, locus) pairs (364 from the 41-COG
 list, 183 from the 92-gene list, 4 overlapping between them).
 
 `hit_rate()` and `bootstrap_pvalue()` (Fisher's exact alongside it) are
-reused unchanged from `4_methods/np_response.py` in the prior analysis.
+reused unchanged from `4_methods/np_response.py` in the prior analysis,
+verified against a real driving example from this gene list (`COG1403`/
+McrA, 23 DE rows across MED4 and MIT9313) that matched an independent
+hand tally exactly.
 
 ## Results
 

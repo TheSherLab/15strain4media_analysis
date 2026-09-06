@@ -1,0 +1,24 @@
+locus_tag,gene_name,experiment_id,treatment_type,timepoint,timepoint_hours,timepoint_order,log2fc,padj,rank,rank_up,rank_down,expression_status,growth_phase
+PMM1403,,10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic,['nitrogen'],day 14,336.0,1,3.569059199480711,3.819021925959965e-06,113,45.0,,significant_up,nutrient_limited
+PMM1403,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],3h,3.0,2,-1.134784788,1.0,68,,,not_significant,acute_stress
+PMM0031,,10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq,['nitrogen'],24h,24.0,3,1.13,0.33,411,,,not_significant,nutrient_limited
+PMM0031,,10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq,['nitrogen'],12h,12.0,2,1.08,0.87,403,,,not_significant,acute_stress
+PMM0031,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],12h,12.0,4,0.918306819,1.0,536,,,not_significant,acute_stress
+PMM0031,,10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic,['nitrogen'],day 14,336.0,1,-0.8693928570174289,0.0005537333518513,1008,,,not_significant,nutrient_limited
+PMM1403,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],48h,48.0,6,-0.811398926,1.0,630,,,not_significant,acute_stress
+PMM0031,,10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq,['nitrogen'],3h,3.0,1,-0.81,1.0,485,,,not_significant,acute_stress
+PMM1403,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],0h,0.0,1,-0.801710984,1.0,272,,,not_significant,acute_stress
+PMM0031,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],48h,48.0,6,0.554985731,1.0,920,,,not_significant,acute_stress
+PMM1403,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],24h,24.0,5,0.553369905,1.0,739,,,not_significant,acute_stress
+PMM0031,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],6h,6.0,3,0.541649395,1.0,686,,,not_significant,acute_stress
+PMM0031,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],3h,3.0,2,0.41222756,1.0,726,,,not_significant,acute_stress
+PMM0031,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],24h,24.0,5,0.233742249,1.0,1246,,,not_significant,acute_stress
+PMM1403,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],12h,12.0,4,-0.07862562,1.0,1579,,,not_significant,acute_stress
+PMM0031,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],0h,0.0,1,-0.063184895,1.0,1542,,,not_significant,acute_stress
+PMM1403,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,['nitrogen'],6h,6.0,3,-0.003273356,1.0,1692,,,not_significant,acute_stress
+PMT0036,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,['nitrogen'],24h,24.0,5,0.853013977,1.0,569,,,not_significant,acute_stress
+PMT0036,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,['nitrogen'],12h,12.0,4,0.831727348,1.0,366,,,not_significant,acute_stress
+PMT0036,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,['nitrogen'],0h,0.0,1,0.662048258,1.0,134,,,not_significant,acute_stress
+PMT0036,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,['nitrogen'],3h,3.0,2,0.457932342,1.0,173,,,not_significant,acute_stress
+PMT0036,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,['nitrogen'],48h,48.0,6,0.044513859,1.0,2164,,,not_significant,acute_stress
+PMT0036,,10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,['nitrogen'],6h,6.0,3,-0.023607466,1.0,2094,,,not_significant,acute_stress
