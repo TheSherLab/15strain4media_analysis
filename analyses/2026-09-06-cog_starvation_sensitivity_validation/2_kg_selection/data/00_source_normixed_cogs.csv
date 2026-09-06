@@ -1,0 +1,42 @@
+General annotation,COGs,p-value,Direction,p-value (HL LL),Protien,Annotation,Wider annotation
+Quality contol- DNA level,COG0188,0.01246268797803412,N,0.00239633190169769,GyrA,Gyrase and DNA topoisomerase ,Resolution of converging during replication and part of the SOS response pathway which is activated in response to double strand breaks 
+,COG1787,0.04722090400357714,N,0.0008385476995377811,"Mrr, RecB and HJR","Mrr, RecB and HJR activity ","defense mechanism: RM system, protecting the cell from forigen DNA, RecB; helixas and calls recA therfore initiating the SOS response and HJR activity"
+,COG3727,0.02446201051666525,N,,Vsr,very short path repair (Vsr) endocluases ,"recognizes a TG mismatched base pair, generated after spontaneous deamination of methylated cytosines"
+,COG1793,0.04705744628217289,N,0.0005189744817331768,CDC9,DNA ligase I,"involved in replication, recombenation and repair of DNA breaks"
+,COG0640,0.02447263133205528,unlabeled,0.02974212552721959,smtB/ArsR ,ArsR family,"DNA-binding transcriptional regulator, active under heavy metal stresses"
+,COG1403,0.01413796945591148,N,0.003650434404441878,McrA ,type IV methylase ,"defense mechanism: forming restriction-methylation system (RM), therfore protecting the cells from genetic exchange or pointing anti-viral defence mechanism"
+Quality contol- Protein level,COG2214,0.04070946141165656,mixed,0.0005723859758648073,CbpA,Hsp member- CbpA protein- with DnaJ like domain,"Responsible for protein folding and unfolding and preverts aggregations of misfolded proteins, shown to be upreglated during P-starvation"
+,COG0443,0.03427244627619243,mixed,0.01855014398498848,DnaK,Hsp member- Hsp70,Responsible for protein folding and unfolding and preverts aggregations of misfolded proteins
+,COG0484,0.04705744628217289,mixed,0.0005189744817331768,DnaJ,Hsp member- DnaJ chaperone ,Responsible for protein folding and unfolding and preverts aggregations of misfolded proteins
+,COG0330,0.04101450697329987,mixed,0.0005835096528584645,HflC,HflB (FtsH) modulator ,"Co-factor for FtsH, which is a quality control protease, removing misfolded preotins (degrading them- both short lived proteins and memberane proteins) "
+,COG1187,0.04070946141165656,mixed,0.0005723859758648073,RsuA,a pseudouridylate synthesase- site specific,the syntheses of pseudouridylate enhanced the stability and function of the rRNA and ensures a proper folding and function of the ribosome 
+Amino acid and mixotrophy related biosynthesis,COG1454,0.01318191022676883,mixed,0.002481523622433023,EutG,a.a as nitrogen source- threonine dehydrogenase ,"involved in theronine catabilsm, which could end with ammonia and pyruvate as a nitrogen source (has also mixed proposed funtions)"
+,COG2370,0.02446201051666525,mixed,,HupE,hydrogenase/ urease accessory protein HupE/UreJ protein,involved in the catabolism of ures to ammonia 
+,COG0367,0.02794426709322701,N,,AsnB,Asparagine synthetase B,
+,COG0082,0.04070946141165656,mixed,0.0005723859758648073,AroC,Chorismate synthase,"aromatic amino acid metabolism, chorismate synthesis"
+,COG2274,0.04184695479783668,mixed,0.002051942462104933,SunT ,ABC-type bacteriocin/lantibiotic exporters,
+,COG1989,0.0447155173743461,mixed,0.009037407128694792,PulO,type II secretory pathway,
+,COG0845,0.04159864509289907,mixed,0.002026251644422314,AcrA,membrane-fusion protein,
+,COG0488,0.04705744628217289,mixed,0.0005189744817331768,Uup,ATPase components of ABC transporters,
+,COG0697,0.02759275977400585,mixed,0.006894608289854677,RhaT,"Carbohydrate transport and metabolism, Amino acid transport and metabolism",
+,COG3839,0.04070946141165656,mixed,0.0005723859758648073,MalK,ABC transporter involved in maltose transport,
+LPS,COG1212,0.0371932587014468,mixed,,kdsB,CMP-KDO synthetase ,essential for the formation of lipidA- lipopolysaccharide biosynthesis
+,COG0477,0.009275863617025574,mixed,0.002433152319752998,prop (including AmpG),"Carbohydrate transport and metabolism, Amino acid transport and metabolism",
+,COG1472,0.04070946141165656,mixed,0.0005723859758648073,BglX,carbohydrate transport and metabolism,
+,COG3754,0.03843019228665294,mixed,0.01564824953973085,RgpF,Lipopolysaccharide biosynthesis protein ,
+,COG0399,0.04806153363624244,N,0.04118576593415091,WecE,sugar aminotransferase ,
+,COG0673,0.02446201051666525,N,,MviM,"poorly charactrized, dehydrogenase- sugar aminotransferase fusion protein",
+Membrane linker,COG0810,0.04070946141165656,mixed,0.0005723859758648073,TonB,links inner and outer membranes,
+Exopolysaccharide,COG3206,0.008562432325307538,N,,GumC,"GumC/Wzc1, integral membrane protein ",involved in the export process during LPS biosynthesis
+,COG1596,0.003688893216584873,N,0.01925519471013777,Wza,"outer membrane channel, ESP are translocated by it ",
+Biofilm/Attachment,COG1462,0.03719325870144682,mixed,,CsgG,CsgG protein,membrane protein required for the secretion of the two curli structural subunits CsgA and CsgB. Overexpression of CsgG is also correlated with pore formation in the outer membrane
+,COG3210,0.02865909292076509,mixed,,FhaB,Large exoprotein involved in heme utilization or adhesion ,domains of adhesins- outermembrnae attachment factors. Prevent premature protein secretion
+Energy production,COG2010,0.04751428401493939,mixed,,CccA,Cytochrome c mono- and diheme variants,related to cellular resperation 
+"Translation, transcription and signal transduction",COG2114,0.03843019228665294,mixed,,AcyC,Adenylate cyclase,"regulation of cAMP concentration within the cells, integrates signals that act through G protein-coupled"
+,COG0454,0.03884480284445573,mixed,,PhnO,Acetyltransferase,unknown function
+RTX toxins,COG2931,0.01204564814178064,mixed,0.003414276163313865,,RTX toxin-related domain,toxin export
+mixeds,COG0412,0.01318191022676883,mixed,,DLH,Dienelactone hydrolase,"influances general regulated metabolicprocesses as well as self defense mechanism (such as cell motility, biofilm formation and so on)"
+,COG4252,0.03843019228665294,mixed,,CHASE2,Extracytoplasmic sensor domain CHASE2 ,"extra cytoplasmic sensor domain CHASE2, present in various bacterial signal transduction pathways, such as: class I histidine kinases, adenylate cyclases, predicted diguanylate cyclases, and serine/threonine kinases"
+,COG2192,0.01108836982812825,N,0.02974212552721959,,carbamoyl transferase,Carbamylation is a non-enzymatic post-translational modification
+,COG2159,0.002302520614961407,N,,LigW,lignin degradation,"catalyze decarboxylation reactions to similar aromatic structures, DNA methylation "
+,COG5651,0.03719325870144682,mixed,,PPE,PPE-repeat proteins,encoding virulence factors and antigens

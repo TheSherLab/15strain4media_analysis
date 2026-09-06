@@ -1,0 +1,623 @@
+cog_number,direction,protein_name,CK_ID,organism_name,locus_tag,gene_name,product,status
+COG0188,N,GyrA,CK_00008107,Prochlorococcus MED4,PMM0005,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MED4,PMM1014,,type II-like restriction endonuclease,resolved
+COG3727,N,Vsr,CK_00011865,Prochlorococcus MED4,,,,not_matched_in_strain
+COG1793,N,CDC9,CK_00001728,Prochlorococcus MED4,PMM0056,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus MED4,PMM0714,arsR,"bacterial regulatory protein, ArsR family",resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MED4,PMM0031,,HNH endonuclease family protein,resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MED4,PMM1403,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus MED4,PMM0122,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus MED4,PMM0260,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus MED4,PMM0017,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus MED4,PMM0482,phb,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus MED4,PMM0658,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus MED4,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus MED4,PMM1123,hupE,hydrogenase/urease accessory protein,resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MED4,,,,not_matched_in_strain
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus MED4,PMM0224,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus MED4,,,,not_matched_in_strain
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus MED4,,,,not_matched_in_strain
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus MED4,PMM0247,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus MED4,PMM0039,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus MED4,PMM0099,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus MED4,,,,not_matched_in_strain
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus MED4,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus MED4,PMM0066,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus MED4,,,,not_matched_in_strain
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus MED4,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus MED4,PMM0284,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus MED4,PMM0273,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus MED4,,,,not_matched_in_strain
+COG3206,N,GumC,CK_00001962,Prochlorococcus MED4,,,,not_matched_in_strain
+COG1596,N,Wza,CK_00048203,Prochlorococcus MED4,PMM1211,kpsD,polysaccharide biosynthesis/export family protein,resolved
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus MED4,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus MED4,PMM1017,,plastid lipid-associated protein (PAP)/fibrillin family,resolved
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus MED4,PMM1057,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus MED4,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus MED4,PMM0333,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus MED4,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus MED4,,,,not_matched_in_strain
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus MED4,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus MED4,PMM1246,,carbamoyltransferase family protein,resolved
+COG2192,N,,CK_00002335,Prochlorococcus MED4,PMM1251,,carbamoyltransferase family protein,resolved
+COG2159,N,LigW,CK_00002647,Prochlorococcus MED4,PMM1162,,conserved hypothetical protein,resolved
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus MED4,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus MIT9312,PMT9312_0005,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MIT9312,PMT9312_1883,,type II-like restriction endonuclease,resolved
+COG3727,N,Vsr,CK_00011865,Prochlorococcus MIT9312,PMT9312_0372,vsr,DNA G:T mismatch repair endonuclease,resolved
+COG1793,N,CDC9,CK_00001728,Prochlorococcus MIT9312,PMT9312_0058,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus MIT9312,PMT9312_0726,arsR,"bacterial regulatory protein, ArsR family",resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MIT9312,PMT9312_0031,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus MIT9312,PMT9312_0125,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus MIT9312,PMT9312_0262,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus MIT9312,PMT9312_0017,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus MIT9312,PMT9312_0483,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus MIT9312,PMT9312_1204,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT9312,PMT9312_1324,asnB2,asparagine synthase (glutamine-hydrolyzing),resolved
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus MIT9312,PMT9312_0226,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus MIT9312,PMT9312_1182,hlyB,ABC multidrug efflux transporter,resolved
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus MIT9312,PMT9312_1186,pilD,leader peptidase (prepilin peptidase) / N-methyltransferase,resolved
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus MIT9312,PMT9312_0249,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus MIT9312,PMT9312_0040,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus MIT9312,PMT9312_0103,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus MIT9312,PMT9312_0068,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus MIT9312,PMT9312_0286,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus MIT9312,PMT9312_0275,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG3206,N,GumC,CK_00001962,Prochlorococcus MIT9312,PMT9312_1355,gumC,capsular exopolysaccharide family domain protein,resolved
+COG1596,N,Wza,CK_00048203,Prochlorococcus MIT9312,PMT9312_1375,kpsD,polysaccharide biosynthesis/export family protein,resolved
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus MIT9312,PMT9312_1068,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus MIT9312,PMT9312_0338,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus MIT9312,PMT9312_1497,,dienelactone hydrolase family protein,resolved
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus MIT9312,PMT9312_0315,,carbamoyltransferase family protein,resolved
+COG2159,N,LigW,CK_00002647,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus MIT9312,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus MIT9313,PMT0005,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG3727,N,Vsr,CK_00011865,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG1793,N,CDC9,CK_00001728,Prochlorococcus MIT9313,PMT1583,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus MIT9313,PMT1001,arsR,"bacterial regulatory protein, ArsR family",resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MIT9313,PMT0036,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus MIT9313,PMT1977,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus MIT9313,PMT1849,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus MIT9313,PMT0022,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus MIT9313,PMT0908,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus MIT9313,PMT1069,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus MIT9313,PMT0232,hupE,hydrogenase/urease accessory protein,resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus MIT9313,PMT1795,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus MIT9313,PMT_0093,,ABC multidrug efflux transporter,resolved
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus MIT9313,PMT0533,pilD,leader peptidase (prepilin peptidase) / N-methyltransferase,resolved
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus MIT9313,PMT1832,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus MIT9313,PMT0046,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus MIT9313,PMT0179,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus MIT9313,PMT1064,,conserved hypothetical protein,resolved
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus MIT9313,PMT1914,kdsB,3-deoxy-D-manno-octulosonate cytidylyltransferase,resolved
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus MIT9313,PMT1035,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus MIT9313,PMT1964,bgl,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",resolved
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus MIT9313,PMT1884,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus MIT9313,PMT1865,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus MIT9313,PMT0627,,conserved hypothetical protein,resolved
+COG3206,N,GumC,CK_00001962,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG1596,N,Wza,CK_00048203,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus MIT9313,PMT0642,,curli production assembly/transport component CsgG family protein,resolved
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus MIT9313,PMT1131,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus MIT9313,PMT0510,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus MIT9313,PMT1031,clcD,dienelactone hydrolase family protein,resolved
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG2159,N,LigW,CK_00002647,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus MIT9313,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus MIT1327,PMIT1327_02596,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG3727,N,Vsr,CK_00011865,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG1793,N,CDC9,CK_00001728,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus MIT1327,PMIT1327_00521,arsR,"bacterial regulatory protein, ArsR family",resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MIT1327,PMIT1327_02628,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus MIT1327,PMIT1327_02233,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus MIT1327,PMIT1327_02101,,conserved hypothetical protein (DUF3181),resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus MIT1327,PMIT1327_02613,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus MIT1327,PMIT1327_00389,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus MIT1327,PMIT1327_01522,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus MIT1327,PMIT1327_01096,hupE,hydrogenase/urease accessory protein,resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus MIT1327,PMIT1327_02037,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus MIT1327,PMIT1327_01953,,ABC multidrug efflux transporter,resolved
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus MIT1327,PMIT1327_01553,pilD,leader peptidase (prepilin peptidase) / N-methyltransferase,resolved
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus MIT1327,PMIT1327_02084,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus MIT1327,PMIT1327_02640,,conserved hypothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus MIT1327,PMIT1327_00292,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus MIT1327,PMIT1327_00423,,conserved hypothetical protein,resolved
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus MIT1327,PMIT1327_02167,kdsB,3-deoxy-D-manno-octulosonate cytidylyltransferase,resolved
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus MIT1327,PMIT1327_00459,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus MIT1327,PMIT1327_02219,ybbD,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",resolved
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus MIT1327,PMIT1327_02135,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus MIT1327,PMIT1327_02117,iolG,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus MIT1327,PMIT1327_01654,,conserved hypothetical protein,resolved
+COG3206,N,GumC,CK_00001962,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG1596,N,Wza,CK_00048203,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus MIT1327,PMIT1327_01673,,curli production assembly/transport component CsgG family protein,resolved
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus MIT1327,PMIT1327_01449,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus MIT1327,PMIT1327_02442,,adenylate cyclase,resolved
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus MIT1327,PMIT1327_01530,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus MIT1327,PMIT1327_00464,clcD,dienelactone hydrolase family protein,resolved
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus MIT1327,PMIT1327_02442,,adenylate cyclase,resolved
+COG2192,N,,CK_00002335,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG2159,N,LigW,CK_00002647,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus MIT1327,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus MIT0604,EW14_0005,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MIT0604,EW14_1139,,type II-like restriction endonuclease,resolved
+COG3727,N,Vsr,CK_00011865,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG1793,N,CDC9,CK_00001728,Prochlorococcus MIT0604,EW14_0075,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus MIT0604,EW14_1291,arsR,"bacterial regulatory protein, ArsR family",resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MIT0604,EW14_0031,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus MIT0604,EW14_0148,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus MIT0604,EW14_0304,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus MIT0604,EW14_0017,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus MIT0604,EW14_0526,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus MIT0604,EW14_1320,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus MIT0604,EW14_1535,hupE,hydrogenase/urease accessory protein,resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT0604,EW14_1471,asnB2,asparagine synthase (glutamine-hydrolyzing),resolved
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus MIT0604,EW14_0268,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus MIT0604,EW14_0292,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus MIT0604,EW14_0050,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus MIT0604,EW14_0123,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus MIT0604,EW14_0085,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus MIT0604,EW14_0328,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus MIT0604,EW14_0317,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG3206,N,GumC,CK_00001962,Prochlorococcus MIT0604,EW14_1486,,capsular exopolysaccharide family domain protein,resolved
+COG1596,N,Wza,CK_00048203,Prochlorococcus MIT0604,EW14_1580,kpsD,polysaccharide biosynthesis/export family protein,resolved
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus MIT0604,EW14_1143,,plastid lipid-associated protein (PAP)/fibrillin family,resolved
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus MIT0604,EW14_1196,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus MIT0604,EW14_0379,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus MIT0604,EW14_0728,,carbamoyltransferase family protein,resolved
+COG2159,N,LigW,CK_00002647,Prochlorococcus MIT0604,EW14_1395,,conserved hypothetical protein,resolved
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus MIT0604,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus NATL2A,PMN2A_1332,PMN2A_RS00035,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG3727,N,Vsr,CK_00011865,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG1793,N,CDC9,CK_00001728,Prochlorococcus NATL2A,PMN2A_1419,PMN2A_RS00480,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus NATL2A,PMN2A_0446,arsR,"bacterial regulatory protein, ArsR family",resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus NATL2A,PMN2A_1358,PMN2A_RS00165,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus NATL2A,PMN2A_1489,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus NATL2A,PMN2A_1625,PMN2A_RS01525,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus NATL2A,PMN2A_1344,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus NATL2A,PMN2A_1815,PMN2A_RS02540,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus NATL2A,PMN2A_0601,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus NATL2A,PMN2A_0621,PMN2A_RS06245,hydrogenase/urease accessory protein,resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus NATL2A,PMN2A_1593,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus NATL2A,PMN2A_1224,PMN2A_RS09395,ABC multidrug efflux transporter,resolved
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus NATL2A,PMN2A_0192,pilD,leader peptidase (prepilin peptidase) / N-methyltransferase,resolved
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus NATL2A,PMN2A_1613,PMN2A_RS01465,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus NATL2A,PMN2A_1371,PMN2A_RS00230,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus NATL2A,PMN2A_1467,PMN2A_RS00725,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus NATL2A,PMN2A_0663,PMN2A_RS06480,conserved hypothetical protein,resolved
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus NATL2A,PMN2A_1429,PMN2A_RS00535,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus NATL2A,PMN2A_1481,PMN2A_RS00800,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",resolved
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus NATL2A,PMN2A_1650,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus NATL2A,PMN2A_1639,PMN2A_RS01595,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus NATL2A,PMN2A_0277,PMN2A_RS04320,conserved hypothetical protein,resolved
+COG3206,N,GumC,CK_00001962,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG1596,N,Wza,CK_00048203,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus NATL2A,PMN2A_0561,PMN2A_RS05895,plastid lipid-associated protein (PAP)/fibrillin family,resolved
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus NATL2A,PMN2A_0695,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus NATL2A,PMN2A_0207,PMN2A_RS03980,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus NATL2A,PMN2A_0622,PMN2A_RS10935,regulator of chromosome condensation (RCC1) repeat family protein,resolved
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG2159,N,LigW,CK_00002647,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus NATL2A,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus MIT9515,P9515_00041,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MIT9515,P9515_11001,,type II-like restriction endonuclease,resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MIT9515,P9515_11011,,type II-like restriction endonuclease,resolved
+COG3727,N,Vsr,CK_00011865,Prochlorococcus MIT9515,P9515_04381,vsr,DNA G:T mismatch repair endonuclease,resolved
+COG1793,N,CDC9,CK_00001728,Prochlorococcus MIT9515,P9515_00651,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MIT9515,P9515_00301,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus MIT9515,P9515_01361,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus MIT9515,P9515_02931,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus MIT9515,P9515_00161,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus MIT9515,P9515_05461,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus MIT9515,P9515_12541,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus MIT9515,P9515_02561,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus MIT9515,P9515_02801,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus MIT9515,P9515_00451,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus MIT9515,P9515_01111,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus MIT9515,P9515_00751,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus MIT9515,P9515_03171,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus MIT9515,P9515_03061,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG3206,N,GumC,CK_00001962,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG1596,N,Wza,CK_00048203,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus MIT9515,P9515_12331,,plastid lipid-associated protein (PAP)/fibrillin family,resolved
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus MIT9515,P9515_03651,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus MIT9515,P9515_17081,,carbamoyltransferase family protein,resolved
+COG2159,N,LigW,CK_00002647,Prochlorococcus MIT9515,P9515_13291,,conserved hypothetical protein,resolved
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus MIT9515,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus MIT9215,P9215_00041,gyrA,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MIT9215,P9215_11351,,type II-like restriction endonuclease,resolved
+COG3727,N,Vsr,CK_00011865,Prochlorococcus MIT9215,P9215_04531,vsr,DNA G:T mismatch repair endonuclease,resolved
+COG1793,N,CDC9,CK_00001728,Prochlorococcus MIT9215,P9215_00681,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MIT9215,P9215_00291,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus MIT9215,P9215_01401,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus MIT9215,P9215_02841,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus MIT9215,P9215_00161,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus MIT9215,P9215_05641,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus MIT9215,P9215_13041,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT9215,P9215_14791,asnB2,asparagine synthase (glutamine-hydrolyzing),resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT9215,P9215_14831,asnB2,asparagine synthase (glutamine-hydrolyzing),resolved
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus MIT9215,P9215_02461,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus MIT9215,P9215_02701,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus MIT9215,P9215_00461,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus MIT9215,P9215_01151,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus MIT9215,P9215_00781,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus MIT9215,P9215_03091,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus MIT9215,P9215_02971,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG3206,N,GumC,CK_00001962,Prochlorococcus MIT9215,P9215_14561,gumC,capsular exopolysaccharide family domain protein,resolved
+COG1596,N,Wza,CK_00048203,Prochlorococcus MIT9215,P9215_15071,kpsD,polysaccharide biosynthesis/export family protein,resolved
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus MIT9215,P9215_11391,,plastid lipid-associated protein (PAP)/fibrillin family,resolved
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus MIT9215,P9215_11921,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus MIT9215,P9215_03581,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus MIT9215,P9215_04261,,carbamoyltransferase family protein,resolved
+COG2192,N,,CK_00002335,Prochlorococcus MIT9215,P9215_17981,,carbamoyltransferase family protein,resolved
+COG2159,N,LigW,CK_00002647,Prochlorococcus MIT9215,P9215_13681,,conserved hypothetical protein,resolved
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus MIT9215,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus AS9601,A9601_00041,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus AS9601,A9601_11061,,type II-like restriction endonuclease,resolved
+COG3727,N,Vsr,CK_00011865,Prochlorococcus AS9601,A9601_04271,vsr,DNA G:T mismatch repair endonuclease,resolved
+COG1793,N,CDC9,CK_00001728,Prochlorococcus AS9601,A9601_00681,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG1403,N,McrA ,CK_00000339,Prochlorococcus AS9601,A9601_00301,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus AS9601,A9601_01401,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus AS9601,A9601_02821,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus AS9601,A9601_00161,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus AS9601,A9601_05381,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus AS9601,A9601_12611,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG0367,N,AsnB,CK_00057301,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus AS9601,A9601_02451,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus AS9601,A9601_14311,,ABC multidrug efflux transporter,resolved
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus AS9601,A9601_02691,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus AS9601,A9601_00391,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus AS9601,A9601_01151,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus AS9601,A9601_00781,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus AS9601,A9601_03071,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus AS9601,A9601_02951,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG3206,N,GumC,CK_00001962,Prochlorococcus AS9601,A9601_14011,gumC,capsular exopolysaccharide family domain protein,resolved
+COG1596,N,Wza,CK_00048203,Prochlorococcus AS9601,A9601_16271,kpsD,polysaccharide biosynthesis/export family protein,resolved
+COG1596,N,Wza,CK_00048203,Prochlorococcus AS9601,A9601_17951,kpsD,polysaccharide biosynthesis/export family protein,resolved
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus AS9601,A9601_11101,,plastid lipid-associated protein (PAP)/fibrillin family,resolved
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus AS9601,A9601_11621,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus AS9601,A9601_03581,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG2159,N,LigW,CK_00002647,Prochlorococcus AS9601,A9601_13391,,conserved hypothetical protein,resolved
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus AS9601,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus PAC1,EV03_1142,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG3727,N,Vsr,CK_00011865,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG1793,N,CDC9,CK_00001728,Prochlorococcus PAC1,EV03_0539,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus PAC1,EV03_0647,arsR,"bacterial regulatory protein, ArsR family",resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus PAC1,EV03_1168,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus PAC1,EV03_0466,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus PAC1,EV03_1242,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus PAC1,EV03_1154,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus PAC1,EV03_1701,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus PAC1,EV03_0122,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus PAC1,EV03_0016,hupE,hydrogenase/urease accessory protein,resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus PAC1,EV03_1209,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus PAC1,EV03_0206,,ABC multidrug efflux transporter,resolved
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus PAC1,EV03_1996,pilD,leader peptidase (prepilin peptidase) / N-methyltransferase,resolved
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus PAC1,EV03_1230,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus PAC1,EV03_1184,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus PAC1,EV03_0489,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus PAC1,EV03_1499,,conserved hypothetical protein,resolved
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus PAC1,EV03_0529,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus PAC1,EV03_0475,bgl,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",resolved
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus PAC1,EV03_0209,,conserved hypothetical protein,resolved
+COG0399,N,WecE,CK_00009007,Prochlorococcus PAC1,EV03_1267,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus PAC1,EV03_1256,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus PAC1,EV03_2086,,conserved hypothetical protein,resolved
+COG3206,N,GumC,CK_00001962,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG1596,N,Wza,CK_00048203,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus PAC1,EV03_0692,,plastid lipid-associated protein (PAP)/fibrillin family,resolved
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus PAC1,EV03_1536,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus PAC1,EV03_2011,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus PAC1,EV03_1652,,dienelactone hydrolase family protein,resolved
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG2159,N,LigW,CK_00002647,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus PAC1,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus MIT9202,P9202_337,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MIT9202,P9202_858,,type II-like restriction endonuclease,resolved
+COG3727,N,Vsr,CK_00011865,Prochlorococcus MIT9202,P9202_1819,vsr,DNA G:T mismatch repair endonuclease,resolved
+COG1793,N,CDC9,CK_00001728,Prochlorococcus MIT9202,P9202_1693,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MIT9202,P9202_1895,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus MIT9202,P9202_973,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus MIT9202,P9202_34,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus MIT9202,P9202_1359,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus MIT9202,P9202_278,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT9202,P9202_1805,asnB2,asparagine synthase (glutamine-hydrolyzing),resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT9202,P9202_553,asnB2,asparagine synthase (glutamine-hydrolyzing),resolved
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus MIT9202,P9202_1892,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus MIT9202,P9202_1634,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus MIT9202,P9202_201,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus MIT9202,P9202_266,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus MIT9202,P9202_184,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus MIT9202,P9202_1474,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus MIT9202,P9202_1497,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG3206,N,GumC,CK_00001962,Prochlorococcus MIT9202,P9202_965,gumC,capsular exopolysaccharide family domain protein,resolved
+COG1596,N,Wza,CK_00048203,Prochlorococcus MIT9202,P9202_1024,kpsD,polysaccharide biosynthesis/export family protein,resolved
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus MIT9202,P9202_1707,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus MIT9202,P9202_552,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus MIT9202,P9202_864,,carbamoyltransferase family protein,resolved
+COG2159,N,LigW,CK_00002647,Prochlorococcus MIT9202,P9202_215,,conserved hypothetical protein,resolved
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus MIT9202,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus SB,EV02_1232,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus SB,EV02_0399,,type II-like restriction endonuclease,resolved
+COG3727,N,Vsr,CK_00011865,Prochlorococcus SB,,,,not_matched_in_strain
+COG1793,N,CDC9,CK_00001728,Prochlorococcus SB,EV02_1172,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus SB,EV02_0833,arsR,"bacterial regulatory protein, ArsR family",resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus SB,EV02_1205,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus SB,EV02_50007,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus SB,EV02_0961,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus SB,EV02_1219,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus SB,EV02_0714,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus SB,EV02_1896,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus SB,EV02_1747,tdh,L-threonine dehydrogenase,resolved
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus SB,EV02_0826,hupE,hydrogenase/urease accessory protein,resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus SB,,,,not_matched_in_strain
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus SB,EV02_0998,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus SB,EV02_1817,,ABC multidrug efflux transporter,resolved
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus SB,,,,not_matched_in_strain
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus SB,EV02_0975,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus SB,EV02_1197,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus SB,EV02_1126,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus SB,,,,not_matched_in_strain
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus SB,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus SB,EV02_1162,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus SB,,,,not_matched_in_strain
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus SB,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus SB,EV02_0937,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus SB,EV02_0948,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus SB,,,,not_matched_in_strain
+COG3206,N,GumC,CK_00001962,Prochlorococcus SB,,,,not_matched_in_strain
+COG1596,N,Wza,CK_00048203,Prochlorococcus SB,,,,not_matched_in_strain
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus SB,EV02_1907,,curli production assembly/transport component CsgG family protein,resolved
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus SB,EV02_0403,,plastid lipid-associated protein (PAP)/fibrillin family,resolved
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus SB,EV02_0464,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus SB,EV02_1825,,adenylate cyclase,resolved
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus SB,EV02_0888,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus SB,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus SB,EV02_1543,,dienelactone hydrolase family protein,resolved
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus SB,EV02_1825,,adenylate cyclase,resolved
+COG2192,N,,CK_00002335,Prochlorococcus SB,,,,not_matched_in_strain
+COG2159,N,LigW,CK_00002647,Prochlorococcus SB,,,,not_matched_in_strain
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus SB,EV02_1828,rhgB,metallopeptidase,resolved
+COG0188,N,GyrA,CK_00008107,Prochlorococcus MIT9301,P9301_00041,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MIT9301,P9301_11051,,type II-like restriction endonuclease,resolved
+COG3727,N,Vsr,CK_00011865,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG1793,N,CDC9,CK_00001728,Prochlorococcus MIT9301,P9301_00671,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus MIT9301,P9301_12351,arsR,"bacterial regulatory protein, ArsR family",resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MIT9301,P9301_00301,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus MIT9301,P9301_01391,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus MIT9301,P9301_02831,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus MIT9301,P9301_00161,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus MIT9301,P9301_05091,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus MIT9301,P9301_12681,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus MIT9301,P9301_12311,hupE,hydrogenase/urease accessory protein,resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus MIT9301,P9301_02461,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus MIT9301,P9301_06881,pilD,leader peptidase (prepilin peptidase) / N-methyltransferase,resolved
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus MIT9301,P9301_02701,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus MIT9301,P9301_00411,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus MIT9301,P9301_01141,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus MIT9301,P9301_14031,kdsB,3-deoxy-D-manno-octulosonate cytidylyltransferase,resolved
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus MIT9301,P9301_00771,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus MIT9301,P9301_03081,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus MIT9301,P9301_02961,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG3206,N,GumC,CK_00001962,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG1596,N,Wza,CK_00048203,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus MIT9301,P9301_11091,,plastid lipid-associated protein (PAP)/fibrillin family,resolved
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus MIT9301,P9301_11631,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus MIT9301,P9301_03591,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus MIT9301,P9301_16031,,dienelactone hydrolase family protein,resolved
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG2159,N,LigW,CK_00002647,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus MIT9301,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG3727,N,Vsr,CK_00011865,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG1793,N,CDC9,CK_00001728,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG1403,N,McrA ,CK_00000339,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0367,N,AsnB,CK_00057301,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0673,N,MviM,CK_00000253,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG3206,N,GumC,CK_00001962,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG1596,N,Wza,CK_00048203,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG2931,mixed,,CK_00042429,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG2159,N,LigW,CK_00002647,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus MIT1314,,,,not_matched_in_strain
+COG0188,N,GyrA,CK_00008107,Prochlorococcus NATL1A,NATL1_00041,,"DNA gyrase/topoisomerase IV, subunit A family protein",resolved
+COG1787,N,"Mrr, RecB and HJR",CK_00003490,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG3727,N,Vsr,CK_00011865,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG1793,N,CDC9,CK_00001728,Prochlorococcus NATL1A,NATL1_01201,,conserved hypothetical protein,resolved
+COG0640,unlabeled,smtB/ArsR ,CK_00001532,Prochlorococcus NATL1A,NATL1_11581,arsR,"bacterial regulatory protein, ArsR family",resolved
+COG1403,N,McrA ,CK_00000339,Prochlorococcus NATL1A,NATL1_00301,,HNH endonuclease family protein,resolved
+COG2214,mixed,CbpA,CK_00000214,Prochlorococcus NATL1A,NATL1_01941,dnaJ4,DnaJ type III chaperone protein,resolved
+COG0443,mixed,DnaK,CK_00000457,Prochlorococcus NATL1A,NATL1_03371,,conserved hypothetical protein,resolved
+COG0484,mixed,DnaJ,CK_00000350,Prochlorococcus NATL1A,NATL1_00161,dnaJ1,DnaJ type I chaperone protein,resolved
+COG0330,mixed,HflC,CK_00041773,Prochlorococcus NATL1A,NATL1_05391,hflC,prohibitin-like protein,resolved
+COG1187,mixed,RsuA,CK_00000762,Prochlorococcus NATL1A,NATL1_14081,rsuA,pseudouridine synthase,resolved
+COG1454,mixed,EutG,CK_00049429,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG2370,mixed,HupE,CK_00000499,Prochlorococcus NATL1A,NATL1_14481,hupE,hydrogenase/urease accessory protein,resolved
+COG0367,N,AsnB,CK_00057301,Prochlorococcus NATL1A,NATL1_08651,asnB2,asparagine synthase (glutamine-hydrolyzing),resolved
+COG0082,mixed,AroC,CK_00000482,Prochlorococcus NATL1A,NATL1_03041,aroC,chorismate synthase,resolved
+COG2274,mixed,SunT ,CK_00056818,Prochlorococcus NATL1A,NATL1_21011,,ABC multidrug efflux transporter,resolved
+COG1989,mixed,PulO,CK_00001720,Prochlorococcus NATL1A,NATL1_08241,pilD,leader peptidase (prepilin peptidase) / N-methyltransferase,resolved
+COG0845,mixed,AcrA,CK_00000467,Prochlorococcus NATL1A,NATL1_03251,sll1424,conserved hypothetical protein (DUF3084),resolved
+COG0488,mixed,Uup,CK_00000335,Prochlorococcus NATL1A,NATL1_00521,,Conserved hypotothetical protein,resolved
+COG0697,mixed,RhaT,CK_00000195,Prochlorococcus NATL1A,NATL1_01701,,uncharacterized membrane protein (DUF3120),resolved
+COG3839,mixed,MalK,CK_00001436,Prochlorococcus NATL1A,NATL1_14951,,conserved hypothetical protein,resolved
+COG1212,mixed,kdsB,CK_00048376,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG0477,mixed,prop (including AmpG),CK_00002121,Prochlorococcus NATL1A,NATL1_01301,,conserved hypothetical protein,resolved
+COG1472,mixed,BglX,CK_00000205,Prochlorococcus NATL1A,NATL1_01861,bgl,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",resolved
+COG3754,mixed,RgpF,CK_00007567,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG0399,N,WecE,CK_00009007,Prochlorococcus NATL1A,NATL1_03641,degT,putative pleiotropic regulatory protein,resolved
+COG0673,N,MviM,CK_00000253,Prochlorococcus NATL1A,NATL1_03531,mviM,NAD(P)-binding oxidoreductase,resolved
+COG0810,mixed,TonB,CK_00001270,Prochlorococcus NATL1A,NATL1_09461,,conserved hypothetical protein,resolved
+COG3206,N,GumC,CK_00001962,Prochlorococcus NATL1A,NATL1_08771,gumC,capsular exopolysaccharide family domain protein,resolved
+COG1596,N,Wza,CK_00048203,Prochlorococcus NATL1A,NATL1_08781,kpsD,polysaccharide biosynthesis/export family protein,resolved
+COG1462,mixed,CsgG,CK_00002347,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG3210,mixed,FhaB,CK_00001608,Prochlorococcus NATL1A,NATL1_13281,,plastid lipid-associated protein (PAP)/fibrillin family,resolved
+COG2010,mixed,CccA,CK_00001007,Prochlorococcus NATL1A,NATL1_15291,cytM,cytochrome cM,resolved
+COG2114,mixed,AcyC,CK_00002384,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG0454,mixed,PhnO,CK_00001405,Prochlorococcus NATL1A,NATL1_08391,rimI,acetyltransferase family protein,resolved
+COG2931,mixed,,CK_00042429,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG0412,mixed,DLH,CK_00001881,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG4252,mixed,CHASE2,CK_00002384,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG2192,N,,CK_00002335,Prochlorococcus NATL1A,,,,not_matched_in_strain
+COG2159,N,LigW,CK_00002647,Prochlorococcus NATL1A,NATL1_08791,,conserved hypothetical protein,resolved
+COG5651,mixed,PPE,CK_00006528,Prochlorococcus NATL1A,,,,not_matched_in_strain

@@ -163,22 +163,50 @@ mapping, not name-based search.** See "COG-to-Cyanorak-ID mapping" above —
 verified complete (41/41 COGs covered) and clean (364 gene rows, zero
 unresolved groups/strains across the 15 study strains) before adopting it.
 
+## Reopened 2026-09-06 (during step 2)
+
+**Original lock:** test both nitrogen and phosphorus starvation (see the
+"Which nutrient(s)" clarifying question above) — the researcher explicitly
+chose "general nutrient/stress sensitivity — test both" before step 2 ran.
+
+**Data reveal:** step 2's evidence check (`2_kg_selection/notebook.md`)
+found the phosphorus side effectively unusable for this gene list. Of the
+32 of 41 COGs with any DE evidence, 32 come from the nitrogen side
+(MED4/MIT9313) and only 1 from phosphorus (MIT9312); NATL2A resolves 26 of
+41 COGs to a locus tag but contributes **zero** evidence — none of those
+26 loci happen to fall inside NATL2A's two in-scope experiments' own
+narrow, pre-filtered gene tables (1.5-2.8% of genome, established in the
+prior analysis). This isn't "these genes don't respond to phosphorus
+starvation" — it's that the phosphorus data source never had the
+opportunity to show a result either way for nearly all of them, because
+its tables only contain genes the *source publication* already flagged as
+interesting, an independent filter from this list's own selection
+criteria.
+
+**Evolved decision:** the researcher chose to drop phosphorus from scope
+entirely and focus the analysis on nitrogen only, rather than report a
+near-empty phosphorus result for completeness. The 5 phosphorus
+experiments (NATL2A x2, MIT9312 x1, MED4 x1, MIT9313 x1) remain documented
+in `2_kg_selection/data/01_np_experiments.csv` and its evidence check as
+the record of what was checked and why it was excluded, but are out of
+scope for steps 3-6.
+
 ## Locked research question
 
 Do the 41 COGs in "Significant NorMixed COGs" (`Dataset 3.xlsx`) — genes
 whose cross-strain copy-number/presence pattern the researcher's
 comparative-genomics work associates with starvation sensitivity, tagged
-`N` (12 genes) or `mixed` (29 genes) — show an in vivo
-differential-expression response under literal nitrogen or phosphorus
+`N` (12 genes), `mixed` (28 genes), or `unlabeled` (1 gene) — show an in
+vivo differential-expression response under literal **nitrogen**
 starvation vs. replete medium, in axenic, uninfected Prochlorococcus
 restricted to the researcher's 15 study strains? Reported for all 41
-pooled and for the `N`/`mixed` subsets separately. Evidence sources:
-RNA-seq, proteomics, and microarray differential expression in the KG,
-using the same 10 in-scope experiments validated in
-`2026-08-10-np_starvation_expression_walkthrough/`. A second question asks
-whether any observed nitrogen-side response is statistically
+pooled and for the `N`/`mixed`/`unlabeled` subsets separately. Evidence
+sources: the 5 nitrogen experiments (RNA-seq, proteomics, microarray)
+validated in `2026-08-10-np_starvation_expression_walkthrough/`. A second
+question asks whether any observed response is statistically
 distinguishable from a background/noise rate (bootstrap + Fisher's exact),
-with these 41 genes excluded from that background population.
+with both this 41-gene list and the prior analysis's 92-gene list excluded
+from that background population.
 
 ## Decide-gate checklist
 
@@ -199,9 +227,10 @@ with these 41 genes excluded from that background population.
   `CK_00002384`) and confirmed it's a genuine domain-fusion gene
   (adenylate cyclase + CHASE2 sensor), not a mapping error.
 - **Decisions made this step:** reuse prior experiment scope rather than
-  re-derive; no matched/cross split (test both nutrients directly); keep
-  all paralogs as separate rows; background exclusion covers both the
-  41-COG list and the prior analysis's 92-gene list; gene resolution uses
+  re-derive; no matched/cross split (test both nutrients directly, later
+  reopened to nitrogen-only — see "Reopened" above); keep all paralogs as
+  separate rows; background exclusion covers both the 41-COG list and the
+  prior analysis's 92-gene list; gene resolution uses
   the supplied CK_ID mapping, not name-based search (all dated 2026-09-06,
   co-defined with researcher).
 - **Advance rationale:** question and scope are locked, including every
