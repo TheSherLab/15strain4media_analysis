@@ -7,13 +7,17 @@ Changes vs the 2026-09-06 version:
   - gene set = the full per-strain COG membership from step 2's rebuilt
     02_gene_locus_resolution.csv (was one Cyanorak ID per COG)
   - phosphorus back in scope (researcher-directed 2026-09-09)
-  - timepoints + Martiny reclassification reused from the walkthrough
-    analysis's final (2026-09-08) state -- Lin at 59h, Martiny at 48h /
-    24h, and the two Martiny genome-wide P microarrays get
-    "gene present in strain but absent from the source table" reclassified
-    from "no data" to "not_significant" (RECLASSIFY_ABSENT_AS_NOT_SIG).
-    NOT applied to Lin (curated operon table) or Fuszard (iTRAQ fixed
-    detected-protein list).
+  - timepoints from the walkthrough analysis's final table -- Lin at 59h,
+    Martiny at 48h / 24h.
+  - "gene present in strain but absent from the source table" reclassified
+    from "no data" to "not_significant" (RECLASSIFY_ABSENT_AS_NOT_SIG) for
+    the two Martiny genome-wide P microarrays AND for the Lin uninfected
+    RNA-seq (2026-09-09, researcher-directed): the KG marks the Lin
+    uninfected experiment `table_scope = significant_only` and it is a
+    genome-wide RNA-seq, so a COG gene measured but not in Lin's reported
+    set was tested and not significant -- same logic as Martiny. This
+    overrides the walkthrough's 2026-09-08 "not applied to Lin" note.
+    Still NOT applied to Fuszard (iTRAQ fixed detected-protein list).
 
 One row per (COG, locus, experiment). A COG resolves to several loci per
 strain; every locus is a row (matches how the copy-number test counted
@@ -52,11 +56,13 @@ STARVATION_TIMEPOINT = {
     "10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray": "24h",  # flagged, see notebook
 }
 
-# Genome-wide microarrays filtered purely on significance: a gene present
-# in the strain but absent from the table was measured and did not pass.
+# Genome-wide assays reported as a significance-filtered gene list
+# (table_scope = filtered_subset / significant_only): a gene present in the
+# strain but absent from the table was measured and did not pass.
 RECLASSIFY_ABSENT_AS_NOT_SIG = {
     "10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray",
     "10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray",
+    "10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected",  # Lin, significant_only (2026-09-09)
 }
 
 

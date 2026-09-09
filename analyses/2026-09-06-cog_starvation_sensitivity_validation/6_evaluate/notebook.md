@@ -51,11 +51,14 @@ to nitrogen starvation *no more than*, and the `mixed` half *less than*, a
 random gene. This is the same conclusion as the 2026-09-06 run (16.2% vs
 19.0%), now on the full COG gene set and robust to every sensitivity cut.
 
-**Phosphorus response — flat.** 5.3% significant (13/246), 8 up / 5 down,
+**Phosphorus response — flat.** 3.8% significant (13/344), 8 up / 5 down,
 descriptive only. `[interpretation]` The candidate list shows no
-phosphorus-starvation response in the one genome-wide phosphorus dataset
-(Martiny); Lin and Fuszard add almost nothing. Consistent with — and
-weaker than — the already-weak nitrogen signal.
+phosphorus-starvation response across the genome-wide phosphorus datasets
+(Martiny microarrays + Lin RNA-seq, both now counted as measured-not-
+significant where table-absent); Fuszard adds almost nothing. Consistent
+with — and weaker than — the already-weak nitrogen signal. (The rate was
+5.3% / 246 tests before the 2026-09-09 Lin reclassification widened the
+tested denominator; the 13 significant calls did not change.)
 
 **What this means for the comparative-genomics finding.**
 `[interpretation]` The 41 COGs were selected because their cross-strain
@@ -103,13 +106,21 @@ background tests, to what step 3 said would count as support.
   gene is tested across experiments/strains. The bootstrap and Fisher's
   test address this at the aggregate for the nitrogen comparison; the
   per-COG fractions are descriptive.
-- **No phosphorus background test is possible** — the phosphorus 5.3% is
+- **No phosphorus background test is possible** — the phosphorus 3.8% is
   descriptive, not a confirmed "below background".
 - **Significance criteria differ by platform** (padj+fold-change vs
   padj-only vs fold-change-only), carried unchanged from the walkthrough;
   the bootstrap/Fisher correct for this for nitrogen only.
 
 ## Decisions
+
+**2026-09-09 (later) — Lin reclassification cascaded from step 5; step-6
+numbers unchanged.** Step 5 added the Lin uninfected P RNA-seq to the
+table-absent reclassification (phosphorus 5.3% → 3.8%). The step-6
+sensitivity checks are nitrogen-only, and nitrogen is untouched by the Lin
+change — `01_sensitivity_checks.py` re-run gives the identical table
+(15.5% / 13.9% / 14.9%, all at or below background). Only the phosphorus
+descriptive rate in the evaluation prose above changed.
 
 **2026-09-09 — Report the copy-number finding and the expression result
 as separate, non-reinforcing lines of evidence.** The expression data do

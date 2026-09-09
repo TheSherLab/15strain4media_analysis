@@ -67,6 +67,26 @@ scope decisions driven by "no evidence" should be revisited when an
 upstream analysis changes how "tested-absent" is classified; the
 `table_scope` semantics are still evolving across analyses.
 
+**2026-09-09 — "table-absent = not significant" extended from Martiny to
+Lin; the walkthrough's own "not applied to Lin" note was over-cautious.**
+The 2026-09-08 walkthrough reopen applied the table-absent
+reclassification to the two Martiny microarrays but explicitly *not* to
+Lin et al. 2015, reasoning that Lin's 34-gene table "is not a
+threshold-defined set". A live `list_experiments` check
+(`publication_doi=10.1111/1462-2920.13104`) shows the in-scope Lin
+uninfected experiment is tagged `table_scope = significant_only` and is
+genome-wide RNA-seq — so a target gene with a NATL2A locus but no Lin row
+was measured and not significant, exactly the Martiny logic. The earlier
+note conflated "few of the 34 listed genes are significant at every
+timepoint" (true, and irrelevant) with "the table isn't significance-
+filtered" (false — the KG tag says it is). Fix: Lin added to
+`RECLASSIFY_ABSENT_AS_NOT_SIG` in both analyses' `01_extract_target_de.py`
+(2026-09-09, researcher-directed). COG phosphorus hit rate 5.3% → 3.8%;
+walkthrough P-matched rate recomputed. Impact: when a prior analysis
+hedges a `table_scope`-driven call, re-check the KG's own `table_scope`
+field before carrying the hedge forward — it is authoritative and the
+hedge may not be.
+
 **2026-09-06 — `differential_expression_by_gene(experiment_ids=[])` is a
 no-op filter, not "match nothing".** While building step 4's driving
 example, iterating per-organism (not per-experiment) produced an empty
@@ -86,3 +106,19 @@ any script that derives `experiment_ids` from a per-organism lookup
 (rather than iterating per-experiment the way the prior analysis's
 extraction scripts do) is at risk of this same silent scope leak — worth
 a standing caution for future analyses' extraction scripts.
+
+**2026-09-09 — A per-group summary cell that reports one `k` and one
+colour hides within-group direction disagreement.** Figure 1 collapses
+each COG's genes in a cell to `k` significant / `n` measured / `m` copies,
+coloured by the majority direction. The researcher asked whether any cell
+mixes up- and down-regulated genes: 11 do (all nitrogen, all MED4;
+`COG0477` alone in 3 experiments, up to 3 up / 6 down). The single colour
+showed only the majority and `k` only the total — a reader could not see
+the split. Fix: those 11 cells are drawn **orange** (a third fill state,
+not the dominant-direction colour) and `k` is written `Nup Mdn`
+(`5_analyze/scripts/05_within_cell_direction_splits.py` enumerates them;
+`03_figures.py` / `04_heatmap_pptx.py` render them). Same shape as the
+earlier "extremum vs rate" fix on this figure — a collapse-to-one-cell
+summary over a heterogeneous group needs to carry enough detail that the
+collapse is visible, not just a point estimate. Numbers unchanged; the
+per-COG sensitivity check already bounds the effect on the headline.

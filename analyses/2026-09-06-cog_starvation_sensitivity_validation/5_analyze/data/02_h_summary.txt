@@ -2,5 +2,5 @@ nitrogen pooled (41): observed 15.5% (68/438); bootstrap null mean 18.3% (max 25
 nitrogen Direction N (13): observed 23.2% (23/99); bootstrap null mean 22.9% (max 39.8%), p = 0.4425; Fisher OR 1.28, p = 3.038e-01
 nitrogen Direction mixed (28): observed 13.3% (45/339); bootstrap null mean 16.8% (max 27.4%), p = 0.9694; Fisher OR 0.65, p = 6.695e-03
 
-phosphorus pooled (descriptive, no background test): 5.3% (13/246), 8 up / 5 down
+phosphorus pooled (descriptive, no background test): 3.8% (13/344), 8 up / 5 down
 background pool overall: 19.1% (1274/6664)

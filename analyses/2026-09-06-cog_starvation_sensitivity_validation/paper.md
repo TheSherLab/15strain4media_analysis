@@ -24,7 +24,8 @@ in the prior `2026-08-10-np_starvation_expression_walkthrough/` analysis.
 only during step 2 (2026-09-06) when raw phosphorus evidence for the 41
 COGs was near-zero; phosphorus restored (2026-09-09) once the walkthrough
 analysis's later Martiny reclassification made a flat phosphorus result
-reportable. See `1_question/notebook.md`.*
+reportable, and later the same day extended to the Lin RNA-seq (same
+`table_scope = significant_only` logic). See `1_question/notebook.md`.*
 
 ## Background
 
@@ -73,20 +74,24 @@ walkthrough analysis (same platforms, same empirically-derived
 padj/log2FC thresholds). One representative starvation timepoint per
 experiment, reused from the walkthrough's final (2026-09-08) table —
 including **Lin at 59h** and Martiny at 48h (MED4) / 24h (MIT9313, flagged
-— no 48h row). The two Martiny genome-wide phosphorus microarrays get the
-walkthrough's reclassification: a COG-gene present in the strain but
-absent from Martiny's q<0.05 table is counted `not_significant`, not "no
-data". Not applied to Lin (curated operon table) or Fuszard (iTRAQ fixed
-detected-protein list).
+— no 48h row). Table-absent reclassification: a COG-gene present in the
+strain but absent from the source table is counted `not_significant`, not
+"no data" — applied to the two Martiny genome-wide phosphorus microarrays
+(q<0.05 filter) and, from 2026-09-09, to the Lin uninfected phosphorus
+RNA-seq (KG `table_scope = significant_only`; RNA-seq measures the whole
+transcriptome, so a table-absent gene was tested and not significant, same
+logic as Martiny). Not applied to Fuszard (iTRAQ fixed detected-protein
+list).
 
 The negative/background pool (`3_analysis_framing`) reuses the walkthrough's
 4 unfiltered nitrogen experiments and single-timepoint rule, excluding
 this analysis's full 41-COG gene set, the walkthrough's 92-gene list (read
 live, so it carries that analysis's 2026-09-08 corrections), and the same
 13 nitrogen-keyword text matches — 6,664 background genes, overall
-significant rate 19.1%. **Nitrogen only:** the phosphorus tables remain
-pre-filtered / detection-limited even after the Martiny reclassification,
-so there is no unbiased phosphorus population to resample.
+significant rate 19.1%. **Nitrogen only:** even with the Martiny and Lin
+reclassifications the phosphorus tables list only significant genes (plus,
+for Martiny/Lin, the reclassified table-absent ones) — there is no
+"tested-and-listed-non-significant" phosphorus population to resample.
 
 `hit_rate()` and `bootstrap_pvalue()` (Fisher's exact alongside) are
 reused unchanged from the walkthrough's `4_methods/np_response.py`,
@@ -115,8 +120,11 @@ exact):
 subset trends above (23.2%) but is squarely inside the bootstrap null; the
 `mixed` subset is significantly *below* background.
 
-**Phosphorus** (descriptive, no background test): **5.3%** significant
-(13/246), 8 up / 5 down — flat.
+**Phosphorus** (descriptive, no background test): **3.8%** significant
+(13/344), 8 up / 5 down — flat. (38 of 41 COGs now have a phosphorus data
+point, mostly `not_significant`, after the Lin RNA-seq table-absent
+reclassification widened coverage from ~150 to 308 loci; the 13
+significant calls are unchanged.)
 
 **Robustness** (`6_evaluate/data/01_sensitivity_summary.txt`): the
 nitrogen headline is stable — 13.9% with the 3 biggest COGs
@@ -125,17 +133,23 @@ each COG collapsed to one value per experiment. Every cut sits at or below
 background.
 
 **Main figure:** `5_analyze/figures/01_gene_experiment_heatmap.png` — 10
-experiments (rows, N block then P block) × 41 COGs (columns), the COGs
-bracketed and labelled by the researcher's "General annotation" functional
-category (Quality control – DNA / Protein level, Amino acid & mixotrophy
-biosynthesis, LPS, Membrane linker, Exopolysaccharide, Biofilm/Attachment,
-Energy production, Translation/transcription/signalling, RTX toxins,
-mixed), with a per-COG N / mixed Direction strip under each bracket; all
-labels black. Coloured cell text is `k / n / m` (always all three) — `k`
-significant / `n` genes measured in that experiment / `m` genome copies in
-that strain; colour = dominant direction, intensity scales with `k/n`;
-walkthrough palette; COGs absent from a strain's genome hatched. An
-editable PowerPoint of the figure is at
+experiments as rows, grouped by a left-side bracket into the nitrogen and
+phosphorus blocks; each row labelled by its Oxford-style citation
+(`First author et al., YEAR - analysis type - strain`). 41 COGs as
+columns, bracketed and labelled by the researcher's "General annotation"
+functional category (Quality control – DNA / Protein level, Amino acid &
+mixotrophy biosynthesis, LPS, Membrane linker, Exopolysaccharide,
+Biofilm/Attachment, Energy production, Translation/transcription/signalling,
+RTX toxins, mixed), with a per-COG N / mixed Direction strip under each
+bracket. Cell text is `k / n / m` (always all three) — `k` significant /
+`n` genes measured in that experiment / `m` genome copies in that strain;
+colour = dominant direction, intensity scales with `k/n`; COGs absent from
+a strain's genome drawn with a single diagonal line. In the 11 cells where
+a COG's own paralogs move in opposite directions (all nitrogen, all MED4 —
+`5_analyze/data/03_within_cell_direction_splits.csv`) the cell is drawn in
+**orange** and `k` is written `Nup Mdn` (e.g. `COG0477` under Weissberg
+RNA-seq reads `3up 6dn / 25/25`) so the single-colour fill doesn't hide the
+disagreement. Arial, no bold. An editable PowerPoint of the figure is at
 `5_analyze/figures/01_gene_experiment_heatmap.pptx`
 (`scripts/04_heatmap_pptx.py`). `[KG]` The field is mostly grey
 (tested, no gene significant); the Weissberg RNA-seq row is the hottest
@@ -158,7 +172,7 @@ Fisher's exact p = 0.067. The `N`-tagged subset trends above background
 (23.2%) but is not statistically distinguishable from a random
 size-matched draw (bootstrap p = 0.44). The `mixed` subset is
 significantly *below* background (Fisher p = 0.0067). Phosphorus is flat
-(5.3%). The result is robust to dropping the largest COGs and to counting
+(3.8%). The result is robust to dropping the largest COGs and to counting
 COGs rather than genes.
 
 `[interpretation]` These COGs are general cellular-maintenance machinery —
@@ -200,10 +214,23 @@ starvation-regulated in these experiments either.
 - A few genes carry 2–3 COG numbers (multi-domain proteins); their
   expression is counted once per COG, matching the copy-number test — a
   small non-independence.
+- In 11 nitrogen cells (all MED4) a COG's paralogs move in opposite
+  directions within one experiment — most often `COG0477` (the MFS
+  permeases: e.g. 3 up / 6 down under Weissberg RNA-seq) and `COG0697`
+  (RhaT). The pooled hit rate counts each significant gene once regardless
+  of direction, so a split COG contributes both an up and a down "hit";
+  this can only push the observed rate up, and it is still below
+  background. The per-COG unit (each COG one call per experiment, ≥50% of
+  its genes significant) lands at 14.9%, also below background — the
+  conclusion does not turn on how within-COG disagreement is counted.
+  Listed in `5_analyze/data/03_within_cell_direction_splits.csv`.
 - Individual (gene × experiment) tests are not independent; the bootstrap
   and Fisher's test address this at the aggregate for nitrogen only.
-- The phosphorus 5.3% is descriptive — no valid phosphorus background
-  exists, so it is not a confirmed "below background".
+- The phosphorus 3.8% is descriptive — no valid phosphorus background
+  exists, so it is not a confirmed "below background". The tested
+  denominator depends on the table-absent reclassification choices
+  (Martiny + Lin counted as measured-not-significant); the 13 significant
+  calls do not.
 - Significance criteria differ by platform (padj + fold-change vs
   padj-only vs fold-change-only), carried unchanged from the walkthrough;
   corrected for by the bootstrap/Fisher for nitrogen only.
