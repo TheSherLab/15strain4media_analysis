@@ -1,0 +1,8 @@
+Nitrogen sensitivity checks (background overall rate 19.1%)
+
+all genes, all 41 COGs (step 5 headline): 68/438 = 15.5%  vs background 19.1%  |  bootstrap p=0.930, Fisher OR=0.78 p=0.067
+
+COGs with >8 genes in a strain (3): ['COG0477', 'COG0697', 'COG0845']
+excluding those 3 big COGs: 37/267 = 13.9%  vs background 19.1%  |  bootstrap p=0.965, Fisher OR=0.68 p=0.031
+
+per-COG unit (COG 'responds' if >=50% of its genes significant in that experiment): 18/121 = 14.9%  (background genes at the same >=50%-of-1 threshold would be ~19%)
