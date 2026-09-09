@@ -97,7 +97,8 @@ def main() -> None:
 
     fig.suptitle("Per-gene upregulation rate: target genes vs. background",
                   x=0.05, y=0.98, ha="left", fontsize=13, fontweight="bold", color=INK)
-    fig.text(0.05, 0.935, "each dot = one gene; black bar = group mean; background = nitrogen only (step 3)",
+    fig.text(0.05, 0.935, "each dot = one gene; matched-nutrient tests only; black bar = group mean; "
+                          "background = nitrogen only (step 3)",
               ha="left", fontsize=9, color=SECONDARY_INK)
 
     fig.tight_layout(rect=[0, 0, 1, 0.91])

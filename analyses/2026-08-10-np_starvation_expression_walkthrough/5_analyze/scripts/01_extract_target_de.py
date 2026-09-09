@@ -11,6 +11,18 @@ For every (gene, experiment) pair, produces exactly one of 4 states:
   - "significant_up" / "significant_down" / "not_significant": from the
     KG's own expression_status at the chosen timepoint.
 
+Martiny reclassification (2026-09-08, researcher-directed): the two
+Martiny et al. 2006 phosphorus microarray experiments have
+`table_scope = filtered_subset` with the filter "genes with q<0.05 at
+t=48h" -- i.e. the source table is filtered purely on significance, and a
+microarray measures ~every gene in the genome. So for these two
+experiments only, a gene that HAS a locus tag in the strain but no DE row
+is reclassified from "no_data_at_timepoint" to "not_significant" -- it was
+measured on the array and did not pass the paper's cutoff. This does NOT
+apply to Fuszard (iTRAQ proteomics -- absence there means the peptide was
+never detected, per the KG's own table_scope semantics) or to Lin, per
+the researcher's decision. `no_locus_in_strain` cells are never touched.
+
 Also tags each (gene, experiment) pair as "matched" (gene's N/P annotation
 equals the experiment's nutrient) or "cross" (it doesn't), for hypotheses
 1 and 2.
@@ -40,11 +52,27 @@ STARVATION_TIMEPOINT = {
     "10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq": "24h",
     "10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray": "12h",
     "10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray": "12h",
-    "10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected": "46h",
+    # 59h (not 46h): both are growth_phase=nutrient_limited, but 59h is the
+    # latest starvation point in the arm that never had phosphate re-added
+    # (the "50h (P added)" / "59h (P added)" timepoints are the recovery arm,
+    # excluded). At 46h only 4 of Lin's 34 genes clear significance; at 59h
+    # it is 18 -- the pho/pst regulon is not fully engaged until 59h. The
+    # earlier choice of 46h rested on a misreading of the two arms
+    # (see 5_analyze/notebook.md, 2026-09-08). Researcher-directed.
+    "10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected": "59h",
     "10.1186/2046-9063-8-7_pi_limitation_mit9312_itraq": None,
     "10.1186/2046-9063-8-7_pi_limitation_natl2a_itraq": None,
     "10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray": "48h",
     "10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray": "24h",  # flagged: see notebook.md
+}
+
+# Experiments where "gene present in strain but absent from the source
+# table" is reclassified as "not_significant" rather than "no data" -- the
+# table is filtered purely on a significance cutoff and the assay is a
+# genome-wide microarray (see module docstring).
+RECLASSIFY_ABSENT_AS_NOT_SIG = {
+    "10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray",
+    "10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray",
 }
 
 
@@ -110,11 +138,16 @@ def main() -> None:
                             "padj": row["padj"], "timepoint": chosen_tp,
                         })
                     else:
+                        absent_status = (
+                            "not_significant"
+                            if exp_id in RECLASSIFY_ABSENT_AS_NOT_SIG
+                            else "no_data_at_timepoint"
+                        )
                         rows.append({
                             "gene_name": gene_name, "n_or_p": n_or_p, "experiment_id": exp_id,
                             "nutrient": exp["nutrient"], "organism_name": organism_full,
                             "match_type": match_type, "locus_tag": locus,
-                            "status": "no_data_at_timepoint", "log2fc": None, "padj": None,
+                            "status": absent_status, "log2fc": None, "padj": None,
                             "timepoint": chosen_tp,
                         })
 

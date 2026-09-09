@@ -1,13 +1,13 @@
 n_iterations: 10000
-mean: 18.78%
-std: 3.78%
-max observed in 10,000 draws: 32.56%
-P1: 10.47%
-P5: 12.79%
-P25: 16.28%
-P50: 18.60%
-P75: 20.93%
-P95: 25.58%
-P99: 27.91%
-P100: 32.56%
+mean: 18.75%
+std: 3.69%
+max observed in 10,000 draws: 34.44%
+P1: 10.00%
+P5: 13.33%
+P25: 16.67%
+P50: 18.89%
+P75: 21.11%
+P95: 24.44%
+P99: 27.78%
+P100: 34.44%
 observed matched-N rate: 41.3% (exceeds every one of the 10,000 draws)

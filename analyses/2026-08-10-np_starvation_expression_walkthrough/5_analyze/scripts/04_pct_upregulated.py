@@ -1,16 +1,18 @@
 """
-Step 5 -- percentage of experiments each gene was found upregulated in.
+Step 5 -- percentage of MATCHED-nutrient experiments each gene was found
+upregulated in.
 
-For every gene: among the experiments where it was actually tested
-(excludes "no data" cells), what fraction came back significant_up?
-Computed against ALL 10 experiments per gene (not split by matched/cross),
-so a gene's percentage reflects its total observed upregulation rate
-across every experiment it had data in, whichever nutrient that
-experiment was.
+For every gene: among the experiments testing its OWN nutrient's
+starvation where it was actually tested (excludes "no data" cells), what
+fraction came back significant_up? Restricted to matched-nutrient tests
+(2026-09-08, see 5_analyze/notebook.md) -- a gene's percentage is its
+response to the starvation it is annotated for, which keeps this figure
+and the strip plot (05) aligned with the matched-nitrogen H3 bootstrap.
+Cross-nutrient behaviour is shown separately in figure 4.
 
 Inputs: data/01_target_gene_experiment_matrix.csv
-Outputs: data/04_pct_upregulated.csv (all 61 genes)
-         figures/02_pct_upregulated.png (genes with >=1 tested experiment)
+Outputs: data/04_pct_upregulated.csv (all target genes)
+         figures/02_pct_upregulated.png (genes with >=1 matched tested experiment)
 
 Usage: uv run analyses/2026-08-10-np_starvation_expression_walkthrough/5_analyze/scripts/04_pct_upregulated.py
 """
@@ -36,7 +38,7 @@ GRID = "#e1e0d9"
 
 def main() -> None:
     matrix = pd.read_csv(DATA_DIR / "01_target_gene_experiment_matrix.csv")
-    tested = matrix[matrix["status"].isin(TESTED_STATUSES)]
+    tested = matrix[matrix["status"].isin(TESTED_STATUSES) & (matrix["match_type"] == "matched")]
 
     summary = tested.groupby(["gene_name", "n_or_p"]).agg(
         n_tested=("status", "size"),
@@ -80,10 +82,10 @@ def main() -> None:
         ax.spines[spine].set_visible(False)
     ax.spines["bottom"].set_color("#c3c2b7")
 
-    fig.suptitle("How often each gene was upregulated, of the experiments it was tested in",
+    fig.suptitle("How often each gene was upregulated under its own nutrient's starvation",
                   x=0.01, y=0.995, ha="left", va="top", fontsize=11.5, fontweight="bold", color=INK)
     fig.text(0.01, 0.995 - 0.28 / fig_height, "blue label = N-annotated gene, red label = P-annotated gene; "
-                            "n = number of experiments the gene was actually tested in",
+                            "n = matched-nutrient experiments the gene was tested in (cross-nutrient tests excluded)",
               ha="left", va="top", fontsize=8, color=SECONDARY_INK)
 
     fig.tight_layout(rect=[0, 0, 1, 1 - 0.55 / fig_height])

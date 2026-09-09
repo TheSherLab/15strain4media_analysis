@@ -9,7 +9,10 @@ Columns: only genes that showed up- or down-regulation in >=1 experiment
 (genes that were never significant anywhere, or never had data anywhere,
 are dropped from this figure -- full 61-gene data stays in
 data/01_target_gene_experiment_matrix.csv).
-Cell color: 4 categories -- up, down, tested-not-significant, no data.
+Cell color: 5 categories -- up, down, tested-not-significant, no data
+(gene present in the strain but not reported in this experiment's table),
+and gene-absent-from-strain (no locus tag in this strain's genome, from
+the step-2 resolution -- drawn as a hatched cell, not a colored one).
 
 Inputs: data/01_target_gene_experiment_matrix.csv
 Outputs: figures/01_gene_experiment_heatmap.png
@@ -23,7 +26,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from matplotlib.colors import ListedColormap
-from matplotlib.patches import Patch
+from matplotlib.patches import Patch, Rectangle
 
 BASE = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE / "data"
@@ -34,6 +37,8 @@ COLOR_UP = "#e34948"       # red -- upregulated
 COLOR_DOWN = "#2a78d6"     # blue -- downregulated
 COLOR_MIXED = "#c3c2b7"    # neutral gray -- tested, not significant
 COLOR_NODATA = "#f4f3ef"   # near-surface, distinct from gray -- no data
+COLOR_ABSENT = "#faf9f5"   # surface -- gene not in strain genome (hatched on top)
+HATCH_INK = "#b7b5ac"      # muted diagonal hatching for absent cells
 INK = "#0b0b0b"
 SECONDARY_INK = "#52514e"
 MUTED = "#898781"
@@ -43,10 +48,12 @@ STATUS_TO_CODE = {
     "significant_up": 0,
     "significant_down": 1,
     "not_significant": 2,
-    "no_locus_in_strain": 3,
     "no_data_at_timepoint": 3,
+    "no_locus_in_strain": 4,
 }
-CMAP = ListedColormap([COLOR_UP, COLOR_DOWN, COLOR_MIXED, COLOR_NODATA])
+# Code 4 (gene absent from strain) is drawn as a hatched overlay, not a fill;
+# its colormap entry is just the surface color so the hatch reads cleanly.
+CMAP = ListedColormap([COLOR_UP, COLOR_DOWN, COLOR_MIXED, COLOR_NODATA, COLOR_ABSENT])
 
 EXPERIMENT_LABELS = {
     "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic": "N: Weissberg -- Proteomics (MED4)",
@@ -93,7 +100,16 @@ def main() -> None:
     fig.patch.set_facecolor(SURFACE)
     ax.set_facecolor(SURFACE)
 
-    ax.imshow(pivot.values, cmap=CMAP, vmin=-0.5, vmax=3.5, aspect="auto")
+    ax.imshow(pivot.values, cmap=CMAP, vmin=-0.5, vmax=4.5, aspect="auto")
+
+    # Gene-absent-from-strain cells (code 4): draw diagonal hatching on top of
+    # the plain surface fill so they read as "not applicable", visually distinct
+    # from the "No data" cells (code 3) where the gene is present but untested.
+    values = pivot.values
+    for (yi, xi), code in np.ndenumerate(values):
+        if code == 4:
+            ax.add_patch(Rectangle((xi - 0.5, yi - 0.5), 1, 1, facecolor="none",
+                                   edgecolor=HATCH_INK, hatch="////", linewidth=0.0))
 
     ax.set_xticks(range(len(gene_order)))
     ax.set_xticklabels(gene_order, rotation=60, ha="left", fontsize=11, fontfamily="monospace")
@@ -130,9 +146,11 @@ def main() -> None:
     legend_elements = [Patch(facecolor=COLOR_UP, label="Upregulated"),
                         Patch(facecolor=COLOR_DOWN, label="Downregulated"),
                         Patch(facecolor=COLOR_MIXED, label="Tested, not significant"),
-                        Patch(facecolor=COLOR_NODATA, edgecolor=MUTED, label="No data")]
+                        Patch(facecolor=COLOR_NODATA, edgecolor=MUTED, label="No data (gene present, not in table)"),
+                        Patch(facecolor="none", edgecolor=HATCH_INK, hatch="////",
+                              label="Gene absent from strain genome")]
     fig.legend(handles=legend_elements, loc="lower center", bbox_to_anchor=(0.5 * (left_frac + right_frac), 0.08),
-               ncol=4, frameon=False, fontsize=11, handlelength=1.4, handleheight=1.4)
+               ncol=5, frameon=False, fontsize=11, handlelength=1.4, handleheight=1.4)
 
     fig.suptitle("Nitrogen- and phosphorus-acquisition gene response to nutrient starvation",
                   x=0.5 * (left_frac + right_frac), y=0.995, ha="center", va="top",
@@ -141,8 +159,10 @@ def main() -> None:
               "genes with a response in >=1 experiment; each experiment at its single chosen starvation timepoint",
               ha="center", va="top", fontsize=10.5, color=SECONDARY_INK)
     fig.text(0.5 * (left_frac + right_frac), 0.20 / fig_height,
-              "* MIT9313 phosphorus (Martiny): significance criterion mismatch flagged -- see notebook.md",
-              ha="center", va="bottom", fontsize=9, color=MUTED, style="italic")
+              "* MIT9313 phosphorus (Martiny): significance-criterion / timepoint mismatch (24h used, not 48h). "
+              "Martiny 'tested, not significant' cells include genes absent from that publication's filtered table. "
+              "See 5_analyze/notebook.md.",
+              ha="center", va="bottom", fontsize=8.5, color=MUTED, style="italic")
 
     fig.subplots_adjust(left=left_frac, right=right_frac, top=top_frac, bottom=bottom_frac)
     out_path = FIG_DIR / "01_gene_experiment_heatmap.png"

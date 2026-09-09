@@ -1,0 +1,15 @@
+======================================================================
+1. Read et al. 2017 MED4 RNA-seq -- ALL timepoints for cynD/pipX/urtD
+======================================================================
+Total rows: 2534, distinct genes: 857, timepoints: ['12h', '24h', '3h']
+  cynD (PMM0372): NOT PRESENT at any timepoint
+  pipX (PMM0393): NOT PRESENT at any timepoint
+  urtD (PMM0973): NOT PRESENT at any timepoint
+
+======================================================================
+2. phoE (PMT_2631, MIT9313) -- Tolonen all timepoints + all MIT9313 experiments
+======================================================================
+Gene record: [{'locus_tag': 'PMT_2631', 'gene_name': 'som', 'product': 'outer membrane porin', 'organism_name': 'Prochlorococcus MIT9313'}]
+Tolonen MIT9313: 13446 rows, 2241 distinct genes, timepoints: ['0h', '12h', '24h', '3h', '48h', '6h']
+Rows for PMT_2631 in Tolonen MIT9313: 0
+Rows for PMT_2631 across ALL MIT9313 experiments in the KG: 0

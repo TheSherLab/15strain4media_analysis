@@ -1,0 +1,6 @@
+experiment,experiment_id,strain,n_rows,distinct_genes,genome_size,pct_genome_covered
+Lin RNA-seq (NATL2A),10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,NATL2A,204,34,2214,1.5
+Fuszard proteomics (MIT9312),10.1186/2046-9063-8-7_pi_limitation_mit9312_itraq,MIT9312,38,38,1978,1.9
+Fuszard proteomics (NATL2A),10.1186/2046-9063-8-7_pi_limitation_natl2a_itraq,NATL2A,63,63,2214,2.8
+Martiny microarray (MED4),10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray,MED4,170,34,1976,1.7
+Martiny microarray (MIT9313),10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,MIT9313,708,177,2948,6.0

@@ -1,0 +1,365 @@
+n_or_p,gene_name,cyanorak_id,organism_name,n_members,member_loci,member_products,ambiguous
+N,amtB/amt1,CK_00000244,Prochlorococcus MED4,1,PMM0263,PMM0263=ammonium transporter,False
+N,amtB/amt1,CK_00000244,Prochlorococcus MIT9312,1,PMT9312_0265,PMT9312_0265=ammonium transporter,False
+N,amtB/amt1,CK_00000244,Prochlorococcus MIT9313,1,PMT1853,PMT1853=ammonium transporter,False
+N,amtB/amt1,CK_00000244,Prochlorococcus NATL2A,1,PMN2A_1629,PMN2A_1629=ammonium transporter,False
+N,amt2,CK_00008701,Prochlorococcus MED4,0,,,False
+N,amt2,CK_00008701,Prochlorococcus MIT9312,0,,,False
+N,amt2,CK_00008701,Prochlorococcus MIT9313,0,,,False
+N,amt2,CK_00008701,Prochlorococcus NATL2A,0,,,False
+N,cynA,CK_00002165,Prochlorococcus MED4,1,PMM0370,"PMM0370=cyanate ABC transporter, substrate-binding protein",False
+N,cynA,CK_00002165,Prochlorococcus MIT9312,0,,,False
+N,cynA,CK_00002165,Prochlorococcus MIT9313,0,,,False
+N,cynA,CK_00002165,Prochlorococcus NATL2A,0,,,False
+N,cynB,CK_00002166,Prochlorococcus MED4,1,PMM0371,"PMM0371=cyanate ABC transporter, permease protein",False
+N,cynB,CK_00002166,Prochlorococcus MIT9312,0,,,False
+N,cynB,CK_00002166,Prochlorococcus MIT9313,0,,,False
+N,cynB,CK_00002166,Prochlorococcus NATL2A,0,,,False
+N,cynD,CK_00000003,Prochlorococcus MED4,1,PMM0372,PMM0372=cyanate ABC transporter ATP-binding protein,False
+N,cynD,CK_00000003,Prochlorococcus MIT9312,0,,,False
+N,cynD,CK_00000003,Prochlorococcus MIT9313,0,,,False
+N,cynD,CK_00000003,Prochlorococcus NATL2A,0,,,False
+N,cynS,CK_00001552,Prochlorococcus MED4,1,PMM0373,PMM0373=cyanate hydratase,False
+N,cynS,CK_00001552,Prochlorococcus MIT9312,0,,,False
+N,cynS,CK_00001552,Prochlorococcus MIT9313,0,,,False
+N,cynS,CK_00001552,Prochlorococcus NATL2A,1,PMN2A_1390,PMN2A_1390=cyanate hydratase,False
+N,cynH,CK_00003051,Prochlorococcus MED4,0,,,False
+N,cynH,CK_00003051,Prochlorococcus MIT9312,0,,,False
+N,cynH,CK_00003051,Prochlorococcus MIT9313,0,,,False
+N,cynH,CK_00003051,Prochlorococcus NATL2A,0,,,False
+N,cynH2,CK_00053828,Prochlorococcus MED4,0,,,False
+N,cynH2,CK_00053828,Prochlorococcus MIT9312,0,,,False
+N,cynH2,CK_00053828,Prochlorococcus MIT9313,0,,,False
+N,cynH2,CK_00053828,Prochlorococcus NATL2A,0,,,False
+N,focA,CK_00001669,Prochlorococcus MED4,0,,,False
+N,focA,CK_00001669,Prochlorococcus MIT9312,0,,,False
+N,focA,CK_00001669,Prochlorococcus MIT9313,1,PMT2240,"PMT2240=nitrite transporter, FNT family",False
+N,focA,CK_00001669,Prochlorococcus NATL2A,1,PMN2A_1299,"PMN2A_1299=nitrite transporter, FNT family",False
+N,moaA,CK_00001678,Prochlorococcus MED4,0,,,False
+N,moaA,CK_00001678,Prochlorococcus MIT9312,0,,,False
+N,moaA,CK_00001678,Prochlorococcus MIT9313,0,,,False
+N,moaA,CK_00001678,Prochlorococcus NATL2A,0,,,False
+N,moaB,CK_00001670,Prochlorococcus MED4,0,,,False
+N,moaB,CK_00001670,Prochlorococcus MIT9312,0,,,False
+N,moaB,CK_00001670,Prochlorococcus MIT9313,0,,,False
+N,moaB,CK_00001670,Prochlorococcus NATL2A,0,,,False
+N,moaC,CK_00001673,Prochlorococcus MED4,0,,,False
+N,moaC,CK_00001673,Prochlorococcus MIT9312,0,,,False
+N,moaC,CK_00001673,Prochlorococcus MIT9313,0,,,False
+N,moaC,CK_00001673,Prochlorococcus NATL2A,0,,,False
+N,moaD,CK_00001749,Prochlorococcus MED4,0,,,False
+N,moaD,CK_00001749,Prochlorococcus MIT9312,0,,,False
+N,moaD,CK_00001749,Prochlorococcus MIT9313,0,,,False
+N,moaD,CK_00001749,Prochlorococcus NATL2A,0,,,False
+N,moaE,CK_00001671,Prochlorococcus MED4,0,,,False
+N,moaE,CK_00001671,Prochlorococcus MIT9312,0,,,False
+N,moaE,CK_00001671,Prochlorococcus MIT9313,0,,,False
+N,moaE,CK_00001671,Prochlorococcus NATL2A,0,,,False
+N,mobA,CK_00001677,Prochlorococcus MED4,0,,,False
+N,mobA,CK_00001677,Prochlorococcus MIT9312,0,,,False
+N,mobA,CK_00001677,Prochlorococcus MIT9313,0,,,False
+N,mobA,CK_00001677,Prochlorococcus NATL2A,0,,,False
+N,moeA,CK_00001672,Prochlorococcus MED4,0,,,False
+N,moeA,CK_00001672,Prochlorococcus MIT9312,0,,,False
+N,moeA,CK_00001672,Prochlorococcus MIT9313,0,,,False
+N,moeA,CK_00001672,Prochlorococcus NATL2A,0,,,False
+N,nadB,CK_00000196,Prochlorococcus MED4,1,PMM0100,PMM0100=L-aspartate oxidase,False
+N,nadB,CK_00000196,Prochlorococcus MIT9312,1,PMT9312_0104,PMT9312_0104=L-aspartate oxidase,False
+N,nadB,CK_00000196,Prochlorococcus MIT9313,1,PMT0177,PMT0177=L-aspartate oxidase,False
+N,nadB,CK_00000196,Prochlorococcus NATL2A,1,PMN2A_1468,PMN2A_1468=L-aspartate oxidase,False
+N,nadB2,CK_00056735,Prochlorococcus MED4,0,,,False
+N,nadB2,CK_00056735,Prochlorococcus MIT9312,1,PMT9312_1354,PMT9312_1354=L-aspartate oxidase,False
+N,nadB2,CK_00056735,Prochlorococcus MIT9313,0,,,False
+N,nadB2,CK_00056735,Prochlorococcus NATL2A,0,,,False
+N,napA/nrtP,CK_00001676,Prochlorococcus MED4,0,,,False
+N,napA/nrtP,CK_00001676,Prochlorococcus MIT9312,0,,,False
+N,napA/nrtP,CK_00001676,Prochlorococcus MIT9313,0,,,False
+N,napA/nrtP,CK_00001676,Prochlorococcus NATL2A,0,,,False
+N,narB,CK_00001675,Prochlorococcus MED4,0,,,False
+N,narB,CK_00001675,Prochlorococcus MIT9312,0,,,False
+N,narB,CK_00001675,Prochlorococcus MIT9313,0,,,False
+N,narB,CK_00001675,Prochlorococcus NATL2A,0,,,False
+N,narX1,CK_00001674,Prochlorococcus MED4,0,,,False
+N,narX1,CK_00001674,Prochlorococcus MIT9312,0,,,False
+N,narX1,CK_00001674,Prochlorococcus MIT9313,0,,,False
+N,narX1,CK_00001674,Prochlorococcus NATL2A,0,,,False
+N,narX2,CK_00001989,Prochlorococcus MED4,0,,,False
+N,narX2,CK_00001989,Prochlorococcus MIT9312,0,,,False
+N,narX2,CK_00001989,Prochlorococcus MIT9313,0,,,False
+N,narX2,CK_00001989,Prochlorococcus NATL2A,0,,,False
+N,nirA,CK_00001355,Prochlorococcus MED4,0,,,False
+N,nirA,CK_00001355,Prochlorococcus MIT9312,0,,,False
+N,nirA,CK_00001355,Prochlorococcus MIT9313,1,PMT2239,PMT2239=ferredoxin--nitrite reductase,False
+N,nirA,CK_00001355,Prochlorococcus NATL2A,1,PMN2A_1298,PMN2A_1298=ferredoxin--nitrite reductase,False
+N,nirX,CK_00001553,Prochlorococcus MED4,0,,,False
+N,nirX,CK_00001553,Prochlorococcus MIT9312,0,,,False
+N,nirX,CK_00001553,Prochlorococcus MIT9313,1,PMT2241,PMT2241=Armadillo-like helical-containing protein,False
+N,nirX,CK_00001553,Prochlorococcus NATL2A,1,PMN2A_1300,PMN2A_1300=Armadillo-like helical-containing protein,False
+N,thiO,CK_00000417,Prochlorococcus MED4,1,PMM0047,PMM0047=glycine oxidase,False
+N,thiO,CK_00000417,Prochlorococcus MIT9312,1,PMT9312_0048,PMT9312_0048=glycine oxidase,False
+N,thiO,CK_00000417,Prochlorococcus MIT9313,1,PMT2140,PMT2140=glycine oxidase,False
+N,thiO,CK_00000417,Prochlorococcus NATL2A,1,PMN2A_1380,PMN2A_1380=glycine oxidase,False
+N,ureA,CK_00001360,Prochlorococcus MED4,1,PMM0965,PMM0965=urease gamma subunit,False
+N,ureA,CK_00001360,Prochlorococcus MIT9312,1,PMT9312_0834,PMT9312_0834=urease gamma subunit,False
+N,ureA,CK_00001360,Prochlorococcus MIT9313,1,PMT2234,PMT2234=urease gamma subunit,False
+N,ureA,CK_00001360,Prochlorococcus NATL2A,1,PMN2A_1053,PMN2A_1053=urease gamma subunit,False
+N,ureB,CK_00001359,Prochlorococcus MED4,1,PMM0964,PMM0964=urease beta subunit,False
+N,ureB,CK_00001359,Prochlorococcus MIT9312,1,PMT9312_0835,PMT9312_0835=urease beta subunit,False
+N,ureB,CK_00001359,Prochlorococcus MIT9313,1,PMT2235,PMT2235=urease beta subunit,False
+N,ureB,CK_00001359,Prochlorococcus NATL2A,1,PMN2A_1054,PMN2A_1054=urease beta subunit,False
+N,ureC,CK_00001358,Prochlorococcus MED4,1,PMM0963,PMM0963=urease alpha subunit,False
+N,ureC,CK_00001358,Prochlorococcus MIT9312,1,PMT9312_0836,PMT9312_0836=urease alpha subunit,False
+N,ureC,CK_00001358,Prochlorococcus MIT9313,1,PMT2236,PMT2236=urease alpha subunit,False
+N,ureC,CK_00001358,Prochlorococcus NATL2A,1,PMN2A_1055,PMN2A_1055=urease alpha subunit,False
+N,ureD,CK_00001361,Prochlorococcus MED4,1,PMM0966,PMM0966=urease accessory protein UreD,False
+N,ureD,CK_00001361,Prochlorococcus MIT9312,1,PMT9312_0833,PMT9312_0833=urease accessory protein UreD,False
+N,ureD,CK_00001361,Prochlorococcus MIT9313,1,PMT2233,PMT2233=urease accessory protein UreD,False
+N,ureD,CK_00001361,Prochlorococcus NATL2A,1,PMN2A_1052,PMN2A_1052=urease accessory protein UreD,False
+N,ureE,CK_00001362,Prochlorococcus MED4,1,PMM0967,PMM0967=urease accessory protein UreE,False
+N,ureE,CK_00001362,Prochlorococcus MIT9312,1,PMT9312_0832,PMT9312_0832=urease accessory protein UreE,False
+N,ureE,CK_00001362,Prochlorococcus MIT9313,1,PMT2232,PMT2232=urease accessory protein UreE,False
+N,ureE,CK_00001362,Prochlorococcus NATL2A,1,PMN2A_1051,PMN2A_1051=urease accessory protein UreE,False
+N,ureF,CK_00001363,Prochlorococcus MED4,1,PMM0968,PMM0968=urease accessory protein UreF,False
+N,ureF,CK_00001363,Prochlorococcus MIT9312,1,PMT9312_0831,PMT9312_0831=urease accessory protein UreF,False
+N,ureF,CK_00001363,Prochlorococcus MIT9313,1,PMT2231,PMT2231=urease accessory protein UreF,False
+N,ureF,CK_00001363,Prochlorococcus NATL2A,1,PMN2A_1050,PMN2A_1050=urease accessory protein UreF,False
+N,ureG,CK_00001364,Prochlorococcus MED4,1,PMM0969,PMM0969=urease accessory protein UreG,False
+N,ureG,CK_00001364,Prochlorococcus MIT9312,1,PMT9312_0830,PMT9312_0830=urease accessory protein UreG,False
+N,ureG,CK_00001364,Prochlorococcus MIT9313,1,PMT2230,PMT2230=urease accessory protein UreG,False
+N,ureG,CK_00001364,Prochlorococcus NATL2A,1,PMN2A_1049,PMN2A_1049=urease accessory protein UreG,False
+N,ntcA,CK_00000468,Prochlorococcus MED4,1,PMM0246,PMM0246=global nitrogen regulatory protein,False
+N,ntcA,CK_00000468,Prochlorococcus MIT9312,1,PMT9312_0248,PMT9312_0248=global nitrogen regulatory protein,False
+N,ntcA,CK_00000468,Prochlorococcus MIT9313,1,PMT1831,PMT1831=global nitrogen regulatory protein,False
+N,ntcA,CK_00000468,Prochlorococcus NATL2A,1,PMN2A_1612,PMN2A_1612=global nitrogen regulatory protein,False
+N,pipX,CK_00001044,Prochlorococcus MED4,1,PMM0393,PMM0393=PII interaction protein X,False
+N,pipX,CK_00001044,Prochlorococcus MIT9312,1,PMT9312_0389,PMT9312_0389=PII interaction protein X,False
+N,pipX,CK_00001044,Prochlorococcus MIT9313,1,PMT0205,PMT0205=PII interaction protein X,False
+N,pipX,CK_00001044,Prochlorococcus NATL2A,1,PMN2A_1728,PMN2A_1728=PII interaction protein X,False
+N,glnA,CK_00000103,Prochlorococcus MED4,1,PMM0920,"PMM0920=glutamine synthetase, type I",False
+N,glnA,CK_00000103,Prochlorococcus MIT9312,1,PMT9312_0880,"PMT9312_0880=glutamine synthetase, type I",False
+N,glnA,CK_00000103,Prochlorococcus MIT9313,1,PMT0601,"PMT0601=glutamine synthetase, type I",False
+N,glnA,CK_00000103,Prochlorococcus NATL2A,1,PMN2A_0141,"PMN2A_0141=glutamine synthetase, type I",False
+N,glsF,CK_00000134,Prochlorococcus MED4,1,PMM1512,PMM1512=ferredoxin-dependent glutamate synthase,False
+N,glsF,CK_00000134,Prochlorococcus MIT9312,1,PMT9312_1604,PMT9312_1604=ferredoxin-dependent glutamate synthase,False
+N,glsF,CK_00000134,Prochlorococcus MIT9313,1,PMT1777,PMT1777=ferredoxin-dependent glutamate synthase,False
+N,glsF,CK_00000134,Prochlorococcus NATL2A,1,PMN2A_1078,PMN2A_1078=ferredoxin-dependent glutamate synthase,False
+N,urtA,CK_00008074,Prochlorococcus MED4,1,PMM0974,"PMM0974=ABC-type urea transporter, ATPase component UrtE",False
+N,urtA,CK_00008074,Prochlorococcus MIT9312,1,PMT9312_0825,"PMT9312_0825=ABC-type urea transporter, ATPase component UrtE",False
+N,urtA,CK_00008074,Prochlorococcus MIT9313,1,PMT2225,"PMT2225=ABC-type urea transporter, ATPase component UrtE",False
+N,urtA,CK_00008074,Prochlorococcus NATL2A,1,PMN2A_1044,"PMN2A_1044=ABC-type urea transporter, ATPase component UrtE",False
+N,urtC,CK_00001366,Prochlorococcus MED4,1,PMM0972,"PMM0972=ABC-type urea transporter, membrane component",False
+N,urtC,CK_00001366,Prochlorococcus MIT9312,1,PMT9312_0827,"PMT9312_0827=ABC-type urea transporter, membrane component",False
+N,urtC,CK_00001366,Prochlorococcus MIT9313,1,PMT2227,"PMT2227=ABC-type urea transporter, membrane component",False
+N,urtC,CK_00001366,Prochlorococcus NATL2A,1,PMN2A_1046,"PMN2A_1046=ABC-type urea transporter, membrane component",False
+N,urtD,CK_00001367,Prochlorococcus MED4,1,PMM0973,"PMM0973=ABC-type urea transporter, ATP-binding component UrtD",False
+N,urtD,CK_00001367,Prochlorococcus MIT9312,1,PMT9312_0826,"PMT9312_0826=ABC-type urea transporter, ATP-binding component UrtD",False
+N,urtD,CK_00001367,Prochlorococcus MIT9313,1,PMT2226,"PMT2226=ABC-type urea transporter, ATP-binding component UrtD",False
+N,urtD,CK_00001367,Prochlorococcus NATL2A,1,PMN2A_1045,"PMN2A_1045=ABC-type urea transporter, ATP-binding component UrtD",False
+N,urtE,CK_00008074,Prochlorococcus MED4,1,PMM0974,"PMM0974=ABC-type urea transporter, ATPase component UrtE",False
+N,urtE,CK_00008074,Prochlorococcus MIT9312,1,PMT9312_0825,"PMT9312_0825=ABC-type urea transporter, ATPase component UrtE",False
+N,urtE,CK_00008074,Prochlorococcus MIT9313,1,PMT2225,"PMT2225=ABC-type urea transporter, ATPase component UrtE",False
+N,urtE,CK_00008074,Prochlorococcus NATL2A,1,PMN2A_1044,"PMN2A_1044=ABC-type urea transporter, ATPase component UrtE",False
+N,gdhA,CK_00003700,Prochlorococcus MED4,0,,,False
+N,gdhA,CK_00003700,Prochlorococcus MIT9312,0,,,False
+N,gdhA,CK_00003700,Prochlorococcus MIT9313,1,PMT0623,PMT0623=glutamate dehydrogenase,False
+N,gdhA,CK_00003700,Prochlorococcus NATL2A,0,,,False
+N,natF,CK_00001489,Prochlorococcus MED4,0,,,False
+N,natF,CK_00001489,Prochlorococcus MIT9312,1,PMT9312_1168,"PMT9312_1168=ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), substrate binding protein",False
+N,natF,CK_00001489,Prochlorococcus MIT9313,1,PMT0897,"PMT0897=ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), substrate binding protein",False
+N,natF,CK_00001489,Prochlorococcus NATL2A,1,PMN2A_0614,"PMN2A_0614=ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), substrate binding protein",False
+N,natG,CK_00001624,Prochlorococcus MED4,0,,,False
+N,natG,CK_00001624,Prochlorococcus MIT9312,1,PMT9312_1167,"PMT9312_1167=ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein",False
+N,natG,CK_00001624,Prochlorococcus MIT9313,1,PMT0896,"PMT0896=ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein",False
+N,natG,CK_00001624,Prochlorococcus NATL2A,1,PMN2A_0613,"PMN2A_0613=ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein",False
+N,natH,CK_00001488,Prochlorococcus MED4,0,,,False
+N,natH,CK_00001488,Prochlorococcus MIT9312,1,PMT9312_1166,"PMT9312_1166=ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein",False
+N,natH,CK_00001488,Prochlorococcus MIT9313,1,PMT0894,"PMT0894=ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein",False
+N,natH,CK_00001488,Prochlorococcus NATL2A,1,PMN2A_0612,"PMN2A_0612=ABC-type uptake transporter for acidic and neutral polar amino acids (N-II), membrane protein",False
+N,speB2,CK_00002247,Prochlorococcus MED4,0,,,False
+N,speB2,CK_00002247,Prochlorococcus MIT9312,0,,,False
+N,speB2,CK_00002247,Prochlorococcus MIT9313,0,,,False
+N,speB2,CK_00002247,Prochlorococcus NATL2A,0,,,False
+N,tauA,CK_00002249,Prochlorococcus MED4,0,,,False
+N,tauA,CK_00002249,Prochlorococcus MIT9312,0,,,False
+N,tauA,CK_00002249,Prochlorococcus MIT9313,0,,,False
+N,tauA,CK_00002249,Prochlorococcus NATL2A,0,,,False
+N,tauB,CK_00008064,Prochlorococcus MED4,0,,,False
+N,tauB,CK_00008064,Prochlorococcus MIT9312,0,,,False
+N,tauB,CK_00008064,Prochlorococcus MIT9313,0,,,False
+N,tauB,CK_00008064,Prochlorococcus NATL2A,0,,,False
+P,phoA,CK_00003430,Prochlorococcus MED4,1,PMM0708,PMM0708=probable alkaline phosphatase,False
+P,phoA,CK_00003430,Prochlorococcus MIT9312,1,PMT9312_0720,PMT9312_0720=probable alkaline phosphatase,False
+P,phoA,CK_00003430,Prochlorococcus MIT9313,0,,,False
+P,phoA,CK_00003430,Prochlorococcus NATL2A,1,PMN2A_0439,PMN2A_0439=probable alkaline phosphatase,False
+P,phoX,CK_00009168,Prochlorococcus MED4,0,,,False
+P,phoX,CK_00009168,Prochlorococcus MIT9312,0,,,False
+P,phoX,CK_00009168,Prochlorococcus MIT9313,0,,,False
+P,phoX,CK_00009168,Prochlorococcus NATL2A,0,,,False
+P,PMM707,CK_00003429,Prochlorococcus MED4,1,PMM0707,PMM0707=uncharacterized conserved secreted protein,False
+P,PMM707,CK_00003429,Prochlorococcus MIT9312,1,PMT9312_0719,PMT9312_0719=uncharacterized conserved secreted protein,False
+P,PMM707,CK_00003429,Prochlorococcus MIT9313,0,,,False
+P,PMM707,CK_00003429,Prochlorococcus NATL2A,1,PMN2A_0438,PMN2A_0438=uncharacterized conserved secreted protein,False
+P,PMM721,CK_00003437,Prochlorococcus MED4,1,PMM0721,PMM0721=possible Myosin N-terminal SH3-like domain,False
+P,PMM721,CK_00003437,Prochlorococcus MIT9312,0,,,False
+P,PMM721,CK_00003437,Prochlorococcus MIT9313,0,,,False
+P,PMM721,CK_00003437,Prochlorococcus NATL2A,0,,,False
+P,acr3/arsB,CK_00001815,Prochlorococcus MED4,1,PMM0716,PMM0716=arsenate efflux pump,False
+P,acr3/arsB,CK_00001815,Prochlorococcus MIT9312,0,,,False
+P,acr3/arsB,CK_00001815,Prochlorococcus MIT9313,0,,,False
+P,acr3/arsB,CK_00001815,Prochlorococcus NATL2A,1,PMN2A_0447,PMN2A_0447=arsenate efflux pump,False
+P,arsR,CK_00001532,Prochlorococcus MED4,1,PMM0714,"PMM0714=bacterial regulatory protein, ArsR family",False
+P,arsR,CK_00001532,Prochlorococcus MIT9312,1,PMT9312_0726,"PMT9312_0726=bacterial regulatory protein, ArsR family",False
+P,arsR,CK_00001532,Prochlorococcus MIT9313,1,PMT1001,"PMT1001=bacterial regulatory protein, ArsR family",False
+P,arsR,CK_00001532,Prochlorococcus NATL2A,1,PMN2A_0446,"PMN2A_0446=bacterial regulatory protein, ArsR family",False
+P,chrA,CK_00002826,Prochlorococcus MED4,1,PMM0711,PMM0711=chromate transporter,False
+P,chrA,CK_00002826,Prochlorococcus MIT9312,1,PMT9312_0723,PMT9312_0723=chromate transporter,False
+P,chrA,CK_00002826,Prochlorococcus MIT9313,0,,,False
+P,chrA,CK_00002826,Prochlorococcus NATL2A,1,PMN2A_0443,PMN2A_0443=chromate transporter,False
+P,gap3,CK_00008093,Prochlorococcus MED4,1,PMM0713,PMM0713=glyceraldehyde-3-phosphate dehydrogenase,False
+P,gap3,CK_00008093,Prochlorococcus MIT9312,1,PMT9312_0725,PMT9312_0725=glyceraldehyde-3-phosphate dehydrogenase,False
+P,gap3,CK_00008093,Prochlorococcus MIT9313,1,PMT1000,PMT1000=glyceraldehyde-3-phosphate dehydrogenase,False
+P,gap3,CK_00008093,Prochlorococcus NATL2A,1,PMN2A_0445,PMN2A_0445=glyceraldehyde-3-phosphate dehydrogenase,False
+P,mfs,CK_00001248,Prochlorococcus MED4,1,PMM0712,"PMM0712=multidrug efflux transporter, MFS family",False
+P,mfs,CK_00001248,Prochlorococcus MIT9312,1,PMT9312_0724,"PMT9312_0724=multidrug efflux transporter, MFS family",False
+P,mfs,CK_00001248,Prochlorococcus MIT9313,1,PMT0999,"PMT0999=multidrug efflux transporter, MFS family",False
+P,mfs,CK_00001248,Prochlorococcus NATL2A,1,PMN2A_0444,"PMN2A_0444=multidrug efflux transporter, MFS family",False
+P,phoB,CK_00008015,Prochlorococcus MED4,1,PMM0705,PMM0705=two-component system response regulator RR class II (RRII)-CheY-OmpR,False
+P,phoB,CK_00008015,Prochlorococcus MIT9312,1,PMT9312_0717,PMT9312_0717=two-component system response regulator RR class II (RRII)-CheY-OmpR,False
+P,phoB,CK_00008015,Prochlorococcus MIT9313,1,PMT0994,PMT0994=two-component system response regulator RR class II (RRII)-CheY-OmpR,False
+P,phoB,CK_00008015,Prochlorococcus NATL2A,1,PMN2A_0436,PMN2A_0436=two-component system response regulator RR class II (RRII)-CheY-OmpR,False
+P,phoE,CK_00002330,Prochlorococcus MED4,3,PMM0709; PMM1119; PMM1121,PMM0709=outer membrane porin | PMM1119=outer membrane porin | PMM1121=outer membrane porin,True
+P,phoE,CK_00002330,Prochlorococcus MIT9312,6,PMT9312_0721; PMT9312_1130; PMT9312_1131; PMT9312_1264; PMT9312_1512; PMT9312_1515,PMT9312_0721=outer membrane porin | PMT9312_1130=outer membrane porin | PMT9312_1131=outer membrane porin | PMT9312_1264=outer membrane porin | PMT9312_1512=outer membrane porin | PMT9312_1515=outer membrane porin,True
+P,phoE,CK_00002330,Prochlorococcus MIT9313,5,PMT0284; PMT0802; PMT0998; PMT1979; PMT_2631,PMT0284=outer membrane porin | PMT0802=outer membrane porin | PMT0998=outer membrane porin | PMT1979=outer membrane porin | PMT_2631=outer membrane porin,True
+P,phoE,CK_00002330,Prochlorococcus NATL2A,5,PMN2A_0440; PMN2A_0777; PMN2A_1028; PMN2A_1057; PMN2A_1757,PMN2A_0440=outer membrane porin | PMN2A_0777=outer membrane porin | PMN2A_1028=outer membrane porin | PMN2A_1057=outer membrane porin | PMN2A_1757=outer membrane porin,True
+P,phoR,CK_00001531,Prochlorococcus MED4,1,PMM0706,"PMM0706=two-component system sensor histidine kinase, phosphate sensing PhoR",False
+P,phoR,CK_00001531,Prochlorococcus MIT9312,1,PMT9312_0718,"PMT9312_0718=two-component system sensor histidine kinase, phosphate sensing PhoR",False
+P,phoR,CK_00001531,Prochlorococcus MIT9313,1,PMT_0997,"PMT_0997=two-component system sensor histidine kinase, phosphate sensing PhoR",False
+P,phoR,CK_00001531,Prochlorococcus NATL2A,1,PMN2A_0437,"PMN2A_0437=two-component system sensor histidine kinase, phosphate sensing PhoR",False
+P,ptrA,CK_00056804,Prochlorococcus MED4,1,PMM0718,"PMM0718=transcriptional regulator, Crp family",False
+P,ptrA,CK_00056804,Prochlorococcus MIT9312,0,,,False
+P,ptrA,CK_00056804,Prochlorococcus MIT9313,0,,,False
+P,ptrA,CK_00056804,Prochlorococcus NATL2A,0,,,False
+P,unkP1,CK_00045417,Prochlorococcus MED4,1,PMM1878,PMM1878=uncharacterized conserved lipoprotein,False
+P,unkP1,CK_00045417,Prochlorococcus MIT9312,1,PMT9312_1857,PMT9312_1857=uncharacterized conserved lipoprotein,False
+P,unkP1,CK_00045417,Prochlorococcus MIT9313,0,,,False
+P,unkP1,CK_00045417,Prochlorococcus NATL2A,1,PMN2A_1997,PMN2A_1997=uncharacterized conserved lipoprotein,False
+P,unkP2,CK_00003432,Prochlorococcus MED4,2,PMM0715; PMM2011,PMM0715=conserved hypothetical protein | PMM2011=conserved hypothetical protein,True
+P,unkP2,CK_00003432,Prochlorococcus MIT9312,0,,,False
+P,unkP2,CK_00003432,Prochlorococcus MIT9313,0,,,False
+P,unkP2,CK_00003432,Prochlorococcus NATL2A,0,,,False
+P,unkP3,CK_00052621,Prochlorococcus MED4,1,PMM0717,PMM0717=conserved hypothetical protein,False
+P,unkP3,CK_00052621,Prochlorococcus MIT9312,0,,,False
+P,unkP3,CK_00052621,Prochlorococcus MIT9313,0,,,False
+P,unkP3,CK_00052621,Prochlorococcus NATL2A,0,,,False
+P,unkP4,CK_00045880,Prochlorococcus MED4,1,PMM1880,PMM1880=conserved hypothetical protein,False
+P,unkP4,CK_00045880,Prochlorococcus MIT9312,0,,,False
+P,unkP4,CK_00045880,Prochlorococcus MIT9313,0,,,False
+P,unkP4,CK_00045880,Prochlorococcus NATL2A,0,,,False
+P,unkP5,CK_00003436,Prochlorococcus MED4,1,PMM0720,PMM0720=conserved hypothetical protein,False
+P,unkP5,CK_00003436,Prochlorococcus MIT9312,1,PMT9312_1520,PMT9312_1520=conserved hypothetical protein,False
+P,unkP5,CK_00003436,Prochlorococcus MIT9313,0,,,False
+P,unkP5,CK_00003436,Prochlorococcus NATL2A,0,,,False
+P,PMM719,CK_00044628,Prochlorococcus MED4,1,PMM0719,PMM0719=conserved hypothetical protein (DUF3764),False
+P,PMM719,CK_00044628,Prochlorococcus MIT9312,0,,,False
+P,PMM719,CK_00044628,Prochlorococcus MIT9313,0,,,False
+P,PMM719,CK_00044628,Prochlorococcus NATL2A,2,PMN2A_0477; PMN2A_0585,PMN2A_0477=conserved hypothetical protein (DUF3764) | PMN2A_0585=conserved hypothetical protein (DUF3764),True
+P,PMM722,CK_00054292,Prochlorococcus MED4,1,PMM0722,PMM0722=conserved hypothetical protein,False
+P,PMM722,CK_00054292,Prochlorococcus MIT9312,0,,,False
+P,PMM722,CK_00054292,Prochlorococcus MIT9313,0,,,False
+P,PMM722,CK_00054292,Prochlorococcus NATL2A,0,,,False
+P,phnD,CK_00000860,Prochlorococcus MED4,1,PMM0673,"PMM0673=phosphonate ABC type transporter, substrate binding component",False
+P,phnD,CK_00000860,Prochlorococcus MIT9312,1,PMT9312_0673,"PMT9312_0673=phosphonate ABC type transporter, substrate binding component",False
+P,phnD,CK_00000860,Prochlorococcus MIT9313,1,PMT0780,"PMT0780=phosphonate ABC type transporter, substrate binding component",False
+P,phnD,CK_00000860,Prochlorococcus NATL2A,1,PMN2A_0105,"PMN2A_0105=phosphonate ABC type transporter, substrate binding component",False
+P,ppA,CK_00000642,Prochlorococcus MED4,1,PMM0494,PMM0494=inorganic pyrophosphatase,False
+P,ppA,CK_00000642,Prochlorococcus MIT9312,1,PMT9312_0495,PMT9312_0495=inorganic pyrophosphatase,False
+P,ppA,CK_00000642,Prochlorococcus MIT9313,1,PMT1275,PMT1275=inorganic pyrophosphatase,False
+P,ppA,CK_00000642,Prochlorococcus NATL2A,1,PMN2A_1827,PMN2A_1827=inorganic pyrophosphatase,False
+P,ppK,CK_00000383,Prochlorococcus MED4,1,PMM1696,PMM1696=polyphosphate kinase,False
+P,ppK,CK_00000383,Prochlorococcus MIT9312,1,PMT9312_1789,PMT9312_1789=polyphosphate kinase,False
+P,ppK,CK_00000383,Prochlorococcus MIT9313,1,PMT2245,PMT2245=polyphosphate kinase,False
+P,ppK,CK_00000383,Prochlorococcus NATL2A,1,PMN2A_1304,PMN2A_1304=polyphosphate kinase,False
+P,ppX,CK_00000620,Prochlorococcus MED4,1,PMM0457,PMM0457=exopolyphosphatase,False
+P,ppX,CK_00000620,Prochlorococcus MIT9312,1,PMT9312_0457,PMT9312_0457=exopolyphosphatase,False
+P,ppX,CK_00000620,Prochlorococcus MIT9313,1,PMT1327,PMT1327=exopolyphosphatase,False
+P,ppX,CK_00000620,Prochlorococcus NATL2A,1,PMN2A_1789,PMN2A_1789=exopolyphosphatase,False
+P,pstA,CK_00000165,Prochlorococcus MED4,1,PMM0724,PMM0724=ABC-type phosphate transport system permease component,False
+P,pstA,CK_00000165,Prochlorococcus MIT9312,1,PMT9312_0728,PMT9312_0728=ABC-type phosphate transport system permease component,False
+P,pstA,CK_00000165,Prochlorococcus MIT9313,1,PMT0701,PMT0701=ABC-type phosphate transport system permease component,False
+P,pstA,CK_00000165,Prochlorococcus NATL2A,1,PMN2A_0310,PMN2A_0310=ABC-type phosphate transport system permease component,False
+P,pstB,CK_00000817,Prochlorococcus MED4,1,PMM0725,PMM0725=ABC-type phosphate transport system ATPase component,False
+P,pstB,CK_00000817,Prochlorococcus MIT9312,1,PMT9312_0729,PMT9312_0729=ABC-type phosphate transport system ATPase component,False
+P,pstB,CK_00000817,Prochlorococcus MIT9313,1,PMT0700,PMT0700=ABC-type phosphate transport system ATPase component,False
+P,pstB,CK_00000817,Prochlorococcus NATL2A,1,PMN2A_0309,PMN2A_0309=ABC-type phosphate transport system ATPase component,False
+P,pstC,CK_00000818,Prochlorococcus MED4,1,PMM0723,PMM0723=ABC-type phosphate transport system permease component,False
+P,pstC,CK_00000818,Prochlorococcus MIT9312,1,PMT9312_0727,PMT9312_0727=ABC-type phosphate transport system permease component,False
+P,pstC,CK_00000818,Prochlorococcus MIT9313,1,PMT0702,PMT0702=ABC-type phosphate transport system permease component,False
+P,pstC,CK_00000818,Prochlorococcus NATL2A,1,PMN2A_0311,PMN2A_0311=ABC-type phosphate transport system permease component,False
+P,pstS,CK_00043821,Prochlorococcus MED4,1,PMM0710,"PMM0710=phosphate ABC transporter, phosphate-binding protein PstS",False
+P,pstS,CK_00043821,Prochlorococcus MIT9312,1,PMT9312_0722,"PMT9312_0722=phosphate ABC transporter, phosphate-binding protein PstS",False
+P,pstS,CK_00043821,Prochlorococcus MIT9313,2,PMT0508; PMT0993,"PMT0508=phosphate ABC transporter, phosphate-binding protein PstS | PMT0993=phosphate ABC transporter, phosphate-binding protein PstS",True
+P,pstS,CK_00043821,Prochlorococcus NATL2A,1,PMN2A_0441,"PMN2A_0441=phosphate ABC transporter, phosphate-binding protein PstS",False
+P,sqdB,CK_00000123,Prochlorococcus MED4,1,PMM1665,PMM1665=UDP-sulfoquinovose synthase,False
+P,sqdB,CK_00000123,Prochlorococcus MIT9312,1,PMT9312_1757,PMT9312_1757=UDP-sulfoquinovose synthase,False
+P,sqdB,CK_00000123,Prochlorococcus MIT9313,1,PMT0050,PMT0050=UDP-sulfoquinovose synthase,False
+P,sqdB,CK_00000123,Prochlorococcus NATL2A,1,PMN2A_1264,PMN2A_1264=UDP-sulfoquinovose synthase,False
+P,phnZ,CK_00007402,Prochlorococcus MED4,0,,,False
+P,phnZ,CK_00007402,Prochlorococcus MIT9312,0,,,False
+P,phnZ,CK_00007402,Prochlorococcus MIT9313,0,,,False
+P,phnZ,CK_00007402,Prochlorococcus NATL2A,0,,,False
+P,phnY,CK_00055307,Prochlorococcus MED4,0,,,False
+P,phnY,CK_00055307,Prochlorococcus MIT9312,0,,,False
+P,phnY,CK_00055307,Prochlorococcus MIT9313,0,,,False
+P,phnY,CK_00055307,Prochlorococcus NATL2A,0,,,False
+P,phnC,CK_00008048,Prochlorococcus MED4,1,PMM0672,"PMM0672=phosphonate ABC type transporter, ATPase component",False
+P,phnC,CK_00008048,Prochlorococcus MIT9312,1,PMT9312_0672,"PMT9312_0672=phosphonate ABC type transporter, ATPase component",False
+P,phnC,CK_00008048,Prochlorococcus MIT9313,1,PMT0781,"PMT0781=phosphonate ABC type transporter, ATPase component",False
+P,phnC,CK_00008048,Prochlorococcus NATL2A,1,PMN2A_0104,"PMN2A_0104=phosphonate ABC type transporter, ATPase component",False
+P,phnE,CK_00000861,Prochlorococcus MED4,1,PMM0671,"PMM0671=phosphate/phosphonate ABC type transporter, permease component",False
+P,phnE,CK_00000861,Prochlorococcus MIT9312,1,PMT9312_0671,"PMT9312_0671=phosphate/phosphonate ABC type transporter, permease component",False
+P,phnE,CK_00000861,Prochlorococcus MIT9313,1,PMT0782,"PMT0782=phosphate/phosphonate ABC type transporter, permease component",False
+P,phnE,CK_00000861,Prochlorococcus NATL2A,1,PMN2A_0103,"PMN2A_0103=phosphate/phosphonate ABC type transporter, permease component",False
+P,ptxA/phnC2,CK_00008062,Prochlorococcus MED4,0,,,False
+P,ptxA/phnC2,CK_00008062,Prochlorococcus MIT9312,0,,,False
+P,ptxA/phnC2,CK_00008062,Prochlorococcus MIT9313,0,,,False
+P,ptxA/phnC2,CK_00008062,Prochlorococcus NATL2A,0,,,False
+P,ptxB/phnD2,CK_00006203,Prochlorococcus MED4,0,,,False
+P,ptxB/phnD2,CK_00006203,Prochlorococcus MIT9312,0,,,False
+P,ptxB/phnD2,CK_00006203,Prochlorococcus MIT9313,0,,,False
+P,ptxB/phnD2,CK_00006203,Prochlorococcus NATL2A,0,,,False
+P,ptxC,CK_00048116,Prochlorococcus MED4,0,,,False
+P,ptxC,CK_00048116,Prochlorococcus MIT9312,0,,,False
+P,ptxC,CK_00048116,Prochlorococcus MIT9313,0,,,False
+P,ptxC,CK_00048116,Prochlorococcus NATL2A,0,,,False
+P,ptxD,CK_00056808,Prochlorococcus MED4,0,,,False
+P,ptxD,CK_00056808,Prochlorococcus MIT9312,0,,,False
+P,ptxD,CK_00056808,Prochlorococcus MIT9313,0,,,False
+P,ptxD,CK_00056808,Prochlorococcus NATL2A,0,,,False
+P,PsiP1,CK_00002662,Prochlorococcus MED4,1,PMM1416,PMM1416=phosphate starvation inducible protein 1,False
+P,PsiP1,CK_00002662,Prochlorococcus MIT9312,0,,,False
+P,PsiP1,CK_00002662,Prochlorococcus MIT9313,0,,,False
+P,PsiP1,CK_00002662,Prochlorococcus NATL2A,0,,,False
+P,phnC3,CK_00056877,Prochlorococcus MED4,0,,,False
+P,phnC3,CK_00056877,Prochlorococcus MIT9312,0,,,False
+P,phnC3,CK_00056877,Prochlorococcus MIT9313,0,,,False
+P,phnC3,CK_00056877,Prochlorococcus NATL2A,0,,,False
+P,phnD3,CK_00056876,Prochlorococcus MED4,0,,,False
+P,phnD3,CK_00056876,Prochlorococcus MIT9312,0,,,False
+P,phnD3,CK_00056876,Prochlorococcus MIT9313,0,,,False
+P,phnD3,CK_00056876,Prochlorococcus NATL2A,0,,,False
+P,phnE2,CK_00056878,Prochlorococcus MED4,0,,,False
+P,phnE2,CK_00056878,Prochlorococcus MIT9312,0,,,False
+P,phnE2,CK_00056878,Prochlorococcus MIT9313,0,,,False
+P,phnE2,CK_00056878,Prochlorococcus NATL2A,0,,,False
+P,phnE3,CK_00056874,Prochlorococcus MED4,0,,,False
+P,phnE3,CK_00056874,Prochlorococcus MIT9312,0,,,False
+P,phnE3,CK_00056874,Prochlorococcus MIT9313,0,,,False
+P,phnE3,CK_00056874,Prochlorococcus NATL2A,0,,,False
+P,(unnamed),CK_00052618,Prochlorococcus MED4,0,,,False
+P,(unnamed),CK_00052618,Prochlorococcus MIT9312,0,,,False
+P,(unnamed),CK_00052618,Prochlorococcus MIT9313,0,,,False
+P,(unnamed),CK_00052618,Prochlorococcus NATL2A,0,,,False
+P,(unnamed),CK_00043747,Prochlorococcus MED4,0,,,False
+P,(unnamed),CK_00043747,Prochlorococcus MIT9312,0,,,False
+P,(unnamed),CK_00043747,Prochlorococcus MIT9313,0,,,False
+P,(unnamed),CK_00043747,Prochlorococcus NATL2A,0,,,False

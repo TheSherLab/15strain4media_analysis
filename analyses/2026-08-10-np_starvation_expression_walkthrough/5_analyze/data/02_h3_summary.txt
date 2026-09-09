@@ -1,5 +1,5 @@
-Observed hit rate (N matched): 41.35%
-Bootstrap null mean: 18.78%, std: 3.78%
-Bootstrap p-value (10,000 iterations, 26.68s): 0.0000
-Fisher's exact: table=[[43, 61], [np.int64(1337), np.int64(5710)]], odds_ratio=3.011, p=2.147e-07
-genes_per_experiment: {'10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic': 20, '10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic': 21, '10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq': 13, '10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray': 21, '10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray': 24}
+Observed hit rate (N matched): 44.23%
+Bootstrap null mean: 18.75%, std: 3.69%
+Bootstrap p-value (10,000 iterations, 18.26s): 0.0000
+Fisher's exact: table=[[46, 58], [np.int64(1337), np.int64(5710)]], odds_ratio=3.387, p=4.983e-09
+genes_per_experiment: {'10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic': 21, '10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic': 22, '10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq': 14, '10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray': 22, '10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray': 25}
