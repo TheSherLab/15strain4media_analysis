@@ -140,6 +140,7 @@ def make_heatmap(matrix, cogs):
         yi, xi = ri[exp], ci[cog]
         st = g["status"].value_counts().to_dict()
         n_tested = sum(st.get(s, 0) for s in TESTED)
+        n_genome = int(g["locus_tag"].notna().sum())  # COG copies in this strain
         if n_tested == 0:
             if st.get("no_data_at_timepoint", 0) > 0:
                 rgba[yi, xi, :3], rgba[yi, xi, 3] = nodata_rgb, 1.0
@@ -157,8 +158,11 @@ def make_heatmap(matrix, cogs):
         # blend from neutral grey (frac~0) to full colour (frac=1)
         col = notsig_rgb + (base - notsig_rgb) * min(1.0, 0.25 + 0.75 * frac)
         rgba[yi, xi, :3], rgba[yi, xi, 3] = col, 1.0
-        if n_tested > 1:
-            frac_txt[(yi, xi)] = f"{n_sig}/{n_tested}"
+        # k / n / m  = significant / measured in this experiment / copies in the
+        # strain genome. Show m only when the experiment covered fewer than all
+        # copies (n < m); otherwise k/n is enough.
+        frac_txt[(yi, xi)] = (f"{n_sig}/{n_tested}/{n_genome}" if n_tested < n_genome
+                              else f"{n_sig}/{n_tested}")
 
     cell = 0.40
     fw = cell * n_cog + 6.5
@@ -173,7 +177,7 @@ def make_heatmap(matrix, cogs):
             ax.add_patch(Rectangle((xi - 0.5, yi - 0.5), 1, 1, facecolor="none",
                                    edgecolor=HATCH_INK, hatch="////", linewidth=0.0))
     for (yi, xi), t in frac_txt.items():
-        ax.text(xi, yi, t, ha="center", va="center", fontsize=5.5, color="#1c1c1c")
+        ax.text(xi, yi, t, ha="center", va="center", fontsize=5.2, color="#1c1c1c")
 
     # per-COG labels at the BOTTOM (protein + COG, coloured by Direction)
     ax.set_xticks(range(n_cog))
@@ -228,13 +232,15 @@ def make_heatmap(matrix, cogs):
                handlelength=1.4, handleheight=1.4, bbox_to_anchor=(0.5, 0.012))
     fig.suptitle("41 candidate starvation-sensitivity COGs vs. nutrient-starvation experiments",
                  x=0.5, y=0.995, ha="center", va="top", fontsize=13, fontweight="bold", color=INK)
-    fig.text(0.5, 0.955,
-             "columns grouped by the researcher's functional category (brackets); COG label colour = Direction "
-             "(blue N, orange mixed).  Cell = share of the COG's tested genes that are significant "
-             "(k/n when >1 gene), colour intensity scales with it.  "
-             "* Martiny MIT9313: 24h (no 48h row); table-absent COGs = not significant.",
-             ha="center", va="top", fontsize=7.5, color=MUTED)
-    fig.subplots_adjust(left=0.155, right=0.985, top=0.80, bottom=0.16)
+    fig.text(0.5, 0.965,
+             "Coloured cell text is  k / n / m :  k significant genes  /  n genes measured in this experiment  /  "
+             "m copies of the COG in that strain's genome.  m is shown only when n < m — i.e. the experiment's\n"
+             "table did not cover every copy (the pre-filtered phosphorus tables often list only 1–2 of a COG's genes).  "
+             "Colour = dominant direction, intensity scales with k/n.  Columns bracketed by the researcher's functional\n"
+             "category; COG label colour = Direction (blue N, orange mixed).  "
+             "* Martiny MIT9313: 24h used (no 48h row); table-absent COGs counted not significant.",
+             ha="center", va="top", fontsize=7.3, color=MUTED, linespacing=1.5)
+    fig.subplots_adjust(left=0.155, right=0.985, top=0.79, bottom=0.16)
     fig.savefig(FIG_DIR / "01_gene_experiment_heatmap.png", dpi=300, facecolor=SURFACE)
     print(f"Wrote figures/01_gene_experiment_heatmap.png  ({n_exp} x {n_cog})")
 

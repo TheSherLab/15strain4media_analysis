@@ -33,11 +33,14 @@ against the step-3 background — **nitrogen only** (pooled + both subsets).
   biosynthesis, LPS, Membrane linker, Exopolysaccharide,
   Biofilm/Attachment, Energy production, Translation/transcription/signal
   transduction, RTX toxins, mixed), with vertical dividers between groups.
-  COG label colour = Direction (blue N, orange mixed). A COG has several
-  genes per strain, so each cell shows the **share of the COG's tested
-  genes that are significant** (`k/n` printed when >1 gene), colour =
-  dominant direction, intensity scaled by the fraction. Walkthrough
-  palette; COGs absent from a strain's genome drawn hatched.
+  COG label colour = Direction (blue N, orange mixed). Coloured cell text
+  is **`k / n / m`** — `k` significant genes / `n` genes measured in that
+  experiment / `m` copies of the COG in that strain's genome; `m` is
+  printed only when `n < m` (the experiment's table did not cover every
+  copy — the pre-filtered phosphorus tables often list only 1–2 of a
+  COG's genes, so `prop` under Lin reads `1/2/28`). Colour = dominant
+  direction, intensity scaled by `k/n`. Walkthrough palette; COGs absent
+  from a strain's genome drawn hatched.
 - `figures/02_pct_significant_vs_background.png` — background line vs. the
   6 hit-rate bars.
 
