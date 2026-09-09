@@ -253,6 +253,45 @@ change; recorded here per the redo path rather than as a silent edit.
 PowerPoint of the figure — `figures/01_gene_experiment_heatmap.pptx`,
 every cell a named rectangle.)
 
+**2026-09-09 — Figure 1 style pass + Lin table-absent reclassification,
+researcher-requested.**
+
+*Figure style.* `scripts/03_heatmap_figure.py` and
+`scripts/07_heatmap_pptx.py`: Arial throughout, no bold, larger fonts; the
+"tested, not significant" grey darkened (`#c3c2b7` → `#a8a69b`); the "no
+data" beige darkened to `#e7e4d8` and every cell given a visible grey
+border, so the three low-signal states are separable;
+`no_locus_in_strain` cells drawn with three diagonal strokes on a
+near-white fill (was the `////` hatch); experiment rows relabelled to the
+Oxford-style citation `First author et al., YEAR - analysis type - strain`
+in black, the `N:` / `P:` prefixes replaced by a left-side
+`Nitrogen starvation` / `Phosphorus starvation` bracket. Same pass applied
+to Figure 1 of the sibling
+`2026-09-06-cog_starvation_sensitivity_validation/` analysis.
+
+*Lin reclassification.* `scripts/01_extract_target_de.py`: the Lin
+uninfected P RNA-seq added to `RECLASSIFY_ABSENT_AS_NOT_SIG`, overriding
+the 2026-09-08 "not applied to Lin" note. A live `list_experiments`
+(`publication_doi=10.1111/1462-2920.13104`) check confirmed the in-scope
+Lin uninfected experiment carries `table_scope = significant_only` and is
+genome-wide RNA-seq — so a target gene with a NATL2A locus but no Lin row
+was tested and not significant, exactly the Martiny logic (see
+`gaps_and_friction.md`). **35 cells** moved from `no_data_at_timepoint` to
+`not_significant` (all in the Lin experiment). No significant call
+changed. Effect on the hypotheses:
+
+| | 2026-09-08 | now |
+|---|---|---|
+| H1 P-matched | 60.6% (40/66) | **52.6% (40/76)** |
+| H2 N-in-P cross | 4.2% (2/48) | **2.7% (2/73)** |
+| H1 N-matched, H2 P-in-N, all positive controls, H3 | unchanged | unchanged |
+
+Re-ran `01`, `02` (hypotheses), `03`–`06` (figures), and step 6's
+`01`/`02` (positive controls, stability) — step 6 is nitrogen-only and its
+data files are byte-identical. Figures 1, 2, 4 regenerated; Figure 3
+(scatter) data unchanged (the reclassified genes were all already at 0%
+up).
+
 **2026-09-08 — Re-extracted the whole matrix after the step-2 gene-identity
 reopen.** Step 2 corrected 6 gene loci (4× `phoE`, `unkP2`, `urtA`; plus
 `ptrA`-NATL2A). `scripts/01_extract_target_de.py` re-run picks up the new

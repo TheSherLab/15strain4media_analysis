@@ -11,17 +11,22 @@ For every (gene, experiment) pair, produces exactly one of 4 states:
   - "significant_up" / "significant_down" / "not_significant": from the
     KG's own expression_status at the chosen timepoint.
 
-Martiny reclassification (2026-09-08, researcher-directed): the two
-Martiny et al. 2006 phosphorus microarray experiments have
-`table_scope = filtered_subset` with the filter "genes with q<0.05 at
-t=48h" -- i.e. the source table is filtered purely on significance, and a
-microarray measures ~every gene in the genome. So for these two
-experiments only, a gene that HAS a locus tag in the strain but no DE row
-is reclassified from "no_data_at_timepoint" to "not_significant" -- it was
-measured on the array and did not pass the paper's cutoff. This does NOT
-apply to Fuszard (iTRAQ proteomics -- absence there means the peptide was
-never detected, per the KG's own table_scope semantics) or to Lin, per
-the researcher's decision. `no_locus_in_strain` cells are never touched.
+Table-absent reclassification (researcher-directed): where a genome-wide
+assay is reported only as a significance-filtered gene list, a gene that
+HAS a locus tag in the strain but no DE row was measured and did not pass
+-- reclassified from "no_data_at_timepoint" to "not_significant". Applied
+to:
+  - the two Martiny et al. 2006 phosphorus microarrays (2026-09-08):
+    `table_scope = filtered_subset`, filter "q<0.05 at t=48h", microarray
+    measures ~every gene.
+  - the Lin et al. 2015 uninfected P-limitation RNA-seq (2026-09-09): the
+    KG marks it `table_scope = significant_only` and RNA-seq measures the
+    whole transcriptome, so a target gene not in Lin's reported set was
+    tested and not significant -- same logic as Martiny. This overrides
+    the earlier "not applied to Lin" note above.
+Still NOT applied to Fuszard (iTRAQ proteomics -- absence there means the
+peptide was never detected, per the KG's own table_scope semantics).
+`no_locus_in_strain` cells are never touched.
 
 Also tags each (gene, experiment) pair as "matched" (gene's N/P annotation
 equals the experiment's nutrient) or "cross" (it doesn't), for hypotheses
@@ -68,11 +73,12 @@ STARVATION_TIMEPOINT = {
 
 # Experiments where "gene present in strain but absent from the source
 # table" is reclassified as "not_significant" rather than "no data" -- the
-# table is filtered purely on a significance cutoff and the assay is a
-# genome-wide microarray (see module docstring).
+# table is a significance-filtered gene list from a genome-wide assay
+# (see module docstring).
 RECLASSIFY_ABSENT_AS_NOT_SIG = {
     "10.1073/pnas.0601301103_phosphorus_phosphate_starvation_med4_microarray",
     "10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray",
+    "10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected",  # Lin, significant_only (2026-09-09)
 }
 
 

@@ -101,16 +101,22 @@ timepoint in the arm that never had phosphate re-added; the same-hour
 34 reported genes are significant, at 59h 18 are — the pho/pst regulon is
 not fully engaged until 59h. See `gaps_and_friction.md`.)
 
-**Martiny table-absent reclassification (2026-09-08).** The 2 Martiny
-phosphorus microarrays have `table_scope = filtered_subset` with a pure
-significance filter (q<0.05 at 48h) on a genome-wide platform. A target
-gene present in the strain's genome but with no row in the Martiny table
-was therefore measured on the array and did not pass — it is counted as
-`not_significant`, not "no data", for those two experiments only. This is
-*not* applied to Fuszard (iTRAQ holds a fixed detected-protein list —
-absence there means the peptide was not detected, verified against the
-live KG) or Lin (a curated operon-level table, not a threshold-defined
-set — several of its 34 genes are significant at no timepoint).
+**Table-absent reclassification.** Where a genome-wide assay is reported
+only as a significance-filtered gene list, a target gene present in the
+strain's genome but with no row in the table was measured and did not pass
+— counted `not_significant`, not "no data". Applied to the 2 Martiny
+phosphorus microarrays (2026-09-08; `table_scope = filtered_subset`,
+q<0.05 at 48h) and, from 2026-09-09, to the Lin uninfected phosphorus
+RNA-seq (`table_scope = significant_only`; RNA-seq measures the whole
+transcriptome — same logic as Martiny, correcting an earlier over-cautious
+"not applied to Lin" call). The Lin extension moved 35 cells from "no
+data" to "not significant" (10 P-acquisition genes and 25 N-acquisition
+genes have a NATL2A locus but sit outside Lin's 34-gene operon table); no
+significant call changed, so it widened denominators only — H1 P-matched
+60.6% → 52.6%, H2 N-in-P 4.2% → 2.7%, everything else unchanged.
+Reclassification is *not* applied to Fuszard (iTRAQ holds a fixed
+detected-protein list — absence there
+means the peptide was not detected, verified against the live KG).
 
 Positive controls: `ntcA`, `glnA`, `amtB/amt1`, `ureA` (nitrogen);
 `pstS`, `phoA`, `phoB`, `phoR` (phosphorus). Negative/background (nitrogen
@@ -137,8 +143,11 @@ known role as nitrogen-starvation markers). See `4_methods/notebook.md`.
 Full timepoint table and rationale: `5_analyze/notebook.md`.
 
 All figures below are 2026-09-08 (gene-identity corrections, Lin at 59h,
-Martiny reclassification). Pre-2026-09-08 values are given in parentheses
-where a number moved.
+Martiny reclassification) with a 2026-09-09 update that added the Lin
+uninfected RNA-seq to the table-absent reclassification (see Methods) —
+this widened the phosphorus tested denominators (no significant call
+changed). Pre-2026-09-08 values are given in parentheses where a number
+moved; 2026-09-08 → 2026-09-09 moves are called out inline.
 
 **Nitrogen (matched, H1):** 29 nitrogen-annotated target genes are
 significant in **44.2%** of (gene x experiment) tests (46/104), **entirely
@@ -154,29 +163,40 @@ only — see Methods): the background's null hit-rate distribution has mean
 nitrogen background pool is unchanged by every 2026-09-08 fix.
 
 **Phosphorus (matched, H1, no noise check per step 3):** 31
-phosphorus-annotated target genes are significant in **60.6%** of tests
-(40/66), mostly upregulated (57.6% up, 3.0% down) (was 75.7%, 26/37 — the
-Martiny reclassification removed an inflated all-significant denominator;
-the `phoE` fix added a canonical responder). The 4 positive controls
-(`pstS`, `phoA`, `phoB`, `phoR`) score **92.9%** significant (13/14; was
-84.6%, 11/13 — `phoA` and `phoR` are significant at Lin 59h but not 46h).
+phosphorus-annotated target genes are significant in **52.6%** of tests
+(40/76), mostly upregulated (50.0% up, 2.6% down). The 40 significant
+calls are the same as at 2026-09-08 (60.6%, 40/66); the 2026-09-09 Lin
+reclassification added 10 tested-not-significant tests to the denominator.
+Pre-2026-09-08 the rate was 75.7% (26/37 — the Martiny reclassification
+removed an inflated all-significant denominator; the `phoE` fix added a
+canonical responder). The 4 positive controls (`pstS`, `phoA`, `phoB`,
+`phoR`) score **92.9%** significant (13/14; was 84.6%, 11/13 — `phoA` and
+`phoR` are significant at Lin 59h but not 46h) — the controls are all in
+Lin's table so the 2026-09-09 change did not touch them.
 
 **Cross-nutrient (H2):** phosphorus-annotated genes tested under nitrogen
 starvation are significant in 20.7% of tests (10 up, 13 down out of 111)
 — no clean directional pattern like the matched result (roughly balanced
 up/down). Nitrogen-annotated genes tested under phosphorus starvation are
-significant in **4.2% of 48 tests (2 of 48, both down)** — was 1 test
-total; the Martiny reclassification makes the microarray's nitrogen-gene
-cross-tests visible, and they are almost all flat.
+significant in **2.7% of 73 tests (2 of 73, both down)** — was 4.2% of 48
+(same 2 significant; the 2026-09-09 Lin reclassification added 25 flat
+cross-tests), and 1 test total before the 2026-09-08 Martiny
+reclassification. The genome-wide phosphorus assays' nitrogen-gene
+cross-tests are almost all flat.
 
 **Main figure:** `5_analyze/figures/01_gene_experiment_heatmap.png` (and
 `.pptx` — an editable version, every cell a named rectangle, from
 `scripts/07_heatmap_pptx.py`) — all 10 experiments (rows, shown
-separately per study, not averaged) x the ~40 of 61 genes with a response
-in >=1 experiment (columns), colored by upregulated / downregulated /
-tested-not-significant / no-data (gene present, not in that experiment's
-table) / gene-absent-from-strain (no locus tag, drawn hatched). `[KG]`
-The hatched cells fall on a consistent set of gene x strain combinations:
+separately per study, not averaged; each labelled by its Oxford-style
+citation `First author et al., YEAR - analysis type - strain`, grouped by
+a left-side `Nitrogen starvation` / `Phosphorus starvation` bracket) x the
+~40 of 61 genes with a response in >=1 experiment (columns), colored by
+upregulated / downregulated / tested-not-significant / no-data (gene
+present, not in that experiment's table) / gene-absent-from-strain (no
+locus tag, drawn with three diagonal strokes on a near-white cell). Arial,
+no bold; every cell has a light grey border so the three low-signal states
+are separable. `[KG]`
+The absent-gene cells fall on a consistent set of gene x strain combinations:
 the cyanate operon (`cynA/B/D/S`) and several hypothetical P-region genes
 (`PMM707/719/721`, `psiP1`, `phoA`, `ptrA`, `unkP5`) have no locus tag in
 MIT9313; `nirA`/`nirX` and `focA` have none in MED4.
@@ -190,8 +210,8 @@ experiments (cross-nutrient tests excluded — 2026-09-08) that came back
 significantly upregulated. 7 nitrogen genes reach 100% under N starvation
 (`ntcA`, `glnA`, `cynA`, `cynD`, `focA`, `nirA`, `nirX` — the last 3 from
 a single test each). Several phosphorus genes reach 100% under P
-starvation, including `phoA`, `phoB`, `phoE`, `pstA`, `pstC`, `gap3` (all
-3/3).
+starvation, including `phoA`, `phoB`, `pstA`, `pstC`, `gap3` (all 3/3) and
+`phoE` (4/4).
 
 **Target-vs-background strip plot:** `5_analyze/figures/03_pct_scatter.png`
 — the same per-gene matched-nutrient percentages plotted as individual
@@ -221,15 +241,16 @@ P-acquisition genes below.
 **Matched response (H1): supported for both nutrients.** Nitrogen-
 annotated genes respond to nitrogen starvation in 44.2% of tests
 (46/104), entirely upregulated (0 downregulated). Phosphorus-annotated
-genes respond to phosphorus starvation in 60.6% of tests (40/66), mostly
-upregulated (57.6% up, 3.0% down). [interpretation] The phosphorus rate
-came down from a pre-2026-09-08 75.7% once the Martiny microarray's
-genome-present-but-table-absent genes were counted as tested-not-
-significant rather than "no data" — 60.6% is measured against a fairer
-denominator. It is still above the nitrogen rate and still not directly
-comparable: the other three phosphorus tables (Lin, Fuszard ×2) remain
-pre-filtered or detection-limited, which is why the noise/bootstrap check
-(H3) stays nitrogen-only. Correcting `phoE`'s locus (it had been pointing
+genes respond to phosphorus starvation in 52.6% of tests (40/76), mostly
+upregulated (50.0% up, 2.6% down). [interpretation] The phosphorus rate
+has stepped down twice, both times because a genome-wide phosphorus assay
+reported only as a significance-filtered list had its table-absent genes
+recounted as tested-not-significant rather than "no data": 75.7%
+(pre-2026-09-08) → 60.6% (Martiny microarrays, 2026-09-08) → 52.6% (Lin
+RNA-seq, 2026-09-09). The **same 40 genes** are significant at each step;
+only the denominator grows. It is still above the nitrogen rate and still
+not directly comparable: the 2 Fuszard tables remain detection-limited,
+which is why the noise/bootstrap check (H3) stays nitrogen-only. Correcting `phoE`'s locus (it had been pointing
 at a non-pho-island porin paralog) added a canonical pho-regulon
 responder that is now significant in every phosphorus experiment testing
 it.
@@ -265,10 +286,11 @@ response, and now demonstrated in both directions.** Phosphorus-annotated
 genes tested under nitrogen starvation are significant in 20.7% of tests
 (10 up, 13 down of 111) — well below the matched-nitrogen rate and, unlike
 the matched result, split roughly evenly up/down. Nitrogen-annotated genes
-tested under phosphorus starvation are significant in **4.2% of 48 tests**
-(2 down of 48) — before the Martiny reclassification this direction had
-only 1 test and could not be interpreted; the microarray's nitrogen-gene
-cross-tests are now visible and almost entirely flat. [interpretation] A
+tested under phosphorus starvation are significant in **2.7% of 73 tests**
+(2 down of 73) — before the 2026-09-08 Martiny reclassification this
+direction had only 1 test and could not be interpreted; Martiny then Lin
+(2026-09-09) made the genome-wide phosphorus assays' nitrogen-gene
+cross-tests visible, and they are almost entirely flat. [interpretation] A
 low rate with no consistent direction in *both* cross directions is what
 a nutrient-specific response predicts and a general-stress response would
 not.
@@ -299,19 +321,23 @@ silent: the original step-2 QC only verified that each ID matched *a*
 group, never that it matched *one gene*.
 
 **Caveats.**
-- The phosphorus matched rate (60.6%) still cannot be tested against a
+- The phosphorus matched rate (52.6%) still cannot be tested against a
   background/noise rate — no unfiltered phosphorus table exists in scope
   (see Methods) — so it should be read as descriptive, not as a
-  statistically confirmed enrichment the way the nitrogen result is.
+  statistically confirmed enrichment the way the nitrogen result is. The
+  rate also depends on the table-absent reclassification choices; the 40
+  significant calls behind it do not.
   `[KG, verified 2026-09-06]` Each of the 5 phosphorus experiments' KG
   table covers only 1.5-6.0% of its strain's genome (Lin RNA-seq 1.5%,
   Fuszard proteomics 1.9%/2.8%, Martiny microarray 1.7%/6.0%), regardless
   of method — versus 76-86% for the nitrogen microarray tables on the same
-  platform type. The Martiny reclassification (2026-09-08) partly
-  addresses this for the 2 Martiny experiments — their table-absent
-  genome-present genes are now counted as tested-not-significant — but
-  Lin and the 2 Fuszard tables remain curated/detection-limited. See
-  `gaps_and_friction.md` (2026-09-06 and 2026-09-08 entries).
+  platform type. The table-absent reclassification (Martiny 2026-09-08,
+  Lin 2026-09-09) counts genome-present table-absent genes as
+  tested-not-significant for those 3 genome-wide experiments (the Lin step
+  added 35 such calls, widening the phosphorus denominators without
+  changing a significant hit); the 2 Fuszard tables remain
+  detection-limited. See `gaps_and_friction.md` (2026-09-06, 2026-09-08,
+  2026-09-09 entries).
 - Significance criteria differ by platform (dual padj+fold-change vs.
   padj-only vs. fold-change-only with no p-value at all — see Methods),
   so raw hit-rate percentages are not fully comparable test-for-test
