@@ -125,11 +125,15 @@ each COG collapsed to one value per experiment. Every cut sits at or below
 background.
 
 **Main figure:** `5_analyze/figures/01_gene_experiment_heatmap.png` — 10
-experiments (rows, N block then P block) × 41 COGs (columns, the
-researcher's functional order; label `[N]`/`[m]` and colour = Direction).
-Each cell = the share of the COG's tested genes that are significant
-(`k/n` shown), coloured by dominant direction, walkthrough palette; COGs
-absent from a strain's genome hatched. `[KG]` The field is mostly grey
+experiments (rows, N block then P block) × 41 COGs (columns), the COGs
+bracketed and labelled by the researcher's "General annotation" functional
+category (Quality control – DNA / Protein level, Amino acid & mixotrophy
+biosynthesis, LPS, Membrane linker, Exopolysaccharide, Biofilm/Attachment,
+Energy production, Translation/transcription/signalling, RTX toxins,
+mixed); COG label colour = Direction. Each cell = the share of the COG's
+tested genes that are significant (`k/n` shown), coloured by dominant
+direction, walkthrough palette; COGs absent from a strain's genome
+hatched. `[KG]` The field is mostly grey
 (tested, no gene significant); the Weissberg RNA-seq row is the hottest
 (that experiment has a high genome-wide baseline, established in the
 walkthrough); the entire phosphorus block is grey/pale.

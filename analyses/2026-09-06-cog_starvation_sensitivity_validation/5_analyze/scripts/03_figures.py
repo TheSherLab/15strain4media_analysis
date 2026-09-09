@@ -80,18 +80,42 @@ def col_label(row) -> str:
     name = row["Protien"]
     name = "" if pd.isna(name) or not str(name).strip() else str(name).strip()
     name = name.split(" (")[0].split(",")[0].strip()  # "prop (including AmpG)" -> "prop"
-    tag = "N" if row["Direction"] == "N" else "m"
-    return f"{name or row['COGs']}  {row['COGs']}  [{tag}]"
+    return f"{name or row['COGs']}  {row['COGs']}"
 
+
+# tidy the researcher's "General annotation" category names for display
+CATEGORY_DISPLAY = {
+    "Quality contol- DNA level": "Quality control\nDNA level",
+    "Quality contol- Protein level": "Quality control\nProtein level",
+    "Amino acid and mixotrophy related biosynthesis": "Amino acid & mixotrophy\nbiosynthesis",
+    "LPS": "LPS",
+    "Membrane linker": "Membrane\nlinker",
+    "Exopolysaccharide": "Exopoly-\nsaccharide",
+    "Biofilm/Attachment": "Biofilm /\nAttachment",
+    "Energy production": "Energy\nproduction",
+    "Translation, transcription and signal transduction": "Translation, transcription\n& signal transduction",
+    "RTX toxins": "RTX\ntoxins",
+    "mixeds": "mixed",
+}
 
 TESTED = {"significant_up", "significant_down", "not_significant"}
 
 
 def make_heatmap(matrix, cogs):
-    order = cogs.sort_values("order")
+    order = cogs.sort_values("order").reset_index(drop=True)
+    order["General annotation"] = order["General annotation"].ffill()
     cog_order = order["COGs"].tolist()
     labels = order.apply(col_label, axis=1).tolist()
     label_colors = [DIR_COLOR[d] for d in order["Direction"]]
+
+    # contiguous spans of one "General annotation" category, in column order
+    groups = []
+    start = 0
+    cats = order["General annotation"].tolist()
+    for i in range(1, len(cats) + 1):
+        if i == len(cats) or cats[i] != cats[start]:
+            groups.append((start, i - 1, cats[start]))
+            start = i
 
     # One cell per (COG, experiment). A COG has several genes per strain, so
     # the cell summarises them: fraction of the COG's TESTED genes that are
@@ -138,7 +162,7 @@ def make_heatmap(matrix, cogs):
 
     cell = 0.40
     fw = cell * n_cog + 6.5
-    fh = cell * n_exp + 5.0
+    fh = cell * n_exp + 6.2
     fig, ax = plt.subplots(figsize=(fw, fh), dpi=300)
     fig.patch.set_facecolor(SURFACE)
     ax.set_facecolor(SURFACE)
@@ -151,11 +175,14 @@ def make_heatmap(matrix, cogs):
     for (yi, xi), t in frac_txt.items():
         ax.text(xi, yi, t, ha="center", va="center", fontsize=5.5, color="#1c1c1c")
 
+    # per-COG labels at the BOTTOM (protein + COG, coloured by Direction)
     ax.set_xticks(range(n_cog))
-    ax.set_xticklabels(labels, rotation=50, ha="left", fontsize=7.5, fontfamily="monospace")
+    ax.set_xticklabels(labels, rotation=50, ha="right", rotation_mode="anchor",
+                       fontsize=7.5, fontfamily="monospace")
     for tick, c in zip(ax.get_xticklabels(), label_colors):
         tick.set_color(c)
-    ax.xaxis.tick_top()
+    ax.xaxis.tick_bottom()
+    ax.xaxis.set_label_position("bottom")
     ax.set_xlim(-0.5, n_cog - 0.5)
     ax.set_yticks(range(n_exp))
     ax.set_yticklabels([EXPERIMENT_LABELS[e] for e in ROW_ORDER], fontsize=10, color=SECONDARY_INK)
@@ -169,6 +196,27 @@ def make_heatmap(matrix, cogs):
     for s in ax.spines.values():
         s.set_visible(False)
 
+    # "General annotation" group brackets + category names, ABOVE the heatmap
+    ax.set_ylim(n_exp - 0.5, -0.5)  # keep data orientation
+    y_bracket = -0.75
+    small_run = 0
+    for a, b, cat in groups:
+        ax.plot([a - 0.42, b + 0.42], [y_bracket, y_bracket], color=INK,
+                linewidth=1.3, clip_on=False, solid_capstyle="butt")
+        for x_end in (a - 0.42, b + 0.42):
+            ax.plot([x_end, x_end], [y_bracket, y_bracket + 0.16], color=INK,
+                    linewidth=1.3, clip_on=False)  # ticks point down toward the heatmap
+        if a > 0:  # vertical divider between groups, through the heatmap
+            ax.axvline(a - 0.5, color=INK, linewidth=1.0, alpha=0.5)
+        # stagger only where consecutive narrow groups would otherwise collide
+        is_small = (b - a) < 3
+        small_run = small_run + 1 if is_small else 0
+        raised = is_small and small_run % 2 == 0
+        y_text = y_bracket - 0.30 - (1.0 if raised else 0.0)
+        ax.text((a + b) / 2, y_text, CATEGORY_DISPLAY.get(cat, cat),
+                ha="center", va="bottom", fontsize=7.2, color=INK,
+                linespacing=0.95, clip_on=False)
+
     legend = [
         Patch(facecolor=COLOR_UP, label="Upregulated (most of COG's genes)"),
         Patch(facecolor=COLOR_DOWN, label="Downregulated"),
@@ -177,15 +225,16 @@ def make_heatmap(matrix, cogs):
         Patch(facecolor="none", edgecolor=HATCH_INK, hatch="////", label="COG absent from strain genome"),
     ]
     fig.legend(handles=legend, loc="lower center", ncol=5, frameon=False, fontsize=9,
-               handlelength=1.4, handleheight=1.4, bbox_to_anchor=(0.5, 0.015))
+               handlelength=1.4, handleheight=1.4, bbox_to_anchor=(0.5, 0.012))
     fig.suptitle("41 candidate starvation-sensitivity COGs vs. nutrient-starvation experiments",
                  x=0.5, y=0.995, ha="center", va="top", fontsize=13, fontweight="bold", color=INK)
-    fig.text(0.5, 0.965,
-             "columns: researcher's functional order  ·  label [N]/[m] + colour = Direction (blue N, orange mixed)  ·  "
-             "cell = share of the COG's tested genes that are significant (k/n when >1 gene), colour intensity scales with it  ·  "
-             "* Martiny MIT9313: 24h (no 48h row); table-absent COGs = not significant",
+    fig.text(0.5, 0.955,
+             "columns grouped by the researcher's functional category (brackets); COG label colour = Direction "
+             "(blue N, orange mixed).  Cell = share of the COG's tested genes that are significant "
+             "(k/n when >1 gene), colour intensity scales with it.  "
+             "* Martiny MIT9313: 24h (no 48h row); table-absent COGs = not significant.",
              ha="center", va="top", fontsize=7.5, color=MUTED)
-    fig.subplots_adjust(left=0.155, right=0.985, top=0.72, bottom=0.11)
+    fig.subplots_adjust(left=0.155, right=0.985, top=0.80, bottom=0.16)
     fig.savefig(FIG_DIR / "01_gene_experiment_heatmap.png", dpi=300, facecolor=SURFACE)
     print(f"Wrote figures/01_gene_experiment_heatmap.png  ({n_exp} x {n_cog})")
 

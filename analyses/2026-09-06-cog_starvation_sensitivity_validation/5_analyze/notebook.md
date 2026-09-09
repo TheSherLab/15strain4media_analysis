@@ -28,11 +28,16 @@ against the step-3 background — **nitrogen only** (pooled + both subsets).
 **Figures** (`scripts/03_figures.py`):
 - `figures/01_gene_experiment_heatmap.png` — experiments as rows (5 N
   block, 5 P block), the 41 COGs as columns in the researcher's functional
-  order, label `[N]`/`[m]` + colour = Direction. A COG has several genes
-  per strain, so each cell shows the **share of the COG's tested genes
-  that are significant** (`k/n` printed when >1 gene), colour = dominant
-  direction, intensity scaled by the fraction. Walkthrough palette; COGs
-  absent from a strain's genome drawn hatched.
+  order, **bracketed and labelled by her "General annotation" category**
+  (Quality control – DNA level / Protein level, Amino acid & mixotrophy
+  biosynthesis, LPS, Membrane linker, Exopolysaccharide,
+  Biofilm/Attachment, Energy production, Translation/transcription/signal
+  transduction, RTX toxins, mixed), with vertical dividers between groups.
+  COG label colour = Direction (blue N, orange mixed). A COG has several
+  genes per strain, so each cell shows the **share of the COG's tested
+  genes that are significant** (`k/n` printed when >1 gene), colour =
+  dominant direction, intensity scaled by the fraction. Walkthrough
+  palette; COGs absent from a strain's genome drawn hatched.
 - `figures/02_pct_significant_vs_background.png` — background line vs. the
   6 hit-rate bars.
 
