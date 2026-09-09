@@ -1,3 +1,6 @@
 # Large intermediate data reproducible from KG
 # (list specific files here, not blanket patterns)
 __pycache__/
+
+# PowerPoint lock/temp files (created while a .pptx is open)
+~$*.pptx
