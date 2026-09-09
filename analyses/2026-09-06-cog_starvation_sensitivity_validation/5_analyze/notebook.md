@@ -33,15 +33,15 @@ against the step-3 background — **nitrogen only** (pooled + both subsets).
   biosynthesis, LPS, Membrane linker, Exopolysaccharide,
   Biofilm/Attachment, Energy production, Translation/transcription/signal
   transduction, RTX toxins, mixed), with vertical dividers between groups.
-  COG label colour = Direction (blue N, orange mixed). Coloured cell text
-  is **`k / n / m`** — `k` significant genes / `n` genes measured in that
-  experiment / `m` copies of the COG in that strain's genome; `m` is
-  printed only when `n < m` (the experiment's table did not cover every
-  copy — the pre-filtered phosphorus tables often list only 1–2 of a
-  COG's genes, so `prop` under Lin reads `1/2/28`). Colour = dominant
-  direction, intensity scaled by `k/n`. Walkthrough palette; COGs absent
-  from a strain's genome drawn hatched. `k/n/m` is always printed with all
-  three numbers (so `n == m`, full coverage, shows the number twice).
+  All COG/protein labels are black; a per-COG **N / mixed Direction strip**
+  sits directly under each category bracket. Coloured cell text is
+  **`k / n / m`** (always all three) — `k` significant genes / `n` genes
+  measured in that experiment / `m` copies of the COG in that strain's
+  genome. `n == m` means the experiment covered every copy (the genome-wide
+  Martiny arrays); `n << m` means it didn't (the pre-filtered phosphorus
+  tables often list only 1–2 of a COG's genes, so `prop` under Lin reads
+  `1/2/28`). Colour = dominant direction, intensity scaled by `k/n`.
+  Walkthrough palette; COGs absent from a strain's genome drawn hatched.
 - `figures/01_gene_experiment_heatmap.pptx` (`scripts/04_heatmap_pptx.py`,
   `uv run --with python-pptx`) — the same heatmap as an editable
   PowerPoint: 410 named cell rectangles + per-cell `k/n/m` text boxes +

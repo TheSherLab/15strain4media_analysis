@@ -130,11 +130,14 @@ bracketed and labelled by the researcher's "General annotation" functional
 category (Quality control – DNA / Protein level, Amino acid & mixotrophy
 biosynthesis, LPS, Membrane linker, Exopolysaccharide, Biofilm/Attachment,
 Energy production, Translation/transcription/signalling, RTX toxins,
-mixed); COG label colour = Direction. Coloured cell text is `k / n / m` —
-`k` significant / `n` genes measured in that experiment / `m` genome
-copies in that strain (`m` shown only when `n < m`); colour = dominant
-direction, intensity scales with `k/n`; walkthrough palette; COGs absent
-from a strain's genome hatched. `[KG]` The field is mostly grey
+mixed), with a per-COG N / mixed Direction strip under each bracket; all
+labels black. Coloured cell text is `k / n / m` (always all three) — `k`
+significant / `n` genes measured in that experiment / `m` genome copies in
+that strain; colour = dominant direction, intensity scales with `k/n`;
+walkthrough palette; COGs absent from a strain's genome hatched. An
+editable PowerPoint of the figure is at
+`5_analyze/figures/01_gene_experiment_heatmap.pptx`
+(`scripts/04_heatmap_pptx.py`). `[KG]` The field is mostly grey
 (tested, no gene significant); the Weissberg RNA-seq row is the hottest
 (that experiment has a high genome-wide baseline, established in the
 walkthrough); the entire phosphorus block is grey/pale.

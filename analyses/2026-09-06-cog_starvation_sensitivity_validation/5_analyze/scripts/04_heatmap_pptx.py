@@ -79,10 +79,10 @@ EXPERIMENT_LABELS = {
 }
 ROW_ORDER = list(EXPERIMENT_LABELS)
 
-SLIDE_W, SLIDE_H = 22.0, 9.0
+SLIDE_W, SLIDE_H = 22.0, 9.2
 LEFT_LABELS = 3.4
 GRID_LEFT = LEFT_LABELS + 0.1
-GRID_TOP = 2.6
+GRID_TOP = 2.85
 CELL_H = 0.42
 
 
@@ -181,27 +181,32 @@ def main() -> None:
           16, bold=True, align=PP_ALIGN.CENTER)
     _text(slide, 0.4, 0.46, SLIDE_W - 0.8, 0.44,
           "cell text k / n / m = significant / measured in this experiment / copies in that strain's genome  ·  "
-          "fill = dominant direction, blended toward grey by k/n  ·  columns grouped by functional category  ·  "
-          "* Martiny MIT9313 at 24h (no 48h row); table-absent COGs = not significant",
+          "fill = dominant direction, blended toward grey by k/n  ·  columns grouped by functional category, "
+          "N / mixed strip = that COG's Direction tag  ·  * Martiny MIT9313 at 24h (no 48h row); table-absent COGs = not significant",
           9, color=MUTED, align=PP_ALIGN.CENTER)
 
-    # group brackets + category labels
+    # group brackets + category labels, with a per-COG Direction strip beneath
     for a, b, cat in groups:
         x0 = GRID_LEFT + a * cw
         x1 = GRID_LEFT + (b + 1) * cw
-        bar = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(x0 + 0.03), Inches(GRID_TOP - 0.30),
+        bar = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(x0 + 0.03), Inches(GRID_TOP - 0.52),
                                      Inches(x1 - x0 - 0.06), Inches(0.022))
         bar.fill.solid(); bar.fill.fore_color.rgb = INK
         bar.line.fill.background(); bar.shadow.inherit = False
-        _text(slide, x0 - 0.4, GRID_TOP - 0.86, (x1 - x0) + 0.8, 0.5,
+        _text(slide, x0 - 0.4, GRID_TOP - 1.10, (x1 - x0) + 0.8, 0.5,
               CATEGORY_DISPLAY.get(cat, cat), 8, color=INK, align=PP_ALIGN.CENTER,
               anchor=MSO_ANCHOR.BOTTOM)
 
-    # column labels (rotated), coloured by Direction
-    for j, (lab, d) in enumerate(zip(col_labels, col_dir)):
+    # Direction strip: N / mixed per COG, black, just under the brackets
+    for j, d in enumerate(col_dir):
+        _text(slide, GRID_LEFT + j * cw, GRID_TOP - 0.32, cw, 0.24,
+              "N" if d == "N" else "mixed", 7, color=INK, align=PP_ALIGN.CENTER)
+
+    # column labels (rotated), all black
+    for j, lab in enumerate(col_labels):
         cx = GRID_LEFT + j * cw + cw / 2
         _text(slide, cx - 1.0, GRID_TOP + len(ROW_ORDER) * CELL_H + 0.15, 2.0, 0.24, lab, 8,
-              color=DIR_BLUE if d == "N" else DIR_ORANGE, align=PP_ALIGN.LEFT, rot=300, font="Consolas")
+              color=INK, align=PP_ALIGN.LEFT, rot=300, font="Consolas")
 
     # rows: label + 41 cells
     for i, exp in enumerate(ROW_ORDER):
