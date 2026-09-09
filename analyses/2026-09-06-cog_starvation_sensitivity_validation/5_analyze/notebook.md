@@ -40,7 +40,12 @@ against the step-3 background — **nitrogen only** (pooled + both subsets).
   copy — the pre-filtered phosphorus tables often list only 1–2 of a
   COG's genes, so `prop` under Lin reads `1/2/28`). Colour = dominant
   direction, intensity scaled by `k/n`. Walkthrough palette; COGs absent
-  from a strain's genome drawn hatched.
+  from a strain's genome drawn hatched. `k/n/m` is always printed with all
+  three numbers (so `n == m`, full coverage, shows the number twice).
+- `figures/01_gene_experiment_heatmap.pptx` (`scripts/04_heatmap_pptx.py`,
+  `uv run --with python-pptx`) — the same heatmap as an editable
+  PowerPoint: 410 named cell rectangles + per-cell `k/n/m` text boxes +
+  group brackets, so every element can be recoloured / moved / relabelled.
 - `figures/02_pct_significant_vs_background.png` — background line vs. the
   6 hit-rate bars.
 
@@ -113,7 +118,9 @@ separate `04_stability_check_n_subset.py` is removed as redundant.
 - **Outputs produced:** `scripts/01_extract_target_de.py` (phosphorus +
   Lin 59h + Martiny reclassification), `scripts/02_compute_hit_rates.py`
   (nutrient split, N/mixed subsets, N-subset background test),
-  `scripts/03_figures.py` (flipped, fraction-based, walkthrough palette);
+  `scripts/03_figures.py` (flipped, fraction-based, functional-category
+  brackets, `k/n/m` cell text), `scripts/04_heatmap_pptx.py` (editable
+  PowerPoint of the heatmap);
   `data/01_target_gene_experiment_matrix.csv` (1,179 rows),
   `data/02_hit_rate_results.csv`, `data/02_bootstrap_null_distribution.csv`,
   `data/02_h_summary.txt`; `figures/01_gene_experiment_heatmap.png`,

@@ -159,10 +159,9 @@ def make_heatmap(matrix, cogs):
         col = notsig_rgb + (base - notsig_rgb) * min(1.0, 0.25 + 0.75 * frac)
         rgba[yi, xi, :3], rgba[yi, xi, 3] = col, 1.0
         # k / n / m  = significant / measured in this experiment / copies in the
-        # strain genome. Show m only when the experiment covered fewer than all
-        # copies (n < m); otherwise k/n is enough.
-        frac_txt[(yi, xi)] = (f"{n_sig}/{n_tested}/{n_genome}" if n_tested < n_genome
-                              else f"{n_sig}/{n_tested}")
+        # strain genome. Always all three (n == m when the experiment covered
+        # every copy, e.g. the genome-wide Martiny arrays).
+        frac_txt[(yi, xi)] = f"{n_sig}/{n_tested}/{n_genome}"
 
     cell = 0.40
     fw = cell * n_cog + 6.5
@@ -234,10 +233,10 @@ def make_heatmap(matrix, cogs):
                  x=0.5, y=0.995, ha="center", va="top", fontsize=13, fontweight="bold", color=INK)
     fig.text(0.5, 0.965,
              "Coloured cell text is  k / n / m :  k significant genes  /  n genes measured in this experiment  /  "
-             "m copies of the COG in that strain's genome.  m is shown only when n < m — i.e. the experiment's\n"
-             "table did not cover every copy (the pre-filtered phosphorus tables often list only 1–2 of a COG's genes).  "
-             "Colour = dominant direction, intensity scales with k/n.  Columns bracketed by the researcher's functional\n"
-             "category; COG label colour = Direction (blue N, orange mixed).  "
+             "m copies of the COG in that strain's genome.  n == m means the experiment covered every copy\n"
+             "(the genome-wide Martiny arrays); n << m means it didn't (the pre-filtered phosphorus tables often "
+             "list only 1–2 of a COG's genes).  Colour = dominant direction, intensity scales with k/n.  Columns\n"
+             "bracketed by the researcher's functional category; COG label colour = Direction (blue N, orange mixed).  "
              "* Martiny MIT9313: 24h used (no 48h row); table-absent COGs counted not significant.",
              ha="center", va="top", fontsize=7.3, color=MUTED, linespacing=1.5)
     fig.subplots_adjust(left=0.155, right=0.985, top=0.79, bottom=0.16)
