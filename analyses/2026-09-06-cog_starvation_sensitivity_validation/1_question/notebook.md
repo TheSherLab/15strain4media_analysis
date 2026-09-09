@@ -191,22 +191,44 @@ in `2_kg_selection/data/01_np_experiments.csv` and its evidence check as
 the record of what was checked and why it was excluded, but are out of
 scope for steps 3-6.
 
-## Locked research question
+## Reopened again 2026-09-09 — phosphorus restored
 
-Do the 41 COGs in "Significant NorMixed COGs" (`Dataset 3.xlsx`) — genes
-whose cross-strain copy-number/presence pattern the researcher's
-comparative-genomics work associates with starvation sensitivity, tagged
-`N` (12 genes), `mixed` (28 genes), or `unlabeled` (1 gene) — show an in
-vivo differential-expression response under literal **nitrogen**
-starvation vs. replete medium, in axenic, uninfected Prochlorococcus
-restricted to the researcher's 15 study strains? Reported for all 41
-pooled and for the `N`/`mixed`/`unlabeled` subsets separately. Evidence
-sources: the 5 nitrogen experiments (RNA-seq, proteomics, microarray)
-validated in `2026-08-10-np_starvation_expression_walkthrough/`. A second
-question asks whether any observed response is statistically
-distinguishable from a background/noise rate (bootstrap + Fisher's exact),
-with both this 41-gene list and the prior analysis's 92-gene list excluded
-from that background population.
+**What changed:** the walkthrough analysis (`2026-08-10-...`), reopened on
+2026-09-08 *after* this analysis's 2026-09-06 phosphorus decision, adopted
+a reclassification the researcher had argued for: the 2 Martiny et al. 2006
+phosphorus microarrays are genome-wide with a pure significance filter, so
+a COG present in the strain but absent from Martiny's table was *measured
+and did not pass* — a real "not significant" result, not missing data.
+This analysis's 2026-09-06 phosphorus drop predated that rule.
+
+**Evolved decision (2026-09-09):** the researcher chose to restore
+phosphorus, applying the same Martiny reclassification. The phosphorus side
+is reported **descriptively** — the 2 Martiny microarrays supply the
+tested-not-significant data; Lin (at 59h) and Fuszard contribute their few
+table genes; there is still no unfiltered phosphorus population to build a
+background pool from, so the bootstrap/Fisher randomness check stays
+nitrogen-only (same as the walkthrough). See `gaps_and_friction.md`
+(2026-09-09).
+
+## Locked research question (re-locked 2026-09-09)
+
+Do the 41 COGs in "Significant NorMixed COGs" (`Dataset 3.xlsx`) — whose
+cross-strain **copy number** the researcher's comparative-genomics work
+associates with starvation sensitivity, tagged `N` (13 COGs) or `mixed`
+(28 COGs) — show an in vivo differential-expression response under literal
+**nitrogen or phosphorus** starvation vs. replete medium, in axenic,
+uninfected Prochlorococcus restricted to the researcher's 15 study strains?
+Reported for all 41 pooled and for the `N` / `mixed` subsets, per nutrient.
+Gene set: **every gene carrying each COG number in each strain** (from the
+researcher's whole-genome annotation), matching the gene set her
+copy-number test used — not one representative Cyanorak ID per COG (see
+`2_kg_selection/notebook.md`, "Reopened 2026-09-09"). Evidence: the 10
+experiments (5 N, 5 P) validated in
+`2026-08-10-np_starvation_expression_walkthrough/`. A second question asks
+whether the **nitrogen** response is distinguishable from a background rate
+(bootstrap + Fisher's exact), with this 41-COG gene set and the prior
+92-gene list both excluded from that background; phosphorus has no valid
+background and is reported descriptively.
 
 ## Decide-gate checklist
 

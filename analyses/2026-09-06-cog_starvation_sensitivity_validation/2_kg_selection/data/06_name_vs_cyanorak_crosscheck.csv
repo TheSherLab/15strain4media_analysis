@@ -1,0 +1,165 @@
+cog_number,protein_name,direction,cyanorak_id,organism_name,name_tokens,ck_route_loci,name_route_loci,verdict,reverse_group_ok,reverse_groups_for_ck_loci
+COG0188,GyrA,N,CK_00008107,Prochlorococcus MED4,GyrA,PMM0005,PMM1063,DISAGREE,True,CK_00008107
+COG0188,GyrA,N,CK_00008107,Prochlorococcus MIT9313,GyrA,PMT0005,PMT1124,DISAGREE,True,CK_00008107
+COG0188,GyrA,N,CK_00008107,Prochlorococcus NATL2A,GyrA,PMN2A_1332,PMN2A_0689,DISAGREE,True,CK_00008107
+COG0188,GyrA,N,CK_00008107,Prochlorococcus MIT9312,GyrA,PMT9312_0005,PMT9312_1074,DISAGREE,True,CK_00008107
+COG1787,"Mrr, RecB and HJR",N,CK_00003490,Prochlorococcus MED4,HJR; Mrr; RecB,PMM1014,PMM1103,DISAGREE,True,CK_00003490
+COG1787,"Mrr, RecB and HJR",N,CK_00003490,Prochlorococcus MIT9313,HJR; Mrr; RecB,,PMT1086,name_only,,
+COG1787,"Mrr, RecB and HJR",N,CK_00003490,Prochlorococcus NATL2A,HJR; Mrr; RecB,,PMN2A_0645,name_only,,
+COG1787,"Mrr, RecB and HJR",N,CK_00003490,Prochlorococcus MIT9312,HJR; Mrr; RecB,PMT9312_1883,PMT9312_1114,DISAGREE,True,CK_00003490
+COG3727,Vsr,N,CK_00011865,Prochlorococcus MED4,Vsr,,,both_absent,,
+COG3727,Vsr,N,CK_00011865,Prochlorococcus MIT9313,Vsr,,,both_absent,,
+COG3727,Vsr,N,CK_00011865,Prochlorococcus NATL2A,Vsr,,,both_absent,,
+COG3727,Vsr,N,CK_00011865,Prochlorococcus MIT9312,Vsr,PMT9312_0372,PMT9312_0372,agree,True,CK_00011865
+COG1793,CDC9,N,CK_00001728,Prochlorococcus MED4,CDC9,PMM0056,,cyanorak_only,True,CK_00001728
+COG1793,CDC9,N,CK_00001728,Prochlorococcus MIT9313,CDC9,PMT1583,,cyanorak_only,True,CK_00001728
+COG1793,CDC9,N,CK_00001728,Prochlorococcus NATL2A,CDC9,PMN2A_1419,,cyanorak_only,True,CK_00001728
+COG1793,CDC9,N,CK_00001728,Prochlorococcus MIT9312,CDC9,PMT9312_0058,,cyanorak_only,True,CK_00001728
+COG0640,smtB/ArsR ,unlabeled,CK_00001532,Prochlorococcus MED4,ArsR; smtB,PMM0714,PMM0714,agree,True,CK_00001532
+COG0640,smtB/ArsR ,unlabeled,CK_00001532,Prochlorococcus MIT9313,ArsR; smtB,PMT1001,PMT1001,agree,True,CK_00001532
+COG0640,smtB/ArsR ,unlabeled,CK_00001532,Prochlorococcus NATL2A,ArsR; smtB,PMN2A_0446,PMN2A_0446,agree,True,CK_00001532
+COG0640,smtB/ArsR ,unlabeled,CK_00001532,Prochlorococcus MIT9312,ArsR; smtB,PMT9312_0726,PMT9312_0726,agree,True,CK_00001532
+COG1403,McrA ,N,CK_00000339,Prochlorococcus MED4,McrA,PMM0031; PMM1403,PMM1528,DISAGREE,True,CK_00000339
+COG1403,McrA ,N,CK_00000339,Prochlorococcus MIT9313,McrA,PMT0036,PMT1762,DISAGREE,True,CK_00000339
+COG1403,McrA ,N,CK_00000339,Prochlorococcus NATL2A,McrA,PMN2A_1358,PMN2A_1099,DISAGREE,True,CK_00000339
+COG1403,McrA ,N,CK_00000339,Prochlorococcus MIT9312,McrA,PMT9312_0031,PMT9312_1621,DISAGREE,True,CK_00000339
+COG2214,CbpA,mixed,CK_00000214,Prochlorococcus MED4,CbpA,PMM0122,,cyanorak_only,True,CK_00000214
+COG2214,CbpA,mixed,CK_00000214,Prochlorococcus MIT9313,CbpA,PMT1977,,cyanorak_only,True,CK_00000214
+COG2214,CbpA,mixed,CK_00000214,Prochlorococcus NATL2A,CbpA,PMN2A_1489,,cyanorak_only,True,CK_00000214
+COG2214,CbpA,mixed,CK_00000214,Prochlorococcus MIT9312,CbpA,PMT9312_0125,,cyanorak_only,True,CK_00000214
+COG0443,DnaK,mixed,CK_00000457,Prochlorococcus MED4,DnaK,PMM0260,PMM0897; PMM1704,DISAGREE,True,CK_00000457
+COG0443,DnaK,mixed,CK_00000457,Prochlorococcus MIT9313,DnaK,PMT1849,PMT0703; PMT2255,DISAGREE,True,CK_00000457
+COG0443,DnaK,mixed,CK_00000457,Prochlorococcus NATL2A,DnaK,PMN2A_1625,PMN2A_0312; PMN2A_1313,DISAGREE,True,CK_00000457
+COG0443,DnaK,mixed,CK_00000457,Prochlorococcus MIT9312,DnaK,PMT9312_0262,PMT9312_0903; PMT9312_1797,DISAGREE,True,CK_00000457
+COG0484,DnaJ,mixed,CK_00000350,Prochlorococcus MED4,DnaJ,PMM0017,PMM0017,agree,True,CK_00000350
+COG0484,DnaJ,mixed,CK_00000350,Prochlorococcus MIT9313,DnaJ,PMT0022,PMT0022,agree,True,CK_00000350
+COG0484,DnaJ,mixed,CK_00000350,Prochlorococcus NATL2A,DnaJ,PMN2A_1344,PMN2A_1344,agree,True,CK_00000350
+COG0484,DnaJ,mixed,CK_00000350,Prochlorococcus MIT9312,DnaJ,PMT9312_0017,PMT9312_0017,agree,True,CK_00000350
+COG0330,HflC,mixed,CK_00041773,Prochlorococcus MED4,HflC,PMM0482,,cyanorak_only,True,CK_00041773
+COG0330,HflC,mixed,CK_00041773,Prochlorococcus MIT9313,HflC,PMT0908,PMT0908,agree,True,CK_00041773
+COG0330,HflC,mixed,CK_00041773,Prochlorococcus NATL2A,HflC,PMN2A_1815,,cyanorak_only,True,CK_00041773
+COG0330,HflC,mixed,CK_00041773,Prochlorococcus MIT9312,HflC,PMT9312_0483,PMT9312_0483,agree,True,CK_00041773
+COG1187,RsuA,mixed,CK_00000762,Prochlorococcus MED4,RsuA,PMM0658,PMM0658,agree,True,CK_00000762
+COG1187,RsuA,mixed,CK_00000762,Prochlorococcus MIT9313,RsuA,PMT1069,PMT1069,agree,True,CK_00000762
+COG1187,RsuA,mixed,CK_00000762,Prochlorococcus NATL2A,RsuA,PMN2A_0601,PMN2A_0601,agree,True,CK_00000762
+COG1187,RsuA,mixed,CK_00000762,Prochlorococcus MIT9312,RsuA,PMT9312_1204,PMT9312_1204,agree,True,CK_00000762
+COG1454,EutG,mixed,CK_00049429,Prochlorococcus MED4,EutG,,,both_absent,,
+COG1454,EutG,mixed,CK_00049429,Prochlorococcus MIT9313,EutG,,,both_absent,,
+COG1454,EutG,mixed,CK_00049429,Prochlorococcus NATL2A,EutG,,,both_absent,,
+COG1454,EutG,mixed,CK_00049429,Prochlorococcus MIT9312,EutG,,,both_absent,,
+COG2370,HupE,mixed,CK_00000499,Prochlorococcus MED4,HupE,PMM1123,PMM1123,agree,True,CK_00000499
+COG2370,HupE,mixed,CK_00000499,Prochlorococcus MIT9313,HupE,PMT0232,PMT0232,agree,True,CK_00000499
+COG2370,HupE,mixed,CK_00000499,Prochlorococcus NATL2A,HupE,PMN2A_0621,,cyanorak_only,True,CK_00000499
+COG2370,HupE,mixed,CK_00000499,Prochlorococcus MIT9312,HupE,,,both_absent,,
+COG0367,AsnB,N,CK_00057301,Prochlorococcus MED4,AsnB,,,both_absent,,
+COG0367,AsnB,N,CK_00057301,Prochlorococcus MIT9313,AsnB,,,both_absent,,
+COG0367,AsnB,N,CK_00057301,Prochlorococcus NATL2A,AsnB,,,both_absent,,
+COG0367,AsnB,N,CK_00057301,Prochlorococcus MIT9312,AsnB,PMT9312_1324,PMT9312_1324,agree,True,CK_00057301
+COG0082,AroC,mixed,CK_00000482,Prochlorococcus MED4,AroC,PMM0224,PMM0224,agree,True,CK_00000482
+COG0082,AroC,mixed,CK_00000482,Prochlorococcus MIT9313,AroC,PMT1795,PMT1795,agree,True,CK_00000482
+COG0082,AroC,mixed,CK_00000482,Prochlorococcus NATL2A,AroC,PMN2A_1593,PMN2A_1593,agree,True,CK_00000482
+COG0082,AroC,mixed,CK_00000482,Prochlorococcus MIT9312,AroC,PMT9312_0226,PMT9312_0226,agree,True,CK_00000482
+COG2274,SunT ,mixed,CK_00056818,Prochlorococcus MED4,SunT,,,both_absent,,
+COG2274,SunT ,mixed,CK_00056818,Prochlorococcus MIT9313,SunT,PMT_0093,,cyanorak_only,True,CK_00056818
+COG2274,SunT ,mixed,CK_00056818,Prochlorococcus NATL2A,SunT,PMN2A_1224,,cyanorak_only,True,CK_00056818
+COG2274,SunT ,mixed,CK_00056818,Prochlorococcus MIT9312,SunT,PMT9312_1182,,cyanorak_only,True,CK_00056818
+COG1989,PulO,mixed,CK_00001720,Prochlorococcus MED4,PulO,,,both_absent,,
+COG1989,PulO,mixed,CK_00001720,Prochlorococcus MIT9313,PulO,PMT0533,,cyanorak_only,True,CK_00001720
+COG1989,PulO,mixed,CK_00001720,Prochlorococcus NATL2A,PulO,PMN2A_0192,,cyanorak_only,True,CK_00001720
+COG1989,PulO,mixed,CK_00001720,Prochlorococcus MIT9312,PulO,PMT9312_1186,,cyanorak_only,True,CK_00001720
+COG0845,AcrA,mixed,CK_00000467,Prochlorococcus MED4,AcrA,PMM0247,PMM1139,DISAGREE,True,CK_00000467
+COG0845,AcrA,mixed,CK_00000467,Prochlorococcus MIT9313,AcrA,PMT1832,PMT1156,DISAGREE,True,CK_00000467
+COG0845,AcrA,mixed,CK_00000467,Prochlorococcus NATL2A,AcrA,PMN2A_1613,,cyanorak_only,True,CK_00000467
+COG0845,AcrA,mixed,CK_00000467,Prochlorococcus MIT9312,AcrA,PMT9312_0249,PMT9312_1235,DISAGREE,True,CK_00000467
+COG0488,Uup,mixed,CK_00000335,Prochlorococcus MED4,Uup,PMM0039,,cyanorak_only,True,CK_00000335
+COG0488,Uup,mixed,CK_00000335,Prochlorococcus MIT9313,Uup,PMT0046,PMT1540,DISAGREE,True,CK_00000335
+COG0488,Uup,mixed,CK_00000335,Prochlorococcus NATL2A,Uup,PMN2A_1371,PMN2A_0950,DISAGREE,True,CK_00000335
+COG0488,Uup,mixed,CK_00000335,Prochlorococcus MIT9312,Uup,PMT9312_0040,,cyanorak_only,True,CK_00000335
+COG0697,RhaT,mixed,CK_00000195,Prochlorococcus MED4,RhaT,PMM0099,,cyanorak_only,True,CK_00000195
+COG0697,RhaT,mixed,CK_00000195,Prochlorococcus MIT9313,RhaT,PMT0179,,cyanorak_only,True,CK_00000195
+COG0697,RhaT,mixed,CK_00000195,Prochlorococcus NATL2A,RhaT,PMN2A_1467,,cyanorak_only,True,CK_00000195
+COG0697,RhaT,mixed,CK_00000195,Prochlorococcus MIT9312,RhaT,PMT9312_0103,,cyanorak_only,True,CK_00000195
+COG3839,MalK,mixed,CK_00001436,Prochlorococcus MED4,MalK,,,both_absent,,
+COG3839,MalK,mixed,CK_00001436,Prochlorococcus MIT9313,MalK,PMT1064,,cyanorak_only,True,CK_00001436
+COG3839,MalK,mixed,CK_00001436,Prochlorococcus NATL2A,MalK,PMN2A_0663,,cyanorak_only,True,CK_00001436
+COG3839,MalK,mixed,CK_00001436,Prochlorococcus MIT9312,MalK,,,both_absent,,
+COG1212,kdsB,mixed,CK_00048376,Prochlorococcus MED4,kdsB,,,both_absent,,
+COG1212,kdsB,mixed,CK_00048376,Prochlorococcus MIT9313,kdsB,PMT1914,PMT1914,agree,True,CK_00048376
+COG1212,kdsB,mixed,CK_00048376,Prochlorococcus NATL2A,kdsB,,,both_absent,,
+COG1212,kdsB,mixed,CK_00048376,Prochlorococcus MIT9312,kdsB,,,both_absent,,
+COG0477,prop (including AmpG),mixed,CK_00002121,Prochlorococcus MED4,AmpG; prop,PMM0066,,cyanorak_only,True,CK_00002121
+COG0477,prop (including AmpG),mixed,CK_00002121,Prochlorococcus MIT9313,AmpG; prop,PMT1035,PMT1044,DISAGREE,True,CK_00002121
+COG0477,prop (including AmpG),mixed,CK_00002121,Prochlorococcus NATL2A,AmpG; prop,PMN2A_1429,,cyanorak_only,True,CK_00002121
+COG0477,prop (including AmpG),mixed,CK_00002121,Prochlorococcus MIT9312,AmpG; prop,PMT9312_0068,,cyanorak_only,True,CK_00002121
+COG1472,BglX,mixed,CK_00000205,Prochlorococcus MED4,BglX,,,both_absent,,
+COG1472,BglX,mixed,CK_00000205,Prochlorococcus MIT9313,BglX,PMT1964,,cyanorak_only,True,CK_00000205
+COG1472,BglX,mixed,CK_00000205,Prochlorococcus NATL2A,BglX,PMN2A_1481,,cyanorak_only,True,CK_00000205
+COG1472,BglX,mixed,CK_00000205,Prochlorococcus MIT9312,BglX,,,both_absent,,
+COG3754,RgpF,mixed,CK_00007567,Prochlorococcus MED4,RgpF,,,both_absent,,
+COG3754,RgpF,mixed,CK_00007567,Prochlorococcus MIT9313,RgpF,,,both_absent,,
+COG3754,RgpF,mixed,CK_00007567,Prochlorococcus NATL2A,RgpF,,,both_absent,,
+COG3754,RgpF,mixed,CK_00007567,Prochlorococcus MIT9312,RgpF,,,both_absent,,
+COG0399,WecE,N,CK_00009007,Prochlorococcus MED4,WecE,PMM0284,,cyanorak_only,True,CK_00009007
+COG0399,WecE,N,CK_00009007,Prochlorococcus MIT9313,WecE,PMT1884,,cyanorak_only,True,CK_00009007
+COG0399,WecE,N,CK_00009007,Prochlorococcus NATL2A,WecE,PMN2A_1650,,cyanorak_only,True,CK_00009007
+COG0399,WecE,N,CK_00009007,Prochlorococcus MIT9312,WecE,PMT9312_0286,,cyanorak_only,True,CK_00009007
+COG0673,MviM,N,CK_00000253,Prochlorococcus MED4,MviM,PMM0273,PMM0273; PMM0782,agree_name_multi,True,CK_00000253
+COG0673,MviM,N,CK_00000253,Prochlorococcus MIT9313,MviM,PMT1865,PMT0536; PMT1865,agree_name_multi,True,CK_00000253
+COG0673,MviM,N,CK_00000253,Prochlorococcus NATL2A,MviM,PMN2A_1639,,cyanorak_only,True,CK_00000253
+COG0673,MviM,N,CK_00000253,Prochlorococcus MIT9312,MviM,PMT9312_0275,PMT9312_0275; PMT9312_0790,agree_name_multi,True,CK_00000253
+COG0810,TonB,mixed,CK_00001270,Prochlorococcus MED4,TonB,,,both_absent,,
+COG0810,TonB,mixed,CK_00001270,Prochlorococcus MIT9313,TonB,PMT0627,,cyanorak_only,True,CK_00001270
+COG0810,TonB,mixed,CK_00001270,Prochlorococcus NATL2A,TonB,PMN2A_0277,,cyanorak_only,True,CK_00001270
+COG0810,TonB,mixed,CK_00001270,Prochlorococcus MIT9312,TonB,,,both_absent,,
+COG3206,GumC,N,CK_00001962,Prochlorococcus MED4,GumC,,,both_absent,,
+COG3206,GumC,N,CK_00001962,Prochlorococcus MIT9313,GumC,,,both_absent,,
+COG3206,GumC,N,CK_00001962,Prochlorococcus NATL2A,GumC,,,both_absent,,
+COG3206,GumC,N,CK_00001962,Prochlorococcus MIT9312,GumC,PMT9312_1355,PMT9312_1355,agree,True,CK_00001962
+COG1596,Wza,N,CK_00048203,Prochlorococcus MED4,Wza,PMM1211,,cyanorak_only,True,CK_00048203
+COG1596,Wza,N,CK_00048203,Prochlorococcus MIT9313,Wza,,,both_absent,,
+COG1596,Wza,N,CK_00048203,Prochlorococcus NATL2A,Wza,,,both_absent,,
+COG1596,Wza,N,CK_00048203,Prochlorococcus MIT9312,Wza,PMT9312_1375,,cyanorak_only,True,CK_00048203
+COG1462,CsgG,mixed,CK_00002347,Prochlorococcus MED4,CsgG,,,both_absent,,
+COG1462,CsgG,mixed,CK_00002347,Prochlorococcus MIT9313,CsgG,PMT0642,,cyanorak_only,True,CK_00002347
+COG1462,CsgG,mixed,CK_00002347,Prochlorococcus NATL2A,CsgG,,,both_absent,,
+COG1462,CsgG,mixed,CK_00002347,Prochlorococcus MIT9312,CsgG,,,both_absent,,
+COG3210,FhaB,mixed,CK_00001608,Prochlorococcus MED4,FhaB,PMM1017,,cyanorak_only,True,CK_00001608
+COG3210,FhaB,mixed,CK_00001608,Prochlorococcus MIT9313,FhaB,,,both_absent,,
+COG3210,FhaB,mixed,CK_00001608,Prochlorococcus NATL2A,FhaB,PMN2A_0561,,cyanorak_only,True,CK_00001608
+COG3210,FhaB,mixed,CK_00001608,Prochlorococcus MIT9312,FhaB,,,both_absent,,
+COG2010,CccA,mixed,CK_00001007,Prochlorococcus MED4,CccA,PMM1057,,cyanorak_only,True,CK_00001007
+COG2010,CccA,mixed,CK_00001007,Prochlorococcus MIT9313,CccA,PMT1131,,cyanorak_only,True,CK_00001007
+COG2010,CccA,mixed,CK_00001007,Prochlorococcus NATL2A,CccA,PMN2A_0695,,cyanorak_only,True,CK_00001007
+COG2010,CccA,mixed,CK_00001007,Prochlorococcus MIT9312,CccA,PMT9312_1068,,cyanorak_only,True,CK_00001007
+COG2114,AcyC,mixed,CK_00002384,Prochlorococcus MED4,AcyC,,,both_absent,,
+COG2114,AcyC,mixed,CK_00002384,Prochlorococcus MIT9313,AcyC,,,both_absent,,
+COG2114,AcyC,mixed,CK_00002384,Prochlorococcus NATL2A,AcyC,,,both_absent,,
+COG2114,AcyC,mixed,CK_00002384,Prochlorococcus MIT9312,AcyC,,,both_absent,,
+COG0454,PhnO,mixed,CK_00001405,Prochlorococcus MED4,PhnO,PMM0333,,cyanorak_only,True,CK_00001405
+COG0454,PhnO,mixed,CK_00001405,Prochlorococcus MIT9313,PhnO,PMT0510,,cyanorak_only,True,CK_00001405
+COG0454,PhnO,mixed,CK_00001405,Prochlorococcus NATL2A,PhnO,PMN2A_0207,,cyanorak_only,True,CK_00001405
+COG0454,PhnO,mixed,CK_00001405,Prochlorococcus MIT9312,PhnO,PMT9312_0338,,cyanorak_only,True,CK_00001405
+COG2931,,mixed,CK_00042429,Prochlorococcus MED4,RTX toxin-related domain,,,both_absent,,
+COG2931,,mixed,CK_00042429,Prochlorococcus MIT9313,RTX toxin-related domain,,,both_absent,,
+COG2931,,mixed,CK_00042429,Prochlorococcus NATL2A,RTX toxin-related domain,PMN2A_0622,,cyanorak_only,True,CK_00042429
+COG2931,,mixed,CK_00042429,Prochlorococcus MIT9312,RTX toxin-related domain,,,both_absent,,
+COG0412,DLH,mixed,CK_00001881,Prochlorococcus MED4,DLH,,,both_absent,,
+COG0412,DLH,mixed,CK_00001881,Prochlorococcus MIT9313,DLH,PMT1031,,cyanorak_only,True,CK_00001881
+COG0412,DLH,mixed,CK_00001881,Prochlorococcus NATL2A,DLH,,,both_absent,,
+COG0412,DLH,mixed,CK_00001881,Prochlorococcus MIT9312,DLH,PMT9312_1497,,cyanorak_only,True,CK_00001881
+COG4252,CHASE2,mixed,CK_00002384,Prochlorococcus MED4,CHASE2,,,both_absent,,
+COG4252,CHASE2,mixed,CK_00002384,Prochlorococcus MIT9313,CHASE2,,,both_absent,,
+COG4252,CHASE2,mixed,CK_00002384,Prochlorococcus NATL2A,CHASE2,,,both_absent,,
+COG4252,CHASE2,mixed,CK_00002384,Prochlorococcus MIT9312,CHASE2,,,both_absent,,
+COG2192,,N,CK_00002335,Prochlorococcus MED4,carbamoyl transferase,PMM1246; PMM1251,,cyanorak_only,True,CK_00002335
+COG2192,,N,CK_00002335,Prochlorococcus MIT9313,carbamoyl transferase,,,both_absent,,
+COG2192,,N,CK_00002335,Prochlorococcus NATL2A,carbamoyl transferase,,,both_absent,,
+COG2192,,N,CK_00002335,Prochlorococcus MIT9312,carbamoyl transferase,PMT9312_0315,,cyanorak_only,True,CK_00002335
+COG2159,LigW,N,CK_00002647,Prochlorococcus MED4,LigW,PMM1162,,cyanorak_only,True,CK_00002647
+COG2159,LigW,N,CK_00002647,Prochlorococcus MIT9313,LigW,,,both_absent,,
+COG2159,LigW,N,CK_00002647,Prochlorococcus NATL2A,LigW,,,both_absent,,
+COG2159,LigW,N,CK_00002647,Prochlorococcus MIT9312,LigW,,,both_absent,,
+COG5651,PPE,mixed,CK_00006528,Prochlorococcus MED4,PPE,,,both_absent,,
+COG5651,PPE,mixed,CK_00006528,Prochlorococcus MIT9313,PPE,,,both_absent,,
+COG5651,PPE,mixed,CK_00006528,Prochlorococcus NATL2A,PPE,,,both_absent,,
+COG5651,PPE,mixed,CK_00006528,Prochlorococcus MIT9312,PPE,,,both_absent,,

@@ -1,0 +1,601 @@
+CK_ID,cog_numbers,protein_name,direction,organism_name,n_members_in_strain,member_loci,member_products,multi_member
+CK_00002647,COG2159,LigW,N,Prochlorococcus MED4,1,PMM1162,conserved hypothetical protein,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus MIT9312,0,,,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus MIT9313,0,,,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus MIT1327,0,,,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus MIT0604,1,EW14_1395,conserved hypothetical protein,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus NATL2A,0,,,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus MIT9515,1,P9515_13291,conserved hypothetical protein,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus MIT9215,1,P9215_13681,conserved hypothetical protein,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus AS9601,1,A9601_13391,conserved hypothetical protein,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus PAC1,0,,,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus MIT9202,1,P9202_215,conserved hypothetical protein,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus SB,0,,,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus MIT9301,0,,,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus MIT1314,0,,,False
+CK_00002647,COG2159,LigW,N,Prochlorococcus NATL1A,1,NATL1_08791,conserved hypothetical protein,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus MED4,1,PMM1211,polysaccharide biosynthesis/export family protein,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus MIT9312,1,PMT9312_1375,polysaccharide biosynthesis/export family protein,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus MIT9313,0,,,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus MIT1327,0,,,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus MIT0604,1,EW14_1580,polysaccharide biosynthesis/export family protein,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus NATL2A,0,,,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus MIT9515,0,,,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus MIT9215,1,P9215_15071,polysaccharide biosynthesis/export family protein,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus AS9601,2,A9601_16271; A9601_17951,polysaccharide biosynthesis/export family protein,True
+CK_00048203,COG1596,Wza,N,Prochlorococcus PAC1,0,,,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus MIT9202,1,P9202_1024,polysaccharide biosynthesis/export family protein,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus SB,0,,,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus MIT9301,0,,,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus MIT1314,0,,,False
+CK_00048203,COG1596,Wza,N,Prochlorococcus NATL1A,1,NATL1_08781,polysaccharide biosynthesis/export family protein,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus MED4,0,,,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus MIT9312,1,PMT9312_1355,capsular exopolysaccharide family domain protein,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus MIT9313,0,,,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus MIT1327,0,,,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus MIT0604,1,EW14_1486,capsular exopolysaccharide family domain protein,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus NATL2A,0,,,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus MIT9515,0,,,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus MIT9215,1,P9215_14561,capsular exopolysaccharide family domain protein,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus AS9601,1,A9601_14011,capsular exopolysaccharide family domain protein,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus PAC1,0,,,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus MIT9202,1,P9202_965,capsular exopolysaccharide family domain protein,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus SB,0,,,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus MIT9301,0,,,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus MIT1314,0,,,False
+CK_00001962,COG3206,GumC,N,Prochlorococcus NATL1A,1,NATL1_08771,capsular exopolysaccharide family domain protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus MED4,1,PMM0066,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus MIT9312,1,PMT9312_0068,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus MIT9313,1,PMT1035,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus MIT1327,1,PMIT1327_00459,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus MIT0604,1,EW14_0085,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus NATL2A,1,PMN2A_1429,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus MIT9515,1,P9515_00751,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus MIT9215,1,P9215_00781,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus AS9601,1,A9601_00781,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus PAC1,1,EV03_0529,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus MIT9202,1,P9202_184,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus SB,1,EV02_1162,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus MIT9301,1,P9301_00771,conserved hypothetical protein,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus MIT1314,0,,,False
+CK_00002121,COG0477,prop (including AmpG),mixed,Prochlorococcus NATL1A,1,NATL1_01301,conserved hypothetical protein,False
+CK_00002335,COG2192,nan,N,Prochlorococcus MED4,2,PMM1246; PMM1251,carbamoyltransferase family protein,True
+CK_00002335,COG2192,nan,N,Prochlorococcus MIT9312,1,PMT9312_0315,carbamoyltransferase family protein,False
+CK_00002335,COG2192,nan,N,Prochlorococcus MIT9313,0,,,False
+CK_00002335,COG2192,nan,N,Prochlorococcus MIT1327,0,,,False
+CK_00002335,COG2192,nan,N,Prochlorococcus MIT0604,1,EW14_0728,carbamoyltransferase family protein,False
+CK_00002335,COG2192,nan,N,Prochlorococcus NATL2A,0,,,False
+CK_00002335,COG2192,nan,N,Prochlorococcus MIT9515,1,P9515_17081,carbamoyltransferase family protein,False
+CK_00002335,COG2192,nan,N,Prochlorococcus MIT9215,2,P9215_04261; P9215_17981,carbamoyltransferase family protein,True
+CK_00002335,COG2192,nan,N,Prochlorococcus AS9601,0,,,False
+CK_00002335,COG2192,nan,N,Prochlorococcus PAC1,0,,,False
+CK_00002335,COG2192,nan,N,Prochlorococcus MIT9202,1,P9202_864,carbamoyltransferase family protein,False
+CK_00002335,COG2192,nan,N,Prochlorococcus SB,0,,,False
+CK_00002335,COG2192,nan,N,Prochlorococcus MIT9301,0,,,False
+CK_00002335,COG2192,nan,N,Prochlorococcus MIT1314,0,,,False
+CK_00002335,COG2192,nan,N,Prochlorococcus NATL1A,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus MED4,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus MIT9313,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus MIT1327,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus NATL2A,1,PMN2A_0622,regulator of chromosome condensation (RCC1) repeat family protein,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus AS9601,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus PAC1,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus SB,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus MIT9301,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00042429,COG2931,nan,mixed,Prochlorococcus NATL1A,0,,,False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus MED4,1,PMM0005,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus MIT9312,1,PMT9312_0005,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus MIT9313,1,PMT0005,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus MIT1327,1,PMIT1327_02596,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus MIT0604,1,EW14_0005,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus NATL2A,1,PMN2A_1332,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus MIT9515,1,P9515_00041,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus MIT9215,1,P9215_00041,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus AS9601,1,A9601_00041,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus PAC1,1,EV03_1142,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus MIT9202,1,P9202_337,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus SB,1,EV02_1232,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus MIT9301,1,P9301_00041,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus MIT1314,0,,,False
+CK_00008107,COG0188,GyrA,N,Prochlorococcus NATL1A,1,NATL1_00041,"DNA gyrase/topoisomerase IV, subunit A family protein",False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus MED4,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus MIT9313,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus MIT1327,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus NATL2A,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus AS9601,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus PAC1,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus SB,1,EV02_1747,L-threonine dehydrogenase,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus MIT9301,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00049429,COG1454,EutG,mixed,Prochlorococcus NATL1A,0,,,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus MED4,0,,,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus MIT9312,1,PMT9312_1497,dienelactone hydrolase family protein,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus MIT9313,1,PMT1031,dienelactone hydrolase family protein,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus MIT1327,1,PMIT1327_00464,dienelactone hydrolase family protein,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus NATL2A,0,,,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus AS9601,0,,,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus PAC1,1,EV03_1652,dienelactone hydrolase family protein,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus SB,1,EV02_1543,dienelactone hydrolase family protein,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus MIT9301,1,P9301_16031,dienelactone hydrolase family protein,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00001881,COG0412,DLH,mixed,Prochlorococcus NATL1A,0,,,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus MED4,2,PMM0031; PMM1403,HNH endonuclease family protein,True
+CK_00000339,COG1403,McrA ,N,Prochlorococcus MIT9312,1,PMT9312_0031,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus MIT9313,1,PMT0036,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus MIT1327,1,PMIT1327_02628,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus MIT0604,1,EW14_0031,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus NATL2A,1,PMN2A_1358,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus MIT9515,1,P9515_00301,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus MIT9215,1,P9215_00291,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus AS9601,1,A9601_00301,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus PAC1,1,EV03_1168,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus MIT9202,1,P9202_1895,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus SB,1,EV02_1205,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus MIT9301,1,P9301_00301,HNH endonuclease family protein,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus MIT1314,0,,,False
+CK_00000339,COG1403,McrA ,N,Prochlorococcus NATL1A,1,NATL1_00301,HNH endonuclease family protein,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus MED4,1,PMM0273,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus MIT9312,1,PMT9312_0275,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus MIT9313,1,PMT1865,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus MIT1327,1,PMIT1327_02117,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus MIT0604,1,EW14_0317,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus NATL2A,1,PMN2A_1639,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus MIT9515,1,P9515_03061,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus MIT9215,1,P9215_02971,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus AS9601,1,A9601_02951,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus PAC1,1,EV03_1256,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus MIT9202,1,P9202_1497,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus SB,1,EV02_0948,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus MIT9301,1,P9301_02961,NAD(P)-binding oxidoreductase,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus MIT1314,0,,,False
+CK_00000253,COG0673,MviM,N,Prochlorococcus NATL1A,1,NATL1_03531,NAD(P)-binding oxidoreductase,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus MED4,1,PMM1123,hydrogenase/urease accessory protein,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus MIT9313,1,PMT0232,hydrogenase/urease accessory protein,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus MIT1327,1,PMIT1327_01096,hydrogenase/urease accessory protein,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus MIT0604,1,EW14_1535,hydrogenase/urease accessory protein,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus NATL2A,1,PMN2A_0621,hydrogenase/urease accessory protein,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus AS9601,0,,,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus PAC1,1,EV03_0016,hydrogenase/urease accessory protein,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus SB,1,EV02_0826,hydrogenase/urease accessory protein,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus MIT9301,1,P9301_12311,hydrogenase/urease accessory protein,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00000499,COG2370,HupE,mixed,Prochlorococcus NATL1A,1,NATL1_14481,hydrogenase/urease accessory protein,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus MED4,0,,,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus MIT9312,1,PMT9312_0372,DNA G:T mismatch repair endonuclease,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus MIT9313,0,,,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus MIT1327,0,,,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus MIT0604,0,,,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus NATL2A,0,,,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus MIT9515,1,P9515_04381,DNA G:T mismatch repair endonuclease,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus MIT9215,1,P9215_04531,DNA G:T mismatch repair endonuclease,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus AS9601,1,A9601_04271,DNA G:T mismatch repair endonuclease,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus PAC1,0,,,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus MIT9202,1,P9202_1819,DNA G:T mismatch repair endonuclease,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus SB,0,,,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus MIT9301,0,,,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus MIT1314,0,,,False
+CK_00011865,COG3727,Vsr,N,Prochlorococcus NATL1A,0,,,False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus MED4,1,PMM0714,"bacterial regulatory protein, ArsR family",False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus MIT9312,1,PMT9312_0726,"bacterial regulatory protein, ArsR family",False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus MIT9313,1,PMT1001,"bacterial regulatory protein, ArsR family",False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus MIT1327,1,PMIT1327_00521,"bacterial regulatory protein, ArsR family",False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus MIT0604,1,EW14_1291,"bacterial regulatory protein, ArsR family",False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus NATL2A,1,PMN2A_0446,"bacterial regulatory protein, ArsR family",False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus MIT9515,0,,,False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus MIT9215,0,,,False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus AS9601,0,,,False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus PAC1,1,EV03_0647,"bacterial regulatory protein, ArsR family",False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus MIT9202,0,,,False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus SB,1,EV02_0833,"bacterial regulatory protein, ArsR family",False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus MIT9301,1,P9301_12351,"bacterial regulatory protein, ArsR family",False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus MIT1314,0,,,False
+CK_00001532,COG0640,smtB/ArsR ,unlabeled,Prochlorococcus NATL1A,1,NATL1_11581,"bacterial regulatory protein, ArsR family",False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus MED4,1,PMM0099,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus MIT9312,1,PMT9312_0103,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus MIT9313,1,PMT0179,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus MIT1327,1,PMIT1327_00292,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus MIT0604,1,EW14_0123,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus NATL2A,1,PMN2A_1467,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus MIT9515,1,P9515_01111,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus MIT9215,1,P9215_01151,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus AS9601,1,A9601_01151,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus PAC1,1,EV03_0489,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus MIT9202,1,P9202_266,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus SB,1,EV02_1126,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus MIT9301,1,P9301_01141,uncharacterized membrane protein (DUF3120),False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00000195,COG0697,RhaT,mixed,Prochlorococcus NATL1A,1,NATL1_01701,uncharacterized membrane protein (DUF3120),False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus MED4,0,,,False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus MIT9312,1,PMT9312_1324,asparagine synthase (glutamine-hydrolyzing),False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus MIT9313,0,,,False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus MIT1327,0,,,False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus MIT0604,1,EW14_1471,asparagine synthase (glutamine-hydrolyzing),False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus NATL2A,0,,,False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus MIT9515,0,,,False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus MIT9215,2,P9215_14791; P9215_14831,asparagine synthase (glutamine-hydrolyzing),True
+CK_00057301,COG0367,AsnB,N,Prochlorococcus AS9601,0,,,False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus PAC1,0,,,False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus MIT9202,2,P9202_1805; P9202_553,asparagine synthase (glutamine-hydrolyzing),True
+CK_00057301,COG0367,AsnB,N,Prochlorococcus SB,0,,,False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus MIT9301,0,,,False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus MIT1314,0,,,False
+CK_00057301,COG0367,AsnB,N,Prochlorococcus NATL1A,1,NATL1_08651,asparagine synthase (glutamine-hydrolyzing),False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus MED4,1,PMM1017,plastid lipid-associated protein (PAP)/fibrillin family,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus MIT9313,0,,,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus MIT1327,0,,,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus MIT0604,1,EW14_1143,plastid lipid-associated protein (PAP)/fibrillin family,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus NATL2A,1,PMN2A_0561,plastid lipid-associated protein (PAP)/fibrillin family,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus MIT9515,1,P9515_12331,plastid lipid-associated protein (PAP)/fibrillin family,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus MIT9215,1,P9215_11391,plastid lipid-associated protein (PAP)/fibrillin family,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus AS9601,1,A9601_11101,plastid lipid-associated protein (PAP)/fibrillin family,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus PAC1,1,EV03_0692,plastid lipid-associated protein (PAP)/fibrillin family,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus SB,1,EV02_0403,plastid lipid-associated protein (PAP)/fibrillin family,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus MIT9301,1,P9301_11091,plastid lipid-associated protein (PAP)/fibrillin family,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00001608,COG3210,FhaB,mixed,Prochlorococcus NATL1A,1,NATL1_13281,plastid lipid-associated protein (PAP)/fibrillin family,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus MED4,1,PMM0260,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus MIT9312,1,PMT9312_0262,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus MIT9313,1,PMT1849,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus MIT1327,1,PMIT1327_02101,conserved hypothetical protein (DUF3181),False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus MIT0604,1,EW14_0304,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus NATL2A,1,PMN2A_1625,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus MIT9515,1,P9515_02931,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus MIT9215,1,P9215_02841,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus AS9601,1,A9601_02821,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus PAC1,1,EV03_1242,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus SB,1,EV02_0961,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus MIT9301,1,P9301_02831,conserved hypothetical protein,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00000457,COG0443,DnaK,mixed,Prochlorococcus NATL1A,1,NATL1_03371,conserved hypothetical protein,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus MED4,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus MIT9313,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus MIT1327,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus NATL2A,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus AS9601,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus PAC1,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus SB,1,EV02_1828,metallopeptidase,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus MIT9301,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00006528,COG5651,PPE,mixed,Prochlorococcus NATL1A,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus MED4,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus MIT9313,1,PMT1914,3-deoxy-D-manno-octulosonate cytidylyltransferase,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus MIT1327,1,PMIT1327_02167,3-deoxy-D-manno-octulosonate cytidylyltransferase,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus NATL2A,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus AS9601,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus PAC1,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus SB,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus MIT9301,1,P9301_14031,3-deoxy-D-manno-octulosonate cytidylyltransferase,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00048376,COG1212,kdsB,mixed,Prochlorococcus NATL1A,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus MED4,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus MIT9313,1,PMT0642,curli production assembly/transport component CsgG family protein,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus MIT1327,1,PMIT1327_01673,curli production assembly/transport component CsgG family protein,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus NATL2A,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus AS9601,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus PAC1,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus SB,1,EV02_1907,curli production assembly/transport component CsgG family protein,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus MIT9301,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00002347,COG1462,CsgG,mixed,Prochlorococcus NATL1A,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus MED4,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus MIT9312,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus MIT9313,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus MIT1327,1,PMIT1327_02442,adenylate cyclase,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus MIT0604,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus NATL2A,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus MIT9515,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus MIT9215,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus AS9601,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus PAC1,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus MIT9202,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus SB,1,EV02_1825,adenylate cyclase,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus MIT9301,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus MIT1314,0,,,False
+CK_00002384,COG4252|COG2114,CHASE2|AcyC,mixed|mixed,Prochlorococcus NATL1A,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus MED4,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus MIT9313,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus MIT1327,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus NATL2A,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus AS9601,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus PAC1,1,EV03_0209,conserved hypothetical protein,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus SB,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus MIT9301,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00007567,COG3754,RgpF,mixed,Prochlorococcus NATL1A,0,,,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus MED4,1,PMM0333,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus MIT9312,1,PMT9312_0338,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus MIT9313,1,PMT0510,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus MIT1327,1,PMIT1327_01530,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus MIT0604,1,EW14_0379,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus NATL2A,1,PMN2A_0207,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus MIT9515,1,P9515_03651,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus MIT9215,1,P9215_03581,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus AS9601,1,A9601_03581,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus PAC1,1,EV03_2011,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus MIT9202,1,P9202_552,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus SB,1,EV02_0888,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus MIT9301,1,P9301_03591,acetyltransferase family protein,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00001405,COG0454,PhnO,mixed,Prochlorococcus NATL1A,1,NATL1_08391,acetyltransferase family protein,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus MED4,1,PMM0658,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus MIT9312,1,PMT9312_1204,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus MIT9313,1,PMT1069,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus MIT1327,1,PMIT1327_01522,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus MIT0604,1,EW14_1320,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus NATL2A,1,PMN2A_0601,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus MIT9515,1,P9515_12541,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus MIT9215,1,P9215_13041,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus AS9601,1,A9601_12611,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus PAC1,1,EV03_0122,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus MIT9202,1,P9202_278,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus SB,1,EV02_1896,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus MIT9301,1,P9301_12681,pseudouridine synthase,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00000762,COG1187,RsuA,mixed,Prochlorococcus NATL1A,1,NATL1_14081,pseudouridine synthase,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus MED4,1,PMM0122,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus MIT9312,1,PMT9312_0125,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus MIT9313,1,PMT1977,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus MIT1327,1,PMIT1327_02233,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus MIT0604,1,EW14_0148,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus NATL2A,1,PMN2A_1489,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus MIT9515,1,P9515_01361,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus MIT9215,1,P9215_01401,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus AS9601,1,A9601_01401,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus PAC1,1,EV03_0466,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus MIT9202,1,P9202_973,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus SB,1,EV02_50007,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus MIT9301,1,P9301_01391,DnaJ type III chaperone protein,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00000214,COG2214,CbpA,mixed,Prochlorococcus NATL1A,1,NATL1_01941,DnaJ type III chaperone protein,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus MED4,0,,,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus MIT9313,1,PMT1964,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus MIT1327,1,PMIT1327_02219,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus NATL2A,1,PMN2A_1481,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus AS9601,0,,,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus PAC1,1,EV03_0475,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus SB,0,,,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus MIT9301,0,,,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00000205,COG1472,BglX,mixed,Prochlorococcus NATL1A,1,NATL1_01861,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus MED4,0,,,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus MIT9313,1,PMT0627,conserved hypothetical protein,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus MIT1327,1,PMIT1327_01654,conserved hypothetical protein,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus NATL2A,1,PMN2A_0277,conserved hypothetical protein,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus AS9601,0,,,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus PAC1,1,EV03_2086,conserved hypothetical protein,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus SB,0,,,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus MIT9301,0,,,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00001270,COG0810,TonB,mixed,Prochlorococcus NATL1A,1,NATL1_09461,conserved hypothetical protein,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus MED4,1,PMM0224,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus MIT9312,1,PMT9312_0226,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus MIT9313,1,PMT1795,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus MIT1327,1,PMIT1327_02037,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus MIT0604,1,EW14_0268,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus NATL2A,1,PMN2A_1593,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus MIT9515,1,P9515_02561,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus MIT9215,1,P9215_02461,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus AS9601,1,A9601_02451,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus PAC1,1,EV03_1209,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus MIT9202,1,P9202_1892,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus SB,1,EV02_0998,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus MIT9301,1,P9301_02461,chorismate synthase,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00000482,COG0082,AroC,mixed,Prochlorococcus NATL1A,1,NATL1_03041,chorismate synthase,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus MED4,0,,,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus MIT9312,0,,,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus MIT9313,1,PMT1064,conserved hypothetical protein,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus MIT1327,1,PMIT1327_00423,conserved hypothetical protein,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus NATL2A,1,PMN2A_0663,conserved hypothetical protein,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus AS9601,0,,,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus PAC1,1,EV03_1499,conserved hypothetical protein,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus SB,0,,,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus MIT9301,0,,,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00001436,COG3839,MalK,mixed,Prochlorococcus NATL1A,1,NATL1_14951,conserved hypothetical protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus MED4,1,PMM0482,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus MIT9312,1,PMT9312_0483,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus MIT9313,1,PMT0908,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus MIT1327,1,PMIT1327_00389,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus MIT0604,1,EW14_0526,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus NATL2A,1,PMN2A_1815,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus MIT9515,1,P9515_05461,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus MIT9215,1,P9215_05641,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus AS9601,1,A9601_05381,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus PAC1,1,EV03_1701,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus MIT9202,1,P9202_1359,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus SB,1,EV02_0714,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus MIT9301,1,P9301_05091,prohibitin-like protein,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00041773,COG0330,HflC,mixed,Prochlorococcus NATL1A,1,NATL1_05391,prohibitin-like protein,False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus MED4,1,PMM0247,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus MIT9312,1,PMT9312_0249,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus MIT9313,1,PMT1832,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus MIT1327,1,PMIT1327_02084,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus MIT0604,1,EW14_0292,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus NATL2A,1,PMN2A_1613,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus MIT9515,1,P9515_02801,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus MIT9215,1,P9215_02701,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus AS9601,1,A9601_02691,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus PAC1,1,EV03_1230,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus MIT9202,1,P9202_1634,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus SB,1,EV02_0975,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus MIT9301,1,P9301_02701,conserved hypothetical protein (DUF3084),False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00000467,COG0845,AcrA,mixed,Prochlorococcus NATL1A,1,NATL1_03251,conserved hypothetical protein (DUF3084),False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus MED4,0,,,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus MIT9312,1,PMT9312_1182,ABC multidrug efflux transporter,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus MIT9313,1,PMT_0093,ABC multidrug efflux transporter,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus MIT1327,1,PMIT1327_01953,ABC multidrug efflux transporter,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus NATL2A,1,PMN2A_1224,ABC multidrug efflux transporter,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus AS9601,1,A9601_14311,ABC multidrug efflux transporter,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus PAC1,1,EV03_0206,ABC multidrug efflux transporter,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus SB,1,EV02_1817,ABC multidrug efflux transporter,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus MIT9301,0,,,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00056818,COG2274,SunT ,mixed,Prochlorococcus NATL1A,1,NATL1_21011,ABC multidrug efflux transporter,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus MED4,0,,,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus MIT9312,1,PMT9312_1186,leader peptidase (prepilin peptidase) / N-methyltransferase,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus MIT9313,1,PMT0533,leader peptidase (prepilin peptidase) / N-methyltransferase,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus MIT1327,1,PMIT1327_01553,leader peptidase (prepilin peptidase) / N-methyltransferase,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus MIT0604,0,,,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus NATL2A,1,PMN2A_0192,leader peptidase (prepilin peptidase) / N-methyltransferase,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus MIT9215,0,,,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus AS9601,0,,,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus PAC1,1,EV03_1996,leader peptidase (prepilin peptidase) / N-methyltransferase,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus MIT9202,0,,,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus SB,0,,,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus MIT9301,1,P9301_06881,leader peptidase (prepilin peptidase) / N-methyltransferase,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00001720,COG1989,PulO,mixed,Prochlorococcus NATL1A,1,NATL1_08241,leader peptidase (prepilin peptidase) / N-methyltransferase,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus MED4,1,PMM0039,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus MIT9312,1,PMT9312_0040,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus MIT9313,1,PMT0046,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus MIT1327,1,PMIT1327_02640,conserved hypothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus MIT0604,1,EW14_0050,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus NATL2A,1,PMN2A_1371,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus MIT9515,1,P9515_00451,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus MIT9215,1,P9215_00461,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus AS9601,1,A9601_00391,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus PAC1,1,EV03_1184,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus MIT9202,1,P9202_201,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus SB,1,EV02_1197,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus MIT9301,1,P9301_00411,Conserved hypotothetical protein,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00000335,COG0488,Uup,mixed,Prochlorococcus NATL1A,1,NATL1_00521,Conserved hypotothetical protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus MED4,1,PMM0017,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus MIT9312,1,PMT9312_0017,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus MIT9313,1,PMT0022,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus MIT1327,1,PMIT1327_02613,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus MIT0604,1,EW14_0017,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus NATL2A,1,PMN2A_1344,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus MIT9515,1,P9515_00161,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus MIT9215,1,P9215_00161,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus AS9601,1,A9601_00161,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus PAC1,1,EV03_1154,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus MIT9202,1,P9202_34,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus SB,1,EV02_1219,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus MIT9301,1,P9301_00161,DnaJ type I chaperone protein,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00000350,COG0484,DnaJ,mixed,Prochlorococcus NATL1A,1,NATL1_00161,DnaJ type I chaperone protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus MED4,1,PMM0056,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus MIT9312,1,PMT9312_0058,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus MIT9313,1,PMT1583,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus MIT1327,0,,,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus MIT0604,1,EW14_0075,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus NATL2A,1,PMN2A_1419,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus MIT9515,1,P9515_00651,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus MIT9215,1,P9215_00681,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus AS9601,1,A9601_00681,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus PAC1,1,EV03_0539,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus MIT9202,1,P9202_1693,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus SB,1,EV02_1172,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus MIT9301,1,P9301_00671,conserved hypothetical protein,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus MIT1314,0,,,False
+CK_00001728,COG1793,CDC9,N,Prochlorococcus NATL1A,1,NATL1_01201,conserved hypothetical protein,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus MED4,1,PMM1014,type II-like restriction endonuclease,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus MIT9312,1,PMT9312_1883,type II-like restriction endonuclease,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus MIT9313,0,,,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus MIT1327,0,,,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus MIT0604,1,EW14_1139,type II-like restriction endonuclease,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus NATL2A,0,,,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus MIT9515,2,P9515_11001; P9515_11011,type II-like restriction endonuclease,True
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus MIT9215,1,P9215_11351,type II-like restriction endonuclease,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus AS9601,1,A9601_11061,type II-like restriction endonuclease,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus PAC1,0,,,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus MIT9202,1,P9202_858,type II-like restriction endonuclease,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus SB,1,EV02_0399,type II-like restriction endonuclease,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus MIT9301,1,P9301_11051,type II-like restriction endonuclease,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus MIT1314,0,,,False
+CK_00003490,COG1787,"Mrr, RecB and HJR",N,Prochlorococcus NATL1A,0,,,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus MED4,1,PMM1057,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus MIT9312,1,PMT9312_1068,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus MIT9313,1,PMT1131,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus MIT1327,1,PMIT1327_01449,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus MIT0604,1,EW14_1196,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus NATL2A,1,PMN2A_0695,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus MIT9515,0,,,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus MIT9215,1,P9215_11921,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus AS9601,1,A9601_11621,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus PAC1,1,EV03_1536,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus MIT9202,1,P9202_1707,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus SB,1,EV02_0464,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus MIT9301,1,P9301_11631,cytochrome cM,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus MIT1314,0,,,False
+CK_00001007,COG2010,CccA,mixed,Prochlorococcus NATL1A,1,NATL1_15291,cytochrome cM,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus MED4,1,PMM0284,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus MIT9312,1,PMT9312_0286,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus MIT9313,1,PMT1884,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus MIT1327,1,PMIT1327_02135,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus MIT0604,1,EW14_0328,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus NATL2A,1,PMN2A_1650,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus MIT9515,1,P9515_03171,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus MIT9215,1,P9215_03091,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus AS9601,1,A9601_03071,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus PAC1,1,EV03_1267,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus MIT9202,1,P9202_1474,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus SB,1,EV02_0937,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus MIT9301,1,P9301_03081,putative pleiotropic regulatory protein,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus MIT1314,0,,,False
+CK_00009007,COG0399,WecE,N,Prochlorococcus NATL1A,1,NATL1_03641,putative pleiotropic regulatory protein,False

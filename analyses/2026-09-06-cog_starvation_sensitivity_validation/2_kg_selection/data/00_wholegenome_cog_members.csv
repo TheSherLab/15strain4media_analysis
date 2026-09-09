@@ -1,0 +1,1255 @@
+strain,cog_numbers,direction,locus_name,ckpro_id,cluster_number,product,seqid,start,end,strand
+AS9601,COG0082,mixed,aroC,CK_Pro_AS9601_02451,CK_00000482,chorismate synthase,Pro_AS9601_chromosome,228016,229113,+
+MED4,COG0082,mixed,aroC,CK_Pro_MED4_00224,CK_00000482,chorismate synthase,Pro_MED4_chromosome,218002,219096,+
+MIT0604,COG0082,mixed,aroC,CK_Pro_MIT0604_00268,CK_00000482,chorismate synthase,Pro_MIT0604_chromosome,244585,245682,+
+MIT9202,COG0082,mixed,aroC,CK_Pro_MIT9202_01892,CK_00000482,chorismate synthase,Pro_MIT9202_chromosome,956378,957475,+
+MIT9215,COG0082,mixed,aroC,CK_Pro_MIT9215_02461,CK_00000482,chorismate synthase,Pro_MIT9215_chromosome,224948,226045,+
+MIT9301,COG0082,mixed,aroC,CK_Pro_MIT9301_02461,CK_00000482,chorismate synthase,Pro_MIT9301_chromosome,228980,230077,+
+MIT9312,COG0082,mixed,aroC,CK_Pro_MIT9312_00226,CK_00000482,chorismate synthase,Pro_MIT9312_chromosome,218769,219866,+
+MIT9313,COG0082,mixed,PMT0047,CK_Pro_MIT9313_00047,CK_00001348,conserved hypothetical protein,Pro_MIT9313_chromosome,47510,47911,+
+MIT9313,COG0082,mixed,PMT0443,CK_Pro_MIT9313_00443,CK_00001479,uncharacterized conserved secreted protein,Pro_MIT9313_chromosome,499865,500632,+
+MIT9313,COG0082,mixed,aroC,CK_Pro_MIT9313_01795,CK_00000482,chorismate synthase,Pro_MIT9313_chromosome,1896145,1897233,+
+MIT9515,COG0082,mixed,aroC,CK_Pro_MIT9515_02561,CK_00000482,chorismate synthase,Pro_MIT9515_chromosome,237312,238406,+
+NATL1A,COG0082,mixed,,CK_Pro_NATL1A_00531,CK_00001348,conserved hypothetical protein,Pro_NATL1A_chromosome,55026,55400,+
+NATL1A,COG0082,mixed,aroC,CK_Pro_NATL1A_03041,CK_00000482,chorismate synthase,Pro_NATL1A_chromosome,281855,282940,+
+NATL2A,COG0082,mixed,,CK_Pro_NATL2A_01372,CK_00001348,conserved hypothetical protein,Pro_NATL2A_chromosome,46406,46780,+
+NATL2A,COG0082,mixed,aroC,CK_Pro_NATL2A_01593,CK_00000482,chorismate synthase,Pro_NATL2A_chromosome,264062,265147,+
+PAC1,COG0082,mixed,,CK_Pro_PAC1_01185,CK_00001348,conserved hypothetical protein,Pro_PAC1_chromosome,928802,929179,+
+PAC1,COG0082,mixed,aroC,CK_Pro_PAC1_01209,CK_00000482,chorismate synthase,Pro_PAC1_chromosome,950600,951685,+
+SB,COG0082,mixed,aroC,CK_Pro_SB_00998,CK_00000482,chorismate synthase,Pro_SB_chromosome,824555,825652,-
+AS9601,COG0188,N,,CK_Pro_AS9601_00041,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_AS9601_chromosome,5882,8323,-
+AS9601,COG0188,N,,CK_Pro_AS9601_02761,CK_00000462,protein of unknown function DUF3769,Pro_AS9601_chromosome,252780,254681,+
+AS9601,COG0188,N,unk6,CK_Pro_AS9601_03311,CK_00005948,conserved hypothetical protein,Pro_AS9601_chromosome,304767,304946,-
+AS9601,COG0188,N,,CK_Pro_AS9601_10511,CK_00004040,conserved hypothetical protein (DUF2862),Pro_AS9601_chromosome,912968,913357,+
+AS9601,COG0188,N,gyrA,CK_Pro_AS9601_11681,CK_00000028,"DNA gyrase, A subunit",Pro_AS9601_chromosome,979934,982531,+
+AS9601,COG0188,N,zipN,CK_Pro_AS9601_14861,CK_00000149,cell division protein ZipN,Pro_AS9601_chromosome,1266344,1268449,-
+MED4,COG0188,N,PMM0005,CK_Pro_MED4_00005,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_MED4_chromosome,5887,8328,-
+MED4,COG0188,N,PMM0254,CK_Pro_MED4_00254,CK_00000462,protein of unknown function DUF3769,Pro_MED4_chromosome,242645,244681,+
+MED4,COG0188,N,unk6,CK_Pro_MED4_00307,CK_00005948,conserved hypothetical protein,Pro_MED4_chromosome,294747,294926,-
+MED4,COG0188,N,PMM0975,CK_Pro_MED4_00975,CK_00004040,conserved hypothetical protein (DUF2862),Pro_MED4_chromosome,932990,933385,+
+MED4,COG0188,N,gyrA,CK_Pro_MED4_01063,CK_00000028,"DNA gyrase, A subunit",Pro_MED4_chromosome,1002199,1004802,+
+MED4,COG0188,N,zipN,CK_Pro_MED4_01287,CK_00000149,cell division protein ZipN,Pro_MED4_chromosome,1236811,1238919,-
+MIT0604,COG0188,N,,CK_Pro_MIT0604_00005,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_MIT0604_chromosome,5883,8324,-
+MIT0604,COG0188,N,,CK_Pro_MIT0604_00299,CK_00000462,protein of unknown function DUF3769,Pro_MIT0604_chromosome,269240,271240,+
+MIT0604,COG0188,N,unk6,CK_Pro_MIT0604_00351,CK_00005948,conserved hypothetical protein,Pro_MIT0604_chromosome,321325,321504,-
+MIT0604,COG0188,N,,CK_Pro_MIT0604_01084,CK_00004040,conserved hypothetical protein (DUF2862),Pro_MIT0604_chromosome,933784,934173,+
+MIT0604,COG0188,N,gyrA,CK_Pro_MIT0604_01202,CK_00000028,"DNA gyrase, A subunit",Pro_MIT0604_chromosome,1001254,1003851,+
+MIT0604,COG0188,N,zipN,CK_Pro_MIT0604_01588,CK_00000149,cell division protein ZipN,Pro_MIT0604_chromosome,1332020,1334044,-
+MIT9202,COG0188,N,gyrA,CK_Pro_MIT9202_00902,CK_00000028,"DNA gyrase, A subunit",Pro_MIT9202_chromosome,36735,39332,+
+MIT9202,COG0188,N,zipN,CK_Pro_MIT9202_00491,CK_00000149,cell division protein ZipN,Pro_MIT9202_chromosome,301798,303903,-
+MIT9202,COG0188,N,,CK_Pro_MIT9202_00337,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_MIT9202_chromosome,732224,734665,-
+MIT9202,COG0188,N,,CK_Pro_MIT9202_00520,CK_00000462,protein of unknown function DUF3769,Pro_MIT9202_chromosome,981037,983028,+
+MIT9202,COG0188,N,unk6,CK_Pro_MIT9202_50053,CK_00005948,conserved hypothetical protein,Pro_MIT9202_chromosome,1033094,1033273,-
+MIT9202,COG0188,N,,CK_Pro_MIT9202_00535,CK_00004040,conserved hypothetical protein (DUF2862),Pro_MIT9202_chromosome,1661417,1661806,+
+MIT9215,COG0188,N,gyrA,CK_Pro_MIT9215_00041,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_MIT9215_chromosome,5883,8324,-
+MIT9215,COG0188,N,,CK_Pro_MIT9215_02781,CK_00000462,protein of unknown function DUF3769,Pro_MIT9215_chromosome,249611,251602,+
+MIT9215,COG0188,N,unk6,CK_Pro_MIT9215_03321,CK_00005948,conserved hypothetical protein,Pro_MIT9215_chromosome,301662,301841,-
+MIT9215,COG0188,N,,CK_Pro_MIT9215_10831,CK_00004040,conserved hypothetical protein (DUF2862),Pro_MIT9215_chromosome,944531,944920,+
+MIT9215,COG0188,N,gyrA,CK_Pro_MIT9215_11981,CK_00000028,"DNA gyrase, A subunit",Pro_MIT9215_chromosome,1011719,1014316,+
+MIT9215,COG0188,N,zipN,CK_Pro_MIT9215_15151,CK_00000149,cell division protein ZipN,Pro_MIT9215_chromosome,1307710,1309815,-
+MIT9301,COG0188,N,,CK_Pro_MIT9301_00041,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_MIT9301_chromosome,5884,8325,-
+MIT9301,COG0188,N,unk6,CK_Pro_MIT9301_03321,CK_00005948,conserved hypothetical protein,Pro_MIT9301_chromosome,304355,304534,-
+MIT9301,COG0188,N,,CK_Pro_MIT9301_10501,CK_00004040,conserved hypothetical protein (DUF2862),Pro_MIT9301_chromosome,911421,911810,+
+MIT9301,COG0188,N,gyrA,CK_Pro_MIT9301_11691,CK_00000028,"DNA gyrase, A subunit",Pro_MIT9301_chromosome,978806,981403,+
+MIT9301,COG0188,N,zipN,CK_Pro_MIT9301_14721,CK_00000149,cell division protein ZipN,Pro_MIT9301_chromosome,1239448,1241553,-
+MIT9312,COG0188,N,,CK_Pro_MIT9312_00005,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_MIT9312_chromosome,5916,8357,-
+MIT9312,COG0188,N,,CK_Pro_MIT9312_00256,CK_00000462,protein of unknown function DUF3769,Pro_MIT9312_chromosome,243166,245097,+
+MIT9312,COG0188,N,unk6,CK_Pro_MIT9312_00309,CK_00005948,conserved hypothetical protein,Pro_MIT9312_chromosome,295204,295383,-
+MIT9312,COG0188,N,,CK_Pro_MIT9312_00980,CK_00004040,conserved hypothetical protein (DUF2862),Pro_MIT9312_chromosome,914986,915375,+
+MIT9312,COG0188,N,gyrA,CK_Pro_MIT9312_01074,CK_00000028,"DNA gyrase, A subunit",Pro_MIT9312_chromosome,981665,984256,+
+MIT9312,COG0188,N,zipN,CK_Pro_MIT9312_01383,CK_00000149,cell division protein ZipN,Pro_MIT9312_chromosome,1296135,1298240,-
+MIT9313,COG0188,N,PMT0005,CK_Pro_MIT9313_00005,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_MIT9313_chromosome,6115,8604,-
+MIT9313,COG0188,N,zipN,CK_Pro_MIT9313_00348,CK_00000149,cell division protein ZipN,Pro_MIT9313_chromosome,396287,398272,+
+MIT9313,COG0188,N,gyrA,CK_Pro_MIT9313_01124,CK_00000028,"DNA gyrase, A subunit",Pro_MIT9313_chromosome,1215746,1218373,-
+MIT9313,COG0188,N,unk6,CK_Pro_MIT9313_02277,CK_00005948,conserved hypothetical protein,Pro_MIT9313_chromosome,1780019,1780207,+
+MIT9313,COG0188,N,PMT1841,CK_Pro_MIT9313_01841,CK_00000462,protein of unknown function DUF3769,Pro_MIT9313_chromosome,1947041,1950124,+
+MIT9515,COG0188,N,,CK_Pro_MIT9515_00041,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_MIT9515_chromosome,5892,8333,-
+MIT9515,COG0188,N,,CK_Pro_MIT9515_02871,CK_00000462,protein of unknown function DUF3769,Pro_MIT9515_chromosome,262023,263807,+
+MIT9515,COG0188,N,unk6,CK_Pro_MIT9515_03411,CK_00005948,conserved hypothetical protein,Pro_MIT9515_chromosome,314098,314277,-
+MIT9515,COG0188,N,,CK_Pro_MIT9515_10501,CK_00004040,conserved hypothetical protein (DUF2862),Pro_MIT9515_chromosome,938689,939078,+
+MIT9515,COG0188,N,gyrA,CK_Pro_MIT9515_11531,CK_00000028,"DNA gyrase, A subunit",Pro_MIT9515_chromosome,1003552,1006143,+
+MIT9515,COG0188,N,zipN,CK_Pro_MIT9515_14481,CK_00000149,cell division protein ZipN,Pro_MIT9515_chromosome,1281987,1284104,-
+NATL1A,COG0188,N,,CK_Pro_NATL1A_00041,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_NATL1A_chromosome,6051,8534,-
+NATL1A,COG0188,N,,CK_Pro_NATL1A_03321,CK_00000462,protein of unknown function DUF3769,Pro_NATL1A_chromosome,305207,307141,+
+NATL1A,COG0188,N,,CK_Pro_NATL1A_09091,CK_00004040,conserved hypothetical protein (DUF2862),Pro_NATL1A_chromosome,842066,842464,-
+NATL1A,COG0188,N,gyrA,CK_Pro_NATL1A_15231,CK_00000028,"DNA gyrase, A subunit",Pro_NATL1A_chromosome,1238506,1241124,-
+NATL1A,COG0188,N,zipN,CK_Pro_NATL1A_17071,CK_00000149,cell division protein ZipN,Pro_NATL1A_chromosome,1390933,1392987,-
+NATL2A,COG0188,N,,CK_Pro_NATL2A_01332,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_NATL2A_chromosome,6053,8536,-
+NATL2A,COG0188,N,,CK_Pro_NATL2A_01620,CK_00000462,protein of unknown function DUF3769,Pro_NATL2A_chromosome,287403,289340,+
+NATL2A,COG0188,N,,CK_Pro_NATL2A_00242,CK_00004040,conserved hypothetical protein (DUF2862),Pro_NATL2A_chromosome,788437,788835,-
+NATL2A,COG0188,N,gyrA,CK_Pro_NATL2A_00689,CK_00000028,"DNA gyrase, A subunit",Pro_NATL2A_chromosome,1187028,1189646,-
+NATL2A,COG0188,N,zipN,CK_Pro_NATL2A_00854,CK_00000149,cell division protein ZipN,Pro_NATL2A_chromosome,1356426,1358480,-
+PAC1,COG0188,N,zipN,CK_Pro_PAC1_00768,CK_00000149,cell division protein ZipN,Pro_PAC1_chromosome,543365,545419,-
+PAC1,COG0188,N,,CK_Pro_PAC1_01142,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_PAC1_chromosome,886268,888682,-
+PAC1,COG0188,N,,CK_Pro_PAC1_01237,CK_00000462,protein of unknown function DUF3769,Pro_PAC1_chromosome,973837,975873,+
+PAC1,COG0188,N,gyrA,CK_Pro_PAC1_01528,CK_00000028,"DNA gyrase, A subunit",Pro_PAC1_chromosome,1197516,1200026,-
+PAC1,COG0188,N,,CK_Pro_PAC1_02048,CK_00004040,conserved hypothetical protein (DUF2862),Pro_PAC1_chromosome,1651647,1652045,-
+SB,COG0188,N,,CK_Pro_SB_00345,CK_00004040,conserved hypothetical protein (DUF2862),Pro_SB_chromosome,284032,284421,+
+SB,COG0188,N,gyrA,CK_Pro_SB_00470,CK_00000028,"DNA gyrase, A subunit",Pro_SB_chromosome,357080,359677,+
+SB,COG0188,N,unk6,CK_Pro_SB_00913,CK_00005948,conserved hypothetical protein,Pro_SB_chromosome,748723,748902,+
+SB,COG0188,N,,CK_Pro_SB_00967,CK_00000462,protein of unknown function DUF3769,Pro_SB_chromosome,798987,800975,-
+SB,COG0188,N,,CK_Pro_SB_01232,CK_00008107,"DNA gyrase/topoisomerase IV, subunit A family protein",Pro_SB_chromosome,1042302,1044674,+
+SB,COG0188,N,zipN,CK_Pro_SB_01687,CK_00000149,cell division protein ZipN,Pro_SB_chromosome,1455979,1458003,+
+AS9601,COG0330,mixed,hflC,CK_Pro_AS9601_05381,CK_00041773,prohibitin-like protein,Pro_AS9601_chromosome,466966,467769,+
+MED4,COG0330,mixed,phb,CK_Pro_MED4_00482,CK_00041773,prohibitin-like protein,Pro_MED4_chromosome,455827,456633,+
+MIT0604,COG0330,mixed,,CK_Pro_MIT0604_00526,CK_00041773,prohibitin-like protein,Pro_MIT0604_chromosome,458611,459414,+
+MIT9202,COG0330,mixed,,CK_Pro_MIT9202_01359,CK_00041773,prohibitin-like protein,Pro_MIT9202_chromosome,1205838,1206641,+
+MIT9215,COG0330,mixed,hflC,CK_Pro_MIT9215_05641,CK_00041773,prohibitin-like protein,Pro_MIT9215_chromosome,492985,493788,+
+MIT9301,COG0330,mixed,hflC,CK_Pro_MIT9301_05091,CK_00041773,prohibitin-like protein,Pro_MIT9301_chromosome,441440,442243,+
+MIT9312,COG0330,mixed,,CK_Pro_MIT9312_00483,CK_00041773,prohibitin-like protein,Pro_MIT9312_chromosome,451573,452376,+
+MIT9313,COG0330,mixed,PMT0627,CK_Pro_MIT9313_00627,CK_00001270,conserved hypothetical protein,Pro_MIT9313_chromosome,680913,681344,+
+MIT9313,COG0330,mixed,PMT0908,CK_Pro_MIT9313_00908,CK_00041773,prohibitin-like protein,Pro_MIT9313_chromosome,988815,989699,+
+MIT9313,COG0330,mixed,qmcA,CK_Pro_MIT9313_01299,CK_00001883,membrane anchored protease,Pro_MIT9313_chromosome,1388448,1389362,-
+MIT9515,COG0330,mixed,hflC,CK_Pro_MIT9515_05461,CK_00041773,prohibitin-like protein,Pro_MIT9515_chromosome,486239,487045,+
+NATL1A,COG0330,mixed,hflC,CK_Pro_NATL1A_05391,CK_00041773,prohibitin-like protein,Pro_NATL1A_chromosome,487283,488086,+
+NATL1A,COG0330,mixed,,CK_Pro_NATL1A_09461,CK_00001270,conserved hypothetical protein,Pro_NATL1A_chromosome,872897,873262,-
+NATL2A,COG0330,mixed,,CK_Pro_NATL2A_01815,CK_00041773,prohibitin-like protein,Pro_NATL2A_chromosome,474908,475711,+
+NATL2A,COG0330,mixed,,CK_Pro_NATL2A_00277,CK_00001270,conserved hypothetical protein,Pro_NATL2A_chromosome,819193,819558,-
+PAC1,COG0330,mixed,,CK_Pro_PAC1_01701,CK_00041773,prohibitin-like protein,Pro_PAC1_chromosome,1338651,1339433,+
+PAC1,COG0330,mixed,,CK_Pro_PAC1_02086,CK_00001270,conserved hypothetical protein,Pro_PAC1_chromosome,1682495,1682860,-
+SB,COG0330,mixed,,CK_Pro_SB_00714,CK_00041773,prohibitin-like protein,Pro_SB_chromosome,589789,590592,-
+MIT0604,COG0367,N,asnB2,CK_Pro_MIT0604_01471,CK_00057301,asparagine synthase (glutamine-hydrolyzing),Pro_MIT0604_chromosome,1226766,1228535,+
+MIT9202,COG0367,N,asnB2,CK_Pro_MIT9202_00553,CK_00057301,asparagine synthase (glutamine-hydrolyzing),Pro_MIT9202_chromosome,243555,245396,-
+MIT9202,COG0367,N,asnB2,CK_Pro_MIT9202_01805,CK_00057301,asparagine synthase (glutamine-hydrolyzing),Pro_MIT9202_chromosome,265437,267284,+
+MIT9215,COG0367,N,asnB2,CK_Pro_MIT9215_14791,CK_00057301,asparagine synthase (glutamine-hydrolyzing),Pro_MIT9215_chromosome,1275045,1276925,-
+MIT9215,COG0367,N,asnB2,CK_Pro_MIT9215_14831,CK_00057301,asparagine synthase (glutamine-hydrolyzing),Pro_MIT9215_chromosome,1279335,1281344,-
+MIT9312,COG0367,N,asnB2,CK_Pro_MIT9312_01324,CK_00057301,asparagine synthase (glutamine-hydrolyzing),Pro_MIT9312_chromosome,1236769,1238637,+
+NATL1A,COG0367,N,asnB2,CK_Pro_NATL1A_08651,CK_00057301,asparagine synthase (glutamine-hydrolyzing),Pro_NATL1A_chromosome,797077,798996,-
+AS9601,COG0399,N,degT,CK_Pro_AS9601_03071,CK_00009007,putative pleiotropic regulatory protein,Pro_AS9601_chromosome,283335,284540,+
+AS9601,COG0399,N,rfbE,CK_Pro_AS9601_14111,CK_00000021,perosamine synthetase protein family,Pro_AS9601_chromosome,1183160,1184266,-
+MED4,COG0399,N,degT,CK_Pro_MED4_00284,CK_00009007,putative pleiotropic regulatory protein,Pro_MED4_chromosome,273321,274526,+
+MED4,COG0399,N,PMM1205,CK_Pro_MED4_01205,CK_00056705,"possible NDP-hexose 3,4-dehydratase",Pro_MED4_chromosome,1152958,1154157,-
+MED4,COG0399,N,rfbE,CK_Pro_MED4_01258,CK_00000021,perosamine synthetase protein family,Pro_MED4_chromosome,1211578,1212726,+
+MED4,COG0399,N,rfbE,CK_Pro_MED4_01259,CK_00000021,perosamine synthetase protein family,Pro_MED4_chromosome,1212737,1213846,+
+MIT0604,COG0399,N,degT,CK_Pro_MIT0604_00328,CK_00009007,putative pleiotropic regulatory protein,Pro_MIT0604_chromosome,299905,301110,+
+MIT0604,COG0399,N,rfbE,CK_Pro_MIT0604_01461,CK_00000021,perosamine synthetase protein family,Pro_MIT0604_chromosome,1215540,1216691,+
+MIT0604,COG0399,N,rfbE,CK_Pro_MIT0604_01491,CK_00000021,perosamine synthetase protein family,Pro_MIT0604_chromosome,1249340,1250620,-
+MIT9202,COG0399,N,spsC,CK_Pro_MIT9202_01352,CK_00057552,"pyridoxal-phosphate-dependent aminotransferase, DegT/DnrJ/EryC1/StrS protein family",Pro_MIT9202_chromosome,248922,250100,-
+MIT9202,COG0399,N,degT,CK_Pro_MIT9202_01474,CK_00009007,putative pleiotropic regulatory protein,Pro_MIT9202_chromosome,1011675,1012880,+
+MIT9215,COG0399,N,degT,CK_Pro_MIT9215_03091,CK_00009007,putative pleiotropic regulatory protein,Pro_MIT9215_chromosome,280250,281455,+
+MIT9215,COG0399,N,,CK_Pro_MIT9215_14191,CK_00056707,pyridoxal phosphate-dependent enzyme,Pro_MIT9215_chromosome,1209410,1210471,+
+MIT9215,COG0399,N,,CK_Pro_MIT9215_14491,CK_00056706,putative aminotransferase (DegT family),Pro_MIT9215_chromosome,1239978,1241171,+
+MIT9301,COG0399,N,degT,CK_Pro_MIT9301_03081,CK_00009007,putative pleiotropic regulatory protein,Pro_MIT9301_chromosome,282915,284120,+
+MIT9301,COG0399,N,,CK_Pro_MIT9301_14101,CK_00056706,putative aminotransferase (DegT family),Pro_MIT9301_chromosome,1176929,1178125,-
+MIT9312,COG0399,N,degT,CK_Pro_MIT9312_00286,CK_00009007,putative pleiotropic regulatory protein,Pro_MIT9312_chromosome,273771,274976,+
+MIT9312,COG0399,N,rfbE,CK_Pro_MIT9312_01304,CK_00000021,perosamine synthetase protein family,Pro_MIT9312_chromosome,1211581,1212684,+
+MIT9313,COG0399,N,degT,CK_Pro_MIT9313_01884,CK_00009007,putative pleiotropic regulatory protein,Pro_MIT9313_chromosome,1988562,1989788,+
+MIT9515,COG0399,N,degT,CK_Pro_MIT9515_03171,CK_00009007,putative pleiotropic regulatory protein,Pro_MIT9515_chromosome,292661,293875,+
+MIT9515,COG0399,N,,CK_Pro_MIT9515_07591,CK_00056705,"possible NDP-hexose 3,4-dehydratase",Pro_MIT9515_chromosome,689512,690729,+
+MIT9515,COG0399,N,rfbE,CK_Pro_MIT9515_13011,CK_00000021,perosamine synthetase protein family,Pro_MIT9515_chromosome,1140767,1141879,+
+MIT9515,COG0399,N,,CK_Pro_MIT9515_13991,CK_00057565,DegT/DnrJ/EryC1/StrS aminotransferase protein family,Pro_MIT9515_chromosome,1236161,1237336,-
+NATL1A,COG0399,N,degT,CK_Pro_NATL1A_03641,CK_00009007,putative pleiotropic regulatory protein,Pro_NATL1A_chromosome,336524,337693,+
+NATL2A,COG0399,N,degT,CK_Pro_NATL2A_01650,CK_00009007,putative pleiotropic regulatory protein,Pro_NATL2A_chromosome,318716,319885,+
+NATL2A,COG0399,N,rfbE,CK_Pro_NATL2A_00826,CK_00000021,perosamine synthetase protein family,Pro_NATL2A_chromosome,1331135,1332229,-
+PAC1,COG0399,N,rfbE,CK_Pro_PAC1_00734,CK_00000021,perosamine synthetase protein family,Pro_PAC1_chromosome,514251,515351,-
+PAC1,COG0399,N,degT,CK_Pro_PAC1_01267,CK_00009007,putative pleiotropic regulatory protein,Pro_PAC1_chromosome,1005255,1006424,+
+SB,COG0399,N,degT,CK_Pro_SB_00937,CK_00009007,putative pleiotropic regulatory protein,Pro_SB_chromosome,769131,770336,-
+MIT9301,COG0412,mixed,,CK_Pro_MIT9301_16031,CK_00001881,dienelactone hydrolase family protein,Pro_MIT9301_chromosome,1344383,1345099,+
+MIT9312,COG0412,mixed,,CK_Pro_MIT9312_01497,CK_00001881,dienelactone hydrolase family protein,Pro_MIT9312_chromosome,1405346,1406062,+
+MIT9313,COG0412,mixed,clcD,CK_Pro_MIT9313_01031,CK_00001881,dienelactone hydrolase family protein,Pro_MIT9313_chromosome,1109710,1110450,+
+PAC1,COG0412,mixed,,CK_Pro_PAC1_01652,CK_00001881,dienelactone hydrolase family protein,Pro_PAC1_chromosome,1299736,1300455,-
+SB,COG0412,mixed,,CK_Pro_SB_01543,CK_00001881,dienelactone hydrolase family protein,Pro_SB_chromosome,1351983,1352699,-
+AS9601,COG0443,mixed,,CK_Pro_AS9601_02821,CK_00000457,conserved hypothetical protein,Pro_AS9601_chromosome,259769,260059,+
+AS9601,COG0443,mixed,dnaK2,CK_Pro_AS9601_09641,CK_00008052,chaperone protein DnaK,Pro_AS9601_chromosome,830284,832281,+
+AS9601,COG0443,mixed,dnaK1,CK_Pro_AS9601_16341,CK_00001102,chaperone protein DnaK,Pro_AS9601_chromosome,1379642,1381210,+
+AS9601,COG0443,mixed,dnaK3,CK_Pro_AS9601_19141,CK_00000029,chaperone protein DnaK,Pro_AS9601_chromosome,1653376,1655283,-
+MED4,COG0443,mixed,PMM0260,CK_Pro_MED4_00260,CK_00000457,conserved hypothetical protein,Pro_MED4_chromosome,249768,250049,+
+MED4,COG0443,mixed,dnaK2,CK_Pro_MED4_00897,CK_00008052,chaperone protein DnaK,Pro_MED4_chromosome,858920,860917,-
+MED4,COG0443,mixed,dnaK1,CK_Pro_MED4_01432,CK_00001102,chaperone protein DnaK,Pro_MED4_chromosome,1369433,1370998,+
+MED4,COG0443,mixed,dnaK3,CK_Pro_MED4_01704,CK_00000029,chaperone protein DnaK,Pro_MED4_chromosome,1641476,1643380,-
+MIT0604,COG0443,mixed,,CK_Pro_MIT0604_00304,CK_00000457,conserved hypothetical protein,Pro_MIT0604_chromosome,276330,276620,+
+MIT0604,COG0443,mixed,dnaK2,CK_Pro_MIT0604_00995,CK_00008052,chaperone protein DnaK,Pro_MIT0604_chromosome,850993,852990,+
+MIT0604,COG0443,mixed,dnaK1,CK_Pro_MIT0604_01772,CK_00001102,chaperone protein DnaK,Pro_MIT0604_chromosome,1473055,1474623,+
+MIT0604,COG0443,mixed,dnaK3,CK_Pro_MIT0604_02074,CK_00000029,chaperone protein DnaK,Pro_MIT0604_chromosome,1763553,1765460,-
+MIT9202,COG0443,mixed,dnaK1,CK_Pro_MIT9202_00939,CK_00001102,chaperone protein DnaK,Pro_MIT9202_chromosome,439542,441110,+
+MIT9202,COG0443,mixed,dnaK3,CK_Pro_MIT9202_01872,CK_00000029,chaperone protein DnaK,Pro_MIT9202_chromosome,709835,711742,-
+MIT9202,COG0443,mixed,dnaK2,CK_Pro_MIT9202_00054,CK_00008052,chaperone protein DnaK,Pro_MIT9202_chromosome,1578764,1580761,+
+MIT9215,COG0443,mixed,,CK_Pro_MIT9215_02841,CK_00000457,conserved hypothetical protein,Pro_MIT9215_chromosome,256686,256973,+
+MIT9215,COG0443,mixed,dnaK2,CK_Pro_MIT9215_09951,CK_00008052,chaperone protein DnaK,Pro_MIT9215_chromosome,861928,863925,+
+MIT9215,COG0443,mixed,dnaK1,CK_Pro_MIT9215_16991,CK_00001102,chaperone protein DnaK,Pro_MIT9215_chromosome,1448980,1450548,+
+MIT9215,COG0443,mixed,dnaK3,CK_Pro_MIT9215_19771,CK_00000029,chaperone protein DnaK,Pro_MIT9215_chromosome,1722281,1724188,-
+MIT9301,COG0443,mixed,,CK_Pro_MIT9301_02831,CK_00000457,conserved hypothetical protein,Pro_MIT9301_chromosome,259348,259632,+
+MIT9301,COG0443,mixed,dnaK2,CK_Pro_MIT9301_09621,CK_00008052,chaperone protein DnaK,Pro_MIT9301_chromosome,828743,830740,+
+MIT9301,COG0443,mixed,dnaK1,CK_Pro_MIT9301_16221,CK_00001102,chaperone protein DnaK,Pro_MIT9301_chromosome,1355409,1356977,+
+MIT9301,COG0443,mixed,dnaK3,CK_Pro_MIT9301_18951,CK_00000029,chaperone protein DnaK,Pro_MIT9301_chromosome,1625372,1627279,-
+MIT9312,COG0443,mixed,,CK_Pro_MIT9312_00262,CK_00000457,conserved hypothetical protein,Pro_MIT9312_chromosome,250186,250476,+
+MIT9312,COG0443,mixed,dnaK2,CK_Pro_MIT9312_00903,CK_00008052,chaperone protein DnaK,Pro_MIT9312_chromosome,833552,835549,+
+MIT9312,COG0443,mixed,dnaK1,CK_Pro_MIT9312_01525,CK_00001102,chaperone protein DnaK,Pro_MIT9312_chromosome,1421597,1423165,+
+MIT9312,COG0443,mixed,dnaK3,CK_Pro_MIT9312_01797,CK_00000029,chaperone protein DnaK,Pro_MIT9312_chromosome,1692726,1694633,-
+MIT9313,COG0443,mixed,dnaK2,CK_Pro_MIT9313_00703,CK_00008052,chaperone protein DnaK,Pro_MIT9313_chromosome,758575,760569,+
+MIT9313,COG0443,mixed,dnaK1,CK_Pro_MIT9313_01444,CK_00001102,chaperone protein DnaK,Pro_MIT9313_chromosome,1529226,1530851,+
+MIT9313,COG0443,mixed,PMT1619,CK_Pro_MIT9313_01619,CK_00001147,uncharacterized conserved secreted protein,Pro_MIT9313_chromosome,1721908,1722591,-
+MIT9313,COG0443,mixed,PMT1849,CK_Pro_MIT9313_01849,CK_00000457,conserved hypothetical protein,Pro_MIT9313_chromosome,1957153,1957443,+
+MIT9313,COG0443,mixed,dnaK3,CK_Pro_MIT9313_02255,CK_00000029,chaperone protein DnaK,Pro_MIT9313_chromosome,2388463,2390367,-
+MIT9515,COG0443,mixed,,CK_Pro_MIT9515_02931,CK_00000457,conserved hypothetical protein,Pro_MIT9515_chromosome,269102,269383,+
+MIT9515,COG0443,mixed,dnaK2,CK_Pro_MIT9515_09791,CK_00008052,chaperone protein DnaK,Pro_MIT9515_chromosome,875192,877189,-
+MIT9515,COG0443,mixed,dnaK1,CK_Pro_MIT9515_16101,CK_00001102,chaperone protein DnaK,Pro_MIT9515_chromosome,1406861,1408426,+
+MIT9515,COG0443,mixed,dnaK3,CK_Pro_MIT9515_18951,CK_00000029,chaperone protein DnaK,Pro_MIT9515_chromosome,1687658,1689562,-
+NATL1A,COG0443,mixed,,CK_Pro_NATL1A_03371,CK_00000457,conserved hypothetical protein,Pro_NATL1A_chromosome,311929,312408,+
+NATL1A,COG0443,mixed,dnaK2,CK_Pro_NATL1A_09851,CK_00008052,chaperone protein DnaK,Pro_NATL1A_chromosome,903625,905625,+
+NATL1A,COG0443,mixed,dnaK1,CK_Pro_NATL1A_18321,CK_00001102,chaperone protein DnaK,Pro_NATL1A_chromosome,1493487,1495112,+
+NATL1A,COG0443,mixed,dnaK3,CK_Pro_NATL1A_21861,CK_00000029,chaperone protein DnaK,Pro_NATL1A_chromosome,1846480,1848372,-
+NATL2A,COG0443,mixed,,CK_Pro_NATL2A_01625,CK_00000457,conserved hypothetical protein,Pro_NATL2A_chromosome,294309,294605,+
+NATL2A,COG0443,mixed,dnaK2,CK_Pro_NATL2A_00312,CK_00008052,chaperone protein DnaK,Pro_NATL2A_chromosome,849919,851919,+
+NATL2A,COG0443,mixed,dnaK1,CK_Pro_NATL2A_00964,CK_00001102,chaperone protein DnaK,Pro_NATL2A_chromosome,1456892,1458517,+
+NATL2A,COG0443,mixed,dnaK3,CK_Pro_NATL2A_01313,CK_00000029,chaperone protein DnaK,Pro_NATL2A_chromosome,1824623,1826515,-
+PAC1,COG0443,mixed,,CK_Pro_PAC1_00044,CK_00002485,conserved hypothetical protein,Pro_PAC1_chromosome,26729,27784,-
+PAC1,COG0443,mixed,dnaK1,CK_Pro_PAC1_00885,CK_00001102,chaperone protein DnaK,Pro_PAC1_chromosome,637003,638628,+
+PAC1,COG0443,mixed,dnaK3,CK_Pro_PAC1_01120,CK_00000029,chaperone protein DnaK,Pro_PAC1_chromosome,861940,863832,-
+PAC1,COG0443,mixed,,CK_Pro_PAC1_01242,CK_00000457,conserved hypothetical protein,Pro_PAC1_chromosome,980843,981139,+
+PAC1,COG0443,mixed,dnaK2,CK_Pro_PAC1_02123,CK_00008052,chaperone protein DnaK,Pro_PAC1_chromosome,1713224,1715224,+
+SB,COG0443,mixed,dnaK2,CK_Pro_SB_00256,CK_00008052,chaperone protein DnaK,Pro_SB_chromosome,201378,203375,+
+SB,COG0443,mixed,,CK_Pro_SB_00961,CK_00000457,conserved hypothetical protein,Pro_SB_chromosome,793606,793896,-
+SB,COG0443,mixed,dnaK3,CK_Pro_SB_01248,CK_00000029,chaperone protein DnaK,Pro_SB_chromosome,1065161,1067068,+
+SB,COG0443,mixed,dnaK1,CK_Pro_SB_01526,CK_00001102,chaperone protein DnaK,Pro_SB_chromosome,1343779,1345347,-
+AS9601,COG0454,mixed,,CK_Pro_AS9601_03581,CK_00001405,acetyltransferase family protein,Pro_AS9601_chromosome,331678,332568,+
+AS9601,COG0454,mixed,ycf52,CK_Pro_AS9601_06181,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_AS9601_chromosome,539740,540270,+
+AS9601,COG0454,mixed,,CK_Pro_AS9601_10761,CK_00001551,acetyltransferase family protein,Pro_AS9601_chromosome,926509,926979,+
+AS9601,COG0454,mixed,,CK_Pro_AS9601_17811,CK_00000550,conserved hypothetical protein,Pro_AS9601_chromosome,1513153,1513599,-
+AS9601,COG0454,mixed,,CK_Pro_AS9601_18501,CK_00000316,acetyltransferase family protein,Pro_AS9601_chromosome,1581739,1582194,+
+MED4,COG0454,mixed,rimI,CK_Pro_MED4_00333,CK_00001405,acetyltransferase family protein,Pro_MED4_chromosome,322362,323249,+
+MED4,COG0454,mixed,ycf52,CK_Pro_MED4_00562,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_MED4_chromosome,529690,530220,+
+MED4,COG0454,mixed,PMM0994,CK_Pro_MED4_00994,CK_00001551,acetyltransferase family protein,Pro_MED4_chromosome,946932,947393,+
+MED4,COG0454,mixed,PMM1574,CK_Pro_MED4_01574,CK_00000550,conserved hypothetical protein,Pro_MED4_chromosome,1502288,1502734,-
+MED4,COG0454,mixed,PMM1640,CK_Pro_MED4_01640,CK_00000316,acetyltransferase family protein,Pro_MED4_chromosome,1569324,1569779,+
+MIT0604,COG0454,mixed,,CK_Pro_MIT0604_00379,CK_00001405,acetyltransferase family protein,Pro_MIT0604_chromosome,348238,349128,+
+MIT0604,COG0454,mixed,ycf52,CK_Pro_MIT0604_00608,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_MIT0604_chromosome,531424,531954,+
+MIT0604,COG0454,mixed,,CK_Pro_MIT0604_01109,CK_00001551,acetyltransferase family protein,Pro_MIT0604_chromosome,947306,947773,+
+MIT0604,COG0454,mixed,,CK_Pro_MIT0604_01932,CK_00000550,conserved hypothetical protein,Pro_MIT0604_chromosome,1613654,1614100,-
+MIT0604,COG0454,mixed,,CK_Pro_MIT0604_01997,CK_00000316,acetyltransferase family protein,Pro_MIT0604_chromosome,1680558,1681013,+
+MIT9202,COG0454,mixed,,CK_Pro_MIT9202_00714,CK_00000550,conserved hypothetical protein,Pro_MIT9202_chromosome,571202,571648,-
+MIT9202,COG0454,mixed,wecD_1,CK_Pro_MIT9202_01448,CK_00000316,acetyltransferase family protein,Pro_MIT9202_chromosome,638222,638677,+
+MIT9202,COG0454,mixed,,CK_Pro_MIT9202_00552,CK_00001405,acetyltransferase family protein,Pro_MIT9202_chromosome,1060848,1061738,+
+MIT9202,COG0454,mixed,ycf52,CK_Pro_MIT9202_50070,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_MIT9202_chromosome,1278606,1279136,+
+MIT9202,COG0454,mixed,wecD_2,CK_Pro_MIT9202_00441,CK_00001551,acetyltransferase family protein,Pro_MIT9202_chromosome,1674942,1675412,+
+MIT9215,COG0454,mixed,rimI,CK_Pro_MIT9215_03581,CK_00001405,acetyltransferase family protein,Pro_MIT9215_chromosome,328570,329460,+
+MIT9215,COG0454,mixed,ycf52,CK_Pro_MIT9215_06431,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_MIT9215_chromosome,565676,566206,+
+MIT9215,COG0454,mixed,,CK_Pro_MIT9215_11061,CK_00001551,acetyltransferase family protein,Pro_MIT9215_chromosome,958069,958539,+
+MIT9215,COG0454,mixed,,CK_Pro_MIT9215_18461,CK_00000550,conserved hypothetical protein,Pro_MIT9215_chromosome,1583667,1584113,-
+MIT9215,COG0454,mixed,,CK_Pro_MIT9215_19141,CK_00000316,acetyltransferase family protein,Pro_MIT9215_chromosome,1650690,1651145,+
+MIT9301,COG0454,mixed,,CK_Pro_MIT9301_03591,CK_00001405,acetyltransferase family protein,Pro_MIT9301_chromosome,331273,332163,+
+MIT9301,COG0454,mixed,ycf52,CK_Pro_MIT9301_05881,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_MIT9301_chromosome,514168,514698,+
+MIT9301,COG0454,mixed,,CK_Pro_MIT9301_10761,CK_00001551,acetyltransferase family protein,Pro_MIT9301_chromosome,924950,925420,+
+MIT9301,COG0454,mixed,,CK_Pro_MIT9301_13151,CK_00002254,acyl-CoA N-acyltransferase,Pro_MIT9301_chromosome,1101654,1102307,+
+MIT9301,COG0454,mixed,,CK_Pro_MIT9301_17651,CK_00000550,conserved hypothetical protein,Pro_MIT9301_chromosome,1486812,1487258,-
+MIT9301,COG0454,mixed,,CK_Pro_MIT9301_18311,CK_00000316,acetyltransferase family protein,Pro_MIT9301_chromosome,1553720,1554175,+
+MIT9312,COG0454,mixed,,CK_Pro_MIT9312_00338,CK_00001405,acetyltransferase family protein,Pro_MIT9312_chromosome,326243,327133,+
+MIT9312,COG0454,mixed,ycf52,CK_Pro_MIT9312_00562,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_MIT9312_chromosome,524301,524831,+
+MIT9312,COG0454,mixed,,CK_Pro_MIT9312_01001,CK_00001551,acetyltransferase family protein,Pro_MIT9312_chromosome,928476,928955,+
+MIT9312,COG0454,mixed,,CK_Pro_MIT9312_01666,CK_00000550,conserved hypothetical protein,Pro_MIT9312_chromosome,1553453,1553899,-
+MIT9312,COG0454,mixed,,CK_Pro_MIT9312_01733,CK_00000316,acetyltransferase family protein,Pro_MIT9312_chromosome,1621108,1621563,+
+MIT9313,COG0454,mixed,PMT0082,CK_Pro_MIT9313_00082,CK_00000316,acetyltransferase family protein,Pro_MIT9313_chromosome,87907,88371,-
+MIT9313,COG0454,mixed,PMT0475,CK_Pro_MIT9313_00475,CK_00003676,GCN5-related N-acetyltransferase,Pro_MIT9313_chromosome,527777,528268,+
+MIT9313,COG0454,mixed,rimI,CK_Pro_MIT9313_00510,CK_00001405,acetyltransferase family protein,Pro_MIT9313_chromosome,560588,561472,-
+MIT9313,COG0454,mixed,PMT0832,CK_Pro_MIT9313_00832,CK_00043199,nif11-like leader peptide domain protein,Pro_MIT9313_chromosome,909179,909442,+
+MIT9313,COG0454,mixed,ycf52,CK_Pro_MIT9313_01191,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_MIT9313_chromosome,1281415,1281915,-
+MIT9313,COG0454,mixed,PMT1714,CK_Pro_MIT9313_01714,CK_00000550,conserved hypothetical protein,Pro_MIT9313_chromosome,1816314,1816796,+
+MIT9313,COG0454,mixed,,CK_Pro_MIT9313_02072,CK_00043199,nif11-like leader peptide domain protein,Pro_MIT9313_chromosome,2180048,2180251,-
+MIT9313,COG0454,mixed,PMT2243,CK_Pro_MIT9313_02243,CK_00001551,acetyltransferase family protein,Pro_MIT9313_chromosome,2370205,2370690,-
+MIT9515,COG0454,mixed,,CK_Pro_MIT9515_03651,CK_00001405,acetyltransferase family protein,Pro_MIT9515_chromosome,341731,342621,+
+MIT9515,COG0454,mixed,ycf52,CK_Pro_MIT9515_06261,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_MIT9515_chromosome,560205,560735,+
+MIT9515,COG0454,mixed,,CK_Pro_MIT9515_10731,CK_00001551,acetyltransferase family protein,Pro_MIT9515_chromosome,952285,952761,+
+MIT9515,COG0454,mixed,,CK_Pro_MIT9515_17611,CK_00000550,conserved hypothetical protein,Pro_MIT9515_chromosome,1546551,1546997,-
+MIT9515,COG0454,mixed,,CK_Pro_MIT9515_18291,CK_00000316,acetyltransferase family protein,Pro_MIT9515_chromosome,1613514,1613969,+
+NATL1A,COG0454,mixed,ycf52,CK_Pro_NATL1A_06171,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_NATL1A_chromosome,560682,561224,+
+NATL1A,COG0454,mixed,,CK_Pro_NATL1A_08391,CK_00001405,acetyltransferase family protein,Pro_NATL1A_chromosome,771867,772754,+
+NATL1A,COG0454,mixed,,CK_Pro_NATL1A_20201,CK_00000550,conserved hypothetical protein,Pro_NATL1A_chromosome,1663039,1663491,-
+NATL1A,COG0454,mixed,,CK_Pro_NATL1A_21101,CK_00000316,acetyltransferase family protein,Pro_NATL1A_chromosome,1764473,1764952,+
+NATL1A,COG0454,mixed,,CK_Pro_NATL1A_21751,CK_00001551,acetyltransferase family protein,Pro_NATL1A_chromosome,1832099,1832530,-
+NATL2A,COG0454,mixed,ycf52,CK_Pro_NATL2A_01892,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_NATL2A_chromosome,548321,548863,+
+NATL2A,COG0454,mixed,,CK_Pro_NATL2A_00207,CK_00001405,acetyltransferase family protein,Pro_NATL2A_chromosome,759495,760382,+
+NATL2A,COG0454,mixed,,CK_Pro_NATL2A_01146,CK_00000550,conserved hypothetical protein,Pro_NATL2A_chromosome,1632468,1632920,-
+NATL2A,COG0454,mixed,,CK_Pro_NATL2A_01231,CK_00000316,acetyltransferase family protein,Pro_NATL2A_chromosome,1729031,1729501,+
+NATL2A,COG0454,mixed,,CK_Pro_NATL2A_01302,CK_00001551,acetyltransferase family protein,Pro_NATL2A_chromosome,1810241,1810729,-
+PAC1,COG0454,mixed,,CK_Pro_PAC1_00214,CK_00000316,acetyltransferase family protein,Pro_PAC1_chromosome,112016,112501,-
+PAC1,COG0454,mixed,,CK_Pro_PAC1_00303,CK_00000550,conserved hypothetical protein,Pro_PAC1_chromosome,195006,195314,+
+PAC1,COG0454,mixed,,CK_Pro_PAC1_01109,CK_00001551,acetyltransferase family protein,Pro_PAC1_chromosome,847553,848011,-
+PAC1,COG0454,mixed,ycf52,CK_Pro_PAC1_01780,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_PAC1_chromosome,1412033,1412575,+
+PAC1,COG0454,mixed,,CK_Pro_PAC1_02011,CK_00001405,acetyltransferase family protein,Pro_PAC1_chromosome,1623022,1623909,+
+SB,COG0454,mixed,,CK_Pro_SB_00369,CK_00001551,acetyltransferase family protein,Pro_SB_chromosome,297582,298052,+
+SB,COG0454,mixed,ycf52,CK_Pro_SB_00635,CK_00000953,uncharacterized acyl-CoA N-acetyltransferase,Pro_SB_chromosome,517337,517867,-
+SB,COG0454,mixed,,CK_Pro_SB_00888,CK_00001405,acetyltransferase family protein,Pro_SB_chromosome,721091,721981,-
+SB,COG0454,mixed,,CK_Pro_SB_01317,CK_00000316,acetyltransferase family protein,Pro_SB_chromosome,1147941,1148396,-
+SB,COG0454,mixed,,CK_Pro_SB_01384,CK_00000550,conserved hypothetical protein,Pro_SB_chromosome,1214855,1215301,+
+AS9601,COG0477,mixed,,CK_Pro_AS9601_00781,CK_00002121,conserved hypothetical protein,Pro_AS9601_chromosome,82322,82600,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_01151,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_AS9601_chromosome,113656,114423,+
+AS9601,COG0477,mixed,,CK_Pro_AS9601_01291,CK_00001168,conserved hypothetical protein,Pro_AS9601_chromosome,124176,124385,+
+AS9601,COG0477,mixed,psbE,CK_Pro_AS9601_03201,CK_00000271,"cytochrome b559, alpha subunit",Pro_AS9601_chromosome,295821,296069,+
+AS9601,COG0477,mixed,unk3,CK_Pro_AS9601_03321,CK_00001398,uncharacterized membrane protein,Pro_AS9601_chromosome,305063,305698,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_05311,CK_00001416,conserved hypothetical protein,Pro_AS9601_chromosome,462288,462596,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_06431,CK_00000935,conserved hypothetical protein,Pro_AS9601_chromosome,563677,564120,-
+AS9601,COG0477,mixed,pcb,CK_Pro_AS9601_06831,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_AS9601_chromosome,606573,607631,+
+AS9601,COG0477,mixed,,CK_Pro_AS9601_07071,CK_00001851,conserved hypothetical protein,Pro_AS9601_chromosome,630345,630842,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_09161,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_AS9601_chromosome,789465,789914,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_09561,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_AS9601_chromosome,824064,824399,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_10171,CK_00001258,conserved hypothetical protein,Pro_AS9601_chromosome,878758,879084,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_11511,CK_00001298,"multidrug efflux transporter, MFS family",Pro_AS9601_chromosome,965746,966975,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_11721,CK_00001874,alpha-glycosidase,Pro_AS9601_chromosome,987306,987698,+
+AS9601,COG0477,mixed,ycf4,CK_Pro_AS9601_13331,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_AS9601_chromosome,1107886,1108443,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_14711,CK_00000729,conserved membrane protein,Pro_AS9601_chromosome,1255459,1255992,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_14821,CK_00000722,uncharacterized membrane protein,Pro_AS9601_chromosome,1262576,1263313,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_16491,CK_00001115,conserved hypothetical protein,Pro_AS9601_chromosome,1394656,1395717,-
+AS9601,COG0477,mixed,atp1,CK_Pro_AS9601_16591,CK_00001123,ATP synthase protein I,Pro_AS9601_chromosome,1401536,1402012,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_16991,CK_00001863,uncharacterized conserved membrane protein,Pro_AS9601_chromosome,1443915,1444163,-
+AS9601,COG0477,mixed,psaL,CK_Pro_AS9601_17231,CK_00000501,photosystem I reaction centre subunit XI,Pro_AS9601_chromosome,1467120,1467719,-
+AS9601,COG0477,mixed,ldpA,CK_Pro_AS9601_17671,CK_00000536,light dependent period protein,Pro_AS9601_chromosome,1499266,1500273,+
+AS9601,COG0477,mixed,psbZ,CK_Pro_AS9601_18531,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_AS9601_chromosome,1583359,1583556,-
+AS9601,COG0477,mixed,,CK_Pro_AS9601_19051,CK_00000124,"multidrug efflux transporter, MFS family",Pro_AS9601_chromosome,1641064,1642335,+
+MED4,COG0477,mixed,PMM0066,CK_Pro_MED4_00066,CK_00002121,conserved hypothetical protein,Pro_MED4_chromosome,71066,71353,-
+MED4,COG0477,mixed,PMM0099,CK_Pro_MED4_00099,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MED4_chromosome,102557,103324,+
+MED4,COG0477,mixed,PMM0111,CK_Pro_MED4_00111,CK_00001168,conserved hypothetical protein,Pro_MED4_chromosome,113083,113295,+
+MED4,COG0477,mixed,psbE,CK_Pro_MED4_00297,CK_00000271,"cytochrome b559, alpha subunit",Pro_MED4_chromosome,285783,286031,+
+MED4,COG0477,mixed,unk3,CK_Pro_MED4_00308,CK_00001398,uncharacterized membrane protein,Pro_MED4_chromosome,295042,295677,-
+MED4,COG0477,mixed,PMM0476,CK_Pro_MED4_00476,CK_00001416,conserved hypothetical protein,Pro_MED4_chromosome,451145,451453,-
+MED4,COG0477,mixed,PMM0588,CK_Pro_MED4_00588,CK_00000935,conserved hypothetical protein,Pro_MED4_chromosome,553684,554127,-
+MED4,COG0477,mixed,pcb,CK_Pro_MED4_00627,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_MED4_chromosome,596691,597749,+
+MED4,COG0477,mixed,PMM0651,CK_Pro_MED4_00651,CK_00001851,conserved hypothetical protein,Pro_MED4_chromosome,620479,620976,-
+MED4,COG0477,mixed,PMM0712,CK_Pro_MED4_00712,CK_00001248,"multidrug efflux transporter, MFS family",Pro_MED4_chromosome,678132,679391,-
+MED4,COG0477,mixed,PMM0852,CK_Pro_MED4_00852,CK_00001258,conserved hypothetical protein,Pro_MED4_chromosome,809710,810036,+
+MED4,COG0477,mixed,PMM0905,CK_Pro_MED4_00905,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_MED4_chromosome,866852,867187,+
+MED4,COG0477,mixed,PMM0944,CK_Pro_MED4_00944,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MED4_chromosome,901340,901786,+
+MED4,COG0477,mixed,PMM1046,CK_Pro_MED4_01046,CK_00001298,"multidrug efflux transporter, MFS family",Pro_MED4_chromosome,987882,989111,-
+MED4,COG0477,mixed,PMM1067,CK_Pro_MED4_01067,CK_00001874,alpha-glycosidase,Pro_MED4_chromosome,1009595,1009987,+
+MED4,COG0477,mixed,ycf4,CK_Pro_MED4_01156,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_MED4_chromosome,1106871,1107428,-
+MED4,COG0477,mixed,PMM1272,CK_Pro_MED4_01272,CK_00000729,conserved membrane protein,Pro_MED4_chromosome,1225937,1226470,-
+MED4,COG0477,mixed,PMM1283,CK_Pro_MED4_01283,CK_00000722,uncharacterized membrane protein,Pro_MED4_chromosome,1233063,1233800,-
+MED4,COG0477,mixed,PMM1447,CK_Pro_MED4_01447,CK_00001115,conserved hypothetical protein,Pro_MED4_chromosome,1384483,1385541,-
+MED4,COG0477,mixed,atp1,CK_Pro_MED4_01457,CK_00001123,ATP synthase protein I,Pro_MED4_chromosome,1391377,1391856,-
+MED4,COG0477,mixed,PMM1495,CK_Pro_MED4_01495,CK_00001863,uncharacterized conserved membrane protein,Pro_MED4_chromosome,1433852,1434091,-
+MED4,COG0477,mixed,psaL,CK_Pro_MED4_01519,CK_00000501,photosystem I reaction centre subunit XI,Pro_MED4_chromosome,1459606,1460205,-
+MED4,COG0477,mixed,ldpA,CK_Pro_MED4_01560,CK_00000536,light dependent period protein,Pro_MED4_chromosome,1488368,1489378,+
+MED4,COG0477,mixed,psbZ,CK_Pro_MED4_01644,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_MED4_chromosome,1571412,1571609,-
+MED4,COG0477,mixed,PMM1695,CK_Pro_MED4_01695,CK_00000124,"multidrug efflux transporter, MFS family",Pro_MED4_chromosome,1629153,1630403,+
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_00085,CK_00002121,conserved hypothetical protein,Pro_MIT0604_chromosome,89313,89591,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_00123,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT0604_chromosome,120643,121410,+
+MIT0604,COG0477,mixed,psbE,CK_Pro_MIT0604_00341,CK_00000271,"cytochrome b559, alpha subunit",Pro_MIT0604_chromosome,312378,312626,+
+MIT0604,COG0477,mixed,unk3,CK_Pro_MIT0604_00352,CK_00001398,uncharacterized membrane protein,Pro_MIT0604_chromosome,321622,322257,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_00519,CK_00001416,conserved hypothetical protein,Pro_MIT0604_chromosome,453935,454243,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_00634,CK_00000935,conserved hypothetical protein,Pro_MIT0604_chromosome,555347,555790,-
+MIT0604,COG0477,mixed,pcb,CK_Pro_MIT0604_00673,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_MIT0604_chromosome,598261,599319,+
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_00698,CK_00001851,conserved hypothetical protein,Pro_MIT0604_chromosome,622034,622531,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_00946,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT0604_chromosome,810195,810644,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_00987,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_MIT0604_chromosome,844775,845110,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_01051,CK_00001258,conserved hypothetical protein,Pro_MIT0604_chromosome,899462,899788,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_01185,CK_00001298,"multidrug efflux transporter, MFS family",Pro_MIT0604_chromosome,987065,988294,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_01206,CK_00001874,alpha-glycosidase,Pro_MIT0604_chromosome,1008624,1009016,+
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_01293,CK_00001248,"multidrug efflux transporter, MFS family",Pro_MIT0604_chromosome,1093943,1095199,+
+MIT0604,COG0477,mixed,ycf4,CK_Pro_MIT0604_01389,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_MIT0604_chromosome,1148710,1149267,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_01571,CK_00000729,conserved membrane protein,Pro_MIT0604_chromosome,1319638,1320171,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_01584,CK_00000722,uncharacterized membrane protein,Pro_MIT0604_chromosome,1328321,1329064,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_01787,CK_00001115,conserved hypothetical protein,Pro_MIT0604_chromosome,1488081,1489139,-
+MIT0604,COG0477,mixed,atp1,CK_Pro_MIT0604_01797,CK_00001123,ATP synthase protein I,Pro_MIT0604_chromosome,1494952,1495428,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_01836,CK_00001863,uncharacterized conserved membrane protein,Pro_MIT0604_chromosome,1537313,1537549,-
+MIT0604,COG0477,mixed,psaL,CK_Pro_MIT0604_01858,CK_00000501,photosystem I reaction centre subunit XI,Pro_MIT0604_chromosome,1560357,1560956,-
+MIT0604,COG0477,mixed,ldpA,CK_Pro_MIT0604_01918,CK_00000536,light dependent period protein,Pro_MIT0604_chromosome,1599769,1600776,+
+MIT0604,COG0477,mixed,psbZ,CK_Pro_MIT0604_02011,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_MIT0604_chromosome,1693517,1693714,-
+MIT0604,COG0477,mixed,,CK_Pro_MIT0604_02064,CK_00000124,"multidrug efflux transporter, MFS family",Pro_MIT0604_chromosome,1751226,1752512,+
+MIT9202,COG0477,mixed,proP,CK_Pro_MIT9202_00663,CK_00001298,"multidrug efflux transporter, MFS family",Pro_MIT9202_chromosome,22543,23772,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_01717,CK_00001874,alpha-glycosidase,Pro_MIT9202_chromosome,44103,44495,+
+MIT9202,COG0477,mixed,ycf4,CK_Pro_MIT9202_00806,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_MIT9202_chromosome,169501,170058,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_50008,CK_00000729,conserved membrane protein,Pro_MIT9202_chromosome,290949,291482,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_00959,CK_00000722,uncharacterized membrane protein,Pro_MIT9202_chromosome,298066,298803,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_01239,CK_00001899,uncharacterized conserved membrane protein,Pro_MIT9202_chromosome,420805,421482,+
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_00397,CK_00001115,conserved hypothetical protein,Pro_MIT9202_chromosome,454557,455615,-
+MIT9202,COG0477,mixed,atp1,CK_Pro_MIT9202_00668,CK_00001123,ATP synthase protein I,Pro_MIT9202_chromosome,461425,461904,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_01188,CK_00001863,uncharacterized conserved membrane protein,Pro_MIT9202_chromosome,503793,504032,-
+MIT9202,COG0477,mixed,psaL,CK_Pro_MIT9202_01866,CK_00000501,photosystem I reaction centre subunit XI,Pro_MIT9202_chromosome,527416,528015,-
+MIT9202,COG0477,mixed,ldpA,CK_Pro_MIT9202_01254,CK_00000536,light dependent period protein,Pro_MIT9202_chromosome,557318,558325,+
+MIT9202,COG0477,mixed,psbZ,CK_Pro_MIT9202_01284,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_MIT9202_chromosome,639841,640038,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_01275,CK_00000124,"multidrug efflux transporter, MFS family",Pro_MIT9202_chromosome,697507,698790,+
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_00184,CK_00002121,conserved hypothetical protein,Pro_MIT9202_chromosome,810524,810802,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_00266,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9202_chromosome,841826,842593,+
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_00876,CK_00001168,conserved hypothetical protein,Pro_MIT9202_chromosome,852346,852555,+
+MIT9202,COG0477,mixed,psbE,CK_Pro_MIT9202_00632,CK_00000271,"cytochrome b559, alpha subunit",Pro_MIT9202_chromosome,1024143,1024391,+
+MIT9202,COG0477,mixed,unk3,CK_Pro_MIT9202_01531,CK_00001398,uncharacterized membrane protein,Pro_MIT9202_chromosome,1033391,1034026,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_00423,CK_00000935,conserved hypothetical protein,Pro_MIT9202_chromosome,1302513,1302956,-
+MIT9202,COG0477,mixed,pcb,CK_Pro_MIT9202_01516,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_MIT9202_chromosome,1345418,1346476,+
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_00463,CK_00001851,conserved hypothetical protein,Pro_MIT9202_chromosome,1369187,1369684,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_00895,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9202_chromosome,1537943,1538392,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_00006,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_MIT9202_chromosome,1572547,1572882,-
+MIT9202,COG0477,mixed,,CK_Pro_MIT9202_01502,CK_00001258,conserved hypothetical protein,Pro_MIT9202_chromosome,1626766,1627092,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_00781,CK_00002121,conserved hypothetical protein,Pro_MIT9215_chromosome,78413,78691,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_01151,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9215_chromosome,109767,110492,+
+MIT9215,COG0477,mixed,ycf33,CK_Pro_MIT9215_01291,CK_00001168,conserved hypothetical protein,Pro_MIT9215_chromosome,120246,120455,+
+MIT9215,COG0477,mixed,psbE,CK_Pro_MIT9215_03221,CK_00000271,"cytochrome b559, alpha subunit",Pro_MIT9215_chromosome,292714,292962,+
+MIT9215,COG0477,mixed,unk3,CK_Pro_MIT9215_03331,CK_00001398,uncharacterized membrane protein,Pro_MIT9215_chromosome,301959,302594,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_06701,CK_00000935,conserved hypothetical protein,Pro_MIT9215_chromosome,591039,591482,-
+MIT9215,COG0477,mixed,pcb,CK_Pro_MIT9215_07101,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_MIT9215_chromosome,633944,635002,+
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_07341,CK_00001851,conserved hypothetical protein,Pro_MIT9215_chromosome,657713,658210,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_09461,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9215_chromosome,821094,821543,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_09871,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_MIT9215_chromosome,855710,856045,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_10481,CK_00001258,conserved hypothetical protein,Pro_MIT9215_chromosome,909819,910145,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_11811,CK_00001298,"multidrug efflux transporter, MFS family",Pro_MIT9215_chromosome,997535,998764,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_12021,CK_00001874,alpha-glycosidase,Pro_MIT9215_chromosome,1019086,1019478,+
+MIT9215,COG0477,mixed,ycf4,CK_Pro_MIT9215_13621,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_MIT9215_chromosome,1158218,1158775,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_14971,CK_00000729,conserved membrane protein,Pro_MIT9215_chromosome,1293330,1293863,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_15111,CK_00000722,uncharacterized membrane protein,Pro_MIT9215_chromosome,1303960,1304721,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_16621,CK_00001899,uncharacterized conserved membrane protein,Pro_MIT9215_chromosome,1422465,1423142,+
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_17151,CK_00001115,conserved hypothetical protein,Pro_MIT9215_chromosome,1463996,1465054,-
+MIT9215,COG0477,mixed,atp1,CK_Pro_MIT9215_17251,CK_00001123,ATP synthase protein I,Pro_MIT9215_chromosome,1470865,1471344,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_17641,CK_00001863,uncharacterized conserved membrane protein,Pro_MIT9215_chromosome,1513239,1513478,-
+MIT9215,COG0477,mixed,psaL,CK_Pro_MIT9215_17871,CK_00000501,photosystem I reaction centre subunit XI,Pro_MIT9215_chromosome,1536857,1537456,-
+MIT9215,COG0477,mixed,ldpA,CK_Pro_MIT9215_18321,CK_00000536,light dependent period protein,Pro_MIT9215_chromosome,1569780,1570787,+
+MIT9215,COG0477,mixed,psbZ,CK_Pro_MIT9215_19171,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_MIT9215_chromosome,1652309,1652506,-
+MIT9215,COG0477,mixed,,CK_Pro_MIT9215_19681,CK_00000124,"multidrug efflux transporter, MFS family",Pro_MIT9215_chromosome,1709981,1711264,+
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_00771,CK_00002121,conserved hypothetical protein,Pro_MIT9301_chromosome,81135,81413,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_01141,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9301_chromosome,112456,113223,+
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_01281,CK_00001168,conserved hypothetical protein,Pro_MIT9301_chromosome,122977,123186,+
+MIT9301,COG0477,mixed,psbE,CK_Pro_MIT9301_03211,CK_00000271,"cytochrome b559, alpha subunit",Pro_MIT9301_chromosome,295410,295658,+
+MIT9301,COG0477,mixed,unk3,CK_Pro_MIT9301_03331,CK_00001398,uncharacterized membrane protein,Pro_MIT9301_chromosome,304651,305286,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_05011,CK_00001416,conserved hypothetical protein,Pro_MIT9301_chromosome,436760,437068,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_06141,CK_00000935,conserved hypothetical protein,Pro_MIT9301_chromosome,538111,538554,-
+MIT9301,COG0477,mixed,pcb,CK_Pro_MIT9301_06541,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_MIT9301_chromosome,580997,582055,+
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_06781,CK_00001851,conserved hypothetical protein,Pro_MIT9301_chromosome,604761,605258,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_09141,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9301_chromosome,787917,788366,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_09541,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_MIT9301_chromosome,822522,822857,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_10161,CK_00001258,conserved hypothetical protein,Pro_MIT9301_chromosome,877201,877527,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_11521,CK_00001298,"multidrug efflux transporter, MFS family",Pro_MIT9301_chromosome,964617,965846,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_11731,CK_00001874,alpha-glycosidase,Pro_MIT9301_chromosome,986178,986570,+
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_12371,CK_00001248,"multidrug efflux transporter, MFS family",Pro_MIT9301_chromosome,1049345,1050604,+
+MIT9301,COG0477,mixed,ycf4,CK_Pro_MIT9301_13481,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_MIT9301_chromosome,1125621,1126178,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_14571,CK_00000729,conserved membrane protein,Pro_MIT9301_chromosome,1228581,1229114,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_14681,CK_00000722,uncharacterized membrane protein,Pro_MIT9301_chromosome,1235698,1236435,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_16371,CK_00001115,conserved hypothetical protein,Pro_MIT9301_chromosome,1370433,1371482,-
+MIT9301,COG0477,mixed,atp1,CK_Pro_MIT9301_16471,CK_00001123,ATP synthase protein I,Pro_MIT9301_chromosome,1377299,1377775,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_16861,CK_00001863,uncharacterized conserved membrane protein,Pro_MIT9301_chromosome,1419657,1419893,-
+MIT9301,COG0477,mixed,psaL,CK_Pro_MIT9301_17111,CK_00000501,photosystem I reaction centre subunit XI,Pro_MIT9301_chromosome,1444209,1444808,-
+MIT9301,COG0477,mixed,ldpA,CK_Pro_MIT9301_17511,CK_00000536,light dependent period protein,Pro_MIT9301_chromosome,1472925,1473932,+
+MIT9301,COG0477,mixed,psbZ,CK_Pro_MIT9301_18341,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_MIT9301_chromosome,1555338,1555535,-
+MIT9301,COG0477,mixed,,CK_Pro_MIT9301_18861,CK_00000124,"multidrug efflux transporter, MFS family",Pro_MIT9301_chromosome,1613061,1614329,+
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_00068,CK_00002121,conserved hypothetical protein,Pro_MIT9312_chromosome,72816,73094,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_00103,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9312_chromosome,104182,104919,+
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_00114,CK_00001168,conserved hypothetical protein,Pro_MIT9312_chromosome,114671,114880,+
+MIT9312,COG0477,mixed,psbE,CK_Pro_MIT9312_00299,CK_00000271,"cytochrome b559, alpha subunit",Pro_MIT9312_chromosome,286258,286506,+
+MIT9312,COG0477,mixed,unk3,CK_Pro_MIT9312_00310,CK_00001398,uncharacterized membrane protein,Pro_MIT9312_chromosome,295502,296137,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_00476,CK_00001416,conserved hypothetical protein,Pro_MIT9312_chromosome,446908,447216,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_00588,CK_00000935,conserved hypothetical protein,Pro_MIT9312_chromosome,548252,548695,-
+MIT9312,COG0477,mixed,pcb,CK_Pro_MIT9312_00627,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_MIT9312_chromosome,591367,592425,+
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_00651,CK_00001851,conserved hypothetical protein,Pro_MIT9312_chromosome,615117,615614,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_00724,CK_00001248,"multidrug efflux transporter, MFS family",Pro_MIT9312_chromosome,674969,676228,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_00855,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9312_chromosome,792714,793160,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_00895,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_MIT9312_chromosome,827325,827660,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_00948,CK_00001258,conserved hypothetical protein,Pro_MIT9312_chromosome,880763,881089,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_01057,CK_00001298,"multidrug efflux transporter, MFS family",Pro_MIT9312_chromosome,967481,968710,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_01078,CK_00001874,alpha-glycosidase,Pro_MIT9312_chromosome,989034,989426,+
+MIT9312,COG0477,mixed,ycf4,CK_Pro_MIT9312_01255,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_MIT9312_chromosome,1167086,1167643,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_01366,CK_00000729,conserved membrane protein,Pro_MIT9312_chromosome,1283717,1284250,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_01379,CK_00000722,uncharacterized membrane protein,Pro_MIT9312_chromosome,1292395,1293132,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_01540,CK_00001115,conserved hypothetical protein,Pro_MIT9312_chromosome,1436618,1437676,-
+MIT9312,COG0477,mixed,atp1,CK_Pro_MIT9312_01550,CK_00001123,ATP synthase protein I,Pro_MIT9312_chromosome,1443501,1443977,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_01588,CK_00001863,uncharacterized conserved membrane protein,Pro_MIT9312_chromosome,1485871,1486107,-
+MIT9312,COG0477,mixed,psaL,CK_Pro_MIT9312_01611,CK_00000501,photosystem I reaction centre subunit XI,Pro_MIT9312_chromosome,1510092,1510682,-
+MIT9312,COG0477,mixed,ldpA,CK_Pro_MIT9312_01652,CK_00000536,light dependent period protein,Pro_MIT9312_chromosome,1539566,1540573,+
+MIT9312,COG0477,mixed,psbZ,CK_Pro_MIT9312_01736,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_MIT9312_chromosome,1622720,1622917,-
+MIT9312,COG0477,mixed,,CK_Pro_MIT9312_01788,CK_00000124,"multidrug efflux transporter, MFS family",Pro_MIT9312_chromosome,1680413,1681681,+
+MIT9313,COG0477,mixed,PMT0070,CK_Pro_MIT9313_00070,CK_00001830,uncharacterized membrane protein,Pro_MIT9313_chromosome,72424,72843,+
+MIT9313,COG0477,mixed,psbZ,CK_Pro_MIT9313_00080,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_MIT9313_chromosome,86991,87191,+
+MIT9313,COG0477,mixed,PMT0174,CK_Pro_MIT9313_00174,CK_00001166,"multidrug efflux transporter, MFS family",Pro_MIT9313_chromosome,196530,197765,-
+MIT9313,COG0477,mixed,PMT0179,CK_Pro_MIT9313_00179,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9313_chromosome,202456,203247,-
+MIT9313,COG0477,mixed,PMT0210,CK_Pro_MIT9313_00210,CK_00001510,"multidrug efflux transporter, MFS family",Pro_MIT9313_chromosome,240722,242137,-
+MIT9313,COG0477,mixed,unk3,CK_Pro_MIT9313_00305,CK_00001398,uncharacterized membrane protein,Pro_MIT9313_chromosome,350276,350920,+
+MIT9313,COG0477,mixed,PMT0352,CK_Pro_MIT9313_00352,CK_00000722,uncharacterized membrane protein,Pro_MIT9313_chromosome,401341,402081,+
+MIT9313,COG0477,mixed,,CK_Pro_MIT9313_02355,CK_00004837,"MFS transporter, sugar porter family protein",Pro_MIT9313_chromosome,402191,402334,+
+MIT9313,COG0477,mixed,PMT0365,CK_Pro_MIT9313_00365,CK_00000729,conserved membrane protein,Pro_MIT9313_chromosome,411957,412520,+
+MIT9313,COG0477,mixed,PMT0432,CK_Pro_MIT9313_00432,CK_00002041,putative membrane protein,Pro_MIT9313_chromosome,487958,488470,-
+MIT9313,COG0477,mixed,PMT0439,CK_Pro_MIT9313_00439,CK_00000935,conserved hypothetical protein,Pro_MIT9313_chromosome,497071,497550,+
+MIT9313,COG0477,mixed,PMT0646,CK_Pro_MIT9313_00646,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9313_chromosome,698978,699463,+
+MIT9313,COG0477,mixed,PMT0688,CK_Pro_MIT9313_00688,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_MIT9313_chromosome,744323,744661,-
+MIT9313,COG0477,mixed,PMT0759,CK_Pro_MIT9313_00759,CK_00001258,conserved hypothetical protein,Pro_MIT9313_chromosome,829226,829561,-
+MIT9313,COG0477,mixed,PMT0985,CK_Pro_MIT9313_00985,CK_00002690,conserved hypothetical protein,Pro_MIT9313_chromosome,1064578,1065114,-
+MIT9313,COG0477,mixed,PMT0999,CK_Pro_MIT9313_00999,CK_00001248,"multidrug efflux transporter, MFS family",Pro_MIT9313_chromosome,1076766,1078037,-
+MIT9313,COG0477,mixed,PMT1019,CK_Pro_MIT9313_01019,CK_00009126,uncharacterized conserved membrane protein,Pro_MIT9313_chromosome,1095405,1096115,+
+MIT9313,COG0477,mixed,PMT1025,CK_Pro_MIT9313_01025,CK_00002693,"membrane-associated, eicosanoid/glutathione metabolism (MAPEG) protein",Pro_MIT9313_chromosome,1101161,1101547,-
+MIT9313,COG0477,mixed,PMT1035,CK_Pro_MIT9313_01035,CK_00002121,conserved hypothetical protein,Pro_MIT9313_chromosome,1114024,1114350,+
+MIT9313,COG0477,mixed,pcb,CK_Pro_MIT9313_01046,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_MIT9313_chromosome,1124334,1125386,-
+MIT9313,COG0477,mixed,PMT1113,CK_Pro_MIT9313_01113,CK_00001874,alpha-glycosidase,Pro_MIT9313_chromosome,1205961,1206368,-
+MIT9313,COG0477,mixed,ycf4,CK_Pro_MIT9313_01178,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_MIT9313_chromosome,1268976,1269551,-
+MIT9313,COG0477,mixed,PMT1384,CK_Pro_MIT9313_01384,CK_00003816,conserved hypothetical protein,Pro_MIT9313_chromosome,1469535,1469867,-
+MIT9313,COG0477,mixed,PMT1463,CK_Pro_MIT9313_01463,CK_00001115,conserved hypothetical protein,Pro_MIT9313_chromosome,1550385,1551512,-
+MIT9313,COG0477,mixed,atp1,CK_Pro_MIT9313_01473,CK_00001123,ATP synthase protein I,Pro_MIT9313_chromosome,1557484,1558002,-
+MIT9313,COG0477,mixed,PMT1486,CK_Pro_MIT9313_01486,CK_00003824,"multidrug efflux transporter, MFS family",Pro_MIT9313_chromosome,1569116,1570471,+
+MIT9313,COG0477,mixed,PMT1615,CK_Pro_MIT9313_01615,CK_00001872,uncharacterized conserved membrane protein,Pro_MIT9313_chromosome,1714702,1715004,-
+MIT9313,COG0477,mixed,ldpA,CK_Pro_MIT9313_01730,CK_00000536,light dependent period protein,Pro_MIT9313_chromosome,1833730,1834701,-
+MIT9313,COG0477,mixed,psaL,CK_Pro_MIT9313_01768,CK_00000501,photosystem I reaction centre subunit XI,Pro_MIT9313_chromosome,1858412,1858975,+
+MIT9313,COG0477,mixed,PMT1873,CK_Pro_MIT9313_01873,CK_00002359,"multidrug efflux transporter, MFS family",Pro_MIT9313_chromosome,1979880,1981094,-
+MIT9313,COG0477,mixed,psbE,CK_Pro_MIT9313_01896,CK_00000271,"cytochrome b559, alpha subunit",Pro_MIT9313_chromosome,1999835,2000083,+
+MIT9313,COG0477,mixed,PMT1962,CK_Pro_MIT9313_01962,CK_00001168,conserved hypothetical protein,Pro_MIT9313_chromosome,2073464,2073670,+
+MIT9313,COG0477,mixed,PMT2046,CK_Pro_MIT9313_02046,CK_00001955,uncharacterized conserved membrane protein,Pro_MIT9313_chromosome,2158465,2159235,+
+MIT9313,COG0477,mixed,PMT2244,CK_Pro_MIT9313_02244,CK_00000124,"multidrug efflux transporter, MFS family",Pro_MIT9313_chromosome,2370712,2372019,+
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_00751,CK_00002121,conserved hypothetical protein,Pro_MIT9515_chromosome,80684,80971,-
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_01111,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9515_chromosome,112200,112925,+
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_01251,CK_00001168,conserved hypothetical protein,Pro_MIT9515_chromosome,122698,122901,+
+MIT9515,COG0477,mixed,psbE,CK_Pro_MIT9515_03301,CK_00000271,"cytochrome b559, alpha subunit",Pro_MIT9515_chromosome,305128,305376,+
+MIT9515,COG0477,mixed,unk3,CK_Pro_MIT9515_03421,CK_00001398,uncharacterized membrane protein,Pro_MIT9515_chromosome,314387,315016,-
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_06531,CK_00000935,conserved hypothetical protein,Pro_MIT9515_chromosome,584761,585204,-
+MIT9515,COG0477,mixed,pcb,CK_Pro_MIT9515_06931,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_MIT9515_chromosome,627755,628813,+
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_07171,CK_00001851,conserved hypothetical protein,Pro_MIT9515_chromosome,651536,652033,-
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_09291,CK_00001258,conserved hypothetical protein,Pro_MIT9515_chromosome,830441,830767,+
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_09881,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_MIT9515_chromosome,883125,883448,+
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_10271,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9515_chromosome,917595,918041,+
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_11371,CK_00001298,"multidrug efflux transporter, MFS family",Pro_MIT9515_chromosome,989256,990482,-
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_11571,CK_00001874,alpha-glycosidase,Pro_MIT9515_chromosome,1010917,1011309,+
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_12621,CK_00001899,uncharacterized conserved membrane protein,Pro_MIT9515_chromosome,1108008,1108685,+
+MIT9515,COG0477,mixed,ycf4,CK_Pro_MIT9515_13231,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_MIT9515_chromosome,1161440,1161997,-
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_14331,CK_00000729,conserved membrane protein,Pro_MIT9515_chromosome,1271119,1271652,-
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_14441,CK_00000722,uncharacterized membrane protein,Pro_MIT9515_chromosome,1278256,1278993,-
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_16261,CK_00001115,conserved hypothetical protein,Pro_MIT9515_chromosome,1421908,1422975,-
+MIT9515,COG0477,mixed,atp1,CK_Pro_MIT9515_16361,CK_00001123,ATP synthase protein I,Pro_MIT9515_chromosome,1428802,1429281,-
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_16751,CK_00001863,uncharacterized conserved membrane protein,Pro_MIT9515_chromosome,1471274,1471513,-
+MIT9515,COG0477,mixed,psaL,CK_Pro_MIT9515_16991,CK_00000501,photosystem I reaction centre subunit XI,Pro_MIT9515_chromosome,1497044,1497643,-
+MIT9515,COG0477,mixed,ldpA,CK_Pro_MIT9515_17421,CK_00000536,light dependent period protein,Pro_MIT9515_chromosome,1529960,1530916,+
+MIT9515,COG0477,mixed,psbZ,CK_Pro_MIT9515_18341,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_MIT9515_chromosome,1617570,1617767,-
+MIT9515,COG0477,mixed,,CK_Pro_MIT9515_18861,CK_00000124,"multidrug efflux transporter, MFS family",Pro_MIT9515_chromosome,1675343,1676593,+
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_01301,CK_00002121,conserved hypothetical protein,Pro_NATL1A_chromosome,127281,127562,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_01701,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_NATL1A_chromosome,163558,164217,+
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_01841,CK_00001168,conserved hypothetical protein,Pro_NATL1A_chromosome,173144,173350,+
+NATL1A,COG0477,mixed,psbE,CK_Pro_NATL1A_03771,CK_00000271,"cytochrome b559, alpha subunit",Pro_NATL1A_chromosome,349027,349275,+
+NATL1A,COG0477,mixed,unk3,CK_Pro_NATL1A_03931,CK_00001398,uncharacterized membrane protein,Pro_NATL1A_chromosome,363303,363962,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_06441,CK_00000935,conserved hypothetical protein,Pro_NATL1A_chromosome,585435,585974,-
+NATL1A,COG0477,mixed,pcb,CK_Pro_NATL1A_06881,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL1A_chromosome,632978,634027,+
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_09351,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_NATL1A_chromosome,864918,865358,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_09741,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_NATL1A_chromosome,894817,895161,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_10361,CK_00001258,conserved hypothetical protein,Pro_NATL1A_chromosome,955065,955385,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_11561,CK_00001248,"multidrug efflux transporter, MFS family",Pro_NATL1A_chromosome,1032677,1033939,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_15181,CK_00001874,alpha-glycosidase,Pro_NATL1A_chromosome,1232982,1233359,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_15411,CK_00001298,"multidrug efflux transporter, MFS family",Pro_NATL1A_chromosome,1255457,1256695,+
+NATL1A,COG0477,mixed,pcb,CK_Pro_NATL1A_15541,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL1A_chromosome,1262029,1263084,-
+NATL1A,COG0477,mixed,pcb,CK_Pro_NATL1A_15551,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL1A_chromosome,1263263,1264375,-
+NATL1A,COG0477,mixed,pcb,CK_Pro_NATL1A_15561,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL1A_chromosome,1264613,1265662,-
+NATL1A,COG0477,mixed,pcb,CK_Pro_NATL1A_15601,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL1A_chromosome,1266447,1267535,-
+NATL1A,COG0477,mixed,pcb,CK_Pro_NATL1A_15611,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL1A_chromosome,1267788,1268852,-
+NATL1A,COG0477,mixed,ycf4,CK_Pro_NATL1A_16061,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_NATL1A_chromosome,1313113,1313688,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_16911,CK_00000729,conserved membrane protein,Pro_NATL1A_chromosome,1378840,1379403,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_17031,CK_00000722,uncharacterized membrane protein,Pro_NATL1A_chromosome,1387183,1387920,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_18461,CK_00001115,conserved hypothetical protein,Pro_NATL1A_chromosome,1508802,1509914,-
+NATL1A,COG0477,mixed,atp1,CK_Pro_NATL1A_18551,CK_00001123,ATP synthase protein I,Pro_NATL1A_chromosome,1515632,1516051,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_18961,CK_00001863,uncharacterized conserved membrane protein,Pro_NATL1A_chromosome,1560560,1560922,-
+NATL1A,COG0477,mixed,psaL,CK_Pro_NATL1A_19591,CK_00000501,photosystem I reaction centre subunit XI,Pro_NATL1A_chromosome,1618886,1619413,-
+NATL1A,COG0477,mixed,ldpA,CK_Pro_NATL1A_20051,CK_00000536,light dependent period protein,Pro_NATL1A_chromosome,1648436,1649458,+
+NATL1A,COG0477,mixed,psbZ,CK_Pro_NATL1A_21121,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_NATL1A_chromosome,1765775,1765990,-
+NATL1A,COG0477,mixed,,CK_Pro_NATL1A_21761,CK_00000124,"multidrug efflux transporter, MFS family",Pro_NATL1A_chromosome,1832634,1833878,+
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_01429,CK_00002121,conserved hypothetical protein,Pro_NATL2A_chromosome,109458,109739,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_01467,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_NATL2A_chromosome,145734,146393,+
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_01479,CK_00001168,conserved hypothetical protein,Pro_NATL2A_chromosome,155319,155525,+
+NATL2A,COG0477,mixed,psbE,CK_Pro_NATL2A_01663,CK_00000271,"cytochrome b559, alpha subunit",Pro_NATL2A_chromosome,331219,331467,+
+NATL2A,COG0477,mixed,unk3,CK_Pro_NATL2A_01679,CK_00001398,uncharacterized membrane protein,Pro_NATL2A_chromosome,345501,346160,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_00024,CK_00000935,conserved hypothetical protein,Pro_NATL2A_chromosome,573087,573626,-
+NATL2A,COG0477,mixed,pcb,CK_Pro_NATL2A_00066,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL2A_chromosome,620635,621684,+
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_00266,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_NATL2A_chromosome,811209,811649,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_00302,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_NATL2A_chromosome,841111,841455,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_00355,CK_00001258,conserved hypothetical protein,Pro_NATL2A_chromosome,901364,901684,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_00444,CK_00001248,"multidrug efflux transporter, MFS family",Pro_NATL2A_chromosome,978717,979979,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_00684,CK_00001874,alpha-glycosidase,Pro_NATL2A_chromosome,1181488,1181865,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_00707,CK_00001298,"multidrug efflux transporter, MFS family",Pro_NATL2A_chromosome,1203992,1205230,+
+NATL2A,COG0477,mixed,pcb,CK_Pro_NATL2A_00717,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL2A_chromosome,1210511,1211566,-
+NATL2A,COG0477,mixed,pcb,CK_Pro_NATL2A_00718,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL2A_chromosome,1211746,1212858,-
+NATL2A,COG0477,mixed,pcb,CK_Pro_NATL2A_00719,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL2A_chromosome,1213098,1214147,-
+NATL2A,COG0477,mixed,pcb,CK_Pro_NATL2A_00722,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL2A_chromosome,1214932,1216020,-
+NATL2A,COG0477,mixed,pcb,CK_Pro_NATL2A_00723,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_NATL2A_chromosome,1216273,1217337,-
+NATL2A,COG0477,mixed,ycf4,CK_Pro_NATL2A_00766,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_NATL2A_chromosome,1274761,1275336,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_00838,CK_00000729,conserved membrane protein,Pro_NATL2A_chromosome,1344329,1344892,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_00850,CK_00000722,uncharacterized membrane protein,Pro_NATL2A_chromosome,1352676,1353413,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_00978,CK_00001115,conserved hypothetical protein,Pro_NATL2A_chromosome,1472194,1473306,-
+NATL2A,COG0477,mixed,atp1,CK_Pro_NATL2A_00987,CK_00001123,ATP synthase protein I,Pro_NATL2A_chromosome,1479021,1479440,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_01026,CK_00001863,uncharacterized conserved membrane protein,Pro_NATL2A_chromosome,1523950,1524216,-
+NATL2A,COG0477,mixed,psaL,CK_Pro_NATL2A_01084,CK_00000501,photosystem I reaction centre subunit XI,Pro_NATL2A_chromosome,1582013,1582540,-
+NATL2A,COG0477,mixed,ldpA,CK_Pro_NATL2A_01131,CK_00000536,light dependent period protein,Pro_NATL2A_chromosome,1617865,1618887,+
+NATL2A,COG0477,mixed,psbZ,CK_Pro_NATL2A_01242,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_NATL2A_chromosome,1743926,1744141,-
+NATL2A,COG0477,mixed,,CK_Pro_NATL2A_01303,CK_00000124,"multidrug efflux transporter, MFS family",Pro_NATL2A_chromosome,1810776,1812020,+
+PAC1,COG0477,mixed,ldpA,CK_Pro_PAC1_00319,CK_00000536,light dependent period protein,Pro_PAC1_chromosome,208900,209922,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_00477,CK_00001168,conserved hypothetical protein,Pro_PAC1_chromosome,337020,337226,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_00489,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_PAC1_chromosome,346152,346790,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_00529,CK_00002121,conserved hypothetical protein,Pro_PAC1_chromosome,382804,383085,+
+PAC1,COG0477,mixed,ycf4,CK_Pro_PAC1_00614,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_PAC1_chromosome,443980,444555,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_00645,CK_00001248,"multidrug efflux transporter, MFS family",Pro_PAC1_chromosome,462384,463646,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_00751,CK_00000729,conserved membrane protein,Pro_PAC1_chromosome,531266,531832,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_00764,CK_00000722,uncharacterized membrane protein,Pro_PAC1_chromosome,539614,540387,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_00900,CK_00001115,conserved hypothetical protein,Pro_PAC1_chromosome,652313,653425,-
+PAC1,COG0477,mixed,atp1,CK_Pro_PAC1_00909,CK_00001123,ATP synthase protein I,Pro_PAC1_chromosome,659132,659416,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_00950,CK_00001863,uncharacterized conserved membrane protein,Pro_PAC1_chromosome,704059,704325,-
+PAC1,COG0477,mixed,psaL,CK_Pro_PAC1_01014,CK_00000501,photosystem I reaction centre subunit XI,Pro_PAC1_chromosome,762418,762945,-
+PAC1,COG0477,mixed,psbZ,CK_Pro_PAC1_01032,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_PAC1_chromosome,769511,769645,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_01110,CK_00000124,"multidrug efflux transporter, MFS family",Pro_PAC1_chromosome,848094,849338,+
+PAC1,COG0477,mixed,psbE,CK_Pro_PAC1_01280,CK_00000271,"cytochrome b559, alpha subunit",Pro_PAC1_chromosome,1017854,1018006,+
+PAC1,COG0477,mixed,unk3,CK_Pro_PAC1_01296,CK_00001398,uncharacterized membrane protein,Pro_PAC1_chromosome,1032031,1032690,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_01523,CK_00001874,alpha-glycosidase,Pro_PAC1_chromosome,1191988,1192332,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_01548,CK_00001298,"multidrug efflux transporter, MFS family",Pro_PAC1_chromosome,1214468,1215706,+
+PAC1,COG0477,mixed,pcb,CK_Pro_PAC1_01561,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_PAC1_chromosome,1220988,1222043,-
+PAC1,COG0477,mixed,pcb,CK_Pro_PAC1_01562,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_PAC1_chromosome,1222229,1223341,-
+PAC1,COG0477,mixed,pcb,CK_Pro_PAC1_01563,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_PAC1_chromosome,1223581,1224630,-
+PAC1,COG0477,mixed,pcb,CK_Pro_PAC1_01567,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_PAC1_chromosome,1225414,1226502,-
+PAC1,COG0477,mixed,pcb,CK_Pro_PAC1_01568,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_PAC1_chromosome,1226755,1227819,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_01808,CK_00000935,conserved hypothetical protein,Pro_PAC1_chromosome,1436765,1437298,-
+PAC1,COG0477,mixed,pcb,CK_Pro_PAC1_01854,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_PAC1_chromosome,1484300,1485349,+
+PAC1,COG0477,mixed,,CK_Pro_PAC1_02075,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_PAC1_chromosome,1674499,1674939,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_50027,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_PAC1_chromosome,1704416,1704760,-
+PAC1,COG0477,mixed,,CK_Pro_PAC1_02178,CK_00001258,conserved hypothetical protein,Pro_PAC1_chromosome,1764699,1765019,-
+SB,COG0477,mixed,,CK_Pro_SB_00207,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_SB_chromosome,160555,161004,-
+SB,COG0477,mixed,,CK_Pro_SB_00248,CK_00000810,uncharacterized conserved membrane protein (DUF3593),Pro_SB_chromosome,195158,195493,-
+SB,COG0477,mixed,,CK_Pro_SB_00312,CK_00001258,conserved hypothetical protein,Pro_SB_chromosome,249844,250170,-
+SB,COG0477,mixed,,CK_Pro_SB_00453,CK_00001298,"multidrug efflux transporter, MFS family",Pro_SB_chromosome,342896,344125,-
+SB,COG0477,mixed,,CK_Pro_SB_00474,CK_00001874,alpha-glycosidase,Pro_SB_chromosome,364447,364839,+
+SB,COG0477,mixed,,CK_Pro_SB_00544,CK_00001851,conserved hypothetical protein,Pro_SB_chromosome,426779,427276,+
+SB,COG0477,mixed,pcb,CK_Pro_SB_00568,CK_00000173,"divinyl-chlorophyll a/b binding light harvesting protein, photosystem II-associated",Pro_SB_chromosome,449989,451047,-
+SB,COG0477,mixed,,CK_Pro_SB_00609,CK_00000935,conserved hypothetical protein,Pro_SB_chromosome,493505,493948,+
+SB,COG0477,mixed,,CK_Pro_SB_00721,CK_00001416,conserved hypothetical protein,Pro_SB_chromosome,594970,595278,+
+SB,COG0477,mixed,,CK_Pro_SB_00831,CK_00001248,"multidrug efflux transporter, MFS family",Pro_SB_chromosome,693753,695012,-
+SB,COG0477,mixed,unk3,CK_Pro_SB_00912,CK_00001398,uncharacterized membrane protein,Pro_SB_chromosome,747971,748606,+
+SB,COG0477,mixed,psbE,CK_Pro_SB_00924,CK_00000271,"cytochrome b559, alpha subunit",Pro_SB_chromosome,757599,757847,-
+SB,COG0477,mixed,,CK_Pro_SB_01114,CK_00001168,conserved hypothetical protein,Pro_SB_chromosome,935277,935486,-
+SB,COG0477,mixed,,CK_Pro_SB_01126,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_SB_chromosome,945237,946004,-
+SB,COG0477,mixed,,CK_Pro_SB_01162,CK_00002121,conserved hypothetical protein,Pro_SB_chromosome,977048,977326,+
+SB,COG0477,mixed,,CK_Pro_SB_01257,CK_00000124,"multidrug efflux transporter, MFS family",Pro_SB_chromosome,1078106,1079389,-
+SB,COG0477,mixed,psbZ,CK_Pro_SB_01309,CK_00001549,photosystem II protein PsbZ (Ycf9),Pro_SB_chromosome,1136914,1137111,+
+SB,COG0477,mixed,ldpA,CK_Pro_SB_01398,CK_00000536,light dependent period protein,Pro_SB_chromosome,1228178,1229185,-
+SB,COG0477,mixed,psaL,CK_Pro_SB_01439,CK_00000501,photosystem I reaction centre subunit XI,Pro_SB_chromosome,1257307,1257906,+
+SB,COG0477,mixed,,CK_Pro_SB_01461,CK_00001863,uncharacterized conserved membrane protein,Pro_SB_chromosome,1280851,1281087,+
+SB,COG0477,mixed,atp1,CK_Pro_SB_01501,CK_00001123,ATP synthase protein I,Pro_SB_chromosome,1322986,1323462,+
+SB,COG0477,mixed,,CK_Pro_SB_01511,CK_00001115,conserved hypothetical protein,Pro_SB_chromosome,1329278,1330336,+
+SB,COG0477,mixed,,CK_Pro_SB_01691,CK_00000722,uncharacterized membrane protein,Pro_SB_chromosome,1460989,1461726,+
+SB,COG0477,mixed,,CK_Pro_SB_01702,CK_00000729,conserved membrane protein,Pro_SB_chromosome,1468328,1468861,+
+SB,COG0477,mixed,ycf4,CK_Pro_SB_01795,CK_00001030,photosytem I complex assembly protein Ycf4,Pro_SB_chromosome,1553786,1554343,+
+SB,COG0477,mixed,,CK_Pro_SB_01821,CK_00002056,bacteriophage-like DUF3307 domain-containing protein,Pro_SB_chromosome,1583830,1584159,-
+AS9601,COG0484,mixed,dnaJ1,CK_Pro_AS9601_00161,CK_00000350,DnaJ type I chaperone protein,Pro_AS9601_chromosome,18974,20098,+
+AS9601,COG0484,mixed,dnaJ4,CK_Pro_AS9601_01401,CK_00000214,DnaJ type III chaperone protein,Pro_AS9601_chromosome,131138,131845,-
+AS9601,COG0484,mixed,dnaJ3,CK_Pro_AS9601_09651,CK_00000819,DnaJ type II chaperone protein,Pro_AS9601_chromosome,832232,833191,+
+AS9601,COG0484,mixed,zipN,CK_Pro_AS9601_14861,CK_00000149,cell division protein ZipN,Pro_AS9601_chromosome,1266344,1268449,-
+AS9601,COG0484,mixed,dnaJ5,CK_Pro_AS9601_16761,CK_00001052,DnaJ type III chaperone protein,Pro_AS9601_chromosome,1418295,1418735,-
+MED4,COG0484,mixed,dnaJ1,CK_Pro_MED4_00017,CK_00000350,DnaJ type I chaperone protein,Pro_MED4_chromosome,19034,20158,+
+MED4,COG0484,mixed,dnaJ4,CK_Pro_MED4_00122,CK_00000214,DnaJ type III chaperone protein,Pro_MED4_chromosome,120073,120750,-
+MED4,COG0484,mixed,dnaJ3,CK_Pro_MED4_00896,CK_00000819,DnaJ type II chaperone protein,Pro_MED4_chromosome,857995,858936,-
+MED4,COG0484,mixed,zipN,CK_Pro_MED4_01287,CK_00000149,cell division protein ZipN,Pro_MED4_chromosome,1236811,1238919,-
+MED4,COG0484,mixed,dnaJ5,CK_Pro_MED4_01474,CK_00001052,DnaJ type III chaperone protein,Pro_MED4_chromosome,1408136,1408582,-
+MIT0604,COG0484,mixed,dnaJ1,CK_Pro_MIT0604_00017,CK_00000350,DnaJ type I chaperone protein,Pro_MIT0604_chromosome,18978,20102,+
+MIT0604,COG0484,mixed,dnaJ4,CK_Pro_MIT0604_00148,CK_00000214,DnaJ type III chaperone protein,Pro_MIT0604_chromosome,138491,139168,-
+MIT0604,COG0484,mixed,dnaJ3,CK_Pro_MIT0604_00996,CK_00000819,DnaJ type II chaperone protein,Pro_MIT0604_chromosome,852959,853900,+
+MIT0604,COG0484,mixed,zipN,CK_Pro_MIT0604_01588,CK_00000149,cell division protein ZipN,Pro_MIT0604_chromosome,1332020,1334044,-
+MIT0604,COG0484,mixed,dnaJ5,CK_Pro_MIT0604_01814,CK_00001052,DnaJ type III chaperone protein,Pro_MIT0604_chromosome,1511720,1512160,-
+MIT9202,COG0484,mixed,zipN,CK_Pro_MIT9202_00491,CK_00000149,cell division protein ZipN,Pro_MIT9202_chromosome,301798,303903,-
+MIT9202,COG0484,mixed,dnaJ5,CK_Pro_MIT9202_01537,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9202_chromosome,478191,478631,-
+MIT9202,COG0484,mixed,dnaJ1,CK_Pro_MIT9202_00034,CK_00000350,DnaJ type I chaperone protein,Pro_MIT9202_chromosome,745315,746442,+
+MIT9202,COG0484,mixed,dnaJ4,CK_Pro_MIT9202_00973,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9202_chromosome,859305,859982,-
+MIT9202,COG0484,mixed,dnaJ3,CK_Pro_MIT9202_01159,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9202_chromosome,1580745,1581671,+
+MIT9215,COG0484,mixed,dnaJ1,CK_Pro_MIT9215_00161,CK_00000350,DnaJ type I chaperone protein,Pro_MIT9215_chromosome,18968,20095,+
+MIT9215,COG0484,mixed,dnaJ4,CK_Pro_MIT9215_01401,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9215_chromosome,127206,127883,-
+MIT9215,COG0484,mixed,dnaJ3,CK_Pro_MIT9215_09961,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9215_chromosome,863876,864835,+
+MIT9215,COG0484,mixed,zipN,CK_Pro_MIT9215_15151,CK_00000149,cell division protein ZipN,Pro_MIT9215_chromosome,1307710,1309815,-
+MIT9215,COG0484,mixed,dnaJ5,CK_Pro_MIT9215_17421,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9215_chromosome,1487633,1488073,-
+MIT9301,COG0484,mixed,dnaJ1,CK_Pro_MIT9301_00161,CK_00000350,DnaJ type I chaperone protein,Pro_MIT9301_chromosome,19066,20190,+
+MIT9301,COG0484,mixed,dnaJ4,CK_Pro_MIT9301_01391,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9301_chromosome,129937,130614,-
+MIT9301,COG0484,mixed,dnaJ3,CK_Pro_MIT9301_09631,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9301_chromosome,830691,831650,+
+MIT9301,COG0484,mixed,zipN,CK_Pro_MIT9301_14721,CK_00000149,cell division protein ZipN,Pro_MIT9301_chromosome,1239448,1241553,-
+MIT9301,COG0484,mixed,dnaJ5,CK_Pro_MIT9301_16641,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9301_chromosome,1394053,1394493,-
+MIT9312,COG0484,mixed,dnaJ1,CK_Pro_MIT9312_00017,CK_00000350,DnaJ type I chaperone protein,Pro_MIT9312_chromosome,19087,20211,+
+MIT9312,COG0484,mixed,dnaJ4,CK_Pro_MIT9312_00125,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9312_chromosome,121632,122309,-
+MIT9312,COG0484,mixed,dnaJ3,CK_Pro_MIT9312_00904,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9312_chromosome,835500,836459,+
+MIT9312,COG0484,mixed,zipN,CK_Pro_MIT9312_01383,CK_00000149,cell division protein ZipN,Pro_MIT9312_chromosome,1296135,1298240,-
+MIT9312,COG0484,mixed,dnaJ5,CK_Pro_MIT9312_01567,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9312_chromosome,1460241,1460681,-
+MIT9313,COG0484,mixed,dnaJ1,CK_Pro_MIT9313_00022,CK_00000350,DnaJ type I chaperone protein,Pro_MIT9313_chromosome,25703,26839,+
+MIT9313,COG0484,mixed,zipN,CK_Pro_MIT9313_00348,CK_00000149,cell division protein ZipN,Pro_MIT9313_chromosome,396287,398272,+
+MIT9313,COG0484,mixed,dnaJ3,CK_Pro_MIT9313_00704,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9313_chromosome,760553,761455,+
+MIT9313,COG0484,mixed,dnaJ5,CK_Pro_MIT9313_01495,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9313_chromosome,1579346,1579978,-
+MIT9313,COG0484,mixed,dnaJ2,CK_Pro_MIT9313_01548,CK_00001213,DnaJ type II chaperone protein,Pro_MIT9313_chromosome,1640237,1641196,-
+MIT9313,COG0484,mixed,dnaJ4,CK_Pro_MIT9313_01977,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9313_chromosome,2087206,2087904,-
+MIT9515,COG0484,mixed,dnaJ1,CK_Pro_MIT9515_00161,CK_00000350,DnaJ type I chaperone protein,Pro_MIT9515_chromosome,19037,20161,+
+MIT9515,COG0484,mixed,dnaJ4,CK_Pro_MIT9515_01361,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9515_chromosome,129670,130347,-
+MIT9515,COG0484,mixed,dnaJ3,CK_Pro_MIT9515_09781,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9515_chromosome,874282,875241,-
+MIT9515,COG0484,mixed,zipN,CK_Pro_MIT9515_14481,CK_00000149,cell division protein ZipN,Pro_MIT9515_chromosome,1281987,1284104,-
+MIT9515,COG0484,mixed,dnaJ5,CK_Pro_MIT9515_16541,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9515_chromosome,1445569,1446015,-
+NATL1A,COG0484,mixed,dnaJ1,CK_Pro_NATL1A_00161,CK_00000350,DnaJ type I chaperone protein,Pro_NATL1A_chromosome,19556,20686,+
+NATL1A,COG0484,mixed,dnaJ4,CK_Pro_NATL1A_01941,CK_00000214,DnaJ type III chaperone protein,Pro_NATL1A_chromosome,180560,181213,-
+NATL1A,COG0484,mixed,dnaJ2,CK_Pro_NATL1A_02921,CK_00001213,DnaJ type II chaperone protein,Pro_NATL1A_chromosome,271054,271989,+
+NATL1A,COG0484,mixed,dnaJ3,CK_Pro_NATL1A_09861,CK_00000819,DnaJ type II chaperone protein,Pro_NATL1A_chromosome,905609,906526,+
+NATL1A,COG0484,mixed,zipN,CK_Pro_NATL1A_17071,CK_00000149,cell division protein ZipN,Pro_NATL1A_chromosome,1390933,1392987,-
+NATL1A,COG0484,mixed,dnaJ5,CK_Pro_NATL1A_18731,CK_00001052,DnaJ type III chaperone protein,Pro_NATL1A_chromosome,1532573,1533013,-
+NATL2A,COG0484,mixed,dnaJ1,CK_Pro_NATL2A_01344,CK_00000350,DnaJ type I chaperone protein,Pro_NATL2A_chromosome,19558,20688,+
+NATL2A,COG0484,mixed,dnaJ4,CK_Pro_NATL2A_01489,CK_00000214,DnaJ type III chaperone protein,Pro_NATL2A_chromosome,162735,163385,-
+NATL2A,COG0484,mixed,dnaJ2,CK_Pro_NATL2A_01582,CK_00001213,DnaJ type II chaperone protein,Pro_NATL2A_chromosome,253262,254197,+
+NATL2A,COG0484,mixed,dnaJ3,CK_Pro_NATL2A_00313,CK_00000819,DnaJ type II chaperone protein,Pro_NATL2A_chromosome,851903,852820,+
+NATL2A,COG0484,mixed,zipN,CK_Pro_NATL2A_00854,CK_00000149,cell division protein ZipN,Pro_NATL2A_chromosome,1356426,1358480,-
+NATL2A,COG0484,mixed,dnaJ5,CK_Pro_NATL2A_01004,CK_00001052,DnaJ type III chaperone protein,Pro_NATL2A_chromosome,1495963,1496403,-
+PAC1,COG0484,mixed,,CK_Pro_PAC1_00045,CK_00002484,DnaJ type IV chaperone protein,Pro_PAC1_chromosome,27781,28338,-
+PAC1,COG0484,mixed,dnaJ2,CK_Pro_PAC1_00367,CK_00001213,DnaJ type II chaperone protein,Pro_PAC1_chromosome,238341,239276,-
+PAC1,COG0484,mixed,dnaJ4,CK_Pro_PAC1_00466,CK_00000214,DnaJ type III chaperone protein,Pro_PAC1_chromosome,329167,329820,+
+PAC1,COG0484,mixed,zipN,CK_Pro_PAC1_00768,CK_00000149,cell division protein ZipN,Pro_PAC1_chromosome,543365,545419,-
+PAC1,COG0484,mixed,dnaJ5,CK_Pro_PAC1_00926,CK_00001052,DnaJ type III chaperone protein,Pro_PAC1_chromosome,676071,676511,-
+PAC1,COG0484,mixed,dnaJ1,CK_Pro_PAC1_01154,CK_00000350,DnaJ type I chaperone protein,Pro_PAC1_chromosome,899766,900896,+
+PAC1,COG0484,mixed,dnaJ3,CK_Pro_PAC1_02124,CK_00000819,DnaJ type II chaperone protein,Pro_PAC1_chromosome,1715208,1716125,+
+SB,COG0484,mixed,dnaJ3,CK_Pro_SB_00257,CK_00000819,DnaJ type II chaperone protein,Pro_SB_chromosome,203326,204285,+
+SB,COG0484,mixed,dnaJ4,CK_Pro_SB_50007,CK_00000214,DnaJ type III chaperone protein,Pro_SB_chromosome,928004,928525,+
+SB,COG0484,mixed,dnaJ1,CK_Pro_SB_01219,CK_00000350,DnaJ type I chaperone protein,Pro_SB_chromosome,1030357,1031481,-
+SB,COG0484,mixed,dnaJ5,CK_Pro_SB_01484,CK_00001052,DnaJ type III chaperone protein,Pro_SB_chromosome,1306267,1306707,+
+SB,COG0484,mixed,zipN,CK_Pro_SB_01687,CK_00000149,cell division protein ZipN,Pro_SB_chromosome,1455979,1458003,+
+AS9601,COG0488,mixed,,CK_Pro_AS9601_00391,CK_00000335,Conserved hypotothetical protein,Pro_AS9601_chromosome,39277,39876,+
+AS9601,COG0488,mixed,,CK_Pro_AS9601_01041,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_AS9601_chromosome,104410,106035,+
+AS9601,COG0488,mixed,ndhV,CK_Pro_AS9601_10241,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_AS9601_chromosome,883856,884419,+
+MED4,COG0488,mixed,PMM0039,CK_Pro_MED4_00039,CK_00000335,Conserved hypotothetical protein,Pro_MED4_chromosome,37360,37968,+
+MED4,COG0488,mixed,PMM0089,CK_Pro_MED4_00089,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_MED4_chromosome,93215,94837,+
+MED4,COG0488,mixed,ndhV,CK_Pro_MED4_00845,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_MED4_chromosome,804368,804919,-
+MIT0604,COG0488,mixed,,CK_Pro_MIT0604_00050,CK_00000335,Conserved hypotothetical protein,Pro_MIT0604_chromosome,50816,51424,+
+MIT0604,COG0488,mixed,,CK_Pro_MIT0604_00111,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_MIT0604_chromosome,111393,113021,+
+MIT0604,COG0488,mixed,ndhV,CK_Pro_MIT0604_01058,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_MIT0604_chromosome,904565,905212,+
+MIT9202,COG0488,mixed,,CK_Pro_MIT9202_00201,CK_00000335,Conserved hypotothetical protein,Pro_MIT9202_chromosome,771794,772402,+
+MIT9202,COG0488,mixed,,CK_Pro_MIT9202_00857,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_MIT9202_chromosome,832586,834214,+
+MIT9202,COG0488,mixed,ndhV,CK_Pro_MIT9202_01507,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_MIT9202_chromosome,1631863,1632873,+
+MIT9215,COG0488,mixed,,CK_Pro_MIT9215_00461,CK_00000335,Conserved hypotothetical protein,Pro_MIT9215_chromosome,43203,43811,+
+MIT9215,COG0488,mixed,uup,CK_Pro_MIT9215_01031,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_MIT9215_chromosome,100477,102105,+
+MIT9215,COG0488,mixed,ndhV,CK_Pro_MIT9215_10561,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_MIT9215_chromosome,914916,915998,+
+MIT9301,COG0488,mixed,,CK_Pro_MIT9301_00411,CK_00000335,Conserved hypotothetical protein,Pro_MIT9301_chromosome,42273,42881,+
+MIT9301,COG0488,mixed,,CK_Pro_MIT9301_01021,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_MIT9301_chromosome,103213,104838,+
+MIT9301,COG0488,mixed,ndhV,CK_Pro_MIT9301_10231,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_MIT9301_chromosome,882307,882885,+
+MIT9312,COG0488,mixed,,CK_Pro_MIT9312_00040,CK_00000335,Conserved hypotothetical protein,Pro_MIT9312_chromosome,39139,39747,+
+MIT9312,COG0488,mixed,,CK_Pro_MIT9312_00093,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_MIT9312_chromosome,94907,96517,+
+MIT9312,COG0488,mixed,ndhV,CK_Pro_MIT9312_00955,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_MIT9312_chromosome,885860,886438,+
+MIT9313,COG0488,mixed,PMT0046,CK_Pro_MIT9313_00046,CK_00000335,Conserved hypotothetical protein,Pro_MIT9313_chromosome,46883,47494,+
+MIT9313,COG0488,mixed,PMT0188,CK_Pro_MIT9313_00188,CK_00001210,conserved hypothetical protein,Pro_MIT9313_chromosome,216954,217994,+
+MIT9313,COG0488,mixed,ndhV,CK_Pro_MIT9313_00769,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_MIT9313_chromosome,838619,839128,+
+MIT9313,COG0488,mixed,uup,CK_Pro_MIT9313_01540,CK_00001215,ABC transport system ATP-binding/permease protein,Pro_MIT9313_chromosome,1631238,1633196,+
+MIT9313,COG0488,mixed,PMT1635,CK_Pro_MIT9313_01635,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_MIT9313_chromosome,1735523,1737247,+
+MIT9313,COG0488,mixed,PMT1801,CK_Pro_MIT9313_01801,CK_00001739,conserved hypothetical protein,Pro_MIT9313_chromosome,1903306,1903608,+
+MIT9515,COG0488,mixed,,CK_Pro_MIT9515_00451,CK_00000335,Conserved hypotothetical protein,Pro_MIT9515_chromosome,46955,47563,+
+MIT9515,COG0488,mixed,,CK_Pro_MIT9515_01001,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_MIT9515_chromosome,102826,104448,+
+MIT9515,COG0488,mixed,ndhV,CK_Pro_MIT9515_09211,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_MIT9515_chromosome,824680,825639,-
+NATL1A,COG0488,mixed,,CK_Pro_NATL1A_00521,CK_00000335,Conserved hypotothetical protein,Pro_NATL1A_chromosome,54398,55009,+
+NATL1A,COG0488,mixed,,CK_Pro_NATL1A_01571,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_NATL1A_chromosome,152293,154011,+
+NATL1A,COG0488,mixed,,CK_Pro_NATL1A_04221,CK_00001210,conserved hypothetical protein,Pro_NATL1A_chromosome,392348,393397,+
+NATL1A,COG0488,mixed,ndhV,CK_Pro_NATL1A_10451,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_NATL1A_chromosome,962742,963293,+
+NATL1A,COG0488,mixed,uup,CK_Pro_NATL1A_18141,CK_00001215,ABC transport system ATP-binding/permease protein,Pro_NATL1A_chromosome,1478820,1480745,-
+NATL2A,COG0488,mixed,,CK_Pro_NATL2A_01371,CK_00000335,Conserved hypotothetical protein,Pro_NATL2A_chromosome,45778,46389,+
+NATL2A,COG0488,mixed,,CK_Pro_NATL2A_01455,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_NATL2A_chromosome,134469,136187,+
+NATL2A,COG0488,mixed,,CK_Pro_NATL2A_01707,CK_00001210,conserved hypothetical protein,Pro_NATL2A_chromosome,377376,378425,+
+NATL2A,COG0488,mixed,ndhV,CK_Pro_NATL2A_00363,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_NATL2A_chromosome,909028,909579,+
+NATL2A,COG0488,mixed,uup,CK_Pro_NATL2A_00950,CK_00001215,ABC transport system ATP-binding/permease protein,Pro_NATL2A_chromosome,1444320,1446245,-
+PAC1,COG0488,mixed,,CK_Pro_PAC1_00504,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_PAC1_chromosome,356357,358072,-
+PAC1,COG0488,mixed,uup,CK_Pro_PAC1_00876,CK_00001215,ABC transport system ATP-binding/permease protein,Pro_PAC1_chromosome,631087,633012,-
+PAC1,COG0488,mixed,,CK_Pro_PAC1_01184,CK_00000335,Conserved hypotothetical protein,Pro_PAC1_chromosome,928174,928785,+
+PAC1,COG0488,mixed,,CK_Pro_PAC1_01336,CK_00001210,conserved hypothetical protein,Pro_PAC1_chromosome,1069556,1070590,+
+PAC1,COG0488,mixed,ndhV,CK_Pro_PAC1_02187,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_PAC1_chromosome,1772405,1772956,+
+SB,COG0488,mixed,ndhV,CK_Pro_SB_00319,CK_00000853,NADH dehydrogenase subunit NdhV,Pro_SB_chromosome,254938,255504,+
+SB,COG0488,mixed,,CK_Pro_SB_01137,CK_00001156,"ABC transport system ATP-binding/permease protein, Uup family",Pro_SB_chromosome,953624,955249,-
+SB,COG0488,mixed,,CK_Pro_SB_01197,CK_00000335,Conserved hypotothetical protein,Pro_SB_chromosome,1012607,1013215,-
+MED4,COG0640,N,arsR,CK_Pro_MED4_00714,CK_00001532,"bacterial regulatory protein, ArsR family",Pro_MED4_chromosome,680482,680862,+
+MIT0604,COG0640,N,arsR,CK_Pro_MIT0604_01291,CK_00001532,"bacterial regulatory protein, ArsR family",Pro_MIT0604_chromosome,1092477,1092800,-
+MIT9301,COG0640,N,arsR,CK_Pro_MIT9301_12351,CK_00001532,"bacterial regulatory protein, ArsR family",Pro_MIT9301_chromosome,1047872,1048144,-
+MIT9312,COG0640,N,arsR,CK_Pro_MIT9312_00726,CK_00001532,"bacterial regulatory protein, ArsR family",Pro_MIT9312_chromosome,677430,677702,+
+MIT9313,COG0640,N,arsR,CK_Pro_MIT9313_01001,CK_00001532,"bacterial regulatory protein, ArsR family",Pro_MIT9313_chromosome,1079196,1079525,+
+MIT9313,COG0640,N,PMT2197,CK_Pro_MIT9313_02197,CK_00002707,"bacterial regulatory protein, ArsR family",Pro_MIT9313_chromosome,2323417,2323722,+
+NATL1A,COG0640,N,arsR,CK_Pro_NATL1A_11581,CK_00001532,"bacterial regulatory protein, ArsR family",Pro_NATL1A_chromosome,1035093,1035416,+
+NATL2A,COG0640,N,arsR,CK_Pro_NATL2A_00446,CK_00001532,"bacterial regulatory protein, ArsR family",Pro_NATL2A_chromosome,981133,981456,+
+PAC1,COG0640,N,arsR,CK_Pro_PAC1_00647,CK_00001532,"bacterial regulatory protein, ArsR family",Pro_PAC1_chromosome,464821,465150,+
+SB,COG0640,N,arsR,CK_Pro_SB_00833,CK_00001532,"bacterial regulatory protein, ArsR family",Pro_SB_chromosome,696165,696485,+
+AS9601,COG0673,N,,CK_Pro_AS9601_02951,CK_00000253,NAD(P)-binding oxidoreductase,Pro_AS9601_chromosome,272134,273138,-
+AS9601,COG0673,N,,CK_Pro_AS9601_08461,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_AS9601_chromosome,732931,734028,-
+AS9601,COG0673,N,,CK_Pro_AS9601_14101,CK_00006442,Predicted oxidoreductase,Pro_AS9601_chromosome,1182007,1183119,-
+MED4,COG0673,N,PMM0273,CK_Pro_MED4_00273,CK_00000253,NAD(P)-binding oxidoreductase,Pro_MED4_chromosome,262103,263107,-
+MED4,COG0673,N,PMM0782,CK_Pro_MED4_00782,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_MED4_chromosome,744191,745294,-
+MIT0604,COG0673,N,,CK_Pro_MIT0604_00317,CK_00000253,NAD(P)-binding oxidoreductase,Pro_MIT0604_chromosome,288704,289657,-
+MIT0604,COG0673,N,,CK_Pro_MIT0604_00874,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_MIT0604_chromosome,753653,754750,-
+MIT0604,COG0673,N,,CK_Pro_MIT0604_01492,CK_00006442,Predicted oxidoreductase,Pro_MIT0604_chromosome,1250617,1251582,-
+MIT9202,COG0673,N,,CK_Pro_MIT9202_00282,CK_00006442,Predicted oxidoreductase,Pro_MIT9202_chromosome,260750,261742,-
+MIT9202,COG0673,N,,CK_Pro_MIT9202_01497,CK_00000253,NAD(P)-binding oxidoreductase,Pro_MIT9202_chromosome,1000475,1001479,-
+MIT9202,COG0673,N,,CK_Pro_MIT9202_01792,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_MIT9202_chromosome,1481423,1482520,-
+MIT9215,COG0673,N,mviM,CK_Pro_MIT9215_02971,CK_00000253,NAD(P)-binding oxidoreductase,Pro_MIT9215_chromosome,269048,270052,-
+MIT9215,COG0673,N,mviM,CK_Pro_MIT9215_08771,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_MIT9215_chromosome,764599,765696,-
+MIT9301,COG0673,N,,CK_Pro_MIT9301_02961,CK_00000253,NAD(P)-binding oxidoreductase,Pro_MIT9301_chromosome,271716,272720,-
+MIT9301,COG0673,N,,CK_Pro_MIT9301_08431,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_MIT9301_chromosome,731365,732462,-
+MIT9312,COG0673,N,,CK_Pro_MIT9312_00275,CK_00000253,NAD(P)-binding oxidoreductase,Pro_MIT9312_chromosome,262560,263564,-
+MIT9312,COG0673,N,,CK_Pro_MIT9312_00790,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_MIT9312_chromosome,736266,737363,-
+MIT9312,COG0673,N,,CK_Pro_MIT9312_01300,CK_00006442,Predicted oxidoreductase,Pro_MIT9312_chromosome,1207101,1208192,+
+MIT9313,COG0673,N,PMT0536,CK_Pro_MIT9313_00536,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_MIT9313_chromosome,583847,584956,+
+MIT9313,COG0673,N,PMT1865,CK_Pro_MIT9313_01865,CK_00000253,NAD(P)-binding oxidoreductase,Pro_MIT9313_chromosome,1971736,1972773,-
+MIT9515,COG0673,N,,CK_Pro_MIT9515_03061,CK_00000253,NAD(P)-binding oxidoreductase,Pro_MIT9515_chromosome,281450,282454,-
+MIT9515,COG0673,N,,CK_Pro_MIT9515_07261,CK_00057551,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_MIT9515_chromosome,656675,657706,-
+MIT9515,COG0673,N,,CK_Pro_MIT9515_07991,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_MIT9515_chromosome,720989,722092,+
+NATL1A,COG0673,N,,CK_Pro_NATL1A_03531,CK_00000253,NAD(P)-binding oxidoreductase,Pro_NATL1A_chromosome,325178,326200,-
+NATL1A,COG0673,N,,CK_Pro_NATL1A_08211,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_NATL1A_chromosome,755286,756386,-
+NATL2A,COG0673,N,,CK_Pro_NATL2A_01639,CK_00000253,NAD(P)-binding oxidoreductase,Pro_NATL2A_chromosome,307372,308394,-
+NATL2A,COG0673,N,,CK_Pro_NATL2A_00189,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_NATL2A_chromosome,742917,744017,-
+PAC1,COG0673,N,,CK_Pro_PAC1_01256,CK_00000253,NAD(P)-binding oxidoreductase,Pro_PAC1_chromosome,993909,994931,-
+PAC1,COG0673,N,,CK_Pro_PAC1_01993,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_PAC1_chromosome,1606478,1607578,-
+SB,COG0673,N,,CK_Pro_SB_00138,CK_00000977,"oxidoreductase, NAD-binding Rossmann fold family protein",Pro_SB_chromosome,104022,105119,-
+SB,COG0673,N,,CK_Pro_SB_00948,CK_00000253,NAD(P)-binding oxidoreductase,Pro_SB_chromosome,780524,781528,+
+AS9601,COG0697,mixed,,CK_Pro_AS9601_01151,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_AS9601_chromosome,113656,114423,+
+AS9601,COG0697,mixed,,CK_Pro_AS9601_02611,CK_00000474,conserved hypothetical protein,Pro_AS9601_chromosome,243394,244179,-
+AS9601,COG0697,mixed,ndhL,CK_Pro_AS9601_06261,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_AS9601_chromosome,548329,548562,+
+AS9601,COG0697,mixed,,CK_Pro_AS9601_09201,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_AS9601_chromosome,791284,792174,-
+AS9601,COG0697,mixed,,CK_Pro_AS9601_09571,CK_00000811,conserved hypothetical protein,Pro_AS9601_chromosome,824392,824694,-
+AS9601,COG0697,mixed,psbD,CK_Pro_AS9601_13341,CK_00000042,photosystem II D2 protein,Pro_AS9601_chromosome,1108626,1109702,+
+AS9601,COG0697,mixed,,CK_Pro_AS9601_13721,CK_00000602,eamA-like transporter family protein,Pro_AS9601_chromosome,1141428,1142369,-
+AS9601,COG0697,mixed,,CK_Pro_AS9601_15751,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_AS9601_chromosome,1348186,1349058,+
+MED4,COG0697,mixed,PMM0099,CK_Pro_MED4_00099,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MED4_chromosome,102557,103324,+
+MED4,COG0697,mixed,PMM0239,CK_Pro_MED4_00239,CK_00000474,conserved hypothetical protein,Pro_MED4_chromosome,233270,233893,-
+MED4,COG0697,mixed,ndhL,CK_Pro_MED4_00570,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_MED4_chromosome,538345,538578,+
+MED4,COG0697,mixed,PMM0904,CK_Pro_MED4_00904,CK_00000811,conserved hypothetical protein,Pro_MED4_chromosome,866557,866859,+
+MED4,COG0697,mixed,PMM0940,CK_Pro_MED4_00940,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_MED4_chromosome,899088,899975,+
+MED4,COG0697,mixed,hupE,CK_Pro_MED4_01123,CK_00000499,hydrogenase/urease accessory protein,Pro_MED4_chromosome,1071671,1072375,-
+MED4,COG0697,mixed,psbD,CK_Pro_MED4_01157,CK_00000042,photosystem II D2 protein,Pro_MED4_chromosome,1107613,1108689,+
+MED4,COG0697,mixed,PMM1179,CK_Pro_MED4_01179,CK_00000602,eamA-like transporter family protein,Pro_MED4_chromosome,1127292,1128233,-
+MED4,COG0697,mixed,PMM1371,CK_Pro_MED4_01371,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_MED4_chromosome,1318653,1319528,+
+MIT0604,COG0697,mixed,,CK_Pro_MIT0604_00123,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT0604_chromosome,120643,121410,+
+MIT0604,COG0697,mixed,ndhL,CK_Pro_MIT0604_00616,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_MIT0604_chromosome,540123,540236,+
+MIT0604,COG0697,mixed,,CK_Pro_MIT0604_00950,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_MIT0604_chromosome,812016,812906,-
+MIT0604,COG0697,mixed,,CK_Pro_MIT0604_00988,CK_00000811,conserved hypothetical protein,Pro_MIT0604_chromosome,845103,845273,-
+MIT0604,COG0697,mixed,psbD,CK_Pro_MIT0604_01390,CK_00000042,photosystem II D2 protein,Pro_MIT0604_chromosome,1149451,1150527,+
+MIT0604,COG0697,mixed,,CK_Pro_MIT0604_01428,CK_00000602,eamA-like transporter family protein,Pro_MIT0604_chromosome,1183498,1184412,-
+MIT0604,COG0697,mixed,,CK_Pro_MIT0604_01535,CK_00000499,hydrogenase/urease accessory protein,Pro_MIT0604_chromosome,1288098,1288730,+
+MIT0604,COG0697,mixed,,CK_Pro_MIT0604_01677,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_MIT0604_chromosome,1413892,1414764,+
+MIT9202,COG0697,mixed,psbD,CK_Pro_MIT9202_01332,CK_00000042,photosystem II D2 protein,Pro_MIT9202_chromosome,170241,171317,+
+MIT9202,COG0697,mixed,rhaT_1,CK_Pro_MIT9202_01229,CK_00000602,eamA-like transporter family protein,Pro_MIT9202_chromosome,196704,197645,-
+MIT9202,COG0697,mixed,rhaT_2,CK_Pro_MIT9202_01228,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_MIT9202_chromosome,384651,385523,+
+MIT9202,COG0697,mixed,,CK_Pro_MIT9202_00266,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9202_chromosome,841826,842593,+
+MIT9202,COG0697,mixed,ndhL,CK_Pro_MIT9202_01853,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_MIT9202_chromosome,1287188,1287421,+
+MIT9202,COG0697,mixed,,CK_Pro_MIT9202_00865,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_MIT9202_chromosome,1539764,1540654,-
+MIT9202,COG0697,mixed,,CK_Pro_MIT9202_00743,CK_00000811,conserved hypothetical protein,Pro_MIT9202_chromosome,1572875,1573045,-
+MIT9215,COG0697,mixed,,CK_Pro_MIT9215_01151,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9215_chromosome,109767,110492,+
+MIT9215,COG0697,mixed,,CK_Pro_MIT9215_02621,CK_00000474,conserved hypothetical protein,Pro_MIT9215_chromosome,240330,240953,-
+MIT9215,COG0697,mixed,ndhL,CK_Pro_MIT9215_50007,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_MIT9215_chromosome,575709,575942,+
+MIT9215,COG0697,mixed,rhaT,CK_Pro_MIT9215_09501,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_MIT9215_chromosome,822915,823805,-
+MIT9215,COG0697,mixed,,CK_Pro_MIT9215_09881,CK_00000811,conserved hypothetical protein,Pro_MIT9215_chromosome,856038,856340,-
+MIT9215,COG0697,mixed,psbD,CK_Pro_MIT9215_13631,CK_00000042,photosystem II D2 protein,Pro_MIT9215_chromosome,1158958,1160034,+
+MIT9215,COG0697,mixed,,CK_Pro_MIT9215_13931,CK_00000602,eamA-like transporter family protein,Pro_MIT9215_chromosome,1184705,1185646,-
+MIT9215,COG0697,mixed,,CK_Pro_MIT9215_16031,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_MIT9215_chromosome,1389786,1390658,+
+MIT9301,COG0697,mixed,,CK_Pro_MIT9301_01141,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9301_chromosome,112456,113223,+
+MIT9301,COG0697,mixed,,CK_Pro_MIT9301_02621,CK_00000474,conserved hypothetical protein,Pro_MIT9301_chromosome,244359,244982,-
+MIT9301,COG0697,mixed,ndhL,CK_Pro_MIT9301_05961,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_MIT9301_chromosome,522761,522994,+
+MIT9301,COG0697,mixed,,CK_Pro_MIT9301_09181,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_MIT9301_chromosome,789738,790628,-
+MIT9301,COG0697,mixed,,CK_Pro_MIT9301_09551,CK_00000811,conserved hypothetical protein,Pro_MIT9301_chromosome,822850,823152,-
+MIT9301,COG0697,mixed,hupE,CK_Pro_MIT9301_12311,CK_00000499,hydrogenase/urease accessory protein,Pro_MIT9301_chromosome,1045962,1046666,-
+MIT9301,COG0697,mixed,psbD,CK_Pro_MIT9301_13491,CK_00000042,photosystem II D2 protein,Pro_MIT9301_chromosome,1126362,1127438,+
+MIT9301,COG0697,mixed,,CK_Pro_MIT9301_13801,CK_00000602,eamA-like transporter family protein,Pro_MIT9301_chromosome,1149685,1150626,-
+MIT9301,COG0697,mixed,,CK_Pro_MIT9301_15601,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_MIT9301_chromosome,1321313,1322185,+
+MIT9312,COG0697,mixed,,CK_Pro_MIT9312_00103,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9312_chromosome,104182,104919,+
+MIT9312,COG0697,mixed,,CK_Pro_MIT9312_00241,CK_00000474,conserved hypothetical protein,Pro_MIT9312_chromosome,233874,234497,-
+MIT9312,COG0697,mixed,ndhL,CK_Pro_MIT9312_00570,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_MIT9312_chromosome,532887,533120,+
+MIT9312,COG0697,mixed,,CK_Pro_MIT9312_00859,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_MIT9312_chromosome,794531,795421,-
+MIT9312,COG0697,mixed,,CK_Pro_MIT9312_00896,CK_00000811,conserved hypothetical protein,Pro_MIT9312_chromosome,827653,827955,-
+MIT9312,COG0697,mixed,psbD,CK_Pro_MIT9312_01256,CK_00000042,photosystem II D2 protein,Pro_MIT9312_chromosome,1167825,1168901,+
+MIT9312,COG0697,mixed,,CK_Pro_MIT9312_01280,CK_00000602,eamA-like transporter family protein,Pro_MIT9312_chromosome,1188804,1189745,-
+MIT9312,COG0697,mixed,,CK_Pro_MIT9312_01468,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_MIT9312_chromosome,1377848,1378720,+
+MIT9313,COG0697,mixed,PMT0053,CK_Pro_MIT9313_00053,CK_00001347,conserved hypothetical protein,Pro_MIT9313_chromosome,53400,53879,+
+MIT9313,COG0697,mixed,PMT0179,CK_Pro_MIT9313_00179,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9313_chromosome,202456,203247,-
+MIT9313,COG0697,mixed,hupE,CK_Pro_MIT9313_00232,CK_00000499,hydrogenase/urease accessory protein,Pro_MIT9313_chromosome,266531,267151,-
+MIT9313,COG0697,mixed,ndhL,CK_Pro_MIT9313_00467,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_MIT9313_chromosome,518466,518717,-
+MIT9313,COG0697,mixed,PMT0625,CK_Pro_MIT9313_00625,CK_00003701,eamA-like transporter family protein,Pro_MIT9313_chromosome,679250,680182,+
+MIT9313,COG0697,mixed,PMT0643,CK_Pro_MIT9313_00643,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_MIT9313_chromosome,695737,696651,+
+MIT9313,COG0697,mixed,PMT0689,CK_Pro_MIT9313_00689,CK_00000811,conserved hypothetical protein,Pro_MIT9313_chromosome,744658,744960,-
+MIT9313,COG0697,mixed,PMT0918,CK_Pro_MIT9313_00918,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_MIT9313_chromosome,1001058,1001939,-
+MIT9313,COG0697,mixed,psbD,CK_Pro_MIT9313_01179,CK_00000042,photosystem II D2 protein,Pro_MIT9313_chromosome,1269742,1270797,+
+MIT9313,COG0697,mixed,PMT1364,CK_Pro_MIT9313_01364,CK_00000602,eamA-like transporter family protein,Pro_MIT9313_chromosome,1450903,1451862,-
+MIT9313,COG0697,mixed,PMT1818,CK_Pro_MIT9313_01818,CK_00000474,conserved hypothetical protein,Pro_MIT9313_chromosome,1926247,1926858,-
+MIT9515,COG0697,mixed,,CK_Pro_MIT9515_01111,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_MIT9515_chromosome,112200,112925,+
+MIT9515,COG0697,mixed,,CK_Pro_MIT9515_02721,CK_00000474,conserved hypothetical protein,Pro_MIT9515_chromosome,252665,253288,-
+MIT9515,COG0697,mixed,ndhL,CK_Pro_MIT9515_06351,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_MIT9515_chromosome,569412,569645,+
+MIT9515,COG0697,mixed,,CK_Pro_MIT9515_09861,CK_00000811,conserved hypothetical protein,Pro_MIT9515_chromosome,882826,883128,+
+MIT9515,COG0697,mixed,,CK_Pro_MIT9515_10231,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_MIT9515_chromosome,915336,916223,+
+MIT9515,COG0697,mixed,psbD,CK_Pro_MIT9515_13241,CK_00000042,photosystem II D2 protein,Pro_MIT9515_chromosome,1162181,1163257,+
+MIT9515,COG0697,mixed,,CK_Pro_MIT9515_13511,CK_00000602,eamA-like transporter family protein,Pro_MIT9515_chromosome,1185680,1186621,-
+MIT9515,COG0697,mixed,,CK_Pro_MIT9515_15391,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_MIT9515_chromosome,1364878,1365753,+
+NATL1A,COG0697,mixed,,CK_Pro_NATL1A_01701,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_NATL1A_chromosome,163558,164217,+
+NATL1A,COG0697,mixed,,CK_Pro_NATL1A_03181,CK_00000474,conserved hypothetical protein,Pro_NATL1A_chromosome,296730,297341,-
+NATL1A,COG0697,mixed,ndhL,CK_Pro_NATL1A_06251,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_NATL1A_chromosome,569690,569959,+
+NATL1A,COG0697,mixed,,CK_Pro_NATL1A_09391,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_NATL1A_chromosome,866803,867711,-
+NATL1A,COG0697,mixed,,CK_Pro_NATL1A_09751,CK_00000811,conserved hypothetical protein,Pro_NATL1A_chromosome,895158,895466,-
+NATL1A,COG0697,mixed,hupE,CK_Pro_NATL1A_14481,CK_00000499,hydrogenase/urease accessory protein,Pro_NATL1A_chromosome,1163272,1163886,-
+NATL1A,COG0697,mixed,psbD,CK_Pro_NATL1A_16071,CK_00000042,photosystem II D2 protein,Pro_NATL1A_chromosome,1313889,1314965,+
+NATL1A,COG0697,mixed,,CK_Pro_NATL1A_16531,CK_00000602,eamA-like transporter family protein,Pro_NATL1A_chromosome,1346938,1347888,-
+NATL1A,COG0697,mixed,,CK_Pro_NATL1A_17901,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_NATL1A_chromosome,1468008,1468874,-
+NATL2A,COG0697,mixed,,CK_Pro_NATL2A_01467,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_NATL2A_chromosome,145734,146393,+
+NATL2A,COG0697,mixed,,CK_Pro_NATL2A_01606,CK_00000474,conserved hypothetical protein,Pro_NATL2A_chromosome,278936,279559,-
+NATL2A,COG0697,mixed,ndhL,CK_Pro_NATL2A_00006,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_NATL2A_chromosome,557330,557599,+
+NATL2A,COG0697,mixed,,CK_Pro_NATL2A_00270,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_NATL2A_chromosome,813094,814002,-
+NATL2A,COG0697,mixed,,CK_Pro_NATL2A_00303,CK_00000811,conserved hypothetical protein,Pro_NATL2A_chromosome,841452,841760,-
+NATL2A,COG0697,mixed,,CK_Pro_NATL2A_00621,CK_00000499,hydrogenase/urease accessory protein,Pro_NATL2A_chromosome,1107832,1108464,-
+NATL2A,COG0697,mixed,psbD,CK_Pro_NATL2A_00767,CK_00000042,photosystem II D2 protein,Pro_NATL2A_chromosome,1275537,1276613,+
+NATL2A,COG0697,mixed,,CK_Pro_NATL2A_00798,CK_00000602,eamA-like transporter family protein,Pro_NATL2A_chromosome,1302601,1303551,-
+NATL2A,COG0697,mixed,,CK_Pro_NATL2A_00933,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_NATL2A_chromosome,1433505,1434371,-
+PAC1,COG0697,mixed,,CK_Pro_PAC1_00016,CK_00000499,hydrogenase/urease accessory protein,Pro_PAC1_chromosome,12584,13198,+
+PAC1,COG0697,mixed,,CK_Pro_PAC1_00489,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_PAC1_chromosome,346152,346790,-
+PAC1,COG0697,mixed,psbD,CK_Pro_PAC1_00615,CK_00000042,photosystem II D2 protein,Pro_PAC1_chromosome,444756,445832,+
+PAC1,COG0697,mixed,,CK_Pro_PAC1_00713,CK_00000602,eamA-like transporter family protein,Pro_PAC1_chromosome,496190,497140,-
+PAC1,COG0697,mixed,,CK_Pro_PAC1_00855,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_PAC1_chromosome,620450,621316,-
+PAC1,COG0697,mixed,,CK_Pro_PAC1_01223,CK_00000474,conserved hypothetical protein,Pro_PAC1_chromosome,965434,966057,-
+PAC1,COG0697,mixed,ndhL,CK_Pro_PAC1_01788,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_PAC1_chromosome,1421140,1421313,+
+PAC1,COG0697,mixed,,CK_Pro_PAC1_02079,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_PAC1_chromosome,1676399,1677307,-
+PAC1,COG0697,mixed,,CK_Pro_PAC1_02113,CK_00000811,conserved hypothetical protein,Pro_PAC1_chromosome,1704757,1705065,-
+SB,COG0697,mixed,,CK_Pro_SB_00211,CK_00000791,permease of the drug/metabolite transporter (DMT) superfamily,Pro_SB_chromosome,162375,163265,-
+SB,COG0697,mixed,,CK_Pro_SB_00249,CK_00000811,conserved hypothetical protein,Pro_SB_chromosome,195486,195788,-
+SB,COG0697,mixed,ndhL,CK_Pro_SB_00627,CK_00000947,NADH dehydrogenase I subunit NdhL,Pro_SB_chromosome,509051,509164,-
+SB,COG0697,mixed,,CK_Pro_SB_00826,CK_00000499,hydrogenase/urease accessory protein,Pro_SB_chromosome,688107,688739,+
+SB,COG0697,mixed,,CK_Pro_SB_01126,CK_00000195,uncharacterized membrane protein (DUF3120),Pro_SB_chromosome,945237,946004,-
+SB,COG0697,mixed,,CK_Pro_SB_01596,CK_00000868,drug/metabolite transporter (DMT) superfamily efflux protein,Pro_SB_chromosome,1375274,1376146,-
+SB,COG0697,mixed,,CK_Pro_SB_01765,CK_00000602,eamA-like transporter family protein,Pro_SB_chromosome,1531102,1532043,+
+SB,COG0697,mixed,psbD,CK_Pro_SB_01794,CK_00000042,photosystem II D2 protein,Pro_SB_chromosome,1552527,1553603,-
+MIT9313,COG0810,mixed,PMT0627,CK_Pro_MIT9313_00627,CK_00001270,conserved hypothetical protein,Pro_MIT9313_chromosome,680913,681344,+
+MIT9313,COG0810,mixed,PMT1771,CK_Pro_MIT9313_01771,CK_00001391,uncharacterized conserved secreted protein,Pro_MIT9313_chromosome,1864803,1866425,+
+NATL1A,COG0810,mixed,,CK_Pro_NATL1A_09461,CK_00001270,conserved hypothetical protein,Pro_NATL1A_chromosome,872897,873262,-
+NATL2A,COG0810,mixed,,CK_Pro_NATL2A_00277,CK_00001270,conserved hypothetical protein,Pro_NATL2A_chromosome,819193,819558,-
+PAC1,COG0810,mixed,,CK_Pro_PAC1_02086,CK_00001270,conserved hypothetical protein,Pro_PAC1_chromosome,1682495,1682860,-
+AS9601,COG0845,mixed,,CK_Pro_AS9601_02691,CK_00000467,conserved hypothetical protein (DUF3084),Pro_AS9601_chromosome,249602,250567,+
+AS9601,COG0845,mixed,devB,CK_Pro_AS9601_08091,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_AS9601_chromosome,696859,697773,+
+AS9601,COG0845,mixed,acrA,CK_Pro_AS9601_13141,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_AS9601_chromosome,1090296,1091357,+
+AS9601,COG0845,mixed,,CK_Pro_AS9601_14321,CK_00050161,"type I secretion system ABC transporter, HlyD family",Pro_AS9601_chromosome,1206070,1207233,+
+MED4,COG0845,mixed,PMM0247,CK_Pro_MED4_00247,CK_00000467,conserved hypothetical protein (DUF3084),Pro_MED4_chromosome,239494,240465,+
+MED4,COG0845,mixed,devB,CK_Pro_MED4_00748,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_MED4_chromosome,709356,710273,+
+MED4,COG0845,mixed,PMM1139,CK_Pro_MED4_01139,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_MED4_chromosome,1089194,1090255,+
+MIT0604,COG0845,mixed,,CK_Pro_MIT0604_00292,CK_00000467,conserved hypothetical protein (DUF3084),Pro_MIT0604_chromosome,266158,267123,+
+MIT0604,COG0845,mixed,devB,CK_Pro_MIT0604_00837,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_MIT0604_chromosome,717587,718501,+
+MIT0604,COG0845,mixed,,CK_Pro_MIT0604_01371,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_MIT0604_chromosome,1131112,1132173,+
+MIT9202,COG0845,mixed,,CK_Pro_MIT9202_01602,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_MIT9202_chromosome,150984,152045,+
+MIT9202,COG0845,mixed,,CK_Pro_MIT9202_01634,CK_00000467,conserved hypothetical protein (DUF3084),Pro_MIT9202_chromosome,977961,978926,+
+MIT9202,COG0845,mixed,devB,CK_Pro_MIT9202_01026,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_MIT9202_chromosome,1446533,1447450,+
+MIT9215,COG0845,mixed,,CK_Pro_MIT9215_02701,CK_00000467,conserved hypothetical protein (DUF3084),Pro_MIT9215_chromosome,246536,247501,+
+MIT9215,COG0845,mixed,devB,CK_Pro_MIT9215_08421,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_MIT9215_chromosome,729710,730624,+
+MIT9215,COG0845,mixed,acrA,CK_Pro_MIT9215_13431,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_MIT9215_chromosome,1139705,1140766,+
+MIT9301,COG0845,mixed,,CK_Pro_MIT9301_02701,CK_00000467,conserved hypothetical protein (DUF3084),Pro_MIT9301_chromosome,250569,251534,+
+MIT9301,COG0845,mixed,devB,CK_Pro_MIT9301_08081,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_MIT9301_chromosome,696536,697450,+
+MIT9301,COG0845,mixed,acrA,CK_Pro_MIT9301_13281,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_MIT9301_chromosome,1107501,1108562,+
+MIT9312,COG0845,mixed,,CK_Pro_MIT9312_00249,CK_00000467,conserved hypothetical protein (DUF3084),Pro_MIT9312_chromosome,240089,241048,+
+MIT9312,COG0845,mixed,devB,CK_Pro_MIT9312_00756,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_MIT9312_chromosome,701447,702361,+
+MIT9312,COG0845,mixed,,CK_Pro_MIT9312_01183,CK_00047685,hlyD secretion family protein,Pro_MIT9312_chromosome,1101022,1101975,+
+MIT9312,COG0845,mixed,,CK_Pro_MIT9312_01235,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_MIT9312_chromosome,1148350,1149411,+
+MIT9313,COG0845,mixed,PMT0042,CK_Pro_MIT9313_00042,CK_00002104,conserved hypothetical protein,Pro_MIT9313_chromosome,41954,42178,+
+MIT9313,COG0845,mixed,PMT0076,CK_Pro_MIT9313_00076,CK_00050161,"type I secretion system ABC transporter, HlyD family",Pro_MIT9313_chromosome,79135,80310,-
+MIT9313,COG0845,mixed,PMT0094,CK_Pro_MIT9313_00094,CK_00047685,hlyD secretion family protein,Pro_MIT9313_chromosome,107834,109219,+
+MIT9313,COG0845,mixed,devB,CK_Pro_MIT9313_00589,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_MIT9313_chromosome,646023,646907,-
+MIT9313,COG0845,mixed,PMT0979,CK_Pro_MIT9313_00979,CK_00002688,uncharacterized conserved membrane protein,Pro_MIT9313_chromosome,1058001,1059404,-
+MIT9313,COG0845,mixed,PMT1017,CK_Pro_MIT9313_01017,CK_00003774,conserved hypothetical protein,Pro_MIT9313_chromosome,1092700,1092984,-
+MIT9313,COG0845,mixed,PMT1156,CK_Pro_MIT9313_01156,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_MIT9313_chromosome,1245052,1246182,+
+MIT9313,COG0845,mixed,PMT1573,CK_Pro_MIT9313_01573,CK_00056739,"ABC exporter membrane fusion, DevB family",Pro_MIT9313_chromosome,1671339,1672415,+
+MIT9313,COG0845,mixed,mdtA,CK_Pro_MIT9313_01617,CK_00035460,multidrug efflux pump membrane fusion protein,Pro_MIT9313_chromosome,1718438,1719565,-
+MIT9313,COG0845,mixed,PMT1832,CK_Pro_MIT9313_01832,CK_00000467,conserved hypothetical protein (DUF3084),Pro_MIT9313_chromosome,1940345,1941550,+
+MIT9313,COG0845,mixed,PMT1882,CK_Pro_MIT9313_01882,CK_00001329,uncharacterized conserved lipoprotein,Pro_MIT9313_chromosome,1987290,1987847,-
+MIT9515,COG0845,mixed,,CK_Pro_MIT9515_02801,CK_00000467,conserved hypothetical protein (DUF3084),Pro_MIT9515_chromosome,258880,259851,+
+MIT9515,COG0845,mixed,devB,CK_Pro_MIT9515_08361,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_MIT9515_chromosome,757222,758133,-
+MIT9515,COG0845,mixed,acrA,CK_Pro_MIT9515_13031,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_MIT9515_chromosome,1143152,1144213,+
+NATL1A,COG0845,mixed,,CK_Pro_NATL1A_00321,CK_00002104,conserved hypothetical protein,Pro_NATL1A_chromosome,32479,32685,+
+NATL1A,COG0845,mixed,,CK_Pro_NATL1A_03251,CK_00000467,conserved hypothetical protein (DUF3084),Pro_NATL1A_chromosome,301839,302765,+
+NATL1A,COG0845,mixed,devB,CK_Pro_NATL1A_07841,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_NATL1A_chromosome,716534,717451,+
+NATL1A,COG0845,mixed,acrA,CK_Pro_NATL1A_15871,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_NATL1A_chromosome,1294157,1295230,+
+NATL1A,COG0845,mixed,,CK_Pro_NATL1A_21021,CK_00050161,"type I secretion system ABC transporter, HlyD family",Pro_NATL1A_chromosome,1746330,1747460,+
+NATL2A,COG0845,mixed,,CK_Pro_NATL2A_01360,CK_00002104,conserved hypothetical protein,Pro_NATL2A_chromosome,32520,32726,+
+NATL2A,COG0845,mixed,,CK_Pro_NATL2A_01613,CK_00000467,conserved hypothetical protein (DUF3084),Pro_NATL2A_chromosome,284041,284967,+
+NATL2A,COG0845,mixed,devB,CK_Pro_NATL2A_00152,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_NATL2A_chromosome,704153,705070,+
+NATL2A,COG0845,mixed,,CK_Pro_NATL2A_00747,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_NATL2A_chromosome,1255807,1256880,+
+NATL2A,COG0845,mixed,,CK_Pro_NATL2A_01225,CK_00050161,"type I secretion system ABC transporter, HlyD family",Pro_NATL2A_chromosome,1715782,1716915,+
+PAC1,COG0845,mixed,,CK_Pro_PAC1_00205,CK_00050161,"type I secretion system ABC transporter, HlyD family",Pro_PAC1_chromosome,101364,102533,-
+PAC1,COG0845,mixed,,CK_Pro_PAC1_00596,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_PAC1_chromosome,425004,426077,+
+PAC1,COG0845,mixed,,CK_Pro_PAC1_01170,CK_00002104,conserved hypothetical protein,Pro_PAC1_chromosome,912751,912939,+
+PAC1,COG0845,mixed,,CK_Pro_PAC1_01230,CK_00000467,conserved hypothetical protein (DUF3084),Pro_PAC1_chromosome,970544,971470,+
+PAC1,COG0845,mixed,devB,CK_Pro_PAC1_01954,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_PAC1_chromosome,1567726,1568643,+
+SB,COG0845,mixed,devB,CK_Pro_SB_00102,CK_00003842,"ABC exporter membrane fusion, DevB family",Pro_SB_chromosome,67965,68879,+
+SB,COG0845,mixed,,CK_Pro_SB_00975,CK_00000467,conserved hypothetical protein (DUF3084),Pro_SB_chromosome,803090,804055,-
+SB,COG0845,mixed,,CK_Pro_SB_01813,CK_00001018,"RND efflux pump, MFP subunit, HlyD family",Pro_SB_chromosome,1570870,1571931,-
+SB,COG0845,mixed,,CK_Pro_SB_01816,CK_00050161,"type I secretion system ABC transporter, HlyD family",Pro_SB_chromosome,1574961,1576166,-
+AS9601,COG1187,mixed,,CK_Pro_AS9601_09161,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_AS9601_chromosome,789465,789914,-
+AS9601,COG1187,mixed,rsuA,CK_Pro_AS9601_12611,CK_00000762,pseudouridine synthase,Pro_AS9601_chromosome,1067182,1067904,-
+MED4,COG1187,mixed,rsuA,CK_Pro_MED4_00658,CK_00000762,pseudouridine synthase,Pro_MED4_chromosome,624955,625677,+
+MED4,COG1187,mixed,PMM0944,CK_Pro_MED4_00944,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MED4_chromosome,901340,901786,+
+MIT0604,COG1187,mixed,,CK_Pro_MIT0604_00946,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT0604_chromosome,810195,810644,-
+MIT0604,COG1187,mixed,rsuA,CK_Pro_MIT0604_01320,CK_00000762,pseudouridine synthase,Pro_MIT0604_chromosome,1108957,1109679,-
+MIT9202,COG1187,mixed,rsuA,CK_Pro_MIT9202_00278,CK_00000762,pseudouridine synthase,Pro_MIT9202_chromosome,122555,123277,-
+MIT9202,COG1187,mixed,,CK_Pro_MIT9202_00895,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9202_chromosome,1537943,1538392,-
+MIT9215,COG1187,mixed,,CK_Pro_MIT9215_09461,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9215_chromosome,821094,821543,-
+MIT9215,COG1187,mixed,rsuA,CK_Pro_MIT9215_13041,CK_00000762,pseudouridine synthase,Pro_MIT9215_chromosome,1116929,1117651,-
+MIT9301,COG1187,mixed,,CK_Pro_MIT9301_09141,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9301_chromosome,787917,788366,-
+MIT9301,COG1187,mixed,rsuA,CK_Pro_MIT9301_12681,CK_00000762,pseudouridine synthase,Pro_MIT9301_chromosome,1078483,1079205,-
+MIT9312,COG1187,mixed,,CK_Pro_MIT9312_00855,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9312_chromosome,792714,793160,-
+MIT9312,COG1187,mixed,rsuA,CK_Pro_MIT9312_01204,CK_00000762,pseudouridine synthase,Pro_MIT9312_chromosome,1125626,1126348,-
+MIT9313,COG1187,mixed,PMT0627,CK_Pro_MIT9313_00627,CK_00001270,conserved hypothetical protein,Pro_MIT9313_chromosome,680913,681344,+
+MIT9313,COG1187,mixed,PMT0646,CK_Pro_MIT9313_00646,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9313_chromosome,698978,699463,+
+MIT9313,COG1187,mixed,rsuA,CK_Pro_MIT9313_01069,CK_00000762,pseudouridine synthase,Pro_MIT9313_chromosome,1154735,1155469,+
+MIT9313,COG1187,mixed,rluE,CK_Pro_MIT9313_01170,CK_00001505,23S rRNA pseudouridine2457 synthase,Pro_MIT9313_chromosome,1262582,1263229,+
+MIT9515,COG1187,mixed,,CK_Pro_MIT9515_10271,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_MIT9515_chromosome,917595,918041,+
+MIT9515,COG1187,mixed,rsuA,CK_Pro_MIT9515_12541,CK_00000762,pseudouridine synthase,Pro_MIT9515_chromosome,1102313,1103035,+
+NATL1A,COG1187,mixed,,CK_Pro_NATL1A_09351,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_NATL1A_chromosome,864918,865358,-
+NATL1A,COG1187,mixed,,CK_Pro_NATL1A_09461,CK_00001270,conserved hypothetical protein,Pro_NATL1A_chromosome,872897,873262,-
+NATL1A,COG1187,mixed,rsuA,CK_Pro_NATL1A_14081,CK_00000762,pseudouridine synthase,Pro_NATL1A_chromosome,1146210,1146932,+
+NATL2A,COG1187,mixed,,CK_Pro_NATL2A_00266,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_NATL2A_chromosome,811209,811649,-
+NATL2A,COG1187,mixed,,CK_Pro_NATL2A_00277,CK_00001270,conserved hypothetical protein,Pro_NATL2A_chromosome,819193,819558,-
+NATL2A,COG1187,mixed,rsuA,CK_Pro_NATL2A_00601,CK_00000762,pseudouridine synthase,Pro_NATL2A_chromosome,1094286,1095008,+
+PAC1,COG1187,mixed,rsuA,CK_Pro_PAC1_00122,CK_00000762,pseudouridine synthase,Pro_PAC1_chromosome,57679,58401,+
+PAC1,COG1187,mixed,,CK_Pro_PAC1_02075,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_PAC1_chromosome,1674499,1674939,-
+PAC1,COG1187,mixed,,CK_Pro_PAC1_02086,CK_00001270,conserved hypothetical protein,Pro_PAC1_chromosome,1682495,1682860,-
+SB,COG1187,mixed,,CK_Pro_SB_00207,CK_00000788,"photosystem II assembly factor, PAM68-like protein",Pro_SB_chromosome,160555,161004,-
+SB,COG1187,mixed,rsuA,CK_Pro_SB_01896,CK_00000762,pseudouridine synthase,Pro_SB_chromosome,1629468,1630190,+
+MIT9301,COG1212,mixed,kdsB,CK_Pro_MIT9301_14031,CK_00048376,3-deoxy-D-manno-octulosonate cytidylyltransferase,Pro_MIT9301_chromosome,1170704,1171447,+
+MIT9313,COG1212,mixed,kdsB,CK_Pro_MIT9313_01914,CK_00048376,3-deoxy-D-manno-octulosonate cytidylyltransferase,Pro_MIT9313_chromosome,2019784,2020599,-
+AS9601,COG1403,N,,CK_Pro_AS9601_00301,CK_00000339,HNH endonuclease family protein,Pro_AS9601_chromosome,30459,30860,-
+AS9601,COG1403,N,,CK_Pro_AS9601_10581,CK_00009150,HNH endonuclease,Pro_AS9601_chromosome,917924,918265,+
+AS9601,COG1403,N,mcrA,CK_Pro_AS9601_17361,CK_00000506,HNH endonuclease family protein,Pro_AS9601_chromosome,1481818,1482375,+
+MED4,COG1403,N,PMM0031,CK_Pro_MED4_00031,CK_00000339,HNH endonuclease family protein,Pro_MED4_chromosome,30526,30930,-
+MED4,COG1403,N,PMM0982,CK_Pro_MED4_00982,CK_00009150,HNH endonuclease,Pro_MED4_chromosome,937978,938319,+
+MED4,COG1403,N,PMM1403,CK_Pro_MED4_01403,CK_00000339,HNH endonuclease family protein,Pro_MED4_chromosome,1349355,1349756,-
+MED4,COG1403,N,mcrA,CK_Pro_MED4_01528,CK_00000506,HNH endonuclease family protein,Pro_MED4_chromosome,1470969,1471475,+
+MIT0604,COG1403,N,,CK_Pro_MIT0604_00031,CK_00000339,HNH endonuclease family protein,Pro_MIT0604_chromosome,30469,30690,-
+MIT0604,COG1403,N,,CK_Pro_MIT0604_01091,CK_00009150,HNH endonuclease,Pro_MIT0604_chromosome,938732,939073,+
+MIT0604,COG1403,N,mcrA,CK_Pro_MIT0604_01886,CK_00000506,HNH endonuclease family protein,Pro_MIT0604_chromosome,1582373,1582879,+
+MIT9202,COG1403,N,mcrA,CK_Pro_MIT9202_01213,CK_00000506,HNH endonuclease family protein,Pro_MIT9202_chromosome,539936,540442,+
+MIT9202,COG1403,N,,CK_Pro_MIT9202_01895,CK_00000339,HNH endonuclease family protein,Pro_MIT9202_chromosome,756803,757201,-
+MIT9202,COG1403,N,,CK_Pro_MIT9202_00304,CK_00009150,HNH endonuclease,Pro_MIT9202_chromosome,1666355,1666696,+
+MIT9215,COG1403,N,,CK_Pro_MIT9215_00291,CK_00000339,HNH endonuclease family protein,Pro_MIT9215_chromosome,30457,30855,-
+MIT9215,COG1403,N,,CK_Pro_MIT9215_10891,CK_00009150,HNH endonuclease,Pro_MIT9215_chromosome,949469,949810,+
+MIT9215,COG1403,N,mcrA,CK_Pro_MIT9215_18001,CK_00000506,HNH endonuclease family protein,Pro_MIT9215_chromosome,1552343,1552900,+
+MIT9301,COG1403,N,,CK_Pro_MIT9301_00301,CK_00000339,HNH endonuclease family protein,Pro_MIT9301_chromosome,30546,30947,-
+MIT9301,COG1403,N,,CK_Pro_MIT9301_10581,CK_00009150,HNH endonuclease,Pro_MIT9301_chromosome,916358,916699,+
+MIT9301,COG1403,N,mcrA,CK_Pro_MIT9301_17201,CK_00000506,HNH endonuclease family protein,Pro_MIT9301_chromosome,1455478,1456035,+
+MIT9312,COG1403,N,,CK_Pro_MIT9312_00031,CK_00000339,HNH endonuclease family protein,Pro_MIT9312_chromosome,30561,30962,-
+MIT9312,COG1403,N,,CK_Pro_MIT9312_00987,CK_00009150,HNH endonuclease,Pro_MIT9312_chromosome,919922,920263,+
+MIT9312,COG1403,N,mcrA,CK_Pro_MIT9312_01621,CK_00000506,HNH endonuclease family protein,Pro_MIT9312_chromosome,1522104,1522661,+
+MIT9313,COG1403,N,PMT0036,CK_Pro_MIT9313_00036,CK_00000339,HNH endonuclease family protein,Pro_MIT9313_chromosome,37596,37997,-
+MIT9313,COG1403,N,mcrA,CK_Pro_MIT9313_01762,CK_00000506,HNH endonuclease family protein,Pro_MIT9313_chromosome,1852321,1852866,-
+MIT9515,COG1403,N,,CK_Pro_MIT9515_00301,CK_00000339,HNH endonuclease family protein,Pro_MIT9515_chromosome,30618,31019,-
+MIT9515,COG1403,N,,CK_Pro_MIT9515_10571,CK_00009150,HNH endonuclease,Pro_MIT9515_chromosome,943665,944006,+
+MIT9515,COG1403,N,mcrA,CK_Pro_MIT9515_17101,CK_00000506,HNH endonuclease family protein,Pro_MIT9515_chromosome,1512447,1513010,+
+NATL1A,COG1403,N,,CK_Pro_NATL1A_00301,CK_00000339,HNH endonuclease family protein,Pro_NATL1A_chromosome,31337,31747,-
+NATL1A,COG1403,N,mcrA,CK_Pro_NATL1A_19741,CK_00000506,HNH endonuclease family protein,Pro_NATL1A_chromosome,1630577,1631083,+
+NATL2A,COG1403,N,,CK_Pro_NATL2A_01358,CK_00000339,HNH endonuclease family protein,Pro_NATL2A_chromosome,31338,31748,-
+NATL2A,COG1403,N,mcrA,CK_Pro_NATL2A_01099,CK_00000506,HNH endonuclease family protein,Pro_NATL2A_chromosome,1600008,1600514,+
+PAC1,COG1403,N,mcrA,CK_Pro_PAC1_00350,CK_00000506,HNH endonuclease family protein,Pro_PAC1_chromosome,227273,227779,-
+PAC1,COG1403,N,,CK_Pro_PAC1_01168,CK_00000339,HNH endonuclease family protein,Pro_PAC1_chromosome,911551,911961,-
+SB,COG1403,N,,CK_Pro_SB_01205,CK_00000339,HNH endonuclease family protein,Pro_SB_chromosome,1019643,1019993,+
+SB,COG1403,N,mcrA,CK_Pro_SB_01430,CK_00000506,HNH endonuclease family protein,Pro_SB_chromosome,1246079,1246585,-
+MIT9313,COG1454,mixed,unk13,CK_Pro_MIT9313_02280,CK_00001834,conserved hypothetical protein,Pro_MIT9313_chromosome,1788091,1788297,+
+NATL1A,COG1454,mixed,unk13,CK_Pro_NATL1A_03841,CK_00001834,conserved hypothetical protein,Pro_NATL1A_chromosome,356626,356865,-
+NATL2A,COG1454,mixed,unk13,CK_Pro_NATL2A_01670,CK_00001834,conserved hypothetical protein,Pro_NATL2A_chromosome,338817,339056,-
+PAC1,COG1454,mixed,unk13,CK_Pro_PAC1_01287,CK_00001834,conserved hypothetical protein,Pro_PAC1_chromosome,1025354,1025593,-
+SB,COG1454,mixed,tdh,CK_Pro_SB_01747,CK_00049429,L-threonine dehydrogenase,Pro_SB_chromosome,1514927,1516057,+
+MIT9313,COG1462,mixed,PMT0642,CK_Pro_MIT9313_00642,CK_00002347,curli production assembly/transport component CsgG family protein,Pro_MIT9313_chromosome,694702,695529,-
+SB,COG1462,mixed,,CK_Pro_SB_01907,CK_00002347,curli production assembly/transport component CsgG family protein,Pro_SB_chromosome,1647277,1647993,+
+MIT9313,COG1472,mixed,PMT1855,CK_Pro_MIT9313_01855,CK_00001326,conserved hypothetical protein,Pro_MIT9313_chromosome,1963191,1963823,+
+MIT9313,COG1472,mixed,PMT1964,CK_Pro_MIT9313_01964,CK_00000205,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",Pro_MIT9313_chromosome,2074098,2075747,+
+NATL1A,COG1472,mixed,,CK_Pro_NATL1A_01861,CK_00000205,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",Pro_NATL1A_chromosome,173742,175376,+
+NATL2A,COG1472,mixed,,CK_Pro_NATL2A_01481,CK_00000205,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",Pro_NATL2A_chromosome,155917,157551,+
+PAC1,COG1472,mixed,,CK_Pro_PAC1_00475,CK_00000205,"N-Acetyl-D-glucosamine (anhydrous) N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase",Pro_PAC1_chromosome,334994,336628,-
+AS9601,COG1596,N,kpsD,CK_Pro_AS9601_16271,CK_00048203,polysaccharide biosynthesis/export family protein,Pro_AS9601_chromosome,1373938,1375671,-
+AS9601,COG1596,N,kpsD,CK_Pro_AS9601_17951,CK_00048203,polysaccharide biosynthesis/export family protein,Pro_AS9601_chromosome,1527979,1529232,-
+MED4,COG1596,N,kpsD,CK_Pro_MED4_01211,CK_00048203,polysaccharide biosynthesis/export family protein,Pro_MED4_chromosome,1160596,1161762,+
+MED4,COG1596,N,kpsD3,CK_Pro_MED4_01224,CK_00057347,polysaccharide biosynthesis/export protein,Pro_MED4_chromosome,1174288,1175343,-
+MIT0604,COG1596,N,kpsD,CK_Pro_MIT0604_01580,CK_00048203,polysaccharide biosynthesis/export family protein,Pro_MIT0604_chromosome,1324765,1325994,-
+MIT9202,COG1596,N,kpsD,CK_Pro_MIT9202_01024,CK_00048203,polysaccharide biosynthesis/export family protein,Pro_MIT9202_chromosome,233603,234838,+
+MIT9215,COG1596,N,kpsD,CK_Pro_MIT9215_15071,CK_00048203,polysaccharide biosynthesis/export family protein,Pro_MIT9215_chromosome,1300315,1301595,-
+MIT9312,COG1596,N,kpsD,CK_Pro_MIT9312_01375,CK_00048203,polysaccharide biosynthesis/export family protein,Pro_MIT9312_chromosome,1288756,1290003,-
+MIT9515,COG1596,N,kpsD3,CK_Pro_MIT9515_13851,CK_00057347,polysaccharide biosynthesis/export protein,Pro_MIT9515_chromosome,1221308,1222405,-
+NATL1A,COG1596,N,kpsD,CK_Pro_NATL1A_08781,CK_00048203,polysaccharide biosynthesis/export family protein,Pro_NATL1A_chromosome,816931,818178,-
+SB,COG1596,N,kpsD3,CK_Pro_SB_01722,CK_00057347,polysaccharide biosynthesis/export protein,Pro_SB_chromosome,1488206,1489309,+
+AS9601,COG1787,N,,CK_Pro_AS9601_11061,CK_00003490,type II-like restriction endonuclease,Pro_AS9601_chromosome,941319,942188,+
+MED4,COG1787,N,PMM1014,CK_Pro_MED4_01014,CK_00003490,type II-like restriction endonuclease,Pro_MED4_chromosome,962101,962973,+
+MIT0604,COG1787,N,,CK_Pro_MIT0604_01139,CK_00003490,type II-like restriction endonuclease,Pro_MIT0604_chromosome,962246,963115,+
+MIT9202,COG1787,N,,CK_Pro_MIT9202_00858,CK_00003490,type II-like restriction endonuclease,Pro_MIT9202_chromosome,1689857,1690723,+
+MIT9215,COG1787,N,,CK_Pro_MIT9215_11351,CK_00003490,type II-like restriction endonuclease,Pro_MIT9215_chromosome,972755,973621,+
+MIT9301,COG1787,N,,CK_Pro_MIT9301_11051,CK_00003490,type II-like restriction endonuclease,Pro_MIT9301_chromosome,939807,940676,+
+MIT9312,COG1787,N,,CK_Pro_MIT9312_01883,CK_00003490,type II-like restriction endonuclease,Pro_MIT9312_chromosome,943722,943865,+
+MIT9515,COG1787,N,,CK_Pro_MIT9515_11001,CK_00003490,type II-like restriction endonuclease,Pro_MIT9515_chromosome,967671,967892,+
+MIT9515,COG1787,N,,CK_Pro_MIT9515_11011,CK_00003490,type II-like restriction endonuclease,Pro_MIT9515_chromosome,968105,968542,+
+SB,COG1787,N,,CK_Pro_SB_00399,CK_00003490,type II-like restriction endonuclease,Pro_SB_chromosome,312390,313259,+
+AS9601,COG1793,N,,CK_Pro_AS9601_00681,CK_00001728,conserved hypothetical protein,Pro_AS9601_chromosome,70292,70654,+
+AS9601,COG1793,N,,CK_Pro_AS9601_07831,CK_00001447,ATP-dependent DNA ligase,Pro_AS9601_chromosome,680538,682178,-
+AS9601,COG1793,N,ligA,CK_Pro_AS9601_18891,CK_00003613,ATP-dependent DNA ligase,Pro_AS9601_chromosome,1623866,1625179,+
+MED4,COG1793,N,PMM0056,CK_Pro_MED4_00056,CK_00001728,conserved hypothetical protein,Pro_MED4_chromosome,59051,59413,+
+MED4,COG1793,N,PMM0729,CK_Pro_MED4_00729,CK_00001447,ATP-dependent DNA ligase,Pro_MED4_chromosome,692919,694556,-
+MED4,COG1793,N,ligA,CK_Pro_MED4_01679,CK_00003613,ATP-dependent DNA ligase,Pro_MED4_chromosome,1611933,1613264,+
+MIT0604,COG1793,N,,CK_Pro_MIT0604_00075,CK_00001728,conserved hypothetical protein,Pro_MIT0604_chromosome,77280,77642,+
+MIT0604,COG1793,N,,CK_Pro_MIT0604_00811,CK_00001447,ATP-dependent DNA ligase,Pro_MIT0604_chromosome,701266,702903,-
+MIT0604,COG1793,N,ligA,CK_Pro_MIT0604_02048,CK_00003613,ATP-dependent DNA ligase,Pro_MIT0604_chromosome,1734043,1735356,+
+MIT9202,COG1793,N,ligA,CK_Pro_MIT9202_00863,CK_00003613,ATP-dependent DNA ligase,Pro_MIT9202_chromosome,680305,681633,+
+MIT9202,COG1793,N,,CK_Pro_MIT9202_01693,CK_00001728,conserved hypothetical protein,Pro_MIT9202_chromosome,798482,798844,+
+MIT9202,COG1793,N,,CK_Pro_MIT9202_00056,CK_00001447,ATP-dependent DNA ligase,Pro_MIT9202_chromosome,1430265,1431905,-
+MIT9215,COG1793,N,,CK_Pro_MIT9215_00681,CK_00001728,conserved hypothetical protein,Pro_MIT9215_chromosome,66369,66731,+
+MIT9215,COG1793,N,,CK_Pro_MIT9215_08171,CK_00001447,ATP-dependent DNA ligase,Pro_MIT9215_chromosome,713451,715091,-
+MIT9215,COG1793,N,ligA,CK_Pro_MIT9215_19531,CK_00003613,ATP-dependent DNA ligase,Pro_MIT9215_chromosome,1692796,1694109,+
+MIT9301,COG1793,N,,CK_Pro_MIT9301_00671,CK_00001728,conserved hypothetical protein,Pro_MIT9301_chromosome,69089,69451,+
+MIT9301,COG1793,N,,CK_Pro_MIT9301_07831,CK_00001447,ATP-dependent DNA ligase,Pro_MIT9301_chromosome,680210,681850,-
+MIT9301,COG1793,N,ligA,CK_Pro_MIT9301_18701,CK_00003613,ATP-dependent DNA ligase,Pro_MIT9301_chromosome,1595858,1597171,+
+MIT9312,COG1793,N,,CK_Pro_MIT9312_00058,CK_00001728,conserved hypothetical protein,Pro_MIT9312_chromosome,60790,61152,+
+MIT9312,COG1793,N,,CK_Pro_MIT9312_00733,CK_00001447,ATP-dependent DNA ligase,Pro_MIT9312_chromosome,685111,686751,-
+MIT9312,COG1793,N,ligA,CK_Pro_MIT9312_01772,CK_00003613,ATP-dependent DNA ligase,Pro_MIT9312_chromosome,1663219,1664532,+
+MIT9313,COG1793,N,PMT1583,CK_Pro_MIT9313_01583,CK_00001728,conserved hypothetical protein,Pro_MIT9313_chromosome,1682823,1683179,+
+MIT9515,COG1793,N,,CK_Pro_MIT9515_00651,CK_00001728,conserved hypothetical protein,Pro_MIT9515_chromosome,68672,69034,+
+MIT9515,COG1793,N,,CK_Pro_MIT9515_08591,CK_00001447,ATP-dependent DNA ligase,Pro_MIT9515_chromosome,772900,774537,+
+MIT9515,COG1793,N,ligA,CK_Pro_MIT9515_18701,CK_00003613,ATP-dependent DNA ligase,Pro_MIT9515_chromosome,1658221,1659459,+
+NATL1A,COG1793,N,,CK_Pro_NATL1A_01201,CK_00001728,conserved hypothetical protein,Pro_NATL1A_chromosome,115265,115654,+
+NATL2A,COG1793,N,,CK_Pro_NATL2A_01419,CK_00001728,conserved hypothetical protein,Pro_NATL2A_chromosome,97442,97831,+
+PAC1,COG1793,N,,CK_Pro_PAC1_00539,CK_00001728,conserved hypothetical protein,Pro_PAC1_chromosome,394716,395096,-
+SB,COG1793,N,,CK_Pro_SB_00077,CK_00001447,ATP-dependent DNA ligase,Pro_SB_chromosome,51630,53270,-
+SB,COG1793,N,,CK_Pro_SB_01172,CK_00001728,conserved hypothetical protein,Pro_SB_chromosome,988987,989349,-
+SB,COG1793,N,ligA,CK_Pro_SB_01273,CK_00003613,ATP-dependent DNA ligase,Pro_SB_chromosome,1095262,1096575,-
+MIT9301,COG1989,mixed,pilD,CK_Pro_MIT9301_06881,CK_00001720,leader peptidase (prepilin peptidase) / N-methyltransferase,Pro_MIT9301_chromosome,610596,611399,+
+MIT9312,COG1989,mixed,pilD,CK_Pro_MIT9312_01186,CK_00001720,leader peptidase (prepilin peptidase) / N-methyltransferase,Pro_MIT9312_chromosome,1105215,1106063,+
+MIT9313,COG1989,mixed,pilD,CK_Pro_MIT9313_00533,CK_00001720,leader peptidase (prepilin peptidase) / N-methyltransferase,Pro_MIT9313_chromosome,581543,582355,+
+NATL1A,COG1989,mixed,pilD,CK_Pro_NATL1A_08241,CK_00001720,leader peptidase (prepilin peptidase) / N-methyltransferase,Pro_NATL1A_chromosome,757741,758226,-
+NATL2A,COG1989,mixed,pilD,CK_Pro_NATL2A_00192,CK_00001720,leader peptidase (prepilin peptidase) / N-methyltransferase,Pro_NATL2A_chromosome,745372,745857,-
+PAC1,COG1989,mixed,pilD,CK_Pro_PAC1_01996,CK_00001720,leader peptidase (prepilin peptidase) / N-methyltransferase,Pro_PAC1_chromosome,1608942,1609421,-
+AS9601,COG2010,mixed,cytM,CK_Pro_AS9601_11621,CK_00001007,cytochrome cM,Pro_AS9601_chromosome,976256,976558,-
+MED4,COG2010,mixed,cytM,CK_Pro_MED4_01057,CK_00001007,cytochrome cM,Pro_MED4_chromosome,998550,998954,-
+MIT0604,COG2010,mixed,petJ3,CK_Pro_MIT0604_00800,CK_00001278,cytochrome c553 (cytochrome c6),Pro_MIT0604_chromosome,692369,692638,+
+MIT0604,COG2010,mixed,cytM,CK_Pro_MIT0604_01196,CK_00001007,cytochrome cM,Pro_MIT0604_chromosome,997580,997963,-
+MIT0604,COG2010,mixed,petJ2,CK_Pro_MIT0604_01528,CK_00000063,cytochrome c553 (cytochrome c6),Pro_MIT0604_chromosome,1283688,1284017,+
+MIT9202,COG2010,mixed,cytM,CK_Pro_MIT9202_01707,CK_00001007,cytochrome cM,Pro_MIT9202_chromosome,33055,33441,-
+MIT9215,COG2010,mixed,cytM,CK_Pro_MIT9215_11921,CK_00001007,cytochrome cM,Pro_MIT9215_chromosome,1008040,1008342,-
+MIT9301,COG2010,mixed,petJ3,CK_Pro_MIT9301_07721,CK_00001278,cytochrome c553 (cytochrome c6),Pro_MIT9301_chromosome,671231,671584,+
+MIT9301,COG2010,mixed,cytM,CK_Pro_MIT9301_11631,CK_00001007,cytochrome cM,Pro_MIT9301_chromosome,975124,975426,-
+MIT9312,COG2010,mixed,petJ3,CK_Pro_MIT9312_00716,CK_00001278,cytochrome c553 (cytochrome c6),Pro_MIT9312_chromosome,665730,666083,+
+MIT9312,COG2010,mixed,cytM,CK_Pro_MIT9312_01068,CK_00001007,cytochrome cM,Pro_MIT9312_chromosome,977992,978378,-
+MIT9313,COG2010,mixed,petJ3,CK_Pro_MIT9313_00462,CK_00001278,cytochrome c553 (cytochrome c6),Pro_MIT9313_chromosome,516010,516387,+
+MIT9313,COG2010,mixed,petJ2,CK_Pro_MIT9313_00509,CK_00000063,cytochrome c553 (cytochrome c6),Pro_MIT9313_chromosome,560175,560513,+
+MIT9313,COG2010,mixed,cytM,CK_Pro_MIT9313_01131,CK_00001007,cytochrome cM,Pro_MIT9313_chromosome,1222915,1223316,+
+NATL1A,COG2010,mixed,petJ3,CK_Pro_NATL1A_06291,CK_00001278,cytochrome c553 (cytochrome c6),Pro_NATL1A_chromosome,571517,571888,-
+NATL1A,COG2010,mixed,cytM,CK_Pro_NATL1A_15291,CK_00001007,cytochrome cM,Pro_NATL1A_chromosome,1244523,1244912,+
+NATL2A,COG2010,mixed,petJ3,CK_Pro_NATL2A_00010,CK_00001278,cytochrome c553 (cytochrome c6),Pro_NATL2A_chromosome,559157,559528,-
+NATL2A,COG2010,mixed,cytM,CK_Pro_NATL2A_00695,CK_00001007,cytochrome cM,Pro_NATL2A_chromosome,1193057,1193446,+
+PAC1,COG2010,mixed,cytM,CK_Pro_PAC1_01536,CK_00001007,cytochrome cM,Pro_PAC1_chromosome,1203644,1203922,+
+PAC1,COG2010,mixed,petJ3,CK_Pro_PAC1_01792,CK_00001278,cytochrome c553 (cytochrome c6),Pro_PAC1_chromosome,1422871,1423158,-
+SB,COG2010,mixed,petJ3,CK_Pro_SB_00066,CK_00001278,cytochrome c553 (cytochrome c6),Pro_SB_chromosome,42642,42995,+
+SB,COG2010,mixed,cytM,CK_Pro_SB_00464,CK_00001007,cytochrome cM,Pro_SB_chromosome,353403,353789,-
+MIT9313,COG2114,mixed,PMT2152,CK_Pro_MIT9313_02152,CK_00001959,adenylate cyclase,Pro_MIT9313_chromosome,2270279,2272192,+
+SB,COG2114,mixed,,CK_Pro_SB_01825,CK_00002384,adenylate cyclase,Pro_SB_chromosome,1590209,1592065,+
+AS9601,COG2159,N,,CK_Pro_AS9601_13391,CK_00002647,conserved hypothetical protein,Pro_AS9601_chromosome,1113600,1115423,-
+MED4,COG2159,N,PMM1162,CK_Pro_MED4_01162,CK_00002647,conserved hypothetical protein,Pro_MED4_chromosome,1112581,1114389,-
+MIT0604,COG2159,N,,CK_Pro_MIT0604_01395,CK_00002647,conserved hypothetical protein,Pro_MIT0604_chromosome,1154415,1156190,-
+MIT9202,COG2159,N,,CK_Pro_MIT9202_00215,CK_00002647,conserved hypothetical protein,Pro_MIT9202_chromosome,175210,177036,-
+MIT9215,COG2159,N,,CK_Pro_MIT9215_13681,CK_00002647,conserved hypothetical protein,Pro_MIT9215_chromosome,1163928,1165754,-
+MIT9515,COG2159,N,,CK_Pro_MIT9515_13291,CK_00002647,conserved hypothetical protein,Pro_MIT9515_chromosome,1167146,1168114,-
+NATL1A,COG2159,N,,CK_Pro_NATL1A_08791,CK_00002647,conserved hypothetical protein,Pro_NATL1A_chromosome,818586,820397,-
+MED4,COG2192,N,PMM1246,CK_Pro_MED4_01246,CK_00002335,carbamoyltransferase family protein,Pro_MED4_chromosome,1196890,1198722,-
+MED4,COG2192,N,PMM1251,CK_Pro_MED4_01251,CK_00002335,carbamoyltransferase family protein,Pro_MED4_chromosome,1202686,1204539,-
+MIT0604,COG2192,N,,CK_Pro_MIT0604_00728,CK_00002335,carbamoyltransferase family protein,Pro_MIT0604_chromosome,640701,642557,-
+MIT9202,COG2192,N,,CK_Pro_MIT9202_00864,CK_00002335,carbamoyltransferase family protein,Pro_MIT9202_chromosome,269597,271252,-
+MIT9215,COG2192,N,,CK_Pro_MIT9215_04261,CK_00002335,carbamoyltransferase family protein,Pro_MIT9215_chromosome,365963,367819,+
+MIT9215,COG2192,N,,CK_Pro_MIT9215_17981,CK_00002335,carbamoyltransferase family protein,Pro_MIT9215_chromosome,1548808,1550676,-
+MIT9312,COG2192,N,,CK_Pro_MIT9312_00315,CK_00002335,carbamoyltransferase family protein,Pro_MIT9312_chromosome,298682,300541,-
+MIT9515,COG2192,N,,CK_Pro_MIT9515_17081,CK_00002335,carbamoyltransferase family protein,Pro_MIT9515_chromosome,1508931,1510784,-
+AS9601,COG2214,mixed,dnaJ4,CK_Pro_AS9601_01401,CK_00000214,DnaJ type III chaperone protein,Pro_AS9601_chromosome,131138,131845,-
+AS9601,COG2214,mixed,dnaJ3,CK_Pro_AS9601_09651,CK_00000819,DnaJ type II chaperone protein,Pro_AS9601_chromosome,832232,833191,+
+AS9601,COG2214,mixed,,CK_Pro_AS9601_09891,CK_00000842,DnaJ type IV chaperone protein,Pro_AS9601_chromosome,860440,861450,+
+AS9601,COG2214,mixed,zipN,CK_Pro_AS9601_14861,CK_00000149,cell division protein ZipN,Pro_AS9601_chromosome,1266344,1268449,-
+AS9601,COG2214,mixed,dnaJ5,CK_Pro_AS9601_16761,CK_00001052,DnaJ type III chaperone protein,Pro_AS9601_chromosome,1418295,1418735,-
+MED4,COG2214,mixed,dnaJ4,CK_Pro_MED4_00122,CK_00000214,DnaJ type III chaperone protein,Pro_MED4_chromosome,120073,120750,-
+MED4,COG2214,mixed,PMM0873,CK_Pro_MED4_00873,CK_00000842,DnaJ type IV chaperone protein,Pro_MED4_chromosome,829621,830634,-
+MED4,COG2214,mixed,dnaJ3,CK_Pro_MED4_00896,CK_00000819,DnaJ type II chaperone protein,Pro_MED4_chromosome,857995,858936,-
+MED4,COG2214,mixed,zipN,CK_Pro_MED4_01287,CK_00000149,cell division protein ZipN,Pro_MED4_chromosome,1236811,1238919,-
+MED4,COG2214,mixed,dnaJ5,CK_Pro_MED4_01474,CK_00001052,DnaJ type III chaperone protein,Pro_MED4_chromosome,1408136,1408582,-
+MIT0604,COG2214,mixed,dnaJ4,CK_Pro_MIT0604_00148,CK_00000214,DnaJ type III chaperone protein,Pro_MIT0604_chromosome,138491,139168,-
+MIT0604,COG2214,mixed,dnaJ3,CK_Pro_MIT0604_00996,CK_00000819,DnaJ type II chaperone protein,Pro_MIT0604_chromosome,852959,853900,+
+MIT0604,COG2214,mixed,,CK_Pro_MIT0604_01020,CK_00000842,DnaJ type IV chaperone protein,Pro_MIT0604_chromosome,881151,882158,+
+MIT0604,COG2214,mixed,zipN,CK_Pro_MIT0604_01588,CK_00000149,cell division protein ZipN,Pro_MIT0604_chromosome,1332020,1334044,-
+MIT0604,COG2214,mixed,dnaJ5,CK_Pro_MIT0604_01814,CK_00001052,DnaJ type III chaperone protein,Pro_MIT0604_chromosome,1511720,1512160,-
+MIT9202,COG2214,mixed,zipN,CK_Pro_MIT9202_00491,CK_00000149,cell division protein ZipN,Pro_MIT9202_chromosome,301798,303903,-
+MIT9202,COG2214,mixed,dnaJ5,CK_Pro_MIT9202_01537,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9202_chromosome,478191,478631,-
+MIT9202,COG2214,mixed,dnaJ4,CK_Pro_MIT9202_00973,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9202_chromosome,859305,859982,-
+MIT9202,COG2214,mixed,dnaJ3,CK_Pro_MIT9202_01159,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9202_chromosome,1580745,1581671,+
+MIT9202,COG2214,mixed,,CK_Pro_MIT9202_01334,CK_00000842,DnaJ type IV chaperone protein,Pro_MIT9202_chromosome,1608897,1609907,+
+MIT9215,COG2214,mixed,dnaJ4,CK_Pro_MIT9215_01401,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9215_chromosome,127206,127883,-
+MIT9215,COG2214,mixed,dnaJ3,CK_Pro_MIT9215_09961,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9215_chromosome,863876,864835,+
+MIT9215,COG2214,mixed,,CK_Pro_MIT9215_10201,CK_00000842,DnaJ type IV chaperone protein,Pro_MIT9215_chromosome,892064,893074,+
+MIT9215,COG2214,mixed,zipN,CK_Pro_MIT9215_15151,CK_00000149,cell division protein ZipN,Pro_MIT9215_chromosome,1307710,1309815,-
+MIT9215,COG2214,mixed,dnaJ5,CK_Pro_MIT9215_17421,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9215_chromosome,1487633,1488073,-
+MIT9301,COG2214,mixed,dnaJ4,CK_Pro_MIT9301_01391,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9301_chromosome,129937,130614,-
+MIT9301,COG2214,mixed,dnaJ3,CK_Pro_MIT9301_09631,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9301_chromosome,830691,831650,+
+MIT9301,COG2214,mixed,,CK_Pro_MIT9301_09871,CK_00000842,DnaJ type IV chaperone protein,Pro_MIT9301_chromosome,858898,859908,+
+MIT9301,COG2214,mixed,zipN,CK_Pro_MIT9301_14721,CK_00000149,cell division protein ZipN,Pro_MIT9301_chromosome,1239448,1241553,-
+MIT9301,COG2214,mixed,dnaJ5,CK_Pro_MIT9301_16641,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9301_chromosome,1394053,1394493,-
+MIT9312,COG2214,mixed,dnaJ4,CK_Pro_MIT9312_00125,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9312_chromosome,121632,122309,-
+MIT9312,COG2214,mixed,dnaJ3,CK_Pro_MIT9312_00904,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9312_chromosome,835500,836459,+
+MIT9312,COG2214,mixed,,CK_Pro_MIT9312_00928,CK_00000842,DnaJ type IV chaperone protein,Pro_MIT9312_chromosome,863700,864710,+
+MIT9312,COG2214,mixed,zipN,CK_Pro_MIT9312_01383,CK_00000149,cell division protein ZipN,Pro_MIT9312_chromosome,1296135,1298240,-
+MIT9312,COG2214,mixed,dnaJ5,CK_Pro_MIT9312_01567,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9312_chromosome,1460241,1460681,-
+MIT9313,COG2214,mixed,zipN,CK_Pro_MIT9313_00348,CK_00000149,cell division protein ZipN,Pro_MIT9313_chromosome,396287,398272,+
+MIT9313,COG2214,mixed,dnaJ3,CK_Pro_MIT9313_00704,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9313_chromosome,760553,761455,+
+MIT9313,COG2214,mixed,PMT0736,CK_Pro_MIT9313_00736,CK_00000842,DnaJ type IV chaperone protein,Pro_MIT9313_chromosome,800760,801827,+
+MIT9313,COG2214,mixed,PMT0790,CK_Pro_MIT9313_00790,CK_00001707,conserved hypothetical protein,Pro_MIT9313_chromosome,864047,864298,-
+MIT9313,COG2214,mixed,dnaJ5,CK_Pro_MIT9313_01495,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9313_chromosome,1579346,1579978,-
+MIT9313,COG2214,mixed,dnaJ2,CK_Pro_MIT9313_01548,CK_00001213,DnaJ type II chaperone protein,Pro_MIT9313_chromosome,1640237,1641196,-
+MIT9313,COG2214,mixed,dnaJ4,CK_Pro_MIT9313_01977,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9313_chromosome,2087206,2087904,-
+MIT9515,COG2214,mixed,dnaJ4,CK_Pro_MIT9515_01361,CK_00000214,DnaJ type III chaperone protein,Pro_MIT9515_chromosome,129670,130347,-
+MIT9515,COG2214,mixed,,CK_Pro_MIT9515_09541,CK_00000842,DnaJ type IV chaperone protein,Pro_MIT9515_chromosome,845962,846933,-
+MIT9515,COG2214,mixed,dnaJ3,CK_Pro_MIT9515_09781,CK_00000819,DnaJ type II chaperone protein,Pro_MIT9515_chromosome,874282,875241,-
+MIT9515,COG2214,mixed,zipN,CK_Pro_MIT9515_14481,CK_00000149,cell division protein ZipN,Pro_MIT9515_chromosome,1281987,1284104,-
+MIT9515,COG2214,mixed,dnaJ5,CK_Pro_MIT9515_16541,CK_00001052,DnaJ type III chaperone protein,Pro_MIT9515_chromosome,1445569,1446015,-
+NATL1A,COG2214,mixed,dnaJ4,CK_Pro_NATL1A_01941,CK_00000214,DnaJ type III chaperone protein,Pro_NATL1A_chromosome,180560,181213,-
+NATL1A,COG2214,mixed,dnaJ2,CK_Pro_NATL1A_02921,CK_00001213,DnaJ type II chaperone protein,Pro_NATL1A_chromosome,271054,271989,+
+NATL1A,COG2214,mixed,dnaJ3,CK_Pro_NATL1A_09861,CK_00000819,DnaJ type II chaperone protein,Pro_NATL1A_chromosome,905609,906526,+
+NATL1A,COG2214,mixed,,CK_Pro_NATL1A_10101,CK_00000842,DnaJ type IV chaperone protein,Pro_NATL1A_chromosome,935183,936214,+
+NATL1A,COG2214,mixed,zipN,CK_Pro_NATL1A_17071,CK_00000149,cell division protein ZipN,Pro_NATL1A_chromosome,1390933,1392987,-
+NATL1A,COG2214,mixed,dnaJ5,CK_Pro_NATL1A_18731,CK_00001052,DnaJ type III chaperone protein,Pro_NATL1A_chromosome,1532573,1533013,-
+NATL2A,COG2214,mixed,dnaJ4,CK_Pro_NATL2A_01489,CK_00000214,DnaJ type III chaperone protein,Pro_NATL2A_chromosome,162735,163385,-
+NATL2A,COG2214,mixed,dnaJ2,CK_Pro_NATL2A_01582,CK_00001213,DnaJ type II chaperone protein,Pro_NATL2A_chromosome,253262,254197,+
+NATL2A,COG2214,mixed,dnaJ3,CK_Pro_NATL2A_00313,CK_00000819,DnaJ type II chaperone protein,Pro_NATL2A_chromosome,851903,852820,+
+NATL2A,COG2214,mixed,,CK_Pro_NATL2A_00337,CK_00000842,DnaJ type IV chaperone protein,Pro_NATL2A_chromosome,881474,882517,+
+NATL2A,COG2214,mixed,zipN,CK_Pro_NATL2A_00854,CK_00000149,cell division protein ZipN,Pro_NATL2A_chromosome,1356426,1358480,-
+NATL2A,COG2214,mixed,dnaJ5,CK_Pro_NATL2A_01004,CK_00001052,DnaJ type III chaperone protein,Pro_NATL2A_chromosome,1495963,1496403,-
+PAC1,COG2214,mixed,dnaJ2,CK_Pro_PAC1_00367,CK_00001213,DnaJ type II chaperone protein,Pro_PAC1_chromosome,238341,239276,-
+PAC1,COG2214,mixed,dnaJ4,CK_Pro_PAC1_00466,CK_00000214,DnaJ type III chaperone protein,Pro_PAC1_chromosome,329167,329820,+
+PAC1,COG2214,mixed,zipN,CK_Pro_PAC1_00768,CK_00000149,cell division protein ZipN,Pro_PAC1_chromosome,543365,545419,-
+PAC1,COG2214,mixed,dnaJ5,CK_Pro_PAC1_00926,CK_00001052,DnaJ type III chaperone protein,Pro_PAC1_chromosome,676071,676511,-
+PAC1,COG2214,mixed,dnaJ3,CK_Pro_PAC1_02124,CK_00000819,DnaJ type II chaperone protein,Pro_PAC1_chromosome,1715208,1716125,+
+PAC1,COG2214,mixed,,CK_Pro_PAC1_02148,CK_00000842,DnaJ type IV chaperone protein,Pro_PAC1_chromosome,1744786,1745841,+
+SB,COG2214,mixed,dnaJ3,CK_Pro_SB_00257,CK_00000819,DnaJ type II chaperone protein,Pro_SB_chromosome,203326,204285,+
+SB,COG2214,mixed,,CK_Pro_SB_00281,CK_00000842,DnaJ type IV chaperone protein,Pro_SB_chromosome,231534,232544,+
+SB,COG2214,mixed,dnaJ4,CK_Pro_SB_50007,CK_00000214,DnaJ type III chaperone protein,Pro_SB_chromosome,928004,928525,+
+SB,COG2214,mixed,dnaJ5,CK_Pro_SB_01484,CK_00001052,DnaJ type III chaperone protein,Pro_SB_chromosome,1306267,1306707,+
+SB,COG2214,mixed,zipN,CK_Pro_SB_01687,CK_00000149,cell division protein ZipN,Pro_SB_chromosome,1455979,1458003,+
+AS9601,COG2274,mixed,,CK_Pro_AS9601_14311,CK_00056818,ABC multidrug efflux transporter,Pro_AS9601_chromosome,1203163,1206069,+
+MIT9312,COG2274,mixed,,CK_Pro_MIT9312_01182,CK_00056818,ABC multidrug efflux transporter,Pro_MIT9312_chromosome,1098042,1100990,+
+MIT9313,COG2274,mixed,PMT0077,CK_Pro_MIT9313_00077,CK_00056759,"type I secretion system ABC transporter, HlyB family",Pro_MIT9313_chromosome,80312,83239,-
+MIT9313,COG2274,mixed,PMT0093,CK_Pro_MIT9313_00093,CK_00056818,ABC multidrug efflux transporter,Pro_MIT9313_chromosome,104892,107837,+
+MIT9313,COG2274,mixed,PMT0978,CK_Pro_MIT9313_00978,CK_00056834,ABC multidrug efflux transporter,Pro_MIT9313_chromosome,1055788,1058004,-
+MIT9313,COG2274,mixed,PMT1929,CK_Pro_MIT9313_01929,CK_00008077,ABC transporter family protein,Pro_MIT9313_chromosome,2037546,2039363,-
+MIT9313,COG2274,mixed,PMT2143,CK_Pro_MIT9313_02143,CK_00008044,ABC multidrug efflux transporter,Pro_MIT9313_chromosome,2256094,2258064,+
+MIT9313,COG2274,mixed,PMT2145,CK_Pro_MIT9313_02145,CK_00056833,"NHLM bacteriocin system ABC transporter, peptidase/ATP-binding protein",Pro_MIT9313_chromosome,2259198,2261411,+
+NATL1A,COG2274,mixed,,CK_Pro_NATL1A_01101,CK_00008077,ABC transporter family protein,Pro_NATL1A_chromosome,106831,108666,-
+NATL1A,COG2274,mixed,,CK_Pro_NATL1A_21011,CK_00056818,ABC multidrug efflux transporter,Pro_NATL1A_chromosome,1743537,1746329,+
+NATL2A,COG2274,mixed,,CK_Pro_NATL2A_01411,CK_00008077,ABC transporter family protein,Pro_NATL2A_chromosome,89621,91456,-
+NATL2A,COG2274,mixed,,CK_Pro_NATL2A_01224,CK_00056818,ABC multidrug efflux transporter,Pro_NATL2A_chromosome,1712837,1715779,+
+PAC1,COG2274,mixed,,CK_Pro_PAC1_00206,CK_00056818,ABC multidrug efflux transporter,Pro_PAC1_chromosome,102534,105443,-
+PAC1,COG2274,mixed,,CK_Pro_PAC1_00552,CK_00008077,ABC transporter family protein,Pro_PAC1_chromosome,401793,402164,+
+SB,COG2274,mixed,,CK_Pro_SB_01817,CK_00056818,ABC multidrug efflux transporter,Pro_SB_chromosome,1576135,1579053,-
+MED4,COG2370,mixed,hupE,CK_Pro_MED4_01123,CK_00000499,hydrogenase/urease accessory protein,Pro_MED4_chromosome,1071671,1072375,-
+MIT0604,COG2370,mixed,,CK_Pro_MIT0604_01535,CK_00000499,hydrogenase/urease accessory protein,Pro_MIT0604_chromosome,1288098,1288730,+
+MIT9301,COG2370,mixed,hupE,CK_Pro_MIT9301_12311,CK_00000499,hydrogenase/urease accessory protein,Pro_MIT9301_chromosome,1045962,1046666,-
+MIT9313,COG2370,mixed,hupE,CK_Pro_MIT9313_00232,CK_00000499,hydrogenase/urease accessory protein,Pro_MIT9313_chromosome,266531,267151,-
+NATL1A,COG2370,mixed,hupE,CK_Pro_NATL1A_14481,CK_00000499,hydrogenase/urease accessory protein,Pro_NATL1A_chromosome,1163272,1163886,-
+NATL2A,COG2370,mixed,,CK_Pro_NATL2A_00621,CK_00000499,hydrogenase/urease accessory protein,Pro_NATL2A_chromosome,1107832,1108464,-
+PAC1,COG2370,mixed,,CK_Pro_PAC1_00016,CK_00000499,hydrogenase/urease accessory protein,Pro_PAC1_chromosome,12584,13198,+
+SB,COG2370,mixed,,CK_Pro_SB_00826,CK_00000499,hydrogenase/urease accessory protein,Pro_SB_chromosome,688107,688739,+
+MIT9313,COG2931,mixed,PMT0952,CK_Pro_MIT9313_00952,CK_00003750,possible Peptidase family M1,Pro_MIT9313_chromosome,1033210,1033995,-
+MIT9313,COG2931,mixed,,CK_Pro_MIT9313_02525,CK_00003750,possible Peptidase family M1,Pro_MIT9313_chromosome,1034025,1034246,-
+MIT9313,COG2931,mixed,PMT0953,CK_Pro_MIT9313_00953,CK_00003750,possible Peptidase family M1,Pro_MIT9313_chromosome,1034325,1034639,-
+MIT9313,COG2931,mixed,PMT1813,CK_Pro_MIT9313_01813,CK_00002011,conserved hypothetical protein,Pro_MIT9313_chromosome,1917657,1918658,-
+NATL2A,COG2931,mixed,,CK_Pro_NATL2A_00622,CK_00042429,regulator of chromosome condensation (RCC1) repeat family protein,Pro_NATL2A_chromosome,1109022,1112348,-
+PAC1,COG2931,mixed,,CK_Pro_PAC1_00129,CK_00057235,metalloprotease,Pro_PAC1_chromosome,60671,62308,+
+AS9601,COG3206,N,gumC,CK_Pro_AS9601_14011,CK_00001962,capsular exopolysaccharide family domain protein,Pro_AS9601_chromosome,1170788,1172512,+
+MIT0604,COG3206,N,,CK_Pro_MIT0604_01486,CK_00001962,capsular exopolysaccharide family domain protein,Pro_MIT0604_chromosome,1243637,1245319,+
+MIT9202,COG3206,N,,CK_Pro_MIT9202_00965,CK_00001962,capsular exopolysaccharide family domain protein,Pro_MIT9202_chromosome,234841,236574,+
+MIT9215,COG3206,N,gumC,CK_Pro_MIT9215_14561,CK_00001962,capsular exopolysaccharide family domain protein,Pro_MIT9215_chromosome,1246557,1248101,+
+MIT9312,COG3206,N,,CK_Pro_MIT9312_01355,CK_00001962,capsular exopolysaccharide family domain protein,Pro_MIT9312_chromosome,1271749,1273425,+
+NATL1A,COG3206,N,gumC,CK_Pro_NATL1A_08771,CK_00001962,capsular exopolysaccharide family domain protein,Pro_NATL1A_chromosome,814881,816605,+
+AS9601,COG3210,mixed,,CK_Pro_AS9601_11101,CK_00001608,plastid lipid-associated protein (PAP)/fibrillin family,Pro_AS9601_chromosome,943276,943818,-
+MED4,COG3210,mixed,PMM1017,CK_Pro_MED4_01017,CK_00001608,plastid lipid-associated protein (PAP)/fibrillin family,Pro_MED4_chromosome,964053,964595,-
+MIT0604,COG3210,mixed,,CK_Pro_MIT0604_01143,CK_00001608,plastid lipid-associated protein (PAP)/fibrillin family,Pro_MIT0604_chromosome,964201,964743,-
+MIT9215,COG3210,mixed,,CK_Pro_MIT9215_11391,CK_00001608,plastid lipid-associated protein (PAP)/fibrillin family,Pro_MIT9215_chromosome,974755,974946,-
+MIT9301,COG3210,mixed,,CK_Pro_MIT9301_11091,CK_00001608,plastid lipid-associated protein (PAP)/fibrillin family,Pro_MIT9301_chromosome,941763,942305,-
+MIT9313,COG3210,mixed,PMT0221,CK_Pro_MIT9313_00221,CK_00001911,"six-bladed beta-propeller, TolB-like protein",Pro_MIT9313_chromosome,252196,254196,-
+MIT9313,COG3210,mixed,PMT1778,CK_Pro_MIT9313_01778,CK_00001389,conserved hypothetical protein,Pro_MIT9313_chromosome,1876447,1878198,+
+MIT9515,COG3210,mixed,,CK_Pro_MIT9515_12331,CK_00001608,plastid lipid-associated protein (PAP)/fibrillin family,Pro_MIT9515_chromosome,1089009,1089572,+
+NATL1A,COG3210,mixed,,CK_Pro_NATL1A_13281,CK_00001608,plastid lipid-associated protein (PAP)/fibrillin family,Pro_NATL1A_chromosome,1113961,1114500,-
+NATL2A,COG3210,mixed,,CK_Pro_NATL2A_00561,CK_00001608,plastid lipid-associated protein (PAP)/fibrillin family,Pro_NATL2A_chromosome,1061925,1062398,-
+PAC1,COG3210,mixed,,CK_Pro_PAC1_00692,CK_00001608,plastid lipid-associated protein (PAP)/fibrillin family,Pro_PAC1_chromosome,481281,481820,+
+SB,COG3210,mixed,,CK_Pro_SB_00403,CK_00001608,plastid lipid-associated protein (PAP)/fibrillin family,Pro_SB_chromosome,314347,314889,-
+SB,COG3210,mixed,,CK_Pro_SB_01823,CK_00002383,uncharacterized conserved secreted CHAT domain-containing protein,Pro_SB_chromosome,1585981,1589496,+
+AS9601,COG3727,N,vsr,CK_Pro_AS9601_04271,CK_00011865,DNA G:T mismatch repair endonuclease,Pro_AS9601_chromosome,365886,366299,+
+MIT9202,COG3727,N,vsr,CK_Pro_MIT9202_01819,CK_00011865,DNA G:T mismatch repair endonuclease,Pro_MIT9202_chromosome,1112386,1112802,+
+MIT9215,COG3727,N,vsr,CK_Pro_MIT9215_04531,CK_00011865,DNA G:T mismatch repair endonuclease,Pro_MIT9215_chromosome,392168,392581,+
+MIT9312,COG3727,N,vsr,CK_Pro_MIT9312_00372,CK_00011865,DNA G:T mismatch repair endonuclease,Pro_MIT9312_chromosome,350503,350919,+
+MIT9515,COG3727,N,vsr,CK_Pro_MIT9515_04381,CK_00011865,DNA G:T mismatch repair endonuclease,Pro_MIT9515_chromosome,388795,389220,+
+MIT9313,COG3754,mixed,PMT0087,CK_Pro_MIT9313_00087,CK_00003618,"glycosyltransferase, family 4",Pro_MIT9313_chromosome,94522,96738,-
+PAC1,COG3754,mixed,,CK_Pro_PAC1_00209,CK_00007567,conserved hypothetical protein,Pro_PAC1_chromosome,107237,108484,-
+MIT9313,COG3839,mixed,ggtA,CK_Pro_MIT9313_00691,CK_00008069,"ABC-type sugar transport system, ATPase component",Pro_MIT9313_chromosome,746227,747195,-
+MIT9313,COG3839,mixed,PMT1064,CK_Pro_MIT9313_01064,CK_00001436,conserved hypothetical protein,Pro_MIT9313_chromosome,1148442,1149086,+
+MIT9313,COG3839,mixed,PMT1545,CK_Pro_MIT9313_01545,CK_00008068,ABC transporter family protein,Pro_MIT9313_chromosome,1635495,1636742,+
+NATL1A,COG3839,mixed,,CK_Pro_NATL1A_14951,CK_00001436,conserved hypothetical protein,Pro_NATL1A_chromosome,1206892,1207524,+
+NATL2A,COG3839,mixed,,CK_Pro_NATL2A_00663,CK_00001436,conserved hypothetical protein,Pro_NATL2A_chromosome,1155418,1156050,+
+PAC1,COG3839,mixed,,CK_Pro_PAC1_01499,CK_00001436,conserved hypothetical protein,Pro_PAC1_chromosome,1165908,1166540,+
+MIT9313,COG4252,mixed,PMT2152,CK_Pro_MIT9313_02152,CK_00001959,adenylate cyclase,Pro_MIT9313_chromosome,2270279,2272192,+
+SB,COG4252,mixed,,CK_Pro_SB_01825,CK_00002384,adenylate cyclase,Pro_SB_chromosome,1590209,1592065,+
+MIT9313,COG5651,mixed,PMT2178,CK_Pro_MIT9313_02178,CK_00001967,uncharacterized conserved membrane protein,Pro_MIT9313_chromosome,2305625,2306428,+
+SB,COG5651,mixed,,CK_Pro_SB_01828,CK_00006528,metallopeptidase,Pro_SB_chromosome,1593159,1596050,+

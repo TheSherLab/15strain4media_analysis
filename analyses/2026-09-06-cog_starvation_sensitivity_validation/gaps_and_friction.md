@@ -22,6 +22,51 @@ analyses reusing this KG's phosphorus Prochlorococcus experiments should
 expect the same problem and budget for it up front rather than discovering
 it after gene resolution.
 
+**2026-09-09 — A single Cyanorak ID per COG is a poor proxy for the COG's
+gene set; the copy-number test used the whole membership.** The 2026-09-06
+resolution used one researcher-supplied Cyanorak ID per COG. Two identity
+checks (`2_kg_selection/scripts/04_paralog_audit.py`,
+`05_name_vs_cyanorak_crosscheck.py`) showed every supplied ID is a *real*
+member of its COG but only one of several — and sometimes a bad pick:
+`COG0443` ("DnaK") pointed at `CK_00000457`, a DUF3181 "conserved
+hypothetical protein" (COG category S), while `dnaK1/2/3` sit in three
+other Cyanorak groups the single-ID route never saw. Root cause: the
+researcher's comparative-genomics significance test was run on COG **copy
+number** (every gene carrying the COG number in a strain), so the
+expression validation must use the same gene set. Fix: resolution rebuilt
+from the researcher's own whole-genome annotation
+(`WhloeGenome_AllStrains_Concated.xlsx`) — `00_wholegenome_cog_members.csv`,
+`02_resolve_genes.py`. Gene universe grew ~95 → 427 (COG × strain × locus)
+rows in the 4 evidence strains. Impact: any analysis validating a
+COG-level or ortholog-group-level comparative-genomics result against
+per-gene data must resolve to the *full* group/COG membership, not a
+representative — and should get that membership from the same annotation
+the original test used, not re-derive it. A representative-ID shortcut
+silently changes which gene is tested.
+
+**2026-09-09 — COG-level heatmap: "most significant gene in the COG"
+inflates big COGs.** First step-5 heatmap pass coloured each (COG,
+experiment) cell by its single most-significant gene. With COGs of 25–34
+genes (COG0477 = every MFS permease), almost every big-COG cell rendered
+as significant, because at least one of 30 genes clears threshold by
+chance. Fixed: cell shows the *fraction* of the COG's tested genes that
+are significant (`k/n`), colour intensity scaled by it — same fix pattern
+as the walkthrough's Figure 4. Impact: any per-group summary cell over a
+variable-size group needs a rate, not an extremum; flag whenever a
+"collapse to one cell" figure sits on top of groups that range from 1 to
+30+ members.
+
+**2026-09-09 — Phosphorus restored after the walkthrough's later Martiny
+decision.** This analysis dropped phosphorus on 2026-09-06 because raw DE
+evidence for the 41 COGs was near-zero on that side. The walkthrough
+analysis then (2026-09-08) adopted the researcher's argument that a
+genome-wide microarray filtered purely on significance (Martiny et al.
+2006) yields real "not significant" calls for table-absent genes. Applying
+that here restored a usable — though flat — phosphorus result. Impact:
+scope decisions driven by "no evidence" should be revisited when an
+upstream analysis changes how "tested-absent" is classified; the
+`table_scope` semantics are still evolving across analyses.
+
 **2026-09-06 — `differential_expression_by_gene(experiment_ids=[])` is a
 no-op filter, not "match nothing".** While building step 4's driving
 example, iterating per-organism (not per-experiment) produced an empty

@@ -53,6 +53,16 @@ nitrogen-starvation role — this driving example only verifies the
 *function* computes correctly, not that this particular gene is expected
 to respond.
 
+## Note — 2026-09-09 reopen
+
+Steps 1–3 and 5 were reopened (phosphorus restored; gene resolution
+rebuilt to the full per-strain COG membership). This step is **not**
+redone: `hit_rate()` / `bootstrap_pvalue()` are unchanged, and the
+verification here — that `hit_rate()`'s output matches an independent hand
+tally of real DE rows — still stands. The driving-example gene set
+(`COG1403`/McrA) is larger under the new resolution, but the method
+function computes the same way regardless of how many loci it is handed.
+
 ## Surprises
 
 - The `experiment_ids=[]` no-op-filter gotcha (above) — worth flagging
