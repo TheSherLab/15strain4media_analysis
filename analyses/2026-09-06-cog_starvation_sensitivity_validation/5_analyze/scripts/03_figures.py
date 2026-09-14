@@ -169,7 +169,7 @@ def make_heatmap(matrix, cogs):
             rgba[yi, xi, :3], rgba[yi, xi, 3] = col, 1.0
             frac_txt[(yi, xi)] = (f"{n_sig}/{n_tested}/{n_genome}", 10.0)
 
-    cell = 0.46
+    cell = 0.62
     fw = cell * n_cog + 8.5
     fh = cell * n_exp + 4.8
     fig, ax = plt.subplots(figsize=(fw, fh), dpi=300)

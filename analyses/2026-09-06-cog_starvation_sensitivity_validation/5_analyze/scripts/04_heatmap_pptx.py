@@ -86,12 +86,12 @@ EXPERIMENT_LABELS = {
 ROW_ORDER = list(EXPERIMENT_LABELS)
 ROW_NUTRIENT = ["N", "N", "N", "N", "N", "P", "P", "P", "P", "P"]
 
-SLIDE_W, SLIDE_H = 24.0, 9.4
+SLIDE_W, SLIDE_H = 30.5, 11.0
 BRACKET_X = 0.65
 LEFT_LABELS = 5.2
 GRID_LEFT = LEFT_LABELS + 0.1
 GRID_TOP = 3.05
-CELL_H = 0.46
+CELL_H = 0.62
 
 
 def _blend(base, frac):

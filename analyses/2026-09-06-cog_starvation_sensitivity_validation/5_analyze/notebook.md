@@ -89,6 +89,11 @@ phosphorus tested count rose 246 → 344, phosphorus hit rate 5.3% → 3.8%
 (the 13 significant genes unchanged). Nitrogen is untouched. Same Lin
 change applied in the sibling walkthrough analysis.
 
+*Round 4 — larger cells (2026-09-14, researcher-requested).* Cell size
+0.46in → 0.62in (`03_figures.py` `cell`; `04_heatmap_pptx.py` `CELL_H` /
+`SLIDE_W` / `SLIDE_H` scaled to match) — text and other font sizes
+unchanged. Presentation only.
+
 ## Results
 
 **Hit rates** (`data/02_hit_rate_results.csv`):
