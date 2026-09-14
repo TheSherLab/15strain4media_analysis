@@ -94,6 +94,18 @@ change applied in the sibling walkthrough analysis.
 `SLIDE_W` / `SLIDE_H` scaled to match) — text and other font sizes
 unchanged. Presentation only.
 
+*Round 5 — cell text to 14pt, sized so it fits (2026-09-14,
+researcher-requested).* Cell text (`k/n/m`) raised 10pt → `CELL_FONT = 14`
+in both scripts. Measured the widest actual cell string at 14pt with
+matplotlib's renderer before picking a size — the split-direction arrow
+strings (e.g. `↑3↓6/25/25`, COG0477/Weissberg) are the longest at 0.95in
+wide. Column width increased to 1.05in to give them margin (row height
+unchanged at 0.62in — every cell's text is one line, so it already had
+vertical room). This decouples column width from row height for the first
+time (`cell_w` / `cell_h` in `03_figures.py`; `SLIDE_W` widened in
+`04_heatmap_pptx.py`), so cells are no longer square. Checked the rendered
+PNG at the widest string — fits with visible margin on all sides.
+
 ## Results
 
 **Hit rates** (`data/02_hit_rate_results.csv`):

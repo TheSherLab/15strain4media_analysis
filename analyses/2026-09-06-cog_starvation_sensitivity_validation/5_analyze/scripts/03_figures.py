@@ -62,6 +62,7 @@ GRIDLINE = "#d7d5c9"         # visible cell borders
 INK = "#0b0b0b"
 MUTED = "#898781"
 SURFACE = "#fcfcfb"
+CELL_FONT = 14                # k/n/m cell text size
 
 EXPERIMENT_LABELS = {
     "10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic": "Weissberg et al., 2025 - Proteomics - MED4",
@@ -162,16 +163,20 @@ def make_heatmap(matrix, cogs):
         if n_up > 0 and n_down > 0:
             # genes disagree -- flat orange, k split as up/down arrows
             rgba[yi, xi, :3], rgba[yi, xi, 3] = both_rgb, 1.0
-            frac_txt[(yi, xi)] = (f"↑{n_up}↓{n_down}/{n_tested}/{n_genome}", 10.0)
+            frac_txt[(yi, xi)] = (f"↑{n_up}↓{n_down}/{n_tested}/{n_genome}", CELL_FONT)
         else:
             base = up_rgb if n_up >= n_down else down_rgb
             col = notsig_rgb + (base - notsig_rgb) * min(1.0, 0.25 + 0.75 * frac)
             rgba[yi, xi, :3], rgba[yi, xi, 3] = col, 1.0
-            frac_txt[(yi, xi)] = (f"{n_sig}/{n_tested}/{n_genome}", 10.0)
+            frac_txt[(yi, xi)] = (f"{n_sig}/{n_tested}/{n_genome}", CELL_FONT)
 
-    cell = 0.62
-    fw = cell * n_cog + 8.5
-    fh = cell * n_exp + 4.8
+    # column width sized so the widest cell text (the "up-down-split" arrow
+    # strings, e.g. "up3 dn6 /25/25") fits inside its cell at CELL_FONT with
+    # margin; row height stays compact since every cell's text is one line.
+    cell_w = 1.05
+    cell_h = 0.62
+    fw = cell_w * n_cog + 8.5
+    fh = cell_h * n_exp + 4.8
     fig, ax = plt.subplots(figsize=(fw, fh), dpi=300)
     fig.patch.set_facecolor(SURFACE)
     ax.set_facecolor(SURFACE)

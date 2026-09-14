@@ -86,12 +86,14 @@ EXPERIMENT_LABELS = {
 ROW_ORDER = list(EXPERIMENT_LABELS)
 ROW_NUTRIENT = ["N", "N", "N", "N", "N", "P", "P", "P", "P", "P"]
 
-SLIDE_W, SLIDE_H = 30.5, 11.0
+SLIDE_W, SLIDE_H = 48.7, 11.0
 BRACKET_X = 0.65
 LEFT_LABELS = 5.2
 GRID_LEFT = LEFT_LABELS + 0.1
 GRID_TOP = 3.05
 CELL_H = 0.62
+CELL_FONT = 14  # k/n/m cell text size -- column width (cw, below) is sized
+                # to fit the widest cell text ("up3 dn6 /25/25") at this size
 
 
 def _blend(base, frac):
@@ -234,7 +236,7 @@ def main() -> None:
             else:
                 shp.fill.solid(); shp.fill.fore_color.rgb = fill
             if txt:
-                _text(slide, left, top, cw, CELL_H, txt, 10,
+                _text(slide, left, top, cw, CELL_H, txt, CELL_FONT,
                       color=INK, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
 
     grid_bottom = GRID_TOP + len(ROW_ORDER) * CELL_H
