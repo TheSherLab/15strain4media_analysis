@@ -1,164 +1,121 @@
-# Multi-omics research template (alpha)
+# 15 Prochlorococcus Strains Across Four Media
 
-A ready-to-use starting point for doing computational research on the lab's
-multi-omics **knowledge graph** — without writing database queries or analysis
-code yourself. The knowledge graph is the lab's integrated database for the
-marine cyanobacterium *Prochlorococcus* and the heterotrophic bacterium
-*Alteromonas*: their genes, gene expression measured across many experiments,
-ortholog relationships, metabolites, and how these connect. You ask research
-questions in plain English inside **Claude
-Code** (an AI assistant that runs in the VS Code editor); it queries the
-knowledge graph, runs the statistics, makes the figures, and writes up the
-results following a rigorous, reproducible methodology built into this repo.
+This repository contains the data, exploratory analyses, figures, and
+knowledge-graph (KG) analyses supporting the paper **"15 strains 4 media"**.
+The study compares growth and starvation-related phenotypes across 15
+*Prochlorococcus* strains grown in four media conditions.
 
-**Who this is for:** lab biologists. **No prior experience with VS Code, git,
-GitHub, or the command line is assumed** — this guide walks you through the
-one-time setup step by step. When something doesn't work, the lab operator (the
-person who set up the knowledge graph) is your first port of call.
+The repository is intended to keep the paper's analysis materials together and
+to make the computational work traceable. It includes the original Excel
+datasets, analysis notebooks, genome annotations, generated analysis artifacts,
+and two follow-up analyses using the laboratory's multi-omics KG.
 
-## What you'll actually do
+## Repository contents
 
-1. Make your own copy of this template (a **fork**) and download it to your
-   computer (a **clone**).
-2. Point it at the lab's knowledge-graph database (one-time credentials).
-3. Open it in VS Code and chat with Claude in plain English, e.g.
-   *"What genes respond when MED4 is starved of nitrogen?"*
-4. Claude does the querying, analysis, and write-up — saving everything into
-   your copy as files you can revisit, share, and publish from.
-
-You direct the research; Claude is the analyst. The methodology built into this
-repo keeps the science honest: every claim is traced to the data, gene
-identities aren't guessed, and statistics are done properly.
-
-### A few terms you'll see
-
-| Term | What it means here |
+| Path | Contents |
 |---|---|
-| **Knowledge graph (KG)** | The lab's multi-omics database — *Prochlorococcus* & *Alteromonas* genes, expression, orthologs, metabolites, and more. |
-| **Claude Code** | Anthropic's AI coding assistant; runs inside VS Code. |
-| **MCP server** | The bridge that lets Claude query the KG. This repo wires it up for you — you never configure it by hand. |
-| **Repository ("repo")** | A project folder tracked by **git** (which records the history of your changes). This template is one. |
-| **Fork / clone** | A *fork* is your own copy of the template on GitHub. A *clone* is that copy downloaded onto your laptop. |
-| **`uv`** | A tool that sets up Python and installs the analysis software in one step. |
+| [`Datasets/`](Datasets/) | The three source Excel workbooks used for the paper (`Dataset 1.xlsx`, `Dataset 2.xlsx`, and `Dataset 3.xlsx`). |
+| [`analyses/Analysis and figures/`](analyses/Analysis%20and%20figures/) | Jupyter notebooks for growth rates, figures, nutrient profiles, and supplementary figures. |
+| [`analyses/Analysis and figures/gffs/`](analyses/Analysis%20and%20figures/gffs/) | GFF/GenBank genome annotations for the study strains. |
+| [`analyses/KG analysis/`](analyses/KG%20analysis/) | Reproducible KG-backed analyses, staged data, scripts, figures, and research notes. |
+| [`analyses/README.md`](analyses/README.md) | Notes on the analysis artifact structure and six-step research workflow. |
 
-> **⚠ Your fork is public.** This is an open-science alpha: the template, all
-> forks, your analyses, **and** your usage logs are public and indexable —
-> including in-progress, unpublished work. Know this before you start. If a
-> specific analysis must stay private, gitignore its directory locally; the
-> default is public.
+## Study scope
 
----
+The paper covers these 15 *Prochlorococcus* strains:
 
-## One-time setup
+`MED4`, `MIT9312`, `MIT9313`, `MIT1327`, `MIT0604`, `NATL2A`, `MIT9515`,
+`MIT9215`, `AS9601`, `PAC1`, `MIT9202`, `SB`, `MIT9301`, `MIT1314`, and
+`NATL1A`.
 
-### Install these first
+The KG analyses use a narrower evidence scope where the KG has matching
+experiments: axenic, uninfected *Prochlorococcus* under literal nitrogen or
+phosphorus starvation/limitation compared with nutrient-replete conditions.
+The final scope contains 10 usable experiments across four strains and six
+publications, using RNA-seq, proteomics, and microarray evidence.
 
-You need the following installed once. The links go to official install
-instructions for Mac, Windows, and Linux:
+## KG analyses
 
-- **[VS Code](https://code.visualstudio.com/)** — the editor everything runs in
-- **[Claude Code](https://claude.com/claude-code)** — the AI assistant (added to VS Code)
-- **[git](https://git-scm.com/downloads)** — tracks and downloads your work
-- **[uv](https://docs.astral.sh/uv/)** — installs Python 3.11+ and the analysis tools for you
-- A free **[GitHub account](https://github.com/signup)** — to fork the template
-- **[jq](https://jqlang.github.io/jq/)** *(optional)* — only needed for usage logging; without it, logging is silently skipped
+### Nitrogen and phosphorus acquisition genes
 
-> **New to the command line?** The steps below are commands you paste into a
-> terminal. VS Code has one built in: **View → Terminal**. Open this folder in
-> VS Code first, then paste each command into that terminal and press Enter.
+[`2026-08-10-np_starvation_expression_walkthrough/`](analyses/KG%20analysis/2026-08-10-np_starvation_expression_walkthrough/)
 
-You also need **lab-subnet (or VPN) access** to the KG box. Network details and
-credentials come from the lab operator — ask them for the **KG connection
-guide** (canonically `multiomics_biocypher_kg/docs/kg_mcp_guide.md`).
+This analysis tests whether a 92-gene nitrogen/phosphorus acquisition list
+responds to matched or non-matched nutrient starvation. It includes gene
+identity checks, paralog audits, experiment selection, significance criteria,
+hit-rate calculations, bootstrap tests, figures, and evaluation notes.
 
-### 1. Fork, clone & install
+The final evidence set contains 60 target genes with expression evidence: 29
+nitrogen-annotated genes and 31 phosphorus-annotated genes. Important limits of
+the evidence, including filtered source tables and the lack of an unbiased
+phosphorus background population, are recorded in the analysis notebooks.
 
-Fork this repo on GitHub first (the **Fork** button, top-right of the repo
-page). Then, in a terminal:
+### COG starvation-sensitivity validation
 
-```bash
-# Replace <your-fork-url> with the URL of YOUR fork (green "Code" button on your fork):
-git clone <your-fork-url>
-cd multiomics_research_template   # the folder git clone just made — matches your fork's name if you renamed it
-git remote add upstream https://github.com/wosnat/multiomics_research_template.git   # lets you pull updates later
-uv sync                       # installs the explorer tools + analysis libraries
-```
+[`2026-09-06-cog_starvation_sensitivity_validation/`](analyses/KG%20analysis/2026-09-06-cog_starvation_sensitivity_validation/)
 
-### 2. Set KG credentials
+This analysis tests whether the 41 COGs identified by the paper's
+cross-strain copy-number analysis also show an in-vivo expression response to
+nitrogen or phosphorus starvation. Gene resolution was rebuilt from the full
+per-strain COG membership rather than a single representative locus.
 
-Credentials come from the lab operator (see the **KG connection guide**).
-**Never commit them** — the steps below keep them out of git automatically.
+Headline results recorded in the analysis:
 
-**Recommended — all platforms: a gitignored `.env` file in the repo root.**
+- Nitrogen: 15.5% significant tests for all 41 COGs, compared with a 19.1%
+  nitrogen background; bootstrap p = 0.93.
+- The nitrogen-tagged subset reached 23.2%, but was not distinguishable from
+  its background (bootstrap p = 0.44).
+- Phosphorus: 3.8% significant tests, reported descriptively because a valid
+  phosphorus background was not available.
+- Sensitivity checks gave the same overall conclusion after removing the
+  largest COGs or collapsing each COG to one value per experiment.
 
-```bash
-cp .env.example .env     # makes your own .env; then open .env in VS Code and fill in:
-#   NEO4J_URI=bolt://HOST:PORT      # exact value from the KG connection guide
-#   NEO4J_USERNAME=explorer
-#   NEO4J_PASSWORD=…
-```
+## Reproducing the analyses
 
-Claude reads `.env` automatically (the MCP server runs from this folder). This
-works identically on Linux, Windows 11, and Remote-SSH.
+The notebooks in `analyses/Analysis and figures/` contain the paper's original
+data processing and figure workflows. The KG analyses contain their own
+`notebook.md` research records, scripts, staged CSV data, figures, and methods.
+Start with the notebook in each analysis directory, then follow the scripts in
+the numbered subdirectories.
 
-<details>
-<summary><b>Alternative — shell / OS environment</b> (if you'd rather not keep a creds file)</summary>
+The KG-backed work requires access to the laboratory multi-omics KG and the
+corresponding Python environment. The KG is used for experiment metadata,
+gene/locus resolution, orthology, and differential-expression evidence; the
+repository records the extracted data and analysis decisions used for the
+reported results.
 
-- **Linux:** `export NEO4J_*` in `~/.bashrc`, then launch VS Code from that
-  terminal (`code .`) — a VS Code opened from the desktop icon won't inherit them.
-- **Windows 11:** set them as User Environment Variables (PowerShell:
-  `[Environment]::SetEnvironmentVariable("NEO4J_URI","…","User")`), then restart VS Code.
-- **Windows 11 + Remote-SSH:** set them on the **remote** host (where the MCP
-  runs), not on Windows — or just use the `.env` method, which is simplest here.
-
-</details>
-
-### 3. Open in Claude Code & trust the workspace
-
-Open this folder in VS Code. When prompted, **trust the workspace** — this lets
-the research skills load, the MCP server start, and the required **`superpowers`**
-plugin install (the methodology's step-1 brainstorming depends on it; it's declared
-in `.claude/settings.json` and pulled from the official Anthropic marketplace on
-trust). Confirm the `multiomics-kg` server shows as connected by running `/mcp` in
-a Claude chat.
-
-> If preflight later reports the plugin missing (some setups don't auto-install on
-> trust), install it once by hand:
-> ```bash
-> claude plugin install superpowers@claude-plugins-official
-> ```
-
-### 4. Preflight (the "is everything wired up?" check)
+The project declares its Python dependencies in [`pyproject.toml`](pyproject.toml).
+For a KG-enabled environment, install the dependencies with:
 
 ```bash
-./scripts/preflight.sh        # checks versions + KG connection + a real query → green/red
+uv sync
 ```
 
-**Green** = you're clear to start. **Red** = it tells you exactly what's wrong,
-with a specific hint for the three common problems: credentials not set, not on
-the lab subnet, or a version mismatch. Fix it before starting a research chat.
+Do not commit credentials or private KG connection details. They should be
+configured locally according to the laboratory's KG connection instructions.
 
-### 5. Start an analysis
+## Manuscript files
 
-Open a new Claude chat and ask your research question. The `research-methodology`
-skill loads automatically and guides the work through a 6-step flow (question →
-KG data → framing → methods → analysis → evaluation). Everything Claude produces
-is saved under `analyses/` in **your** copy. Commit the `usage/` logs alongside
-your analysis commits (they help improve the tools).
+The current manuscript revision is **15 strains 4 media paper revised version
+92026**. The working paper folder contains the manuscript and supplemental
+PDFs, editable Word files, figures, and response-to-reviewers materials. The
+GitHub repository contains the computational materials and source datasets;
+the manuscript working files are maintained separately from this repository.
 
----
+## Data and interpretation notes
 
-## Keeping up to date
+- Gene names can map to multiple loci or paralogs. The KG analyses therefore
+  record locus-level resolution and explicitly audit paralogs.
+- A locus present in a genome is not automatically evidence that it was
+  measured in an experiment.
+- KG results are tagged and documented with their evidence source, analysis
+  decisions, and known gaps in the relevant `notebook.md` and
+  `gaps_and_friction.md` files.
+- The KG analyses are validation analyses of the paper's strain-level and
+  COG-level findings; they do not replace the paper's original experimental
+  datasets or statistical workflows.
 
-```bash
-git pull upstream main && uv sync     # preflight warns you when you're behind
-```
+## License and citation
 
-The pull brings new skills and a possibly-updated explorer version; `uv sync`
-installs it. Preflight verifies the two match.
-
----
-
-**Connection specifics** — the lab Bolt URI, firewall/subnet checks, and
-shared-credential handling — live in the **KG connection guide**, not here. This
-README links to it rather than copying it, so the instructions never drift.
+Please cite the associated paper when reusing the datasets, notebooks, or
+figures. Add the final publication citation here when the paper is published.
