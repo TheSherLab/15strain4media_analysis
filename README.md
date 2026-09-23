@@ -1,7 +1,7 @@
 # 15 Prochlorococcus Strains Across Four Media
 
 This repository contains the data, exploratory analyses, figures, and
-knowledge-graph (KG) analyses supporting the paper **"15 strains 4 media"**.
+knowledge-graph (KG) analyses supporting the paper **"Dynamics of cell death due to N and P starvation across intra-clade diversity in Prochlorococcus"**.
 The study compares growth and starvation-related phenotypes across 15
 *Prochlorococcus* strains grown in four media conditions.
 
@@ -59,16 +59,6 @@ cross-strain copy-number analysis also show an in-vivo expression response to
 nitrogen or phosphorus starvation. Gene resolution was rebuilt from the full
 per-strain COG membership rather than a single representative locus.
 
-Headline results recorded in the analysis:
-
-- Nitrogen: 15.5% significant tests for all 41 COGs, compared with a 19.1%
-  nitrogen background; bootstrap p = 0.93.
-- The nitrogen-tagged subset reached 23.2%, but was not distinguishable from
-  its background (bootstrap p = 0.44).
-- Phosphorus: 3.8% significant tests, reported descriptively because a valid
-  phosphorus background was not available.
-- Sensitivity checks gave the same overall conclusion after removing the
-  largest COGs or collapsing each COG to one value per experiment.
 
 ## Reproducing the analyses
 
@@ -94,13 +84,6 @@ uv sync
 Do not commit credentials or private KG connection details. They should be
 configured locally according to the laboratory's KG connection instructions.
 
-## Manuscript files
-
-The current manuscript revision is **15 strains 4 media paper revised version
-92026**. The working paper folder contains the manuscript and supplemental
-PDFs, editable Word files, figures, and response-to-reviewers materials. The
-GitHub repository contains the computational materials and source datasets;
-the manuscript working files are maintained separately from this repository.
 
 ## Data and interpretation notes
 
